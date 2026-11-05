@@ -18,10 +18,24 @@ O site pode ser aberto com **GitHub Codespaces**, com a porta 8000 configurada c
 
 As fotografias e os mapas dependem da internet e de serviços externos. Os percursos a pé precisam ser conferidos antes do uso em campo.
 
+## Atualização automática do site
+
+O Codespaces verifica a branch `main` no GitHub **a cada 2 minutos**, enquanto estiver ligado.
+
+- Quando novas versões são enviadas ao GitHub, os arquivos locais são sincronizados automaticamente.
+- Para ver a nova versão, **recarregue a página do site** no navegador. A página aberta não é recarregada automaticamente para não interromper a consulta de um guia.
+- O processo não apaga alterações locais. Se houver edições não publicadas no Codespaces ou histórico divergente, a atualização será adiada por segurança.
+- Com o Codespaces parado, nenhuma sincronização acontece. Ao iniciar novamente, o processo retoma as verificações.
+- Se o Codespace já existia antes desta configuração, execute uma única vez `git pull --ff-only origin main` no terminal e depois `bash .devcontainer/start-site.sh` para ativar a rotina. Em Codespaces novos, a configuração inicia sozinha.
+- Registro de funcionamento: `/tmp/paris-em-cena-sync.log`.
+- Para conferir manualmente: `bash .devcontainer/sync-repo.sh --once`.
+
+**Atenção:** a sincronização mantém os arquivos da branch `main` atualizados, mas não publica alterações sem solicitação. Acesso privado depende do repositório privado e da porta 8000 em modo **Private**.
+
 ## Arquivos
 
 - `index.html`: site completo.
 - `.devcontainer/devcontainer.json`: configura o ambiente e a porta 8000.
-- `.devcontainer/start-site.sh`: inicia o servidor HTTP do Python.
+- `.devcontainer/start-site.sh`: inicia o servidor HTTP do Python e a sincronização.\n- `.devcontainer/sync-repo.sh`: verifica novas versões a cada dois minutos.
 
 **Privacidade:** mantenha o repositório privado, a porta 8000 privada e não ative GitHub Pages ou outro serviço de hospedagem pública.
