@@ -49,3 +49,14 @@ O guia **Igrejas de Paris** está integrado à página inicial, com 14 takes, 28
 - O arquivo `Paris_em_Cena_Igrejas_14_pontos.kml` permite importar os 14 marcadores para o Google My Maps.
 - Os mapas mostram localização; os trajetos a pé são calculados externamente pelo Google Maps e devem ser conferidos antes da saída.
 - Fotografias de referência e mapas dependem de internet.
+
+## Guia de ensaios diurnos com vista para a Torre Eiffel
+
+O guia **Paris com Vista para a Torre Eiffel** foi revisado para incluir **18 pontos gratuitos apropriados para ensaios fotográficos durante o dia**, organizados em quatro setores por proximidade.
+
+- No site, selecione **Vistas da Torre Eiffel** no menu ou abra `index.html#torre-eiffel`.
+- A página contém 18 fichas de locais, com uma fotografia de referência por ponto e links para a respectiva fonte.
+- O mapa geral contém 18 marcadores; existem ainda quatro mapas setoriais e links para percursos a pé no Google Maps.
+- O arquivo `Paris_em_Cena_Eiffel_Ensaios_Diurnos_18_pontos.kml` permite importar os 18 marcadores para o Google My Maps.
+- As fotografias são externas e dependem da internet. **A presença da referência no HTML não comprova, por si só, que a imagem abre nem que a iluminação corresponde ao solicitado.**
+- Os percursos e as condições de acesso devem ser conferidos antes de cada sessão.
