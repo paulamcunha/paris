@@ -52,11 +52,11 @@ O guia **Igrejas de Paris** está integrado à página inicial, com 14 takes, 28
 
 ## Guia de ensaios diurnos com vista para a Torre Eiffel
 
-O guia **Paris com Vista para a Torre Eiffel** foi revisado para incluir **18 pontos gratuitos apropriados para ensaios fotográficos durante o dia**, organizados em quatro setores por proximidade.
+O guia **Paris com Vista para a Torre Eiffel** contém **14 pontos externos gratuitos**, organizados em **quatro setores por proximidade**. São **56 referências visuais**, com **quatro fotografias por ficha**. Todas as imagens apontam para arquivos catalogados no Wikimedia Commons, com link para a página original e os créditos. A galeria não inclui imagens geradas por IA.
 
 - No site, selecione **Vistas da Torre Eiffel** no menu ou abra `index.html#torre-eiffel`.
-- A página contém 18 fichas de locais, com uma fotografia de referência por ponto e links para a respectiva fonte.
-- O mapa geral contém 18 marcadores; existem ainda quatro mapas setoriais e links para percursos a pé no Google Maps.
-- O arquivo `Paris_em_Cena_Eiffel_Ensaios_Diurnos_18_pontos.kml` permite importar os 18 marcadores para o Google My Maps.
-- As fotografias são externas e dependem da internet. **A presença da referência no HTML não comprova, por si só, que a imagem abre nem que a iluminação corresponde ao solicitado.**
-- Os percursos e as condições de acesso devem ser conferidos antes de cada sessão.
+- Mapa geral: 14 marcadores. Mapas setoriais: 5, 4, 3 e 2 marcadores.
+- O arquivo atual é `Paris_em_Cena_Eiffel_Ensaios_Diurnos_14_pontos.kml`. O KML antigo de 18 pontos permanece no histórico do projeto, mas não é mais o arquivo recomendado.
+- As fotos são referências documentais, e não ensaios de clientes ou sugestões de poses. A perspectiva real, o horário e a presença da Torre em cada imagem devem ser conferidos na ficha original.
+- Os links do Google Maps são trajetos propostos. Acessibilidade, obras, eventuais restrições locais e tempo real de caminhada devem ser confirmados antes da sessão.
+- O acesso ao site continua privado pelo GitHub Codespaces. As imagens externas e mapas dependem da internet.
