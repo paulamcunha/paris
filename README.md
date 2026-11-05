@@ -39,3 +39,13 @@ O Codespaces verifica a branch `main` no GitHub **a cada 2 minutos**, enquanto e
 - `.devcontainer/start-site.sh`: inicia o servidor HTTP do Python e a sincronização.\n- `.devcontainer/sync-repo.sh`: verifica novas versões a cada dois minutos.
 
 **Privacidade:** mantenha o repositório privado, a porta 8000 privada e não ative GitHub Pages ou outro serviço de hospedagem pública.
+
+## Guia temático das igrejas de Paris
+
+O guia **Igrejas de Paris** está integrado à página inicial, com 14 takes, 28 fotografias de referência, quatro mapas setoriais, mapa geral com 14 marcadores e links de caminhada no Google Maps.
+
+- No site, selecione **Igrejas de Paris** no menu ou abra `index.html#igrejas`.
+- O arquivo `igrejas.html` abre a mesma seção do site.
+- O arquivo `Paris_em_Cena_Igrejas_14_pontos.kml` permite importar os 14 marcadores para o Google My Maps.
+- Os mapas mostram localização; os trajetos a pé são calculados externamente pelo Google Maps e devem ser conferidos antes da saída.
+- Fotografias de referência e mapas dependem de internet.
