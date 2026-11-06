@@ -2764,7 +2764,53 @@
       "postcode": "75012",
       "label": "15 Avenue Daumesnil 75012 Paris",
       "expected_postcode": "75012",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g12-take-08",
+        "query": "08 Jardin de Reuilly Paris",
+        "candidates": [
+          {
+            "lat": 48.842186,
+            "lon": 2.3875338,
+            "name": "Jardin de Reuilly - Paul-Pernin",
+            "street": "",
+            "postcode": "75012",
+            "city": "Paris",
+            "type": "park",
+            "osm_id": 358417047
+          },
+          {
+            "lat": 48.8409773,
+            "lon": 2.3923884,
+            "name": "Jardin de la Gare de Reuilly - Julien Lauprêtre",
+            "street": "",
+            "postcode": "75012",
+            "city": "Paris",
+            "type": "park",
+            "osm_id": 39231149
+          },
+          {
+            "lat": 49.7851149,
+            "lon": 4.5532454,
+            "name": "Ruelles des Grands Jardins",
+            "street": "",
+            "postcode": "08150",
+            "city": "Remilly-les-Pothées",
+            "type": "residential",
+            "osm_id": 429898069
+          },
+          {
+            "lat": -13.3229475,
+            "lon": -72.0467381,
+            "name": "Calle Los Jardines",
+            "street": "",
+            "postcode": "08471",
+            "city": "Huayllabamba",
+            "type": "residential",
+            "osm_id": 876118473
+          }
+        ]
+      }
     },
     {
       "guide": "g12",
@@ -2792,7 +2838,53 @@
       "postcode": "75012",
       "label": "Rue de Bercy 75012 Paris",
       "expected_postcode": "75012",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g12-take-10",
+        "query": "10 Parc de Bercy Paris",
+        "candidates": [
+          {
+            "lat": 48.8356447,
+            "lon": 2.3817168,
+            "name": "Parc de Bercy",
+            "street": "",
+            "postcode": "",
+            "city": "Paris",
+            "type": "park",
+            "osm_id": 4083189
+          },
+          {
+            "lat": 48.8357643,
+            "lon": 2.3809212,
+            "name": "Parc de Bercy",
+            "street": "Quai de Bercy",
+            "postcode": "75012",
+            "city": "Paris",
+            "type": "board",
+            "osm_id": 9238281231
+          },
+          {
+            "lat": 48.8351168,
+            "lon": 2.3838228,
+            "name": "Parc de Bercy",
+            "street": "Rue Paul Belmondo",
+            "postcode": "75012",
+            "city": "Paris",
+            "type": "playground",
+            "osm_id": 588380855
+          },
+          {
+            "lat": 48.8337705,
+            "lon": 2.3838032,
+            "name": "Parc de Bercy",
+            "street": "Allée des 116 victimes du vol AH 5017 du 24 juillet 2014",
+            "postcode": "75012",
+            "city": "Paris",
+            "type": "playground",
+            "osm_id": 165195115
+          }
+        ]
+      }
     },
     {
       "guide": "g12",
@@ -2848,7 +2940,53 @@
       "postcode": "75012",
       "label": "Route de Ceinture du Lac Daumesnil 75012 Paris",
       "expected_postcode": "75012",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g12-take-14",
+        "query": "14 Lac Daumesnil Paris",
+        "candidates": [
+          {
+            "lat": 48.8307583,
+            "lon": 2.415411,
+            "name": "Lac Daumesnil",
+            "street": "",
+            "postcode": "",
+            "city": "Paris",
+            "type": "lake",
+            "osm_id": 62210
+          },
+          {
+            "lat": 48.8331119,
+            "lon": 2.4084328,
+            "name": "Route de la Ceinture du Lac Daumesnil",
+            "street": "",
+            "postcode": "75012",
+            "city": "Paris",
+            "type": "pedestrian",
+            "osm_id": 929566552
+          },
+          {
+            "lat": 48.8328994,
+            "lon": 2.409705,
+            "name": "Les Barques du Lac Daumesnil",
+            "street": "Promenade Maurice-Boitel",
+            "postcode": "75012",
+            "city": "Paris",
+            "type": "boat_rental",
+            "osm_id": 395864520
+          },
+          {
+            "lat": 48.8277459,
+            "lon": 2.4182439,
+            "name": "Lac Daumesnil - Saint-Maurice",
+            "street": "Route de la Ceinture du Lac Daumesnil",
+            "postcode": "75012",
+            "city": "Paris",
+            "type": "bicycle_rental",
+            "osm_id": 7274196147
+          }
+        ]
+      }
     },
     {
       "guide": "g13",
@@ -2890,7 +3028,53 @@
       "postcode": "75013",
       "label": "Rue de la Butte aux Cailles 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g13-take-03",
+        "query": "03 Rue de la Butte-aux-Cailles Paris",
+        "candidates": [
+          {
+            "lat": 48.8276449,
+            "lon": 2.3480009,
+            "name": "Rue de la Butte-aux-Cailles",
+            "street": "",
+            "postcode": "75013",
+            "city": "Paris",
+            "type": "living_street",
+            "osm_id": 171948835
+          },
+          {
+            "lat": 48.8275458,
+            "lon": 2.3487016,
+            "name": "Rue de la Butte-aux-Cailles",
+            "street": "",
+            "postcode": "75013",
+            "city": "Paris",
+            "type": "pedestrian",
+            "osm_id": 372609520
+          },
+          {
+            "lat": 48.8261704,
+            "lon": 2.350038,
+            "name": "Église Sainte-Anne de la Butte-aux-Cailles",
+            "street": "Rue Bobillot",
+            "postcode": "75013",
+            "city": "Paris",
+            "type": "place_of_worship",
+            "osm_id": 78470232
+          },
+          {
+            "lat": 48.8271287,
+            "lon": 2.3524108,
+            "name": "Piscine de la Butte-aux-Cailles",
+            "street": "Rue Bobillot",
+            "postcode": "75013",
+            "city": "Paris",
+            "type": "sports_centre",
+            "osm_id": 78470309
+          }
+        ]
+      }
     },
     {
       "guide": "g13",
@@ -2932,7 +3116,53 @@
       "postcode": "75013",
       "label": "Rue des Glycines 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g13-take-06",
+        "query": "06 Cité Florale Paris",
+        "candidates": [
+          {
+            "lat": 48.822703,
+            "lon": 2.3448195,
+            "name": "Cité Florale",
+            "street": "",
+            "postcode": "75013",
+            "city": "Paris",
+            "type": "neighbourhood",
+            "osm_id": 2146848454
+          },
+          {
+            "lat": 39.9182841,
+            "lon": 32.8627773,
+            "name": "Paris Çiçek",
+            "street": "Kızılırmak Caddesi",
+            "postcode": "06420",
+            "city": "Çankaya",
+            "type": "florist",
+            "osm_id": 9315159153
+          },
+          {
+            "lat": 36.7511815,
+            "lon": 5.0631105,
+            "name": "BNP Paribas El Djazaïr",
+            "street": "نهج جبهة التحرير الوطنية",
+            "postcode": "06000",
+            "city": "Bejaia",
+            "type": "bank",
+            "osm_id": 12367798640
+          },
+          {
+            "lat": 43.5493203,
+            "lon": 6.9800492,
+            "name": "Florabel",
+            "street": "Rue Marco Del Ponte",
+            "postcode": "06150",
+            "city": "Cannes",
+            "type": "florist",
+            "osm_id": 5421042656
+          }
+        ]
+      }
     },
     {
       "guide": "g13",
@@ -2974,7 +3204,53 @@
       "postcode": "75013",
       "label": "Avenue d'Ivry 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g13-take-09",
+        "query": "09 Quartier asiatique Paris",
+        "candidates": [
+          {
+            "lat": 48.8471891,
+            "lon": 2.3077032,
+            "name": "Traiteur Asiatique",
+            "street": "Rue Pérignon",
+            "postcode": "75007",
+            "city": "Paris",
+            "type": "fast_food",
+            "osm_id": 1249809140
+          },
+          {
+            "lat": 48.8409266,
+            "lon": 2.2879633,
+            "name": "Traiteur Asiatique",
+            "street": "Rue de la Convention",
+            "postcode": "75015",
+            "city": "Paris",
+            "type": "fast_food",
+            "osm_id": 4136419490
+          },
+          {
+            "lat": 48.8413006,
+            "lon": 2.3075758,
+            "name": "Jing - traiteur asiatique",
+            "street": "Rue de Vaugirard",
+            "postcode": "75015",
+            "city": "Paris",
+            "type": "restaurant",
+            "osm_id": 3174405062
+          },
+          {
+            "lat": 48.8547918,
+            "lon": 2.3860308,
+            "name": "Traiteur Asiatique",
+            "street": "Rue de Charonne",
+            "postcode": "75011",
+            "city": "Paris",
+            "type": "caterer",
+            "osm_id": 2517187099
+          }
+        ]
+      }
     },
     {
       "guide": "g13",
@@ -3044,7 +3320,43 @@
       "postcode": "75013",
       "label": "Quai François Mauriac 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g13-take-14",
+        "query": "14 Passerelle Simone-de-Beauvoir Paris",
+        "candidates": [
+          {
+            "lat": 48.8354491,
+            "lon": 2.3784112,
+            "name": "Passerelle Simone de Beauvoir",
+            "street": "Passerelle Simone de Beauvoir",
+            "postcode": "75012",
+            "city": "Paris",
+            "type": "bridge",
+            "osm_id": 440494789
+          },
+          {
+            "lat": 48.8357798,
+            "lon": 2.3790073,
+            "name": "Passerelle Simone de Beauvoir",
+            "street": "",
+            "postcode": "75012",
+            "city": "Paris",
+            "type": "footway",
+            "osm_id": 593157698
+          },
+          {
+            "lat": 48.834647,
+            "lon": 2.37696,
+            "name": "Passerelle Simone de Beauvoir",
+            "street": "",
+            "postcode": "75013",
+            "city": "Paris",
+            "type": "footway",
+            "osm_id": 699907158
+          }
+        ]
+      }
     },
     {
       "guide": "g14",
@@ -3114,7 +3426,53 @@
       "postcode": "75014",
       "label": "Avenue du Général Leclerc 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g14-take-05",
+        "query": "05 Rue Daguerre Paris",
+        "candidates": [
+          {
+            "lat": 48.8345504,
+            "lon": 2.328003,
+            "name": "Rue Daguerre",
+            "street": "",
+            "postcode": "75014",
+            "city": "Paris",
+            "type": "living_street",
+            "osm_id": 164300506
+          },
+          {
+            "lat": 48.833684,
+            "lon": 2.33034,
+            "name": "Rue Daguerre",
+            "street": "",
+            "postcode": "75014",
+            "city": "Paris",
+            "type": "pedestrian",
+            "osm_id": 13623764
+          },
+          {
+            "lat": 48.8335185,
+            "lon": 2.3315882,
+            "name": "Rue Daguerre",
+            "street": "Avenue du Général Leclerc",
+            "postcode": "75014",
+            "city": "Paris",
+            "type": "subway_entrance",
+            "osm_id": 332327414
+          },
+          {
+            "lat": 48.8334316,
+            "lon": 2.3315133,
+            "name": "Rue Daguerre",
+            "street": "Avenue du Général Leclerc",
+            "postcode": "75014",
+            "city": "Paris",
+            "type": "subway_entrance",
+            "osm_id": 361259581
+          }
+        ]
+      }
     },
     {
       "guide": "g14",
@@ -3338,7 +3696,53 @@
       "postcode": "75015",
       "label": "Rue de Vaugirard 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g15-take-07",
+        "query": "07 Petite Ceinture Paris",
+        "candidates": [
+          {
+            "lat": 48.8957584,
+            "lon": 2.3300032,
+            "name": "Ligne de La Râpée à Batignolles (Petite Ceinture)",
+            "street": "",
+            "postcode": "75018",
+            "city": "Paris",
+            "type": "footway",
+            "osm_id": 31094028
+          },
+          {
+            "lat": 48.8866381,
+            "lon": 2.3849132,
+            "name": "Ligne de La Râpée à Batignolles (Petite Ceinture)",
+            "street": "",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "footway",
+            "osm_id": 1530941092
+          },
+          {
+            "lat": 48.835828,
+            "lon": 2.2812801,
+            "name": "Ligne d'Auteuil à La Râpée (Petite Ceinture)",
+            "street": "",
+            "postcode": "75015",
+            "city": "Paris",
+            "type": "footway",
+            "osm_id": 1245616028
+          },
+          {
+            "lat": 48.8405965,
+            "lon": 2.4078017,
+            "name": "Ligne de La Râpée à Batignolles (Petite Ceinture)",
+            "street": "",
+            "postcode": "75012",
+            "city": "Paris",
+            "type": "footway",
+            "osm_id": 243159717
+          }
+        ]
+      }
     },
     {
       "guide": "g15",
@@ -3366,7 +3770,53 @@
       "postcode": "75015",
       "label": "Place du Commerce 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g15-take-09",
+        "query": "09 Rue du Commerce Paris",
+        "candidates": [
+          {
+            "lat": 48.8447112,
+            "lon": 2.2938643,
+            "name": "Commerce",
+            "street": "Rue du Commerce",
+            "postcode": "75015",
+            "city": "Paris",
+            "type": "station",
+            "osm_id": 264469160
+          },
+          {
+            "lat": 48.8480844,
+            "lon": 2.296812,
+            "name": "Rue du Commerce",
+            "street": "",
+            "postcode": "75015",
+            "city": "Paris",
+            "type": "living_street",
+            "osm_id": 10664973
+          },
+          {
+            "lat": 48.8491041,
+            "lon": 2.2977746,
+            "name": "Rue du commerce",
+            "street": "Avenue de la Motte-Picquet",
+            "postcode": "75015",
+            "city": "Paris",
+            "type": "subway_entrance",
+            "osm_id": 773511251
+          },
+          {
+            "lat": 48.846951,
+            "lon": 2.2952337,
+            "name": "Rue du Commerce",
+            "street": "Avenue Émile Zola",
+            "postcode": "75015",
+            "city": "Paris",
+            "type": "subway_entrance",
+            "osm_id": 1931490790
+          }
+        ]
+      }
     },
     {
       "guide": "g15",
@@ -3422,7 +3872,53 @@
       "postcode": "75015",
       "label": "Pont de Grenelle-Cadets de Saumur 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g15-take-13",
+        "query": "13 Île aux Cygnes Paris",
+        "candidates": [
+          {
+            "lat": 48.8531182,
+            "lon": 2.28408,
+            "name": "Île aux Cygnes",
+            "street": "",
+            "postcode": "75015",
+            "city": "Paris",
+            "type": "islet",
+            "osm_id": 164245439
+          },
+          {
+            "lat": 48.8528296,
+            "lon": 2.2835731,
+            "name": "L'île aux cygnes",
+            "street": "",
+            "postcode": "75015",
+            "city": "Paris",
+            "type": "park",
+            "osm_id": 14320707501
+          },
+          {
+            "lat": 48.8277114,
+            "lon": 2.3496759,
+            "name": "Butte-aux-Cailles",
+            "street": "",
+            "postcode": "75013",
+            "city": "Paris",
+            "type": "neighbourhood",
+            "osm_id": 252815182
+          },
+          {
+            "lat": 48.8200736,
+            "lon": 2.3559198,
+            "name": "Jardin du Monument aux Mères Françaises",
+            "street": "",
+            "postcode": "75013",
+            "city": "Paris",
+            "type": "park",
+            "osm_id": 23782577
+          }
+        ]
+      }
     },
     {
       "guide": "g15",
@@ -3436,7 +3932,43 @@
       "postcode": "75015",
       "label": "Quai de Grenelle 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g15-take-14",
+        "query": "14 Pont de Bir-Hakeim Paris",
+        "candidates": [
+          {
+            "lat": 48.8557254,
+            "lon": 2.2875477,
+            "name": "Pont de Bir-Hakeim",
+            "street": "Pont de Bir Hakeim",
+            "postcode": "75015",
+            "city": "Paris",
+            "type": "bridge",
+            "osm_id": 183602168
+          },
+          {
+            "lat": 48.8560618,
+            "lon": 2.2871017,
+            "name": "Pont de Bir Hakeim",
+            "street": "",
+            "postcode": "75016",
+            "city": "Paris",
+            "type": "secondary",
+            "osm_id": 172948769
+          },
+          {
+            "lat": 48.8551543,
+            "lon": 2.2880038,
+            "name": "Pont de Bir Hakeim",
+            "street": "",
+            "postcode": "75015",
+            "city": "Paris",
+            "type": "secondary",
+            "osm_id": 699874629
+          }
+        ]
+      }
     },
     {
       "guide": "g16",
@@ -3478,7 +4010,23 @@
       "postcode": "75016",
       "label": "Place de Varsovie 75016 Paris",
       "expected_postcode": "75016",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g16-take-03",
+        "query": "03 Jardins du Trocadéro Paris",
+        "candidates": [
+          {
+            "lat": 48.8613484,
+            "lon": 2.289363,
+            "name": "Trocadéro Gardens",
+            "street": "",
+            "postcode": "",
+            "city": "Paris",
+            "type": "park",
+            "osm_id": 13716106
+          }
+        ]
+      }
     },
     {
       "guide": "g16",
@@ -3506,7 +4054,53 @@
       "postcode": "75016",
       "label": "Avenue de Camoëns 75016 Paris",
       "expected_postcode": "75116",
-      "geocode_status": "postal_mismatch"
+      "geocode_status": "postal_mismatch",
+      "photon": {
+        "id": "g16-take-05",
+        "query": "05 Avenue de Camoëns Paris",
+        "candidates": [
+          {
+            "lat": 48.8596729,
+            "lon": 2.2861835,
+            "name": "Avenue de Camoëns",
+            "street": "",
+            "postcode": "75116",
+            "city": "Paris",
+            "type": "pedestrian",
+            "osm_id": 24609750
+          },
+          {
+            "lat": 48.859439,
+            "lon": 2.2870616,
+            "name": "Avenue de Camoëns",
+            "street": "",
+            "postcode": "75016",
+            "city": "Paris",
+            "type": "steps",
+            "osm_id": 302398797
+          },
+          {
+            "lat": 48.859432,
+            "lon": 2.286855,
+            "name": "Avenue de Camoëns",
+            "street": "",
+            "postcode": "75116",
+            "city": "Paris",
+            "type": "steps",
+            "osm_id": 1088494087
+          },
+          {
+            "lat": 48.8594689,
+            "lon": 2.286844,
+            "name": "Avenue de Camoëns",
+            "street": "",
+            "postcode": "75116",
+            "city": "Paris",
+            "type": "footway",
+            "osm_id": 1088494085
+          }
+        ]
+      }
     },
     {
       "guide": "g16",
@@ -3534,7 +4128,53 @@
       "postcode": "75016",
       "label": "Rue Raynouard 75016 Paris",
       "expected_postcode": "75016",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g16-take-07",
+        "query": "07 Maison de Balzac Paris",
+        "candidates": [
+          {
+            "lat": 48.8552005,
+            "lon": 2.2808879,
+            "name": "Maison de Balzac",
+            "street": "Rue Raynouard",
+            "postcode": "75016",
+            "city": "Paris",
+            "type": "museum",
+            "osm_id": 84511129
+          },
+          {
+            "lat": 48.8553568,
+            "lon": 2.2808271,
+            "name": "La Maison de Balzac",
+            "street": "Rue Raynouard",
+            "postcode": "75016",
+            "city": "Paris",
+            "type": "board",
+            "osm_id": 12757473070
+          },
+          {
+            "lat": 48.8575235,
+            "lon": 2.2858337,
+            "name": "Place du Costa Rica (Maison de Balzac, Musée Georges Clemenceau)",
+            "street": "Rue Marietta Alboni",
+            "postcode": "75016",
+            "city": "Paris",
+            "type": "subway_entrance",
+            "osm_id": 2696873237
+          },
+          {
+            "lat": 44.9136961,
+            "lon": 4.4413401,
+            "name": "LaMaison.fr",
+            "street": "Impasse des Stades",
+            "postcode": "07160",
+            "city": "Le Cheylard",
+            "type": "garden_centre",
+            "osm_id": 9822463772
+          }
+        ]
+      }
     },
     {
       "guide": "g16",
@@ -3632,7 +4272,53 @@
       "postcode": "75116",
       "label": "8 Avenue Georges Mandel 75116 Paris",
       "expected_postcode": "75116",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g16-take-14",
+        "query": "14 Fondation Louis Vuitton Paris",
+        "candidates": [
+          {
+            "lat": 48.87665,
+            "lon": 2.2633381,
+            "name": "Fondation Louis Vuitton",
+            "street": "Avenue du Mahatma Gandhi",
+            "postcode": "75116",
+            "city": "Paris",
+            "type": "arts_centre",
+            "osm_id": 309626332
+          },
+          {
+            "lat": 48.87665,
+            "lon": 2.2633381,
+            "name": "Fondation Louis Vuitton",
+            "street": "Avenue du Mahatma Gandhi",
+            "postcode": "75116",
+            "city": "Paris",
+            "type": "museum",
+            "osm_id": 309626332
+          },
+          {
+            "lat": 48.8761457,
+            "lon": 2.2635999,
+            "name": "Fondation Louis Vuitton",
+            "street": "Route Sablonneuse",
+            "postcode": "75116",
+            "city": "Paris",
+            "type": "bus_stop",
+            "osm_id": 6320749246
+          },
+          {
+            "lat": 48.8766668,
+            "lon": 2.2631854,
+            "name": "Fondation Louis Vuitton",
+            "street": "Avenue du Mahatma Gandhi",
+            "postcode": "75116",
+            "city": "Paris",
+            "type": "books",
+            "osm_id": 3149606130
+          }
+        ]
+      }
     },
     {
       "guide": "g17",
@@ -3674,7 +4360,33 @@
       "postcode": "75017",
       "label": "Place du Maréchal Juin 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g17-take-03",
+        "query": "Promenade Pereire Paris",
+        "candidates": [
+          {
+            "lat": 48.8791552,
+            "lon": 2.2864727,
+            "name": "Promenade Pereire",
+            "street": "",
+            "postcode": "75017",
+            "city": "Paris",
+            "type": "park",
+            "osm_id": 53746544
+          },
+          {
+            "lat": 48.8813417,
+            "lon": 2.2905267,
+            "name": "Promenade Pereire",
+            "street": "",
+            "postcode": "75017",
+            "city": "Paris",
+            "type": "park",
+            "osm_id": 53746526
+          }
+        ]
+      }
     },
     {
       "guide": "g17",
@@ -3730,7 +4442,53 @@
       "postcode": "75017",
       "label": "Place de Clichy 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g17-take-07",
+        "query": "Place de Clichy Paris",
+        "candidates": [
+          {
+            "lat": 48.8834776,
+            "lon": 2.3272899,
+            "name": "Place de Clichy",
+            "street": "Place de Clichy",
+            "postcode": "75017",
+            "city": "Paris",
+            "type": "station",
+            "osm_id": 243496027
+          },
+          {
+            "lat": 48.8835918,
+            "lon": 2.3278748,
+            "name": "Place de Clichy",
+            "street": "Promenade Marcel Carné",
+            "postcode": "75018",
+            "city": "Paris",
+            "type": "subway_entrance",
+            "osm_id": 518330273
+          },
+          {
+            "lat": 48.883415,
+            "lon": 2.3275781,
+            "name": "Place de Clichy",
+            "street": "",
+            "postcode": "75009",
+            "city": "Paris",
+            "type": "primary",
+            "osm_id": 4039373
+          },
+          {
+            "lat": 48.8835187,
+            "lon": 2.3273373,
+            "name": "Place de Clichy",
+            "street": "",
+            "postcode": "75017",
+            "city": "Paris",
+            "type": "pedestrian",
+            "osm_id": 1075056
+          }
+        ]
+      }
     },
     {
       "guide": "g17",
@@ -3800,7 +4558,43 @@
       "postcode": "75017",
       "label": "Avenue de la Porte de Clichy 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g17-take-12",
+        "query": "Tribunal judiciaire de Paris Paris",
+        "candidates": [
+          {
+            "lat": 49.0223899,
+            "lon": 2.5919274,
+            "name": "Annexe du tribunal judiciaire de Meaux",
+            "street": "Rue de Paris",
+            "postcode": "77990",
+            "city": "Le Mesnil-Amelot",
+            "type": "courthouse",
+            "osm_id": 8408615750
+          },
+          {
+            "lat": 50.3571022,
+            "lon": 3.5182487,
+            "name": "Tribunal judiciaire",
+            "street": "Rue du Grand Bruille",
+            "postcode": "59300",
+            "city": "Valenciennes",
+            "type": "courthouse",
+            "osm_id": 7038990427
+          },
+          {
+            "lat": 50.3567281,
+            "lon": 3.5204392,
+            "name": "Tribunal judiciaire",
+            "street": "Avenue des Dentellières",
+            "postcode": "59300",
+            "city": "Valenciennes",
+            "type": "courthouse",
+            "osm_id": 7038633602
+          }
+        ]
+      }
     },
     {
       "guide": "g17",
@@ -3814,7 +4608,53 @@
       "postcode": "75017",
       "label": "Rue du Docteur Paul Brousse 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g17-take-13",
+        "query": "Petite Ceinture Paris",
+        "candidates": [
+          {
+            "lat": 48.8248722,
+            "lon": 2.3244837,
+            "name": "Ligne d'Auteuil à La Râpée (Petite Ceinture)",
+            "street": "",
+            "postcode": "75014",
+            "city": "Paris",
+            "type": "footway",
+            "osm_id": 31093942
+          },
+          {
+            "lat": 48.8308134,
+            "lon": 2.2976293,
+            "name": "Ligne d'Auteuil à La Râpée (Petite Ceinture)",
+            "street": "",
+            "postcode": "75015",
+            "city": "Paris",
+            "type": "footway",
+            "osm_id": 1530941063
+          },
+          {
+            "lat": 48.8509708,
+            "lon": 2.4092982,
+            "name": "Ligne de La Râpée à Batignolles (Petite Ceinture)",
+            "street": "",
+            "postcode": "75020",
+            "city": "Paris",
+            "type": "footway",
+            "osm_id": 243158361
+          },
+          {
+            "lat": 48.8431586,
+            "lon": 2.408489,
+            "name": "Ligne de La Râpée à Batignolles (Petite Ceinture)",
+            "street": "",
+            "postcode": "75012",
+            "city": "Paris",
+            "type": "footway",
+            "osm_id": 1015228661
+          }
+        ]
+      }
     },
     {
       "guide": "g17",
@@ -3828,7 +4668,53 @@
       "postcode": "75017",
       "label": "Cité des Fleurs 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g17-take-14",
+        "query": "Cité des Fleurs Paris",
+        "candidates": [
+          {
+            "lat": 48.8926318,
+            "lon": 2.3203175,
+            "name": "Cité des Fleurs",
+            "street": "",
+            "postcode": "75017",
+            "city": "Paris",
+            "type": "pedestrian",
+            "osm_id": 22797041
+          },
+          {
+            "lat": 48.8923738,
+            "lon": 2.320661,
+            "name": "Foyer des Jeunes Travailleurs de la Cité des Fleurs",
+            "street": "Rue Gauthey",
+            "postcode": "75017",
+            "city": "Paris",
+            "type": "social_facility",
+            "osm_id": 75749328
+          },
+          {
+            "lat": 48.9654234,
+            "lon": 2.1919549,
+            "name": "Cité des Fleurs",
+            "street": "",
+            "postcode": "95240",
+            "city": "Cormeilles-en-Parisis",
+            "type": "residential",
+            "osm_id": 664354991
+          },
+          {
+            "lat": 50.381959,
+            "lon": 3.4925462,
+            "name": "Paris Fleurs",
+            "street": "Rue Henri Durre",
+            "postcode": "59590",
+            "city": "Raismes",
+            "type": "florist",
+            "osm_id": 1644132118
+          }
+        ]
+      }
     },
     {
       "guide": "g18",
@@ -3870,7 +4756,23 @@
       "postcode": "93270",
       "label": "Place Jehan Rictus 93270 Sevran",
       "expected_postcode": "75018",
-      "geocode_status": "postal_mismatch"
+      "geocode_status": "postal_mismatch",
+      "photon": {
+        "id": "g18-take-03",
+        "query": "Mur des Je t’aime Paris",
+        "candidates": [
+          {
+            "lat": 48.8848146,
+            "lon": 2.3385192,
+            "name": "The Wall of Love",
+            "street": "Place des Abbesses",
+            "postcode": "75018",
+            "city": "Paris",
+            "type": "artwork",
+            "osm_id": 4044428611
+          }
+        ]
+      }
     },
     {
       "guide": "g18",
@@ -4024,7 +4926,53 @@
       "postcode": "75018",
       "label": "Place Louise Blanquart 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g18-take-14",
+        "query": "Square Louise-Michel Paris",
+        "candidates": [
+          {
+            "lat": 48.885382,
+            "lon": 2.3435393,
+            "name": "Square Louise Michel",
+            "street": "",
+            "postcode": "75018",
+            "city": "Paris",
+            "type": "park",
+            "osm_id": 45189726
+          },
+          {
+            "lat": 48.884632,
+            "lon": 2.3434221,
+            "name": "Square Louise-Michel",
+            "street": "",
+            "postcode": "75018",
+            "city": "Paris",
+            "type": "pedestrian",
+            "osm_id": 18256409
+          },
+          {
+            "lat": 48.8846855,
+            "lon": 2.3441293,
+            "name": "Square Louise Michel",
+            "street": "Rue Ronsard",
+            "postcode": "75018",
+            "city": "Paris",
+            "type": "bicycle_rental",
+            "osm_id": 7371263884
+          },
+          {
+            "lat": 48.8844341,
+            "lon": 2.3433494,
+            "name": "Square Louise-Michel",
+            "street": "Square Louise-Michel",
+            "postcode": "75018",
+            "city": "Paris",
+            "type": "board",
+            "osm_id": 5280556722
+          }
+        ]
+      }
     },
     {
       "guide": "g19",
@@ -4122,7 +5070,53 @@
       "postcode": "75019",
       "label": "Villa de Bellevue 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g19-take-07",
+        "query": "Quartier de la Mouzaïa Paris",
+        "candidates": [
+          {
+            "lat": 48.8804009,
+            "lon": 2.3968215,
+            "name": "Rue de Mouzaïa",
+            "street": "",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "residential",
+            "osm_id": 362917082
+          },
+          {
+            "lat": 48.8799719,
+            "lon": 2.3990163,
+            "name": "Mouzaïa",
+            "street": "Boulevard Sérurier",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "bus_stop",
+            "osm_id": 5577802426
+          },
+          {
+            "lat": 48.8486028,
+            "lon": 2.3425156,
+            "name": "Latin Quarter",
+            "street": "",
+            "postcode": "75005",
+            "city": "Paris",
+            "type": "suburb",
+            "osm_id": 2038017580
+          },
+          {
+            "lat": 48.8338827,
+            "lon": 2.339744,
+            "name": "Centre pénitentiaire de Paris-La Santé",
+            "street": "Rue de la Santé",
+            "postcode": "75014",
+            "city": "Paris",
+            "type": "prison",
+            "osm_id": 122574233
+          }
+        ]
+      }
     },
     {
       "guide": "g19",
@@ -4178,7 +5172,53 @@
       "postcode": "75019",
       "label": "Rue de la Villette 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g19-take-11",
+        "query": "Parc de la Villette Paris",
+        "candidates": [
+          {
+            "lat": 48.8948898,
+            "lon": 2.3884384,
+            "name": "Parc de la Villette",
+            "street": "",
+            "postcode": "",
+            "city": "Paris",
+            "type": "park",
+            "osm_id": 7574623
+          },
+          {
+            "lat": 48.8886357,
+            "lon": 2.3901364,
+            "name": "Paris Parc de la Villette",
+            "street": "Avenue du Nouveau Conservatoire",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "post_office",
+            "osm_id": 1925728132
+          },
+          {
+            "lat": 48.8884173,
+            "lon": 2.3921394,
+            "name": "Avenue Jean Jaurès Parc de la Villette",
+            "street": "Avenue Jean Jaurès",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "subway_entrance",
+            "osm_id": 4318397770
+          },
+          {
+            "lat": 48.8890094,
+            "lon": 2.3956594,
+            "name": "Porte de Pantin - Parc de la Villette",
+            "street": "Boulevard Sérurier",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "tram_stop",
+            "osm_id": 1088638616
+          }
+        ]
+      }
     },
     {
       "guide": "g19",
@@ -4192,7 +5232,53 @@
       "postcode": null,
       "label": null,
       "expected_postcode": "75019",
-      "geocode_status": "missing"
+      "geocode_status": "missing",
+      "photon": {
+        "id": "g19-take-12",
+        "query": "Canal de l’Ourcq Paris",
+        "candidates": [
+          {
+            "lat": 48.890975,
+            "lon": 2.3846017,
+            "name": "Pont du Canal de l'Ourcq",
+            "street": "Quai de l'Oise",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "yes",
+            "osm_id": 769699304
+          },
+          {
+            "lat": 48.8910083,
+            "lon": 2.384669,
+            "name": "Pont du Canal de l'Ourcq",
+            "street": "Quai de l'Oise",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "yes",
+            "osm_id": 769699305
+          },
+          {
+            "lat": 48.8962567,
+            "lon": 2.396631,
+            "name": "Pont du Canal de l'Ourcq",
+            "street": "",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "path",
+            "osm_id": 194115660
+          },
+          {
+            "lat": 48.8907639,
+            "lon": 2.3819888,
+            "name": "Canal de l'Ourcq",
+            "street": "Rue de l'Ourcq",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "bus_stop",
+            "osm_id": 1507750610
+          }
+        ]
+      }
     },
     {
       "guide": "g19",
@@ -4206,7 +5292,53 @@
       "postcode": "75019",
       "label": "26 Rue de Crimée 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g19-take-13",
+        "query": "La Géode Paris",
+        "candidates": [
+          {
+            "lat": 48.8945682,
+            "lon": 2.3886565,
+            "name": "La Géode",
+            "street": "Corentin Cariou",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "cinema",
+            "osm_id": 64040790
+          },
+          {
+            "lat": 48.8920825,
+            "lon": 2.3790354,
+            "name": "Pharmacie de La Géode",
+            "street": "Avenue de Flandre",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "pharmacy",
+            "osm_id": 3286610484
+          },
+          {
+            "lat": 48.8936692,
+            "lon": 2.3774588,
+            "name": "Les jardins de la Géode",
+            "street": "Rue de Cambrai",
+            "postcode": "75019",
+            "city": "Paris",
+            "type": "yes",
+            "osm_id": 64038756
+          },
+          {
+            "lat": 48.827352,
+            "lon": 2.3801453,
+            "name": "Institut de Physique du Globe de Paris (Planetary and spaces sciences; Geodesy)",
+            "street": "Rue Hélène Brion",
+            "postcode": "75013",
+            "city": "Paris",
+            "type": "university",
+            "osm_id": 13547155601
+          }
+        ]
+      }
     },
     {
       "guide": "g19",
@@ -4360,7 +5492,23 @@
       "postcode": "75020",
       "label": "Avenue du Père Lachaise 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "photon": {
+        "id": "g20-take-10",
+        "query": "Mur des Fédérés Paris",
+        "candidates": [
+          {
+            "lat": 48.8596793,
+            "lon": 2.4000825,
+            "name": "Communard's Wall",
+            "street": "Villa Godin",
+            "postcode": "75020",
+            "city": "Paris",
+            "type": "memorial",
+            "osm_id": 5220080010
+          }
+        ]
+      }
     },
     {
       "guide": "g20",
