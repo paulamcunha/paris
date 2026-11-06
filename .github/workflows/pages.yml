@@ -6,6 +6,7 @@ on:
     paths:
       - 'index.html'
       - '*.html'
+      - '*.css'
       - '*.kml'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -34,6 +35,9 @@ jobs:
           mkdir -p _site
           cp index.html _site/
           find . -maxdepth 1 -type f \( -name '*.html' -o -name '*.kml' \) -exec cp -- {} _site/ \;
+          cp ajustes-tipografia.css _site/
+          perl -0pi -e 's~</head>~<link rel="stylesheet" href="./ajustes-tipografia.css"></head>~i' _site/index.html
+          grep -Fq 'ajustes-tipografia.css' _site/index.html
           touch _site/.nojekyll
           test -s _site/index.html
           echo "Arquivos prontos para publicacao:"
