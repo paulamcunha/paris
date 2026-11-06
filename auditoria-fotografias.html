@@ -68,7 +68,7 @@ function getGuides(){
 function collect(id){
  const d=frame.contentDocument,g=d.getElementById(id);
  if(!g)throw new Error('Guia não encontrado.');
- const pictures=Array.from(g.querySelectorAll('article.take-card figure.photo-card .thumb img'));
+ const pictures=Array.from(g.querySelectorAll('article.take-card figure.photo-card .thumb img, article.take-card figure.photo-card .photo-frame img, article.take-card figure.visual > img, article.take-card .photo > img, article.take-card .visual .pic > img'));
  const seen=new Map();
  return pictures.map((img,index)=>{
   const src=img.currentSrc||img.getAttribute('src')||img.getAttribute('data-src')||'';

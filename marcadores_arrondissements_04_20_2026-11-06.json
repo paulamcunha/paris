@@ -2974,8 +2974,8 @@
       "id": "g10-take-12",
       "name": "Porte Saint-Martin",
       "address": "Boulevard Saint-Martin, 75010 Paris",
-      "lat": 48.868734,
-      "lon": 2.358261,
+      "lat": 48.86914,
+      "lon": 2.35258,
       "score": 0.9672881818181818,
       "type": "street",
       "postcode": "75010",
@@ -2983,11 +2983,11 @@
       "expected_postcode": "75010",
       "geocode_status": "resolved",
       "pin": {
-        "lat": 48.868734,
-        "lon": 2.358261,
-        "origin": "BAN",
+        "lat": 48.86914,
+        "lon": 2.35258,
+        "origin": "Auditoria_Cartografica_2026-11-06",
         "precision": "reference",
-        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+        "note": "Coordenada auditada da Porte Saint-Martin"
       }
     },
     {
@@ -4873,8 +4873,8 @@
       "id": "g15-take-07",
       "name": "07 Petite Ceinture · acesso Vaugirard",
       "address": "rue de Vaugirard, junto à promenade da Petite Ceinture, 75015 Paris",
-      "lat": 48.839563,
-      "lon": 2.303163,
+      "lat": 48.8369,
+      "lon": 2.2908,
       "score": 0.4279157142857142,
       "type": "street",
       "postcode": "75015",
@@ -4928,11 +4928,11 @@
         ]
       },
       "pin": {
-        "lat": 48.839563,
-        "lon": 2.303163,
-        "origin": "BAN",
+        "lat": 48.8369,
+        "lon": 2.2908,
+        "origin": "Auditoria_Cartografica_2026-11-06",
         "precision": "reference",
-        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+        "note": "Coordenada auditada do acesso 397 rue de Vaugirard (Petite Ceinture du 15e)"
       }
     },
     {
@@ -5978,8 +5978,8 @@
       "id": "g17-take-12",
       "name": "Tribunal judiciaire de Paris",
       "address": "Parvis du Tribunal de Paris, avenue de la Porte de Clichy, 75017 Paris",
-      "lat": 48.895385,
-      "lon": 2.311773,
+      "lat": 48.8959,
+      "lon": 2.3189,
       "score": 0.543396906377205,
       "type": "street",
       "postcode": "75017",
@@ -6023,11 +6023,11 @@
         ]
       },
       "pin": {
-        "lat": 48.895385,
-        "lon": 2.311773,
-        "origin": "BAN",
+        "lat": 48.8959,
+        "lon": 2.3189,
+        "origin": "Auditoria_Cartografica_2026-11-06",
         "precision": "reference",
-        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+        "note": "Coordenada auditada do Parvis du Tribunal de Paris (Porte de Clichy)"
       }
     },
     {
@@ -6615,8 +6615,8 @@
       "id": "g19-take-05",
       "name": "05 · Parc des Buttes-Chaumont · Templo",
       "address": "Place Armand-Carrel, 75019 Paris",
-      "lat": 48.882754,
-      "lon": 2.376876,
+      "lat": 48.8809,
+      "lon": 2.3812,
       "score": 0.7348345454545455,
       "type": "street",
       "postcode": "75019",
@@ -6624,11 +6624,11 @@
       "expected_postcode": "75019",
       "geocode_status": "resolved",
       "pin": {
-        "lat": 48.882754,
-        "lon": 2.376876,
-        "origin": "BAN",
+        "lat": 48.8809,
+        "lon": 2.3812,
+        "origin": "Auditoria_Cartografica_2026-11-06",
         "precision": "reference",
-        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+        "note": "Coordenada auditada da Île de la Belvédère / Temple de la Sibylle"
       }
     },
     {

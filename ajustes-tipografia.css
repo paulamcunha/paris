@@ -12,3 +12,376 @@
     letter-spacing: 0.01em;
   }
 }
+
+
+/* === AUDITORIA COMPLETA: LAYOUT, TIPOGRAFIA, ACESSIBILIDADE E GALERIAS === */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+.site-header {
+  min-height: 58px;
+  height: auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  flex-wrap: wrap;
+}
+.site-header .crumb,
+.header-home {
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+.side-num {
+  color: #ffe4e5;
+  font-weight: 700;
+}
+.side-count {
+  color: #ffe4e5;
+  font-size: 0.875rem;
+  opacity: 1;
+}
+.side-heading {
+  color: #ffe4e5;
+  font-size: 0.8125rem;
+}
+.side-link {
+  font-size: 0.9375rem;
+  min-height: 40px;
+}
+.eyebrow,
+.section-number,
+.take-card .kicker,
+.take-card .number,
+.take-card .eye,
+.take-card .tag,
+.take-card dt,
+.church-flag {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.small-note,
+.meta-small,
+.take-card .subtle,
+.take-card .license-note,
+.take-card .source-ref,
+.take-card .status,
+.take-card .pc-historia-sources,
+.take-card .role,
+.map-note,
+.inventory-card .kind,
+.inventory-card .mini,
+.footer {
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.take-card figcaption,
+.take-card .credit,
+.take-card .photo-credit {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #3f3839;
+}
+.take-card .credit {
+  margin: 8px 0 14px;
+}
+.take-card dd,
+.take-card .history,
+.take-card .route,
+.take-card .sources,
+.take-card .pc-historia,
+.take-card .spec > p,
+.take-card .camera-brief > div,
+.take-card .facts > .field,
+.take-card .fields > .field,
+.take-card .notes .fact p,
+.take-card .instructions p,
+.igrejas-field dd,
+.church-field dd,
+.inventory-card p,
+.sector-stops li {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+/* Ocultar fallbacks de erro quando a imagem carrega normalmente (g11-g16, g19-g20) */
+.take-card .photo .fallback,
+.take-card .pic .placeholder,
+.take-card .photo-frame .imgfallback {
+  display: none;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  padding: 12px;
+  background: #fcf2f2;
+  color: #533b3e;
+  border: 1px solid #e6c8ca;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+.take-card .photo.broken .fallback,
+.take-card .pic.broken .placeholder,
+.take-card .photo-frame.broken .imgfallback,
+.take-card figure.image-failed .imgfallback {
+  display: block;
+}
+
+/* Classes editoriais das coleções temáticas (.church-*) */
+.church-overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
+  gap: 14px;
+  margin: 16px 0;
+}
+.church-sector {
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--wine);
+  border-radius: 8px;
+  padding: 16px;
+  background: #fcfaf9;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.church-sector h3 {
+  margin: 0;
+  color: var(--wine);
+}
+.church-sector p {
+  margin: 0;
+}
+.church-sector .strong-link {
+  margin-top: auto;
+  align-self: flex-start;
+}
+.church-two-reels,
+.church-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 14px 0 18px;
+}
+.church-field {
+  border: 1px solid var(--line);
+  background: #fbf8f8;
+  padding: 13px 15px;
+  border-radius: 7px;
+  min-width: 0;
+}
+.church-field dt {
+  color: var(--wine);
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+.church-field dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.church-flag {
+  color: var(--wine);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.church-links,
+.take-card .links,
+.take-card .foot,
+.take-card .bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  align-items: center;
+  margin: 14px 0;
+}
+.church-links a,
+.take-card .links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 8px 13px;
+  border: 1px solid #d7c4c8;
+  border-radius: 6px;
+  color: var(--wine);
+  background: #fff;
+  text-decoration: none;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.church-links a:hover,
+.take-card .links a:hover {
+  background: #fcf2f3;
+  border-color: var(--wine);
+}
+
+/* Layouts específicos dos arrondissements 11 a 20 */
+.take-card .take-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 300px) minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  margin: 12px 0 16px;
+}
+.take-card .fields,
+.take-card .notes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+.take-card .fields > .field,
+.take-card .notes > .fact,
+.take-card .notes > .note,
+.take-card .bottom > .fact {
+  background: #fbf8f8;
+  border: 1px solid #eee8e8;
+  border-radius: 7px;
+  padding: 13px 15px;
+  min-width: 0;
+}
+.take-card .fields > .field > b,
+.take-card .notes > .fact > strong,
+.take-card .bottom > .fact > strong {
+  display: block;
+  color: var(--wine);
+  font-size: 0.875rem;
+  margin-bottom: 5px;
+}
+.take-card .photo img,
+.take-card .pic img,
+.take-card .photo-frame img {
+  display: block;
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  border-radius: 7px;
+  border: 1px solid var(--line);
+  background: #f0f0f0;
+}
+.take-card .ref-side {
+  background: #fbf8f8;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 14px 16px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+.take-card .extra-refs {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--line);
+}
+
+/* Espaçamento consistente entre links adjacentes (elimina links colados) */
+.take-card a + a,
+.section-block .map-actions a + a,
+.take-card .osm-action {
+  margin-left: 10px;
+}
+.church-links a + a,
+.take-card .links a + a,
+.take-card .actions a + a,
+.route-links a + a,
+.cover-nav a + a,
+.home-grid a + a,
+.shoot-links a + a,
+.shoot-item-actions a + a {
+  margin-left: 0;
+}
+.take-card .meta-address,
+.take-card .facts > .field,
+.take-card .fields > .field,
+.take-card .bottom > .fact {
+  overflow-wrap: anywhere;
+}
+.take-card .facts > .field a,
+.take-card .fields > .field a,
+.take-card .bottom > .fact a,
+.take-card .meta-address a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 0;
+  margin-top: 4px;
+}
+
+/* Zoom em todas as imagens de conteúdo dos takes */
+.take-card img[role="button"] {
+  cursor: zoom-in;
+}
+.take-card img[role="button"]:focus-visible {
+  outline: 4px solid #1553a0;
+  outline-offset: -4px;
+}
+
+/* Barra interativa de legenda e filtro setorial nos mapas */
+.map-sector-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 8px;
+}
+.map-sector-btn {
+  border: 1px solid #d7c4c8;
+  background: #fff;
+  color: var(--wine);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  min-height: 36px;
+}
+.map-sector-btn.is-active {
+  background: var(--wine);
+  color: #fff;
+  border-color: var(--wine);
+}
+.map-active-label {
+  position: absolute;
+  left: 10px;
+  bottom: 24px;
+  right: 56px;
+  max-width: 440px;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid #d7c4c8;
+  border-left: 4px solid var(--wine);
+  border-radius: 6px;
+  padding: 7px 11px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #222;
+  z-index: 11;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.map-active-label a {
+  font-weight: 700;
+  white-space: nowrap;
+  margin-left: auto !important;
+}
+
+@media (max-width: 700px) {
+  .church-two-reels,
+  .church-grid,
+  .take-card .take-layout,
+  .take-card .fields,
+  .take-card .notes {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .church-links a,
+  .take-card .links a {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .map-sector-btn {
+    min-height: 42px;
+    padding: 8px 13px;
+  }
+}
