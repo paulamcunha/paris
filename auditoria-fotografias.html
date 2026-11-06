@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paris em Cena | Auditoria de fotografias</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#282121;background:#faf8f8}
+*{box-sizing:border-box}
+body{margin:0;font-size:16px;line-height:1.6}
+main{max-width:1050px;margin:0 auto;padding:clamp(16px,4vw,36px)}
+h1{font:normal clamp(26px,4vw,38px)/1.22 Georgia,serif;color:#890f0e;letter-spacing:.005em}
+h2{font-size:1.15rem;line-height:1.35}
+p{max-width:80ch}
+.controls{display:flex;align-items:end;flex-wrap:wrap;gap:12px;padding:16px 0}
+label{font-weight:650}
+.field{display:grid;gap:6px;min-width:min(100%,320px);flex:1}
+select,button{font:inherit;min-height:44px;padding:10px 13px;border-radius:7px}
+select{max-width:100%;background:#fff;color:#211b1b;border:1px solid #776c6c}
+button{background:#890f0e;color:#fff;border:1px solid #890f0e;cursor:pointer}
+button[disabled]{opacity:.55;cursor:wait}
+button.secondary{background:#fff;color:#890f0e}
+.note{font-size:.9rem;color:#514b4b}
+#status{min-height:2.3rem;font-weight:600}
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:14px 0}
+.metric{background:#fff;border:1px solid #e2d7d7;border-radius:8px;padding:10px 14px}
+.metric strong{display:block;font-size:1.35rem}
+.table-wrap{overflow:auto;background:#fff;border:1px solid #ded5d5;border-radius:8px}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:.88rem}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid #eee6e6;overflow-wrap:anywhere}
+th{background:#f2e8e8}
+tbody tr:last-child td{border-bottom:0}
+.ok{color:#1e6530;font-weight:700}.fail{color:#a51b29;font-weight:700}.warn{color:#835002;font-weight:700}
+a{color:#780c0c;text-underline-offset:3px}
+a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid #226bbc;outline-offset:3px}
+iframe{position:absolute;left:-10000px;top:0;width:390px;height:700px;border:0}
+@media(max-width:600px){table{font-size:.82rem}.controls button{flex:1}}
+</style>
+</head>
+<body>
+<main>
+<h1>Paris em Cena | Auditoria de fotografias</h1>
+<p>Verifique, por guia, se cada referência visual do site abre no navegador. O teste também informa imagens repetidas e descrições alternativas ausentes. Nenhuma imagem nem progresso de gravação é alterado.</p>
+<div class="controls">
+<div class="field"><label for="guide">Guia a verificar</label><select id="guide" disabled><option>Carregando guias...</option></select></div>
+<button id="run" type="button" disabled>Verificar fotografias</button>
+<button id="csv" type="button" class="secondary" disabled>Exportar relatório CSV</button>
+</div>
+<p class="note">Cada teste baixa imagens externas e pode consumir dados. Execute um guia por vez, preferencialmente com Wi-Fi. Carregamento aprovado não confirma a localização, o ângulo, o horário, a autoria nem a licença da fotografia.</p>
+<p id="status" role="status" aria-live="polite">Preparando inventário...</p>
+<div class="summary" id="summary" aria-label="Resumo da verificação"></div>
+<h2>Resultados individuais</h2>
+<div class="table-wrap">
+<table><thead><tr><th>Guia / ficha</th><th>Imagem</th><th>Carregamento</th><th>Observações</th><th>Referência</th></tr></thead><tbody id="rows"></tbody></table>
+</div>
+<iframe id="source" src="./index.html#pontes-sena" title="Site usado para verificar as fotografias" loading="eager"></iframe>
+</main>
+<script>
+(function(){
+'use strict';
+const frame=document.getElementById('source'),guide=document.getElementById('guide'),run=document.getElementById('run'),csv=document.getElementById('csv'),status=document.getElementById('status'),rows=document.getElementById('rows'),summary=document.getElementById('summary');
+let reports=[],catalog=[];
+function getGuides(){
+ const d=frame.contentDocument;
+ if(!d||!d.querySelector('.take-card'))throw new Error('O site principal não foi carregado corretamente.');
+ return Array.from(d.querySelectorAll('.guide-panel[id]')).filter(g=>g.querySelector('article.take-card')).map(g=>({id:g.id,title:(g.querySelector('h1,h2,h3')?.textContent||g.id).trim()}));
+}
+function collect(id){
+ const d=frame.contentDocument,g=d.getElementById(id);
+ if(!g)throw new Error('Guia não encontrado.');
+ const pictures=Array.from(g.querySelectorAll('article.take-card figure.photo-card .thumb img'));
+ const seen=new Map();
+ return pictures.map((img,index)=>{
+  const src=img.currentSrc||img.getAttribute('src')||img.getAttribute('data-src')||'';
+  const url=src?new URL(src,d.baseURI).href:'';
+  const fig=img.closest('figure'),take=img.closest('article.take-card');
+  const source=fig?.querySelector('a[href*="commons.wikimedia.org"]')?.href||take?.querySelector('a[href*="commons.wikimedia.org"]')?.href||'';
+  const duplicate=url&&seen.has(url);
+  if(url&&!duplicate)seen.set(url,index);
+  return {guide:id,take:take?.id||'ficha sem ID',number:index+1,url,alt:img.getAttribute('alt')||'',source,duplicate,loaded:false,error:''};
+ });
+}
+function checkImage(item){
+ return new Promise(resolve=>{
+  if(!item.url){item.error='URL ausente';return resolve(item)}
+  let done=false;const pic=new Image();const timer=setTimeout(()=>finish('Tempo limite (15 s)'),15000);
+  function finish(error){
+   if(done)return;done=true;clearTimeout(timer);pic.onload=null;pic.onerror=null;
+   item.loaded=!error&&pic.naturalWidth>0;
+   item.error=error||(!pic.naturalWidth?'Sem dimensões':'');
+   resolve(item);
+  }
+  pic.onload=()=>finish('');pic.onerror=()=>finish('Imagem não carregou');
+  pic.referrerPolicy='no-referrer';
+  pic.src=item.url;
+ });
+}
+function cell(tr,label,className){
+ const td=document.createElement('td');td.textContent=label||'';
+ if(className)td.className=className;tr.appendChild(td);return td;
+}
+function display(items,ready){
+ rows.replaceChildren();
+ for(const item of items){
+  const tr=document.createElement('tr');
+  cell(tr,item.guide+' / '+item.take);
+  cell(tr,'Foto '+item.number);
+  cell(tr,ready?(item.loaded?'OK':item.error||'Falhou'):'Pendente',ready?(item.loaded?'ok':'fail'):'');
+  const notes=[];
+  if(item.duplicate)notes.push('URL repetida');
+  if(!item.alt.trim())notes.push('Texto alternativo vazio');
+  cell(tr,notes.join('; ')||'Sem alerta automático',notes.length?'warn':'');
+  const td=cell(tr,'');
+  if(item.source){const a=document.createElement('a');a.href=item.source;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Abrir ficha';td.appendChild(a)}
+  else if(item.url){const a=document.createElement('a');a.href=item.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Abrir imagem';td.appendChild(a)}
+  rows.appendChild(tr);
+ }
+}
+function showSummary(items){
+ const stats=[['Fotografias',items.length],['Carregaram',items.filter(x=>x.loaded).length],['Falhas',items.filter(x=>!x.loaded).length],['URLs repetidas',items.filter(x=>x.duplicate).length],['Sem texto alt',items.filter(x=>!x.alt.trim()).length]];
+ summary.replaceChildren();
+ for(const [label,value] of stats){const item=document.createElement('div');item.className='metric';const strong=document.createElement('strong');strong.textContent=value;const span=document.createElement('span');span.textContent=label;item.append(strong,span);summary.appendChild(item)}
+}
+function quoteCsv(value){return '"'+String(value??'').replace(/"/g,'""')+'"'}
+async function begin(){
+ run.disabled=true;guide.disabled=true;csv.disabled=true;rows.replaceChildren();summary.replaceChildren();
+ const id=guide.value;reports=collect(id);
+ if(!reports.length){status.textContent='Nenhuma imagem de galeria encontrada neste guia.';run.disabled=false;guide.disabled=false;return}
+ let cursor=0,completed=0;
+ status.textContent='Verificando '+reports.length+' fotografias do guia '+id+'...';
+ const workers=Array.from({length:Math.min(5,reports.length)},async()=>{
+  while(cursor<reports.length){
+   const index=cursor++;await checkImage(reports[index]);completed++;
+   status.textContent='Verificadas '+completed+' de '+reports.length+' fotografias...';
+  }
+ });
+ await Promise.all(workers);
+ display(reports,true);showSummary(reports);
+ status.textContent='Concluído: '+reports.filter(x=>x.loaded).length+' de '+reports.length+' imagens carregaram. Revise os avisos e inspecione as fotos visualmente.';
+ run.disabled=false;guide.disabled=false;csv.disabled=false;
+}
+frame.addEventListener('load',()=>{
+ try{
+  catalog=getGuides();guide.replaceChildren();
+  for(const item of catalog){const o=document.createElement('option');o.value=item.id;o.textContent=item.title+' ('+item.id+')';guide.appendChild(o)}
+  if(catalog.some(g=>g.id==='pontes-sena'))guide.value='pontes-sena';
+  guide.disabled=false;run.disabled=false;status.textContent=catalog.length+' guias encontrados. Selecione um guia para iniciar.';
+ }catch(error){status.textContent='Erro de inventário: '+error.message}
+},{once:true});
+run.addEventListener('click',()=>{begin().catch(error=>{status.textContent='Falha no teste: '+error.message;run.disabled=false;guide.disabled=false})});
+csv.addEventListener('click',()=>{
+ if(!reports.length)return;
+ const columns=['guia','ficha','numero','carregou','erro','url_repetida','alt_vazio','url_imagem','url_ficha_original'];
+ const data=reports.map(x=>[x.guide,x.take,x.number,x.loaded?'sim':'nao',x.error,x.duplicate?'sim':'nao',x.alt.trim()?'nao':'sim',x.url,x.source]);
+ const content='\ufeff'+[columns,...data].map(line=>line.map(quoteCsv).join(';')).join('\r\n');
+ const blob=new Blob([content],{type:'text/csv;charset=utf-8'}),href=URL.createObjectURL(blob),a=document.createElement('a');
+ a.href=href;a.download='auditoria_fotos_'+guide.value+'.csv';a.click();setTimeout(()=>URL.revokeObjectURL(href),3000);
+});
+})();
+</script>
+</body>
+</html>
