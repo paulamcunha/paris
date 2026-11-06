@@ -1676,7 +1676,7 @@ $('#mobile-toggle').addEventListener('click',()=>document.body.classList.toggle(
 $('#menu-scrim').addEventListener('click',()=>document.body.classList.remove('menu-open'));
 // Busca com filtro por guia, sem dependências externas.
 const searchFilter=$('#search-guide-filter');
-$('.side-link[data-view-link]').filter(a=>a.dataset.viewLink!=='inicio').forEach(a=>{
+$$('.side-link[data-view-link]').filter(a=>a.dataset.viewLink!=='inicio').forEach(a=>{
  const option=document.createElement('option');
  option.value=a.dataset.viewLink;
  option.textContent=a.textContent.replace(/\s+/g,' ').trim().replace(/\s+\d+$/,'');
