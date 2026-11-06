@@ -1,0 +1,14 @@
+/* Paris em Cena | ajuste complementar, 06-11-2026.
+   Mantém regras móveis já aprovadas e melhora a leitura no desktop.
+   Aplicado somente no site publicado, após o CSS interno do index.html. */
+@media (min-width: 801px) {
+  body {
+    font-size: 16px;
+  }
+  .guide-panel .take-card figcaption,
+  .take-card figcaption {
+    font-size: 14px !important;
+    line-height: 1.55;
+    letter-spacing: 0.01em;
+  }
+}
