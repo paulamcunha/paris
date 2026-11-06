@@ -101,3 +101,15 @@ Nova coleção temática de Reel documental, acessível pelo menu **Paris vista 
 **Verificações em 06/11/2026:** os 42 títulos de fotografias foram conferidos no catálogo do Wikimedia Commons. A seção HTML contém 14 fichas, 42 imagens, cinco configurações de mapas, 14 entradas de busca e os links do mapa KML. O trajeto setorial mais longo oferece ainda dois links menores conectados para uso no celular.
 
 **A validar:** abertura e apresentação das fotografias no navegador, adequação visual de cada imagem ao tema, variações reais de enquadramento, carregamento dos mapas no Chrome e no celular, tempo e acessibilidade dos deslocamentos e situação de água/chuva/acesso no momento de gravar. Nenhum desses testes externos foi considerado concluído pela validação de estrutura.
+
+## Auditoria de leitura e fotografias (06/11/2026)
+
+Ferramentas de controle publicadas no mesmo GitHub Pages, sem alterar o conteúdo dos guias:
+
+- `auditoria-mobile.html`: mede rolagem horizontal, tamanho da tipografia e área de controles em 320, 360, 390, 430, 768 e 1280 px. Na revisão de 06/11/2026, as seis larguras passaram nos critérios estruturais. O teste não simula integralmente zoom ou acessibilidade do sistema operacional.
+- `auditoria-funcional.html`: valida funções do guia Pontes e Margens do Sena no próprio navegador, como fotos, busca, modo gravação, mapa e visualizador. O modo gravação tem seus valores anteriores restaurados após o teste.
+- `auditoria-fotografias.html`: novo verificador sob demanda, guia a guia, das URLs de imagens; registra imagens que não carregam, URLs duplicadas, texto alternativo vazio e permite exportar CSV. Não confere ângulo, local, iluminação, autoria ou licença. Faça verificações em conexão estável, pois a ferramenta baixa as referências para testar carregamento.
+
+O arquivo `ajustes-tipografia.css` complementa a tipografia do HTML original em telas acima de 800 px: corpo de 16 px e legendas de 14 px. Para evitar substituir o HTML de 2,2 MB durante a auditoria, o workflow `.github/workflows/pages.yml` injeta essa folha CSS na cópia de `index.html` destinada ao GitHub Pages. Portanto o arquivo HTML versionado não contém essa referência; ela está no HTML compilado publicado. Alterações posteriores no CSS são publicadas pelo workflow.
+
+**Validação pendente:** verificar em dispositivo físico com ampliação de texto de 200%, analisar contraste real, testar links externos e avaliar manualmente o enquadramento e os créditos de cada fotografia. Os testes automáticos são técnicos, não aprovação editorial final.
