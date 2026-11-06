@@ -186,7 +186,25 @@ const results = await withChrome(async (page) => {
     const scriptBtn = currentGuidePanel?.querySelector('[data-action="guide-script"]');
     scriptBtn?.click();
     await sleep(15);
-    const scriptModalOpen = !!document.getElementById('script-modal')?.open && document.getElementById('script-voiceover-text')?.value.length > 50;
+    const voText = document.getElementById('script-voiceover-text')?.value || '';
+    const capText = document.getElementById('script-caption-text')?.value || '';
+    const scriptModalOpen = !!document.getElementById('script-modal')?.open &&
+      voText.includes('Como fotógrafa em Paris') &&
+      capText.includes('GRID');
+    const photographerSigCount = document.querySelectorAll('.guide-photographer-sig').length;
+
+    // Test Carousel Generator (8 classic locations × 8 narrative angles)
+    document.getElementById('tab-btn-carousel')?.click();
+    await sleep(10);
+    const locSel = document.getElementById('carousel-location-select');
+    const angleSel = document.getElementById('carousel-angle-select');
+    const carouselLocationsCount = locSel?.options?.length || 0;
+    const carouselAnglesCount = angleSel?.options?.length || 0;
+    const angle0Cap = document.getElementById('carousel-caption-text')?.value || '';
+    document.getElementById('carousel-next-angle-btn')?.click();
+    await sleep(10);
+    const angle1Cap = document.getElementById('carousel-caption-text')?.value || '';
+    const carouselGeneratorValid = carouselLocationsCount === 8 && carouselAnglesCount === 8 && angle0Cap !== angle1Cap && angle1Cap.includes('GRID');
     document.getElementById('script-modal-close')?.click();
 
     return {
@@ -204,7 +222,9 @@ const results = await withChrome(async (page) => {
       hasFieldNoteInputs,
       hasDayPlanPanel,
       isContactSheetActive,
-      scriptModalOpen
+      scriptModalOpen,
+      photographerSigCount,
+      carouselGeneratorValid
     };
   })()`);
 
@@ -243,6 +263,8 @@ if (
   !results.core.hasDayPlanPanel ||
   !results.core.isContactSheetActive ||
   !results.core.scriptModalOpen ||
+  results.core.photographerSigCount !== 30 ||
+  !results.core.carouselGeneratorValid ||
   results.viewports.some(v => v.overflow > 0 || v.bodyFontPx < 16) ||
   results.consoleErrors.length > 0 ||
   results.pageExceptions.length > 0

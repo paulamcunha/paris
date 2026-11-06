@@ -2454,26 +2454,90 @@ dialog.addEventListener('click',ev=>{if(ev.target===dialog)dialog.close()});
   <p class="nearby-status" id="nearby-status" aria-live="polite"></p>
   <div class="nearby-list" id="nearby-list" aria-label="Takes mais próximos"></div>
 </aside>
-<dialog id="script-modal" class="script-modal" aria-label="Gerador de Roteiro de Narração e Legenda para Reel">
+<dialog id="script-modal" class="script-modal" aria-label="Gerador de Roteiro de Reel e Carrosséis com Assinatura de Fotógrafa">
   <div class="shoot-head">
-    <h2 id="script-modal-title">Roteiro de Narração e Legenda</h2>
+    <h2 id="script-modal-title">Roteiro de Reel e Carrosséis · Assinatura de Fotógrafa</h2>
     <button type="button" id="script-modal-close">Fechar</button>
   </div>
-  <p class="shoot-intro">Texto pronto para locução (teleprompter de 35–45 s) e descrição com os nomes oficiais em francês, endereços e créditos para Instagram Reels, TikTok ou YouTube Shorts.</p>
-  <div class="script-modal-grid">
-    <div class="script-box">
-      <div class="script-box-head">
-        <strong>🎙️ Locução sugerida (Voice-Over / Teleprompter)</strong>
-        <button type="button" id="copy-voiceover-btn">Copiar locução</button>
+  <div class="script-modal-tabs" role="tablist" aria-label="Escolher formato de conteúdo">
+    <button type="button" role="tab" class="script-tab-btn is-active" id="tab-btn-reel" aria-selected="true" aria-controls="tab-pane-reel">🎬 Roteiro de Reel (Assinatura + CTA para o Grid)</button>
+    <button type="button" role="tab" class="script-tab-btn" id="tab-btn-carousel" aria-selected="false" aria-controls="tab-pane-carousel">🎠 Gerador de Carrosséis (8 Locações Clássicas × 8 Ângulos)</button>
+  </div>
+  <div id="tab-pane-reel" class="script-tab-pane" role="tabpanel" aria-labelledby="tab-btn-reel">
+    <p class="shoot-intro">Todo roteiro de Reel inclui a sua <strong>Assinatura de Fotógrafa em Paris</strong> (comentário autoral sobre a luz, estética ou horário vazio daquele guia) e o <strong>CTA fixo na legenda apontando para o seu grid do Instagram</strong>.</p>
+    <div class="script-modal-grid">
+      <div class="script-box">
+        <div class="script-box-head">
+          <strong>🎙️ Locução com Assinatura de Fotógrafa (Teleprompter 40 s)</strong>
+          <button type="button" id="copy-voiceover-btn">Copiar locução</button>
+        </div>
+        <textarea id="script-voiceover-text" rows="10" readonly aria-label="Texto de locução sugerida"></textarea>
       </div>
-      <textarea id="script-voiceover-text" rows="8" readonly aria-label="Texto de locução sugerida"></textarea>
+      <div class="script-box">
+        <div class="script-box-head">
+          <strong>📱 Legenda do Reel + CTA fixo para o Grid</strong>
+          <button type="button" id="copy-caption-btn">Copiar legenda</button>
+        </div>
+        <textarea id="script-caption-text" rows="10" readonly aria-label="Texto de legenda para redes sociais"></textarea>
+      </div>
     </div>
-    <div class="script-box">
-      <div class="script-box-head">
-        <strong>📱 Legenda pronta para Reel / Post (Locais + Hashtags)</strong>
-        <button type="button" id="copy-caption-btn">Copiar legenda</button>
+  </div>
+  <div id="tab-pane-carousel" class="script-tab-pane" role="tabpanel" aria-labelledby="tab-btn-carousel" hidden>
+    <p class="shoot-intro">Como você fotografa frequentemente nas mesmas <strong>8 locações clássicas de Paris</strong>, escolha o local e alterne entre <strong>8 ângulos narrativos diferentes</strong> para nunca repetir a mesma legenda de <em>"Ensaio lindo na Torre Eiffel"</em>.</p>
+    <div class="carousel-controls">
+      <div class="carousel-field">
+        <label for="carousel-location-select">📍 Locação clássica do ensaio (8 principais):</label>
+        <select id="carousel-location-select" aria-label="Escolher locação clássica de ensaio">
+          <option value="trocadero">1. Trocadéro &amp; Escadarias de Passy (16º)</option>
+          <option value="louvre">2. Pyramide du Louvre &amp; Cour Napoléon (1º)</option>
+          <option value="bir-hakeim">3. Pont de Bir-Hakeim &amp; Île aux Cygnes (15º/16º)</option>
+          <option value="palais-royal">4. Palais-Royal &amp; Colonnes de Buren (1º)</option>
+          <option value="alexandre-iii">5. Pont Alexandre III &amp; Margens do Sena (7º/8º)</option>
+          <option value="montmartre">6. Montmartre, Rue de l’Abreuvoir &amp; Maison Rose (18º)</option>
+          <option value="tuileries-vendome">7. Jardin des Tuileries &amp; Place Vendôme (1º)</option>
+          <option value="marais-notredame">8. Quais de Seine, Notre-Dame &amp; Place des Vosges (4º/5º)</option>
+        </select>
       </div>
-      <textarea id="script-caption-text" rows="10" readonly aria-label="Texto de legenda para redes sociais"></textarea>
+      <div class="carousel-field">
+        <label for="carousel-angle-select">🎯 Ângulo narrativo da postagem (anti-repetição):</label>
+        <select id="carousel-angle-select" aria-label="Escolher ângulo narrativo do carrossel">
+          <option value="0">Ângulo 1 · Segredo da Luz e do Horário Vazio (Bastidor Técnico)</option>
+          <option value="1">Ângulo 2 · Direção Natural para Quem é Tímido Diante da Câmera</option>
+          <option value="2">Ângulo 3 · Paleta de Cores, Figurino e Textura da Pedra Parisiense</option>
+          <option value="3">Ângulo 4 · O Segundo Enquadramento (O Lado B a 50 Metros do Ponto Famoso)</option>
+          <option value="4">Ângulo 5 · Clima Real (Chuva Fina, Vento, Inverno ou Céu Nublado)</option>
+          <option value="5">Ângulo 6 · Movimento Cinematográfico vs. Poses Estáticas</option>
+          <option value="6">Ângulo 7 · História e Arquitetura que Entram no Quadro</option>
+          <option value="7">Ângulo 8 · Memória Tangível (O Ensaio como Herança de Viagem)</option>
+        </select>
+      </div>
+      <div class="carousel-angle-pills" id="carousel-angle-pills">
+        <button type="button" class="carousel-angle-pill is-active" data-angle-idx="0">1. Luz &amp; Horário</button>
+        <button type="button" class="carousel-angle-pill" data-angle-idx="1">2. Direção / Timidez</button>
+        <button type="button" class="carousel-angle-pill" data-angle-idx="2">3. Cores &amp; Figurino</button>
+        <button type="button" class="carousel-angle-pill" data-angle-idx="3">4. Lado B Secreto</button>
+        <button type="button" class="carousel-angle-pill" data-angle-idx="4">5. Céu / Clima</button>
+        <button type="button" class="carousel-angle-pill" data-angle-idx="5">6. Movimento</button>
+        <button type="button" class="carousel-angle-pill" data-angle-idx="6">7. Arquitetura</button>
+        <button type="button" class="carousel-angle-pill" data-angle-idx="7">8. Memória</button>
+        <button type="button" class="carousel-next-angle-btn" id="carousel-next-angle-btn">🎲 Sortear / Próximo Ângulo</button>
+      </div>
+    </div>
+    <div class="script-modal-grid">
+      <div class="script-box">
+        <div class="script-box-head">
+          <strong>🖼️ Roteiro de Slides do Carrossel (Slides 1 a 7)</strong>
+          <button type="button" id="copy-carousel-slides-btn">Copiar estrutura dos slides</button>
+        </div>
+        <textarea id="carousel-slides-text" rows="10" readonly aria-label="Estrutura de slides do carrossel"></textarea>
+      </div>
+      <div class="script-box">
+        <div class="script-box-head">
+          <strong>✍️ Legenda Autoral do Carrossel + CTA para o Grid</strong>
+          <button type="button" id="copy-carousel-caption-btn">Copiar legenda do carrossel</button>
+        </div>
+        <textarea id="carousel-caption-text" rows="10" readonly aria-label="Legenda do carrossel"></textarea>
+      </div>
     </div>
   </div>
   <p class="shoot-backup-msg" id="script-copy-msg" aria-live="polite"></p>
@@ -2596,7 +2660,7 @@ dialog.addEventListener('click',ev=>{if(ev.target===dialog)dialog.close()});
     });
   });
 
-  // 2. Inject Metro & Accessibility Overview + Toolbar (Contact Sheet Toggle, Teleprompter, Pocket Print) into every Guide Header
+  // 2. Inject Metro & Accessibility Overview + Photographer's Signature + Toolbar into every Guide Header
   const metroSummaryByGuide = {
     'g01': 'Linhas M1, M7, M14 (Palais-Royal, Louvre-Rivoli, Châtelet) · Percurso 100% plano nas margens e pátios.',
     'g02': 'Linhas M3, M8, M9 (Bourse, Richelieu-Drouot, Grands Boulevards, Sentier) · Percurso plano e abrigado nas passagens.',
@@ -2630,6 +2694,45 @@ dialog.addEventListener('click',ev=>{if(ev.target===dialog)dialog.close()});
     'art-nouveau-deco': 'Linhas M1, M6, M7, M8, M9, M10 (Mirabeau, Bir-Hakeim, Pont Neuf, Chaussée d’Antin, Porte Dorée).'
   };
 
+  const photographerSignatureByGuide = {
+    'g01': 'Como fotógrafa em Paris, as colunatas do Palais-Royal e a Cour Napoléon do Louvre entre 7h30 e 8h30 entregam a luz lateral mais limpa do 1º arrondissement, antes de qualquer excursão chegar.',
+    'g02': 'Como fotógrafa em Paris, a Galerie Vivienne às 9h da manhã — quando a luz zenital atravessa a claraboia de vidro sobre o mosaico sem ninguém no corredor — é o enquadramento mais elegante do 2º arrondissement.',
+    'g03': 'Como fotógrafa em Paris, a luz dourada das 10h batendo nos pátios de pedra calcária do Haut-Marais e nas fachadas do Hôtel Salé cria o fundo mais suave do 3º arrondissement.',
+    'g04': 'Como fotógrafa em Paris, atravessar da Place des Vosges para o Quai de Bourbon logo após o nascer do sol rende as linhas arquitetônicas mais silenciosas e fotogênicas do 4º arrondissement.',
+    'g05': 'Como fotógrafa em Paris, o jubé esculpido e os vitrais de Saint-Étienne-du-Mont às 9h da manhã — seguidos pela luz rasante nas colunas do Panthéon — formam a sequência estética mais bonita do 5º arrondissement.',
+    'g06': 'Como fotógrafa em Paris, a Fontaine Médicis no Jardin du Luxembourg às 8h30, com a água espelhada sob as árvores sem vento, é o meu segredo favorito de luz suave no 6º arrondissement.',
+    'g07': 'Como fotógrafa em Paris, a perspectiva da Pont Alexandre III em direção aos Invalides e os recortes da Torre Eiffel na Rue de l’Université funcionam melhor nos primeiros 40 minutos após o nascer do sol no 7º arrondissement.',
+    'g08': 'Como fotógrafa em Paris, o pórtico dourado do Petit Palais e a colunata do Parc Monceau às 8h45 entregam uma estética Beaux-Arts impecável e vazia no coração do 8º arrondissement.',
+    'g09': 'Como fotógrafa em Paris, o contraste entre as fachadas monumentais da Opéra Garnier e a luz íntima do Musée de la Vie Romantique cria dois climas visuais opostos em menos de 15 minutos no 9º arrondissement.',
+    'g10': 'Como fotógrafa em Paris, esperar um barco abrir a eclusa do Canal Saint-Martin sob as passarelas de ferro às 9h30 da manhã garante o reflexo mais autêntico do 10º arrondissement.',
+    'g11': 'Como fotógrafa em Paris, os pátios artesanais escondidos como a Cour Damoye e o Passage Lhomme oferecem textura industrial, hera nas paredes e silêncio absoluto em pleno 11º arrondissement.',
+    'g12': 'Como fotógrafa em Paris, caminhar pela Coulée verte René-Dumont às 9h — na altura das copas das árvores e dos telhados de zinco haussmannianos — cria uma profundidade de campo única no 12º arrondissement.',
+    'g13': 'Como fotógrafa em Paris, a Cité Florale e as casinhas enxaimel da Petite Alsace na Butte-aux-Cailles parecem um vilarejo do interior da França com luz difusa perfeita dentro do 13º arrondissement.',
+    'g14': 'Como fotógrafa em Paris, a Rue des Thermopyles com suas glicínias e os ateliês modernistas da Villa Seurat às 10h entregam a atmosfera mais intimista e sem carros do 14º arrondissement.',
+    'g15': 'Como fotógrafa em Paris, o ritmo gráfico dos pilares metálicos da Pont de Bir-Hakeim conduzindo o olhar até a Torre Eiffel às 8h da manhã é imbatível para linhas de fuga no 15º arrondissement.',
+    'g16': 'Como fotógrafa em Paris, descer das escadarias de Passy até o Castel Béranger logo após a Golden Hour da manhã permite capturar a Torre Eiffel em escala monumental e o melhor do Art Nouveau no 16º arrondissement.',
+    'g17': 'Como fotógrafa em Paris, a Cité des Fleurs e o espelho d’água do Square des Batignolles oferecem luz suave filtrada por folhagens e zero turistas no 17º arrondissement.',
+    'g18': 'Como fotógrafa em Paris, subir a Rue de l’Abreuvoir até a Place Dalida antes das 8h00 é a única forma de registrar a curva de paralelepípedos mais poética de Montmartre completamente vazia no 18º arrondissement.',
+    'g19': 'Como fotógrafa em Paris, o contraluz de fim de tarde visto da Île du Belvédère no Parc des Buttes-Chaumont e as vilas floridas da Mouzaïa revelam o ângulo mais cinematográfico do 19º arrondissement.',
+    'g20': 'Como fotógrafa em Paris, o Belvédère Willy-Ronis em Belleville uma hora antes do pôr do sol alinha toda a silhueta de Paris com a Torre Eiffel ao fundo em luz dourada no 20º arrondissement.',
+    'passagens': 'Como fotógrafa em Paris, os dias de chuva são o meu momento predileto para entrar nas passagens cobertas do século XIX: a luz difusa das claraboias de vidro elimina sombras duras e valoriza cada mosaico.',
+    'igrejas': 'Como fotógrafa em Paris, entrar nas igrejas góticas entre 9h30 e 11h em manhãs de sol permite capturar os feixes diagonais de luz atravessando os vitrais históricos sobre as naves de pedra.',
+    'torre-eiffel': 'Como fotógrafa em Paris, o segredo para fotografar a Torre Eiffel sem clichês é variar a compressão da lente entre o Trocadéro às 7h30, a Avenue de Camoëns vazia e as margens baixas do Port Debilly.',
+    'pontes-sena': 'Como fotógrafa em Paris, descer às margens baixas do Sena sob a Pont Neuf e a Pont Alexandre III na Golden Hour cria reflexos dourados na água e isola o barulho da avenida lá em cima.',
+    'reflexos': 'Como fotógrafa em Paris, nunca guardo a câmera quando chove: os paralelepípedos molhados do Louvre, as poças do Trocadéro e os espelhos do Palais-Royal duplicam a arquitetura de Paris com poesia.',
+    'paris-secreta': 'Como fotógrafa em Paris, estas 14 vilas e pátios sem trânsito são o meu mapa pessoal quando preciso de silêncio absoluto para gravar áudio limpo e retratos espontâneos sem curiosos ao redor.',
+    'mirantes': 'Como fotógrafa em Paris, trabalhar com escadarias e mirantes elevados permite usar a linha dos telhados de zinco azul-acinzentado como pano de fundo vivo em cada movimento de câmera.',
+    'cafes-livrarias': 'Como fotógrafa em Paris, intercalar planos abertos com detalhes de 2 segundos de toldos vermelhos, tipografias douradas e livrarias históricas às 8h30 é o que dá textura de cinema aos vídeos e ensaios.',
+    'jardins-fontes': 'Como fotógrafa em Paris, usar a névoa fina das fontes monumentais no contraluz da manhã ou do fim de tarde cria um halo luminoso natural que suaviza qualquer cena nos parques parisienses.',
+    'art-nouveau-deco': 'Como fotógrafa em Paris, aproximar a lente das ferragens orgânicas de Hector Guimard e das cúpulas de vidro da Belle Époque transforma detalhes arquitetônicos em molduras naturais perfeitas.'
+  };
+
+  const GRID_CTA_BLOCK = [
+    '📸 VAI VIAJAR PARA PARIS E QUER FOTOS COM ESSE OLHAR?',
+    '👉 Entre agora no meu perfil (@paulacunhafotografia) e veja os ensaios completos no meu GRID: lá você vê como eu uso exatamente essa luz, esses ângulos e esses horários vazios para criar retratos autênticos em Paris.',
+    '💌 Para reservar a sua data ou tirar dúvidas sobre roteiros de ensaio, me chame no link da bio ou por DM!'
+  ].join('\n');
+
   $$('.guide-panel[id]').forEach(panel => {
     const gId = panel.id;
     if (gId === 'inicio') return;
@@ -2637,14 +2740,17 @@ dialog.addEventListener('click',ev=>{if(ev.target===dialog)dialog.close()});
     if (!cover || cover.querySelector('.guide-tools-bar')) return;
 
     const metroText = metroSummaryByGuide[gId] || 'Consulte a estação de metrô indicada em cada ficha antes de sair.';
+    const sigText = photographerSignatureByGuide[gId] || photographerSignatureByGuide['g01'];
     const bar = document.createElement('div');
     bar.className = 'guide-tools-bar';
     bar.innerHTML =
       '<div class="guide-metro-pill">🚇 <strong>Metrô e percurso:</strong> ' + metroText + '</div>' +
+      '<div class="guide-photographer-sig">📷 <strong>Assinatura de Fotógrafa (Paula Cunha):</strong> "' + sigText + '"</div>' +
       '<div class="guide-tools-actions">' +
         '<button type="button" class="guide-tool-btn" data-action="contact-sheet" aria-pressed="false">🖼️ Modo Mosaico Visual (Folha de Contato)</button>' +
-        '<button type="button" class="guide-tool-btn" data-action="guide-script">📋 Gerar Locução e Legenda do Reel</button>' +
-        '<button type="button" class="guide-tool-btn" data-action="pocket-print">🖨️ Folha de Bolso (Imprimir / PDF 1 pág.)</button>' +
+        '<button type="button" class="guide-tool-btn" data-action="guide-script">🎬 Roteiro de Reel (Assinatura + CTA Grid)</button>' +
+        '<button type="button" class="guide-tool-btn" data-action="guide-carousel">🎠 Ideias de Carrossel (8 Ângulos)</button>' +
+        '<button type="button" class="guide-tool-btn" data-action="pocket-print">🖨️ Folha de Bolso (PDF 1 pág.)</button>' +
       '</div>';
     cover.appendChild(bar);
 
@@ -2657,7 +2763,12 @@ dialog.addEventListener('click',ev=>{if(ev.target===dialog)dialog.close()});
 
     bar.querySelector('[data-action="guide-script"]')?.addEventListener('click', () => {
       const guideTakes = allTakes.filter(t => t.guideId === gId);
-      openScriptModal(panel.getAttribute('data-name') || gId, guideTakes);
+      openScriptModal(panel.getAttribute('data-name') || gId, guideTakes, gId, 'reel');
+    });
+
+    bar.querySelector('[data-action="guide-carousel"]')?.addEventListener('click', () => {
+      const guideTakes = allTakes.filter(t => t.guideId === gId);
+      openScriptModal(panel.getAttribute('data-name') || gId, guideTakes, gId, 'carousel');
     });
 
     bar.querySelector('[data-action="pocket-print"]')?.addEventListener('click', () => {
@@ -2814,35 +2925,435 @@ dialog.addEventListener('click',ev=>{if(ev.target===dialog)dialog.close()});
 
   $('#day-plan-script-btn')?.addEventListener('click', () => {
     const pts = optimizeRoute(dayPlan);
+    const activePanel = document.querySelector('.guide-panel.is-current');
+    const gId = activePanel?.id && activePanel.id !== 'inicio' ? activePanel.id : 'g01';
     if (pts.length === 0) {
-      const activePanel = document.querySelector('.guide-panel.is-current');
-      const fallbackPts = allTakes.filter(t => t.guideId === (activePanel?.id || 'paris-secreta'));
-      openScriptModal('Guia atual', fallbackPts);
+      const fallbackPts = allTakes.filter(t => t.guideId === gId);
+      openScriptModal(activePanel?.getAttribute('data-name') || 'Guia atual', fallbackPts, gId, 'reel');
     } else {
-      openScriptModal('Meu Roteiro do Dia (' + pts.length + ' paradas)', pts);
+      openScriptModal('Meu Roteiro do Dia (' + pts.length + ' paradas)', pts, pts[0]?.guideId || gId, 'reel');
     }
   });
 
   renderDayPlan();
 
-  // 5. Teleprompter / Reel Script & Caption Generator Modal
+  // 5. Teleprompter / Reel Script (with Photographer's Signature + Fixed Grid CTA) & Carousel Narrative Generator (8 Classic Spots × 8 Angles)
   const scriptModal = $('#script-modal');
   const voiceoverArea = $('#script-voiceover-text');
   const captionArea = $('#script-caption-text');
+  const carouselSlidesArea = $('#carousel-slides-text');
+  const carouselCaptionArea = $('#carousel-caption-text');
+  const carouselLocSelect = $('#carousel-location-select');
+  const carouselAngleSelect = $('#carousel-angle-select');
   const scriptCopyMsg = $('#script-copy-msg');
+  const tabBtnReel = $('#tab-btn-reel');
+  const tabBtnCarousel = $('#tab-btn-carousel');
+  const tabPaneReel = $('#tab-pane-reel');
+  const tabPaneCarousel = $('#tab-pane-carousel');
 
-  function openScriptModal(titleText, takesList) {
+  function switchScriptTab(mode) {
+    const isCarousel = mode === 'carousel';
+    if (tabBtnReel) {
+      tabBtnReel.classList.toggle('is-active', !isCarousel);
+      tabBtnReel.setAttribute('aria-selected', !isCarousel ? 'true' : 'false');
+    }
+    if (tabBtnCarousel) {
+      tabBtnCarousel.classList.toggle('is-active', isCarousel);
+      tabBtnCarousel.setAttribute('aria-selected', isCarousel ? 'true' : 'false');
+    }
+    if (tabPaneReel) tabPaneReel.hidden = isCarousel;
+    if (tabPaneCarousel) tabPaneCarousel.hidden = !isCarousel;
+  }
+
+  tabBtnReel?.addEventListener('click', () => switchScriptTab('reel'));
+  tabBtnCarousel?.addEventListener('click', () => switchScriptTab('carousel'));
+
+  const classicCarouselSpots = {
+    'trocadero': {
+      name: 'Trocadéro & Escadarias de Passy (16º)',
+      bestTime: 'entre 7h15 e 8h15 da manhã (logo após o nascer do sol)',
+      lightNote: 'o sol nasce atrás da Torre e desenha um contraluz dourado no mármore creme do Parvis sem sombras duras no rosto',
+      sideB: 'as escadarias da Avenue de Camoëns e a descida lateral para os Jardins du Trocadéro, a menos de 120 metros da esplanada principal',
+      palette: 'tons neutros (bege, off-white, preto clássico, azul-marinho ou terracota suave) que conversam com a pedra haussmanniana e o ferro pardo da Torre',
+      weatherTip: 'depois da chuva, o piso de pedra do Parvis vira um espelho d’água natural que duplica a Torre Eiffel inteira sem precisar de efeito',
+      historyDetail: 'construído para a Exposição Universal de 1937, o Palais de Chaillot foi desenhado exatamente como duas asas curvas para emoldurar a Dama de Ferro',
+      movementPrompt: 'caminhar olhando um para o outro ao longo da balaustrada enquanto a Torre surge naturalmente no desenquadramento de fundo',
+      hashtags: '#EnsaioEmParis #FotografaEmParis #Trocadero #TorreEiffel #ParisEmCena #ViagemParis #PreWeddingParis #RetratosEmParis'
+    },
+    'louvre': {
+      name: 'Pyramide du Louvre & Cour Napoléon (1º)',
+      bestTime: 'às 7h45 da manhã (especialmente às terças-feiras, quando o museu fecha e o pátio fica deserto)',
+      lightNote: 'a luz rasante da manhã atravessa os losangos de vidro de Ieoh Ming Pei e rebate na pedra dourada do palácio renascentista',
+      sideB: 'as arcadas da Galerie de Nemours, a Passagem Richelieu e a Cour Carrée, a 80 metros da Pirâmide, onde quase nenhum turista para',
+      palette: 'alfaiataria estruturada, trench coat bege, preto ou tons vinho que contrastam com a geometria metálica da Pirâmide e a pedra clara do Louvre',
+      weatherTip: 'em dias nublados ou chuvosos, as arcadas cobertas de Rivoli e Richelieu garantem luz de cinema 100% abrigada e reflexos nos paralelepípedos',
+      historyDetail: 'o contraste entre 800 anos de história real francesa nas fachadas esculpidas e os 673 painéis de vidro contemporâneos inaugurados em 1989',
+      movementPrompt: 'atravessar a passagem abobadada da Cour Carrée para a Cour Napoléon em passo lento, deixando a luz estourar suavemente na saída do arco',
+      hashtags: '#Louvre #FotografaEmParis #EnsaioEmParis #ParisEmCena #MuseeDuLouvre #RetratosEmParis #DicasDeParis'
+    },
+    'bir-hakeim': {
+      name: 'Pont de Bir-Hakeim & Île aux Cygnes (15º/16º)',
+      bestTime: 'às 8h15 da manhã ou 45 minutos antes do pôr do sol',
+      lightNote: 'a luz entra em diagonal entre as colunatas de ferro fundido, criando um jogo rítmico de luz e sombra digno de cinema clássico',
+      sideB: 'a ponta da Île aux Cygnes e o belvedere central sob a estátua da La France Renaissante, com vista simultânea do Sena e da Torre',
+      palette: 'tons contrastantes (creme, caramelo, vermelho fechado ou preto) que destacam a silhueta contra o cinza-azulado metálico da ponte de 1905',
+      weatherTip: 'por ser um viaduto de dois andares onde passa o metrô M6 em cima, o corredor central de Bir-Hakeim é 100% coberto e perfeito mesmo sob chuva',
+      historyDetail: 'as guirlandas e figuras alegóricas em ferro fundido de 1905 que já serviram de cenário para filmes como "A Origem" (Inception) e "Último Tango em Paris"',
+      movementPrompt: 'caminhar no eixo central da colunata enquanto o trem da linha 6 passa no viaduto superior, trazendo movimento real da cidade para a foto',
+      hashtags: '#BirHakeim #PontDeBirHakeim #FotografaEmParis #EnsaioEmParis #ParisEmCena #CinemaEmParis #TorreEiffel'
+    },
+    'palais-royal': {
+      name: 'Palais-Royal & Colonnes de Buren (1º)',
+      bestTime: 'entre 8h00 e 9h00 da manhã, logo na abertura dos portões',
+      lightNote: 'o pátio fechado funciona como um grande rebatedor natural: a luz é difusa, sem sombras duras, perfeita para retratos de perto',
+      sideB: 'as alamedas de tílias do Jardin du Palais-Royal e a Galerie de Valois logo atrás das colunas listradas, onde o silêncio é absoluto',
+      palette: 'looks monocromáticos (preto, branco, bege, verde-oliva ou vinho) que não brigam com o grafismo preto-e-branco das 260 colunas de Daniel Buren',
+      weatherTip: 'as galerias históricas ao redor do pátio (Galerie de Montpensier e Galerie de Beaujolais) são totalmente cobertas caso comece a garoar',
+      historyDetail: 'a harmonia improvável entre o palácio clássico de 1633 do Cardeal Richelieu e a instalação conceptual "Les Deux Plateaux" criada em 1986',
+      movementPrompt: 'interagir com as diferentes alturas dos cilindros de mármore e caminhar sob as arcadas lendo um livro ou tomando café em ritmo parisiense',
+      hashtags: '#PalaisRoyal #ColonnesDeBuren #FotografaEmParis #EnsaioEmParis #ParisEmCena #EstiloParisiense #Paris1er'
+    },
+    'alexandre-iii': {
+      name: 'Pont Alexandre III & Margens do Sena (7º/8º)',
+      bestTime: 'na primeira hora da manhã (8h00) ou na Golden Hour da tarde',
+      lightNote: 'os cavalos alados folheados a ouro e os candelabros Art Nouveau brilham quando recebem o sol baixo vindo da curva oeste do Sena',
+      sideB: 'a escadaria de pedra que desce para o Port des Invalides (margem baixa do Sena) e o pórtico do Petit Palais a 150 metros da ponte',
+      palette: 'tons suaves e elegantes (champanhe, azul-celeste, preto, marfim) que harmonizam com os bronzes dourados e os arcos Belle Époque',
+      weatherTip: 'o céu nublado típico de Paris transforma a pedra e o bronze da ponte numa gravura aquarelada sem reflexos estourados',
+      historyDetail: 'inaugurada para a Exposição Universal de 1900 com 32 candelabros de bronze e ninfas esculpidas, é a ponte mais ornamentada de toda a França',
+      movementPrompt: 'apoiar-se na balaustrada olhando o curso do Sena com a Torre Eiffel ao fundo e depois descer a escadaria de pedra em direção ao cais',
+      hashtags: '#PontAlexandreIII #Sena #FotografaEmParis #EnsaioEmParis #ParisEmCena #BelleEpoque #ViagemParis'
+    },
+    'montmartre': {
+      name: 'Montmartre, Rue de l’Abreuvoir & Maison Rose (18º)',
+      bestTime: 'estritamente entre 7h30 e 8h45 da manhã (antes da abertura das lojas de souvenirs)',
+      lightNote: 'a luz matinal desce suavemente pelas fachadas pastel da La Maison Rose e faz brilhar os paralelepípedos em curva da Rue de l’Abreuvoir',
+      sideB: 'a escadaria da Rue du Calvaire, a Villa Léandre e o entorno das vinhas do Clos Montmartre, a 3 minutos a pé do burburinho da Place du Tertre',
+      palette: 'tons terrosos, tricôs texturizados, boinas opcionais discretas, linho claro ou azul-francês que dialogam com o rosa e o verde das janelas',
+      weatherTip: 'a neblina matinal de outono/inverno no topo da colina deixa a cúpula do Sacré-Cœur ao fundo com atmosfera de filme antigo',
+      historyDetail: 'antiga aldeia de artistas onde Picasso, Modigliani e Utrillo caminhavam entre ateliês de madeira, vinhedos e cabarés históricos como o Lapin Agile',
+      movementPrompt: 'subir devagar a curva de paralelepípedos da Rue de l’Abreuvoir olhando para trás quando a cúpula do Sacré-Cœur desponta entre as árvores',
+      hashtags: '#Montmartre #LaMaisonRose #FotografaEmParis #EnsaioEmParis #ParisEmCena #ParisSecreta #MontmartreVillage'
+    },
+    'tuileries-vendome': {
+      name: 'Jardin des Tuileries & Place Vendôme (1º)',
+      bestTime: 'às 8h30 da manhã ou no meio da tarde junto às cadeiras verdes do lago octogonal',
+      lightNote: 'a areia clara das Tuileries reflete a luz de baixo para cima como um difusor natural, iluminando o rosto com suavidade de estúdio',
+      sideB: 'as arcadas simétricas da Rue de Castiglione e os terraços laterais do Jeu de Paume com vista para a Place de la Concorde',
+      palette: 'clássico parisiense (alfaiataria, vestidos fluidos, óculos escuros atemporais) para combinar com as cadeiras verdes Luxembourg e as fachadas do Ritz',
+      weatherTip: 'se ventar ou chover no jardim aberto, basta atravessar 50 metros para as arcadas cobertas da Rue de Rivoli e da Rue de Castiglione',
+      historyDetail: 'desenhado por André Le Nôtre em 1664 no eixo histórico que liga o Louvre ao Arco do Triunfo, ao lado da praça mais sofisticada do século XVII',
+      movementPrompt: 'sentar nas icônicas cadeiras metálicas verdes ao redor do Grand Bassin vendo os barquinhos à vela ou caminhar sob a alameda de castanheiros',
+      hashtags: '#JardinDesTuileries #PlaceVendome #FotografaEmParis #EnsaioEmParis #ParisEmCena #ChicParisiense #Paris1er'
+    },
+    'marais-notredame': {
+      name: 'Quais de Seine, Notre-Dame & Place des Vosges (4º/5º)',
+      bestTime: 'entre 8h00 e 9h30 da manhã nas margens da Île Saint-Louis e nas arcadas da Place des Vosges',
+      lightNote: 'o sol da manhã nasce exatamente atrás da cabeceira de Notre-Dame e ilumina os arcos de tijolo vermelho e pedra da Place des Vosges',
+      sideB: 'o Quai de Bourbon na ponta da Île Saint-Louis e o jardim secreto do Hôtel de Sully, que conecta o Marais à Place des Vosges por dentro',
+      palette: 'tons quentes, jeans clássico bem cortado, camisa branca, casaco camelo ou azul-marinho que ressaltam diante dos tijolos históricos de 1612',
+      weatherTip: 'as 36 arcadas abobadadas da Place des Vosges formam uma galeria contínua 100% protegida da chuva e do vento',
+      historyDetail: 'a praça real planejada mais antiga de Paris (inaugurada em 1612 por Luís XIII) combinada com os cais históricos onde os bouquinistes abrem suas caixas verdes',
+      movementPrompt: 'folhear livros antigos nos bouquinistes do Sena com as torres de Notre-Dame ao fundo e caminhar sob a perspectiva infinita das arcadas',
+      hashtags: '#LeMarais #PlaceDesVosges #NotreDameDeParis #FotografaEmParis #EnsaioEmParis #ParisEmCena #IleSaintLouis'
+    }
+  };
+
+  function generateCarouselContent(spotKey, angleIdx) {
+    const spot = classicCarouselSpots[spotKey] || classicCarouselSpots['trocadero'];
+    const idx = Number(angleIdx) || 0;
+
+    const angles = [
+      {
+        title: 'Ângulo 1 · Segredo da Luz e do Horário Vazio (Bastidor Técnico)',
+        hookSlide1: 'Por que quase todas as fotos em ' + spot.name.split('(')[0].trim() + ' parecem cheias de gente — e como eu fotografo este lugar vazio?',
+        slides: [
+          'Slide 1 (Capa impactante): Foto aberta com luz dourada e cenário limpo · Título na imagem: "' + spot.name.split('(')[0].trim() + ' às 8h vs. às 11h: o segredo da luz em Paris"',
+          'Slide 2 (O olhar técnico): Close ou meio-plano mostrando a direção da luz · Texto: "Como fotógrafa em Paris, eu não escolho o horário por acaso: ' + spot.bestTime + ', ' + spot.lightNote + '."',
+          'Slide 3 (Comparação de atmosfera): Plano em movimento caminhando pelo espaço vazio · Texto: "Sem filas atrás de você, a direção flui sem pressa e você curte o lugar de verdade."',
+          'Slide 4 (Enquadramento de detalhe): Textura arquitetônica + retrato espontâneo · Texto: "A luz baixa cria volume na pedra parisiense sem precisar de filtros pesados."',
+          'Slide 5 (Plano aberto cinematográfico): Foto vertical 4:5 mostrando a escala do monumento · Texto: "Quando você respeita o relógio do sol em Paris, a cidade inteira parece um cenário particular."',
+          'Slide 6 (Resumo prático para salvar): Card ou foto limpa com a dica de ouro · Texto: "Anote para o seu roteiro: chegue ' + spot.bestTime + '."',
+          'Slide 7 (Fechamento + Chamada): Retrato favorito da sessão · Texto: "Quer viver essa experiência comigo em Paris? Veja mais ensaios no meu grid e me chame no link da bio!"'
+        ],
+        caption: [
+          'Muita gente acha que para ter fotos em ' + spot.name + ' sem multidão ao fundo é preciso sorte ou Photoshop. Na verdade, o segredo é puramente horário e leitura de luz. ✨',
+          '',
+          'Como fotógrafa em Paris, eu sempre organizo os meus ensaios aqui ' + spot.bestTime + '. Nesse intervalo, ' + spot.lightNote + ' — e o melhor: você tem espaço para caminhar, respirar e viver o momento sem dezenas de celulares ao redor.',
+          '',
+          'Mais do que apertar o botão, meu trabalho em campo é desenhar a logística da sua manhã para que a sua única preocupação seja aproveitar Paris.',
+          '',
+          '💬 Qual foto dessa sequência você colocaria num porta-retrato na sala: a 1, a 3 ou a 5?',
+          '',
+          GRID_CTA_BLOCK,
+          '',
+          spot.hashtags
+        ].join('\n')
+      },
+      {
+        title: 'Ângulo 2 · Direção Natural para Quem é Tímido Diante da Câmera',
+        hookSlide1: '"Paula, eu não sei posar!" — Como funcionam os primeiros 10 minutos de um ensaio comigo em ' + spot.name.split('(')[0].trim(),
+        slides: [
+          'Slide 1 (Capa espontânea): Foto sorrindo ou caminhando em movimento natural · Título: "«Mas eu sou super tímida(o) para fotos...» — Veja o que acontece em 10 minutos"',
+          'Slide 2 (O quebra-gelo): Foto caminhando de costas ou olhando a arquitetura · Texto: "Nos primeiros 5 minutos, eu nunca peço para você encarar a lente congelada(o)."',
+          'Slide 3 (A micro-ação): Movimento sugerido no local · Texto: "Em ' + spot.name.split('(')[0].trim() + ', começamos com uma ação simples: ' + spot.movementPrompt + '."',
+          'Slide 4 (O instante entre uma pose e outra): Retrato genuíno após um riso ou conversa · Texto: "As minhas fotos favoritas nascem no segundo seguinte depois que você esquece que está sendo fotografada(o)."',
+          'Slide 5 (A segurança do ambiente): Plano aberto em horário tranquilo · Texto: "E como vamos ' + spot.bestTime + ', não há plateia olhando — você fica 100% à vontade."',
+          'Slide 6 (Close emocional): Olhar sereno e seguro para a câmera · Texto: "Aos 15 minutos de caminhada, o seu corpo já relaxou e a postura vira cinema."',
+          'Slide 7 (Convite para o Grid): Foto final da série · Texto: "90% das pessoas no meu perfil diziam que não sabiam posar. Confira no meu grid!"'
+        ],
+        caption: [
+          '"Paula, eu amo as suas fotos, mas sou muito travada(o) na frente da câmera!" — Se eu ganhasse um croissant para cada vez que ouço essa frase antes de um ensaio em Paris... 🥐💛',
+          '',
+          'A verdade é que quase ninguém que você vê aqui no meu perfil é modelo profissional. Como fotógrafa em Paris, minha direção em ' + spot.name + ' não é baseada em poses rígidas: eu uso o próprio espaço para guiar você — ' + spot.movementPrompt + '.',
+          '',
+          'Além disso, como entramos em cena ' + spot.bestTime + ', a rua está silenciosa e sem curiosos olhando. Em dez minutos de conversa e caminhada, a timidez vira passeio.',
+          '',
+          '💬 Confessa aqui para mim: você é do time que já chega fazendo pose ou do time que precisa desses 10 minutinhos para soltar?',
+          '',
+          GRID_CTA_BLOCK,
+          '',
+          spot.hashtags
+        ].join('\n')
+      },
+      {
+        title: 'Ângulo 3 · Paleta de Cores, Figurino e Textura da Pedra Parisiense',
+        hookSlide1: 'Que cores vestir para fotografar em ' + spot.name.split('(')[0].trim() + '? O guia visual de paleta parisiense',
+        slides: [
+          'Slide 1 (Capa estética): Foto de corpo inteiro destacando a harmonia entre roupa e arquitetura · Título: "A ciência das cores em ' + spot.name.split('(')[0].trim() + ': o que vestir no seu ensaio"',
+          'Slide 2 (A cor da cidade): Detalhe da pedra/ferro do monumento · Texto: "Paris não é um fundo neutro: ela tem o creme da pedra calcária, o cinza dos telhados de zinco e o verde-escuro histórico."',
+          'Slide 3 (A paleta ideal para este ponto): Meio-plano mostrando o tecido e o fundo · Texto: "Para este cenário, recomendo ' + spot.palette + '."',
+          'Slide 4 (Movimento de tecido): Foto caminhando com casaco ou vestido em movimento · Texto: "Tecidos com caimento e textura (lã fria, linho, trench coat, seda) ganham vida na luz lateral da manhã."',
+          'Slide 5 (O que evitar): Comparação sutil de leitura visual · Texto: "Evitar estampas muito agitadas ou logos grandes faz o olhar ir direto para a sua expressão e para Paris."',
+          'Slide 6 (Harmonia em dupla/casal): Dois tons que conversam sem precisar usar roupas idênticas · Texto: "Coordenar tons complementares cria unidade de revista sem parecer uniforme."',
+          'Slide 7 (Chamada): Foto icônica da série · Texto: "Todas as minhas clientes recebem orientação de paleta antes da viagem. Veja mais exemplos no meu grid!"'
+        ],
+        caption: [
+          'Um dos segredos para uma fotografia em Paris parecer cena de filme — e não apenas um registro turístico — está na conversa entre a sua roupa e a textura da cidade. 🎨✨',
+          '',
+          'Como fotógrafa em Paris, sempre olho para as cores dominantes de cada locação antes de sugerir o figurino. Aqui em ' + spot.name + ', a arquitetura pede ' + spot.palette + '. Quando combinamos essa paleta com a luz suave ' + spot.bestTime + ', a pele ilumina e o cenário abraça você.',
+          '',
+          'Você não precisa comprar um guarda-roupa novo para o ensaio: basta escolher peças atemporais que deixem você confortável para caminhar pelas ruas de pedra.',
+          '',
+          '💬 Salve este carrossel na sua pastinha de inspiração de Paris para consultar quando estiver montando a mala!',
+          '',
+          GRID_CTA_BLOCK,
+          '',
+          spot.hashtags
+        ].join('\n')
+      },
+      {
+        title: 'Ângulo 4 · O Segundo Enquadramento (O Lado B a 50 Metros do Ponto Famoso)',
+        hookSlide1: 'O que acontece quando damos 50 passos para o lado em ' + spot.name.split('(')[0].trim() + '? (O Lado B que ninguém olha)',
+        slides: [
+          'Slide 1 (Capa dupla ou contraste): O ícone clássico visto de um ângulo inesperado · Título: "Todo mundo faz a foto nº 1 em ' + spot.name.split('(')[0].trim() + '… mas é a 50 metros dali que a mágica acontece"',
+          'Slide 2 (O ponto clássico bem feito): A vista tradicional limpa · Texto: "Sim, nós sempre garantimos o retrato clássico icônico logo na chegada."',
+          'Slide 3 (A virada de câmera): Caminhando para o recanto lateral · Texto: "Mas, como fotógrafa em Paris, meu olhar sempre busca o segundo enquadramento: ' + spot.sideB + '."',
+          'Slide 4 (O resultado no Lado B): Retrato intimista no recanto vizinho · Texto: "A poucos passos do ponto mais disputado, ganhamos profundidade, silêncio e um ângulo autoral."',
+          'Slide 5 (Variedade em uma única parada): Três fotos com fundos diferentes feitas em 15 minutos · Texto: "Em menos de 150 metros de caminhada, entregamos uma galeria que parece ter sido feita em três bairros diferentes."',
+          'Slide 6 (Detalhe poético): Close com moldura arquitetônica · Texto: "Conhecer cada esquina a pé permite transformar um ponto famoso num roteiro exclusivo."',
+          'Slide 7 (Convite ao Grid): Foto de encerramento · Texto: "Explore o meu grid para descobrir os ângulos secretos dos 20 arrondissements de Paris!"'
+        ],
+        caption: [
+          'Você não precisa escolher entre ter a foto clássica em ' + spot.name + ' ou ter um ensaio autoral e diferente de todo mundo. Na verdade, os dois estão a menos de 50 metros de distância! 🧭📷',
+          '',
+          'Nos meus roteiros de ensaio, nós sempre fazemos a vista icônica ' + spot.bestTime + '. Mas logo depois eu te convido a dar alguns passos até o meu "Lado B" favorito ali do lado: ' + spot.sideB + '.',
+          '',
+          'É essa transição entre o grande monumento e a esquina silenciosa que faz um álbum contar uma história completa de Paris em poucos minutos de caminhada.',
+          '',
+          '💬 Você prefere o impacto do monumento clássico (foto 2) ou o charme escondido do Lado B (foto 4)?',
+          '',
+          GRID_CTA_BLOCK,
+          '',
+          spot.hashtags
+        ].join('\n')
+      },
+      {
+        title: 'Ângulo 5 · Clima Real (Chuva Fina, Vento, Inverno ou Céu Nublado)',
+        hookSlide1: '"E se estiver nublado ou chover no dia do meu ensaio em Paris?" — Veja por que o céu cinza parisiense é um presente',
+        slides: [
+          'Slide 1 (Capa atmosférica): Foto sob céu suave ou chão úmido com brilho cinematográfico · Título: "Céu nublado ou garoa em ' + spot.name.split('(')[0].trim() + '? Por que os fotógrafos amam o clima de Paris"',
+          'Slide 2 (O efeito softbox gigante): Retrato de perto com pele uniforme e sem sombras · Texto: "As nuvens claras de Paris funcionam como um difusor de estúdio gigante no céu: zero olhos semicerrados pelo sol forte."',
+          'Slide 3 (O segredo local deste ponto): Foto mostrando reflexos ou abrigo arquitetônico · Texto: "E aqui em ' + spot.name.split('(')[0].trim() + ', temos uma vantagem extra: ' + spot.weatherTip + '."',
+          'Slide 4 (A estética "Meia-Noite em Paris"): Plano aberto com atmosfera poética · Texto: "A pedra parisiense ganha tons mais intensos e elegantes quando está levemente úmida."',
+          'Slide 5 (Acessórios que entram em cena): Guarda-chuva transparente ou trench coat em movimento · Texto: "Um guarda-chuva transparente ou o vento no casaco trazem uma bossa parisiense que o sol de verão não tem."',
+          'Slide 6 (Plano B imediato no bolso): Foto em galeria/arcada próxima · Texto: "Por mapear os 20 arrondissements ponto a ponto, sempre tenho um abrigo histórico a poucos minutos."',
+          'Slide 7 (Chamada): Retrato luminoso · Texto: "Faça sol ou faça chuva, Paris sempre rende cinema. Veja outros dias e estações lá no meu grid!"'
+        ],
+        caption: [
+          'Uma das maiores preocupações de quem agenda um ensaio fotográfico na Europa é abrir a previsão do tempo na véspera e ver uma nuvem. Mas deixa eu te contar um segredo de quem fotografa em Paris o ano inteiro: o céu nublado parisiense é uma das luzes mais bonitas do mundo! ☁️🌧️✨',
+          '',
+          'Quando o céu fica prateado em ' + spot.name + ', não existem sombras duras no rosto e você pode olhar para qualquer direção sem piscar por causa do sol. Além disso, ' + spot.weatherTip + '.',
+          '',
+          'Ter domínio do território significa saber exatamente onde posicionar a câmera — ou para qual arcada histórica caminhar — para transformar qualquer clima em poesia visual.',
+          '',
+          '💬 Você também acha que Paris com clima de outono/inverno tem um charme de cinema incomparável?',
+          '',
+          GRID_CTA_BLOCK,
+          '',
+          spot.hashtags
+        ].join('\n')
+      },
+      {
+        title: 'Ângulo 6 · Movimento Cinematográfico vs. Poses Estáticas',
+        hookSlide1: 'Mais filme, menos estátua: como criamos movimento real nas fotos em ' + spot.name.split('(')[0].trim(),
+        slides: [
+          'Slide 1 (Capa em movimento): Passo firme, giro leve ou olhar em trânsito · Título: "Fotos que parecem frames de um filme francês em ' + spot.name.split('(')[0].trim() + '"',
+          'Slide 2 (A diferença no olhar): Comparação sutil entre parado vs. caminhando · Texto: "Quando você caminha, seus ombros relaxam, a roupa ganha fluidez e o sorriso sai natural."',
+          'Slide 3 (A cena deste lugar): Ação específica da locação · Texto: "Aqui, nossa cena favorita é: ' + spot.movementPrompt + '."',
+          'Slide 4 (Sequência de 3 segundos): Duas ou três fotos contínuas do mesmo passo · Texto: "Fotografo em sequência documental para capturar o gesto exato entre um passo e outro."',
+          'Slide 5 (A profundidade da rua): Linhas de fuga levando o olhar até o fundo · Texto: "A arquitetura histórica deixa de ser um cartão-postal chapado e vira um palco vivo ao seu redor."',
+          'Slide 6 (O respiro silencioso): Um retrato estático sereno após o movimento · Texto: "Depois do movimento, paramos por 5 segundos para um retrato calmo e intenso."',
+          'Slide 7 (Chamada para o Grid): Frame final · Texto: "Gosta de fotografia com alma de cinema? Visite o meu grid para ver mais histórias em movimento!"'
+        ],
+        caption: [
+          'Se tem uma coisa que define o meu estilo no projeto Paris em Cena é preferir a vida em movimento às poses engessadas. 🎞️✨',
+          '',
+          'Quando estamos fotografando em ' + spot.name + ', eu trato cada esquina como uma pequena sequência de cinema: ' + spot.movementPrompt + '. Enquanto você vive a cena ' + spot.bestTime + ', eu busco o ângulo onde a luz (' + spot.lightNote + ') encontra o seu gesto mais espontâneo.',
+          '',
+          'O resultado são fotografias que não mostram apenas "onde você esteve", mas fazem você lembrar exatamente da sensação de caminhar por Paris naquela manhã.',
+          '',
+          '💬 Qual dessas fotos parece mais uma cena de filme para você?',
+          '',
+          GRID_CTA_BLOCK,
+          '',
+          spot.hashtags
+        ].join('\n')
+      },
+      {
+        title: 'Ângulo 7 · História e Arquitetura que Entram no Quadro',
+        hookSlide1: 'O detalhe histórico de ' + spot.name.split('(')[0].trim() + ' que muda completamente a forma de olhar para esta foto',
+        slides: [
+          'Slide 1 (Capa arquitetônica): Enquadramento onde a história do lugar abraça o retratado · Título: "Você sabia disso sobre ' + spot.name.split('(')[0].trim() + '? Quando a história entra no enquadramento"',
+          'Slide 2 (O contexto histórico): Detalhe escultural ou perspectiva clássica · Texto: "Olhe com atenção para o fundo: ' + spot.historyDetail + '."',
+          'Slide 3 (Composição com propósito): Como usamos a geometria do monumento · Texto: "Como fotógrafa em Paris, uso essas linhas históricas para conduzir o olhar diretamente até você."',
+          'Slide 4 (Escala humana vs. monumental): Plano aberto mostrando a grandeza do lugar · Texto: "Incluir o contexto arquitetônico dá dimensão épica ao retrato sem perder a delicadeza."',
+          'Slide 5 (A conversa entre épocas): Detalhe de pedra antiga + presença contemporânea · Texto: "Você passa a fazer parte da paisagem de Paris, e não apenas alguém posando na frente dela."',
+          'Slide 6 (Curiosidade de bastidor): O ponto exato onde posicionamos a câmera · Texto: "Ao longo do ensaio, vou te contando a história de cada rua — o passeio já é uma aula viva de Paris."',
+          'Slide 7 (Chamada): Foto final · Texto: "Nos meus destaques e no meu grid você encontra ensaios nos lugares mais ricos em história de Paris!"'
+        ],
+        caption: [
+          'Fotografar em Paris fica muito mais fascinante quando a gente conhece a história das pedras que estão entrando no nosso enquadramento. 🏛️📖',
+          '',
+          'Aqui em ' + spot.name + ', por exemplo, ' + spot.historyDetail + '. Durante os meus ensaios ' + spot.bestTime + ', eu gosto de ir contando essas curiosidades enquanto caminhamos entre um ponto e outro.',
+          '',
+          'Isso muda tudo: você se conecta com o lugar, entende por que estamos naquela posição de câmera e leva para casa não apenas fotos lindas, mas a história viva de cada esquina.',
+          '',
+          '💬 Você já conhecia esse detalhe sobre ' + spot.name.split('(')[0].trim() + ' ou descobriu agora?',
+          '',
+          GRID_CTA_BLOCK,
+          '',
+          spot.hashtags
+        ].join('\n')
+      },
+      {
+        title: 'Ângulo 8 · Memória Tangível (O Ensaio como Herança de Viagem)',
+        hookSlide1: 'Daqui a 10 anos, o que você vai querer lembrar desta manhã em ' + spot.name.split('(')[0].trim() + '?',
+        slides: [
+          'Slide 1 (Capa atemporal): Retrato emocionante e clássico · Título: "Os souvenirs ficam na gaveta. As memórias de uma manhã em ' + spot.name.split('(')[0].trim() + ' ficam para sempre"',
+          'Slide 2 (A sensação da manhã): Foto aberta respirando a atmosfera de Paris · Texto: "O ar fresco ' + spot.bestTime + ', o silêncio da rua antes da cidade acordar, o cheiro de café na esquina..."',
+          'Slide 3 (Quem você era nessa viagem): Close autêntico e luminoso · Texto: "Um ensaio em Paris não é sobre vaidade: é sobre celebrar um ciclo, uma conquista ou um amor."',
+          'Slide 4 (Você dentro da foto): Para quem sempre é a pessoa que tira foto dos outros no celular · Texto: "Quantas viagens você já fez voltando apenas com selfies apressadas ou fotos tremidas pedidas a estranhos?"',
+          'Slide 5 (A curadoria de luz e lugar): Foto em ' + spot.sideB + ' · Texto: "Ter uma fotógrafa brasileira que conhece cada metro de Paris transforma 1h30 da sua manhã na melhor lembrança da viagem."',
+          'Slide 6 (Atemporalidade): Edição com cores reais e elegantes · Texto: "Cores fiéis e composição clássica que continuarão elegantes daqui a 20 ou 30 anos."',
+          'Slide 7 (Convite direto ao Grid): Foto final · Texto: "Dê uma volta pelo meu grid e escolha em qual cenário de Paris você quer escrever a sua memória!"'
+        ],
+        caption: [
+          'Quantas vezes você já voltou de uma viagem especial com centenas de fotos de monumentos no rolo da câmera, mas quase nenhuma foto sua que realmente transmitisse o que você sentiu lá? 💛✈️',
+          '',
+          'Para mim, fotografar em ' + spot.name + ' ' + spot.bestTime + ' é transformar uma manhã da sua viagem em patrimônio afetivo. Enquanto ' + spot.lightNote + ', nós caminhamos sem pressa para registrar essa fase da sua vida com a estética que ela merece.',
+          '',
+          'Daqui a dez ou vinte anos, quando você abrir essas fotografias, você ainda vai lembrar da temperatura do vento e da alegria de estar em Paris.',
+          '',
+          '💬 Se você pudesse teletransportar para Paris amanhã de manhã, quem estaria com você nessa foto?',
+          '',
+          GRID_CTA_BLOCK,
+          '',
+          spot.hashtags
+        ].join('\n')
+      }
+    ];
+
+    return angles[idx % angles.length];
+  }
+
+  function updateCarouselUI() {
+    if (!carouselLocSelect || !carouselAngleSelect || !carouselSlidesArea || !carouselCaptionArea) return;
+    const spotKey = carouselLocSelect.value;
+    const angleIdx = Number(carouselAngleSelect.value) || 0;
+    $$('#carousel-angle-pills .carousel-angle-pill').forEach(btn => {
+      btn.classList.toggle('is-active', Number(btn.dataset.angleIdx) === angleIdx);
+    });
+    const res = generateCarouselContent(spotKey, angleIdx);
+    carouselSlidesArea.value = [
+      'LOCAÇÃO: ' + (classicCarouselSpots[spotKey]?.name || spotKey),
+      'ÂNGULO NARRATIVO: ' + res.title,
+      'GANCHO DA CAPA (SLIDE 1): "' + res.hookSlide1 + '"',
+      '',
+      ...res.slides
+    ].join('\n\n');
+    carouselCaptionArea.value = res.caption;
+  }
+
+  carouselLocSelect?.addEventListener('change', updateCarouselUI);
+  carouselAngleSelect?.addEventListener('change', updateCarouselUI);
+  $$('#carousel-angle-pills .carousel-angle-pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (carouselAngleSelect) {
+        carouselAngleSelect.value = btn.dataset.angleIdx || '0';
+        updateCarouselUI();
+      }
+    });
+  });
+  $('#carousel-next-angle-btn')?.addEventListener('click', () => {
+    if (!carouselAngleSelect) return;
+    const next = (Number(carouselAngleSelect.value) + 1) % 8;
+    carouselAngleSelect.value = String(next);
+    updateCarouselUI();
+  });
+
+  function mapGuideToDefaultCarouselSpot(guideId) {
+    const map = {
+      'torre-eiffel': 'trocadero',
+      'g16': 'trocadero',
+      'g01': 'louvre',
+      'reflexos': 'louvre',
+      'g15': 'bir-hakeim',
+      'pontes-sena': 'alexandre-iii',
+      'g07': 'alexandre-iii',
+      'g08': 'alexandre-iii',
+      'g18': 'montmartre',
+      'mirantes': 'montmartre',
+      'cafes-livrarias': 'montmartre',
+      'g04': 'marais-notredame',
+      'g05': 'marais-notredame',
+      'igrejas': 'marais-notredame',
+      'paris-secreta': 'palais-royal',
+      'passagens': 'palais-royal',
+      'g02': 'palais-royal',
+      'jardins-fontes': 'tuileries-vendome',
+      'art-nouveau-deco': 'bir-hakeim'
+    };
+    return map[guideId] || 'trocadero';
+  }
+
+  function openScriptModal(titleText, takesList, guideId = 'g01', initialTab = 'reel') {
     if (!scriptModal || !voiceoverArea || !captionArea) return;
-    $('#script-modal-title').textContent = 'Roteiro e Legenda · ' + titleText;
+    $('#script-modal-title').textContent = 'Reel & Carrosséis · ' + titleText;
     const sample = takesList.slice(0, 14);
-    const namesShort = sample.slice(0, 5).map(t => t.name.split('·')[0].trim()).join(', ');
+    const namesShort = sample.slice(0, 4).map(t => t.name.split('·')[0].trim()).join(', ');
+    const sig = photographerSignatureByGuide[guideId] || photographerSignatureByGuide['g01'];
+
     const voLines = [
-      'ROTEIRO DE LOCUÇÃO (VOICE-OVER / TELEPROMPTER · ~40 SEGUNDOS):',
+      'ROTEIRO DE LOCUÇÃO COM ASSINATURA DE FOTÓGRAFA (TELEPROMPTER · ~42 SEGUNDOS):',
       '',
-      '[00s–05s · Gancho em câmera]',
-      '"Hoje eu te levo por um roteiro documental em Paris: ' + titleText + ', passando por lugares como ' + namesShort + '."',
+      '[00s–07s · Gancho com Assinatura de Fotógrafa em Paris]',
+      '"' + sig + '"',
       '',
-      '[05s–35s · Sequência de planos de 3 segundos]'
+      '[07s–12s · Contextualização do Roteiro]',
+      '"Neste guia de ' + titleText + ', eu reuni os enquadramentos exatos passando por ' + namesShort + '."',
+      '',
+      '[12s–35s · Sequência de planos de 3 segundos com olhar técnico]'
     ];
     sample.forEach((t, idx) => {
       const num = String(idx + 1).padStart(2, '0');
@@ -2850,15 +3361,18 @@ dialog.addEventListener('click',ev=>{if(ev.target===dialog)dialog.close()});
     });
     voLines.push(
       '',
-      '[35s–42s · Encerramento]',
-      '"Salve este roteiro para a sua próxima caminhada em Paris — deixei a lista completa com os endereços na legenda!"'
+      '[35s–42s · Fechamento + Chamada para o Grid]',
+      '"Salve este roteiro para a sua viagem e entre agora no meu perfil para ver no meu grid os ensaios completos que fotografei nestes lugares!"'
     );
     voiceoverArea.value = voLines.join('\n');
 
     const capLines = [
-      '📍 ' + titleText + ' | Paris em Cena (por Paula Cunha)',
+      '📍 ' + titleText + ' | Olhar de Fotógrafa em Paris (por Paula Cunha)',
       '',
-      'Roteiro completo com os lugares deste vídeo na ordem da caminhada:',
+      '📷 ASSINATURA DE FOTÓGRAFA:',
+      '"' + sig + '"',
+      '',
+      '🗺️ Roteiro completo com os takes deste vídeo na ordem da caminhada:',
       ''
     ];
     sample.forEach((t, idx) => {
@@ -2867,12 +3381,20 @@ dialog.addEventListener('click',ev=>{if(ev.target===dialog)dialog.close()});
     });
     capLines.push(
       '',
-      '💾 Salve este post para consultar no celular durante a viagem!',
-      '🎥 Fotografia e produção documental: Paula Cunha (@paulacunhafotografia)',
+      GRID_CTA_BLOCK,
       '',
-      '#ParisEmCena #Paris #DicasDeParis #RoteiroParis #FotografiaEmParis #Paris Insólita #ViagemParis'
+      '💾 Salve este Reel para consultar no celular durante a sua caminhada em Paris!',
+      '',
+      '#ParisEmCena #FotografaEmParis #EnsaioEmParis #Paris #DicasDeParis #RoteiroParis #FotografiaEmParis #ViagemParis'
     );
     captionArea.value = capLines.join('\n');
+
+    if (carouselLocSelect) {
+      carouselLocSelect.value = mapGuideToDefaultCarouselSpot(guideId);
+    }
+    updateCarouselUI();
+    switchScriptTab(initialTab);
+
     if (scriptCopyMsg) scriptCopyMsg.textContent = '';
     scriptModal.showModal();
   }
@@ -2889,8 +3411,10 @@ dialog.addEventListener('click',ev=>{if(ev.target===dialog)dialog.close()});
       if (scriptCopyMsg) scriptCopyMsg.textContent = 'Texto selecionado. Use Cmd+C / Copiar.';
     });
   }
-  $('#copy-voiceover-btn')?.addEventListener('click', () => copyText(voiceoverArea, 'Locução'));
-  $('#copy-caption-btn')?.addEventListener('click', () => copyText(captionArea, 'Legenda'));
+  $('#copy-voiceover-btn')?.addEventListener('click', () => copyText(voiceoverArea, 'Locução com Assinatura de Fotógrafa'));
+  $('#copy-caption-btn')?.addEventListener('click', () => copyText(captionArea, 'Legenda do Reel com CTA para o Grid'));
+  $('#copy-carousel-slides-btn')?.addEventListener('click', () => copyText(carouselSlidesArea, 'Estrutura de Slides do Carrossel'));
+  $('#copy-carousel-caption-btn')?.addEventListener('click', () => copyText(carouselCaptionArea, 'Legenda do Carrossel'));
 
   // 6. Enhance #shoot-list items with per-take Field Note / Claquete input
   const shootList = $('#shoot-list');

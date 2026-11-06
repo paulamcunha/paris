@@ -1373,3 +1373,147 @@ body {
     display: none !important;
   }
 }
+
+
+/* === ASSINATURA DE FOTÓGRAFA E GERADOR DE CARROSSÉIS 2026 === */
+.guide-photographer-sig {
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.14);
+  border-left: 4px solid #ffd8dc;
+  color: #fff;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+.guide-photographer-sig strong {
+  color: #ffe8eb;
+  letter-spacing: 0.02em;
+}
+.script-modal {
+  width: min(96vw, 880px);
+  max-width: 96vw;
+  max-height: 92dvh;
+  overflow-y: auto;
+}
+.script-modal-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+.script-tab-btn {
+  border: 1px solid #d7c4c8;
+  background: #fcf9f9;
+  color: var(--wine);
+  border-radius: 999px;
+  padding: 8px 14px;
+  min-height: 40px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.script-tab-btn.is-active,
+.script-tab-btn[aria-selected="true"] {
+  background: var(--wine);
+  color: #fff;
+  border-color: var(--wine);
+}
+.script-tab-pane[hidden] {
+  display: none !important;
+}
+.carousel-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  background: #fcf9f9;
+  border: 1px solid #ece1e2;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.carousel-field {
+  display: grid;
+  gap: 5px;
+}
+.carousel-field label {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--wine);
+}
+.carousel-field select {
+  font: inherit;
+  font-size: 0.9375rem;
+  min-height: 42px;
+  padding: 7px 10px;
+  border: 1px solid #c6b9bb;
+  border-radius: 6px;
+  background: #fff;
+  color: #222;
+  width: 100%;
+}
+.carousel-angle-pills {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+}
+.carousel-angle-pill {
+  border: 1px solid #d7c4c8;
+  background: #fff;
+  color: #4a3538;
+  border-radius: 999px;
+  padding: 5px 10px;
+  min-height: 34px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.carousel-angle-pill.is-active {
+  background: var(--wine);
+  color: #fff;
+  border-color: var(--wine);
+}
+.carousel-next-angle-btn {
+  margin-left: auto;
+  border: 1px solid var(--wine);
+  background: #fcf2f3;
+  color: var(--wine);
+  border-radius: 6px;
+  padding: 6px 11px;
+  min-height: 36px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.carousel-next-angle-btn:hover {
+  background: var(--wine);
+  color: #fff;
+}
+@media (max-width: 700px) {
+  .carousel-controls {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .carousel-next-angle-btn {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media print {
+  .guide-photographer-sig {
+    background: #fdfafa !important;
+    color: #000 !important;
+    border: 1px solid #ccc !important;
+    border-left: 3px solid #890f0e !important;
+  }
+  .guide-photographer-sig strong {
+    color: #890f0e !important;
+  }
+}
