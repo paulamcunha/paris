@@ -77,3 +77,20 @@ A coleção temática **Pontes e Margens do Sena** foi integrada à página inic
 **Verificações efetuadas em 06/11/2026**: os 88 nomes de arquivos foram encontrados no Wikimedia Commons; 22 fichas, 88 URLs de imagem, seis configurações válidas de mapas, cinco links de caminhada e 22 entradas de busca foram verificados na estrutura HTML. Não foram identificados IDs duplicados nem links internos sem destino.
 
 **Pendências importantes:** é necessário abrir o site para conferir se todas as fotos carregam, verificar visualmente a iluminação e a diversidade real dos ângulos, inspecionar o enquadramento apropriado de cada local e testar em celular/Mac os mapas e a navegação externa. A API confirma a existência dos arquivos, não a qualidade visual nem o funcionamento da visualização no navegador. Distâncias e caminhos a pé devem ser conferidos antes de ir ao local. Acesso público e gratuito não equivale à autorização para fechar a via ou ocupar espaço com equipamentos de produção.
+
+## Guia Paris vista pelos reflexos
+
+Nova coleção temática de Reel documental, acessível pelo menu **Paris vista pelos reflexos** ou pelo endereço `index.html#reflexos`. O arquivo `reflexos.html` redireciona para o guia principal.
+
+- **14 locais**, selecionados para reflexos no Sena, espelhos d’água, vitrines e poças temporárias;
+- **42 fotografias documentais reais**, três por lugar, com links individuais para as fichas de imagem do Wikimedia Commons;
+- **5 mapas**: um geral de 14 pontos e quatro setoriais com **3, 2, 6 e 3** pontos, com Google Maps para percursos a pé;
+- **Reel de 42 segundos**, com roteiro editorial de 14 tomadas de aproximadamente três segundos;
+- **KML**: `Paris_em_Cena_Reflexos_14_pontos.kml`;
+- **dados de edição**: `paris_vista_pelos_reflexos_dados.json`.
+
+**Nota editorial:** As 42 fotografias são referências de cada lugar e **não garantem que os reflexos desejados estejam visíveis nas imagens**. A gravação depende de chuva recente, incidência de luz, vento, superfície molhada e estado dos espelhos d’água. O Passage des Panoramas e a Galerie Vivienne são passagens cobertas com acesso público gratuito geralmente sujeito a regras e horários, não locais externos disponíveis 24 horas.
+
+**Verificações em 06/11/2026:** os 42 títulos de fotografias foram conferidos no catálogo do Wikimedia Commons. A seção HTML contém 14 fichas, 42 imagens, cinco configurações de mapas, 14 entradas de busca e os links do mapa KML. O trajeto setorial mais longo oferece ainda dois links menores conectados para uso no celular.
+
+**A validar:** abertura e apresentação das fotografias no navegador, adequação visual de cada imagem ao tema, variações reais de enquadramento, carregamento dos mapas no Chrome e no celular, tempo e acessibilidade dos deslocamentos e situação de água/chuva/acesso no momento de gravar. Nenhum desses testes externos foi considerado concluído pela validação de estrutura.
