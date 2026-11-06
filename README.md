@@ -60,3 +60,20 @@ O guia **Paris com Vista para a Torre Eiffel** contém **14 pontos externos grat
 - As fotos são referências documentais, e não ensaios de clientes ou sugestões de poses. A perspectiva real, o horário e a presença da Torre em cada imagem devem ser conferidos na ficha original.
 - Os links do Google Maps são trajetos propostos. Acessibilidade, obras, eventuais restrições locais e tempo real de caminhada devem ser confirmados antes da sessão.
 - O acesso ao site continua privado pelo GitHub Codespaces. As imagens externas e mapas dependem da internet.
+
+## Guia Pontes e Margens do Sena
+
+A coleção temática **Pontes e Margens do Sena** foi integrada à página inicial e ao menu lateral:
+
+- **22 locais externos de acesso gratuito**: pontes históricas, passarelas e pontos nas margens do Sena;
+- **88 fotografias de referência**, quatro por lugar, cada uma com link individual para o arquivo original e seus créditos no Wikimedia Commons;
+- **6 mapas**: um geral com 22 marcadores e cinco setoriais com 4, 5, 5, 5 e 3 pontos;
+- **5 percursos a pé** calculáveis por Google Maps, separados por proximidade;
+- página no site: `index.html#pontes-sena`;
+- atalho: `pontes-sena.html`, que redireciona para a seção no site;
+- KML: `Paris_em_Cena_Pontes_Margens_Sena_22_pontos.kml`;
+- fonte de dados editável: `pontes_margens_sena_dados.json`.
+
+**Verificações efetuadas em 06/11/2026**: os 88 nomes de arquivos foram encontrados no Wikimedia Commons; 22 fichas, 88 URLs de imagem, seis configurações válidas de mapas, cinco links de caminhada e 22 entradas de busca foram verificados na estrutura HTML. Não foram identificados IDs duplicados nem links internos sem destino.
+
+**Pendências importantes:** é necessário abrir o site para conferir se todas as fotos carregam, verificar visualmente a iluminação e a diversidade real dos ângulos, inspecionar o enquadramento apropriado de cada local e testar em celular/Mac os mapas e a navegação externa. A API confirma a existência dos arquivos, não a qualidade visual nem o funcionamento da visualização no navegador. Distâncias e caminhos a pé devem ser conferidos antes de ir ao local. Acesso público e gratuito não equivale à autorização para fechar a via ou ocupar espaço com equipamentos de produção.
