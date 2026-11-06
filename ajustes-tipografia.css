@@ -1375,7 +1375,7 @@ body {
 }
 
 
-/* === ASSINATURA DE FOTÓGRAFA E GERADOR DE CARROSSÉIS 2026 === */
+/* === ASSINATURA DE FOTÓGRAFA E GERADOR DE CARROSSÉIS 2026 (NOS 30 GUIAS + MODAL) === */
 .guide-photographer-sig {
   margin-top: 10px;
   padding: 10px 14px;
@@ -1390,6 +1390,123 @@ body {
   color: #ffe8eb;
   letter-spacing: 0.02em;
 }
+
+/* Seção Editorial Integrada diretamente na página de cada um dos 30 guias */
+.guide-editorial-studio {
+  border-top: 3px solid var(--wine);
+  background: #fff;
+}
+.studio-sig-callout {
+  border-left: 4px solid var(--wine);
+  background: #fcf4f5;
+  padding: 14px 16px;
+  border-radius: 0 8px 8px 0;
+  margin: 12px 0 18px;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #352325;
+}
+.studio-sig-callout strong {
+  display: block;
+  color: var(--wine);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+.studio-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+.studio-card {
+  background: #fcfaf9;
+  border: 1px solid #e8dedf;
+  border-radius: 9px;
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+}
+.studio-card h3 {
+  margin: 0;
+  color: var(--wine);
+  font-size: 1.125rem;
+}
+.studio-copy-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.studio-copy-btn {
+  border: 1px solid var(--wine);
+  background: var(--wine);
+  color: #fff;
+  border-radius: 6px;
+  padding: 7px 12px;
+  min-height: 38px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.studio-copy-btn:hover {
+  background: var(--wine2);
+}
+.studio-textarea {
+  width: 100%;
+  font: inherit;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  padding: 10px;
+  border: 1px solid #d5c5c7;
+  border-radius: 6px;
+  background: #fff;
+  color: #222;
+  resize: vertical;
+}
+.studio-angle-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.studio-angle-pill {
+  border: 1px solid #d7c4c8;
+  background: #fff;
+  color: #4a3538;
+  border-radius: 999px;
+  padding: 5px 10px;
+  min-height: 34px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.studio-angle-pill.is-active {
+  background: var(--wine);
+  color: #fff;
+  border-color: var(--wine);
+}
+.studio-next-angle-btn {
+  border: 1px solid var(--wine);
+  background: #fcf2f3;
+  color: var(--wine);
+  border-radius: 6px;
+  padding: 6px 11px;
+  min-height: 36px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.studio-next-angle-btn:hover {
+  background: var(--wine);
+  color: #fff;
+}
+
+/* Modal #script-modal */
 .script-modal {
   width: min(96vw, 880px);
   max-width: 96vw;
@@ -1497,6 +1614,11 @@ body {
   background: var(--wine);
   color: #fff;
 }
+@media (max-width: 900px) {
+  .studio-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
 @media (max-width: 700px) {
   .carousel-controls {
     grid-template-columns: minmax(0, 1fr);
@@ -1507,6 +1629,9 @@ body {
   }
 }
 @media print {
+  .guide-editorial-studio {
+    display: none !important;
+  }
   .guide-photographer-sig {
     background: #fdfafa !important;
     color: #000 !important;

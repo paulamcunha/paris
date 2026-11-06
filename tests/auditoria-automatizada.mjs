@@ -193,7 +193,7 @@ const results = await withChrome(async (page) => {
       capText.includes('GRID');
     const photographerSigCount = document.querySelectorAll('.guide-photographer-sig').length;
 
-    // Test Carousel Generator (8 classic locations × 8 narrative angles)
+    // Test Carousel Generator (30 routes + 8 classic locations = 38 options × 8 narrative angles) & 30 on-page Editorial Studios
     document.getElementById('tab-btn-carousel')?.click();
     await sleep(10);
     const locSel = document.getElementById('carousel-location-select');
@@ -204,7 +204,8 @@ const results = await withChrome(async (page) => {
     document.getElementById('carousel-next-angle-btn')?.click();
     await sleep(10);
     const angle1Cap = document.getElementById('carousel-caption-text')?.value || '';
-    const carouselGeneratorValid = carouselLocationsCount === 8 && carouselAnglesCount === 8 && angle0Cap !== angle1Cap && angle1Cap.includes('GRID');
+    const editorialStudiosCount = document.querySelectorAll('.guide-editorial-studio').length;
+    const carouselGeneratorValid = carouselLocationsCount === 38 && carouselAnglesCount === 8 && editorialStudiosCount === 30 && angle0Cap !== angle1Cap && angle1Cap.includes('GRID');
     document.getElementById('script-modal-close')?.click();
 
     return {
