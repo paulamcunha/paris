@@ -385,3 +385,270 @@ body {
     padding: 8px 13px;
   }
 }
+
+
+/* === FERRAMENTAS DE CAMPO 2026: RADAR GPS, LUZ SOLAR E BACKUP JSON/CSV === */
+.nearby-toggle {
+  border: 1px solid #d7c4c8;
+  background: #fff;
+  color: var(--wine);
+  border-radius: 6px;
+  padding: 8px 11px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-weight: 700;
+  min-height: 44px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.nearby-toggle:hover {
+  background: #fcf2f3;
+  border-color: var(--wine);
+}
+.nearby-toggle:focus-visible,
+.nearby-panel :focus-visible {
+  outline: 3px solid #1553a0;
+  outline-offset: 2px;
+}
+.nearby-scrim[hidden],
+.nearby-panel[hidden] {
+  display: none !important;
+}
+.nearby-scrim {
+  position: fixed;
+  inset: 0;
+  background: #0009;
+  z-index: 42;
+}
+.nearby-panel {
+  position: fixed;
+  z-index: 43;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(100%, 480px);
+  padding: 18px 20px 16px;
+  background: #fff;
+  color: var(--ink);
+  box-shadow: -8px 0 25px #0003;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nearby-controls {
+  display: grid;
+  gap: 8px;
+  background: #fbf8f8;
+  border: 1px solid #e6dada;
+  border-radius: 8px;
+  padding: 12px;
+}
+.nearby-gps-btn {
+  border: 1px solid var(--wine);
+  background: var(--wine);
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 12px;
+  min-height: 44px;
+  font: inherit;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.nearby-gps-btn:hover {
+  background: var(--wine2);
+}
+#nearby-preset {
+  font: inherit;
+  font-size: 1rem;
+  min-height: 44px;
+  padding: 8px 10px;
+  background: #fff;
+  color: #222;
+  border: 1px solid #c6b9bb;
+  border-radius: 6px;
+  width: 100%;
+}
+.nearby-status {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #4a393c;
+  margin: 0;
+  font-weight: 600;
+}
+.nearby-list {
+  display: grid;
+  gap: 8px;
+}
+.nearby-item {
+  border: 1px solid #e6dada;
+  border-left: 4px solid var(--wine);
+  border-radius: 8px;
+  padding: 11px 13px;
+  background: #fff;
+  display: grid;
+  gap: 6px;
+}
+.nearby-item.is-done {
+  background: #f8faf8;
+  border-left-color: #1e6530;
+}
+.nearby-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 0.875rem;
+}
+.nearby-rank {
+  font-weight: 700;
+  color: var(--wine);
+}
+.nearby-guide-badge {
+  background: #fcf2f3;
+  color: #533b3e;
+  border: 1px solid #e6c8ca;
+  border-radius: 999px;
+  padding: 2px 9px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.nearby-title {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.nearby-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 2px;
+}
+.nearby-actions a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 6px 11px;
+  border: 1px solid #d7c4c8;
+  border-radius: 6px;
+  color: var(--wine);
+  background: #fff;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-left: 0 !important;
+}
+.nearby-actions a:hover {
+  background: #fcf2f3;
+}
+
+/* Painel Solar e Backup dentro do Modo Gravação */
+.solar-panel {
+  border: 1px solid #e6dada;
+  border-radius: 8px;
+  background: #fcfaf9;
+  padding: 8px 12px;
+}
+.solar-summary {
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--wine);
+  padding: 4px 0;
+}
+.solar-body {
+  margin-top: 8px;
+  display: grid;
+  gap: 8px;
+}
+.solar-date-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 0.875rem;
+}
+#solar-date {
+  font: inherit;
+  font-size: 0.875rem;
+  padding: 5px 8px;
+  min-height: 38px;
+  border: 1px solid #c6b9bb;
+  border-radius: 6px;
+  background: #fff;
+}
+.solar-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+.solar-cell {
+  background: #fff;
+  border: 1px solid #ece2e2;
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+.solar-k {
+  display: block;
+  font-size: 0.875rem;
+  color: #5b4f50;
+}
+.solar-v {
+  display: block;
+  font-size: 0.875rem;
+  color: #221c1c;
+}
+.solar-note {
+  font-size: 0.875rem;
+  color: #5b4f50;
+  margin: 0;
+}
+.shoot-backup-bar {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+.shoot-backup-bar button {
+  border: 1px solid #ba9699;
+  border-radius: 6px;
+  padding: 8px 6px;
+  min-height: 40px;
+  background: #fff;
+  color: var(--wine);
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.shoot-backup-bar button:hover {
+  background: #fcf2f3;
+}
+.shoot-backup-msg {
+  font-size: 0.875rem;
+  color: #1e6530;
+  font-weight: 600;
+  margin: 0;
+}
+.shoot-backup-msg:empty {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .nearby-panel {
+    width: 100vw;
+    max-width: 100vw;
+    padding: 16px 14px;
+  }
+  .nearby-toggle {
+    font-size: 0.8125rem;
+    padding: 6px 8px;
+    min-height: 42px;
+  }
+  .solar-grid,
+  .shoot-backup-bar {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

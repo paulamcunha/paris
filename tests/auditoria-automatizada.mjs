@@ -151,12 +151,36 @@ const results = await withChrome(async (page) => {
     const mapConfigs = document.querySelectorAll('script[data-map-config]').length;
     const gmapsDir = document.querySelectorAll('a[href*="google.com/maps/dir/"]').length;
     const orphanDtDd = Array.from(document.querySelectorAll('dt, dd')).filter(el => !el.closest('dl')).length;
+
+    // Test Radar GPS ("Perto de mim agora")
+    const nearbyToggle = document.getElementById('nearby-toggle');
+    nearbyToggle?.click();
+    await sleep(20);
+    const nearbyOpen = !document.getElementById('nearby-panel')?.hidden;
+    const nearbyItemsCount = document.querySelectorAll('#nearby-list .nearby-item').length;
+    document.getElementById('nearby-close')?.click();
+    await sleep(10);
+
+    // Test Solar Panel & Backup buttons inside #shoot-panel
+    const shootToggle = document.getElementById('shoot-toggle');
+    shootToggle?.click();
+    await sleep(20);
+    const solarCellsCount = document.querySelectorAll('#solar-grid .solar-cell').length;
+    const hasBackupBtns = !!(document.getElementById('shoot-export-json') && document.getElementById('shoot-export-csv') && document.getElementById('shoot-import-btn'));
+    document.getElementById('shoot-close')?.click();
+    await sleep(10);
+
     return {
       panelsOpened: opened,
+      totalTakes: document.querySelectorAll('.take-card[id]').length,
       totalPhotos: imgs.length,
       mapConfigs,
       gmapsDir,
-      orphanDtDd
+      orphanDtDd,
+      nearbyOpen,
+      nearbyItemsCount,
+      solarCellsCount,
+      hasBackupBtns
     };
   })()`);
 
@@ -164,7 +188,7 @@ const results = await withChrome(async (page) => {
   for (const w of [320, 360, 390, 430, 768, 1024, 1280, 1920]) {
     await page.send('Emulation.setDeviceMetricsOverride', { width: w, height: w < 768 ? 844 : 900, deviceScaleFactor: 1, mobile: w < 768 });
     const vp = await page.evaluate(`(() => {
-      location.hash = '#g11';
+      location.hash = '#paris-secreta';
       window.dispatchEvent(new HashChangeEvent('hashchange'));
       return {
         width: ${w},
@@ -180,11 +204,16 @@ const results = await withChrome(async (page) => {
 
 console.log(JSON.stringify(results, null, 2));
 if (
-  results.core.panelsOpened !== 26 ||
-  results.core.totalPhotos < 1050 ||
-  results.core.mapConfigs !== 47 ||
-  results.core.gmapsDir !== 210 ||
+  results.core.panelsOpened !== 29 ||
+  results.core.totalTakes !== 410 ||
+  results.core.totalPhotos !== 1182 ||
+  results.core.mapConfigs !== 62 ||
+  results.core.gmapsDir !== 222 ||
   results.core.orphanDtDd !== 0 ||
+  !results.core.nearbyOpen ||
+  results.core.nearbyItemsCount !== 12 ||
+  results.core.solarCellsCount !== 7 ||
+  !results.core.hasBackupBtns ||
   results.viewports.some(v => v.overflow > 0 || v.bodyFontPx < 16) ||
   results.consoleErrors.length > 0 ||
   results.pageExceptions.length > 0

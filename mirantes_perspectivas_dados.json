@@ -1,0 +1,491 @@
+{
+  "project": "Paris em Cena | Mirantes, escadarias e perspectivas elevadas",
+  "date": "2026-11-06",
+  "video": "Reel documental · Horizontes, escadarias e profundidade",
+  "guideId": "mirantes",
+  "note": "Terraços comerciais (Galeries Lafayette e Printemps) possuem acesso gratuito sujeito aos horários de funcionamento das lojas e controle de segurança na entrada. Em dias de chuva, escadarias em declive exigem calçado aderente.",
+  "sectorNames": [
+    "Colina de Montmartre: escadarias e horizonte sul",
+    "Colinas do Leste (19º e 20º): pôr do sol sobre Paris",
+    "Terraços de Haussmann e Eixos Monumentais (8º, 9º e 16º)",
+    "Perspectivas Elevadas do Sena e Montagne Sainte-Geneviève"
+  ],
+  "locations": [
+    {
+      "number": 1,
+      "anchor": "mirantes-take-01",
+      "name": "Parvis du Sacré-Cœur · Mirante Sul",
+      "lat": 48.8867,
+      "lon": 2.3431,
+      "sector": 1,
+      "focus": "Panorama aberto a 130 metros de altitude sobre toda a planície central de Paris",
+      "surface": "Balaustrada de pedra branca e escadarias monumentais",
+      "bestConditions": "Manhã cedo (7h–9h) garante luz limpa sobre os telhados e ausência de multidão nos degraus.",
+      "shot": "Plano aberto a partir da balaustrada superior revelando o mar de telhados de zinco até o horizonte.",
+      "alternative": "Tilt vertical da cidade lá embaixo até a cúpula branca da basílica.",
+      "access": "Acesso público livre 24h pela escadaria ou pelo Funiculaire de Montmartre.",
+      "photos": [
+        {
+          "file": "Paris 75018 Basilique du Sacré-Cœur south facade stairs 20041107 (1).jpg",
+          "author": "Bernard bill5",
+          "year": "2004",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Basilique du Sacré-Cœur de Montmartre - Paris - GT-01 - 2024.jpg",
+          "author": "Terragio67",
+          "year": "2024",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Paris - Basilique du Sacré-Cœur de Montmartre - 2025-09-30 23-31-57 001.jpg",
+          "author": "Giò Terra ( Terragio67 )",
+          "year": "2024",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "anchor": "mirantes-take-02",
+      "name": "Escadarias do Square Louise-Michel e Rue Foyatier",
+      "lat": 48.8855,
+      "lon": 2.3436,
+      "sector": 1,
+      "focus": "Sequência de 222 degraus e rampas ajardinadas subindo a encosta de Montmartre",
+      "surface": "Degraus de pedra, postes históricos de ferro fundido e árvores em declive",
+      "bestConditions": "Luz lateral no começo da manhã desenha a sombra dos corrimãos nos degraus.",
+      "shot": "Enquadramento lateral ou diagonal na Rue Foyatier com o funicular subindo ao lado da escadaria.",
+      "alternative": "Câmera baixa no patamar intermediário olhando para o topo coroado pelo Sacré-Cœur.",
+      "access": "Cuidado ao caminhar filmando nos degraus; apoie a câmera no guarda-corpo para estabilizar.",
+      "photos": [
+        {
+          "file": "Paris 75018 Square Louise-Michel View looking SE 20160925 (01).jpg",
+          "author": "James Petts",
+          "year": "2016",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "file": "Paris 75018 Square Louise-Michel stairs Sacré-Coeur 20170619 (01).jpg",
+          "author": "Kipp Jones",
+          "year": "2017",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Paris 75018 Square Louise-Michel View looking SE 20161029.jpg",
+          "author": "Maria Eklind",
+          "year": "2016",
+          "license": "CC BY-SA 2.0"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "anchor": "mirantes-take-03",
+      "name": "Perspectiva em Declive da Place Dalida e Rue de l’Abreuvoir",
+      "lat": 48.8884,
+      "lon": 2.338,
+      "sector": 1,
+      "focus": "Curva descendente em paralelepípedos com a cúpula do Sacré-Cœur surgindo acima dos telhados",
+      "surface": "Rua curva em ladeira, árvores e casas antigas do alto da colina",
+      "bestConditions": "Primeira hora da manhã antes da chegada de excursões.",
+      "shot": "Plano fixo na Place Dalida olhando para a subida curva da Rue de l’Abreuvoir com a cúpula ao fundo.",
+      "alternative": "Caminhada suave descendo a ladeira com horizonte profundo.",
+      "access": "Via pública de paralelepípedos em declive.",
+      "photos": [
+        {
+          "file": "Place Dalida, Paris 12 September 2006.jpg",
+          "author": "edmundv",
+          "year": "2006",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "file": "Place Dalida Montmartre Paris France.JPG",
+          "author": "User: (WT-shared) Riggwelter at wts wikivoyage",
+          "year": "2006",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Place-Dalida-1.jpg",
+          "author": "Matthias v.d. Elbe",
+          "year": "2013",
+          "license": "CC BY 3.0"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "anchor": "mirantes-take-04",
+      "name": "Topo da Colina · Place du Tertre e Rue du Calvaire",
+      "lat": 48.8865,
+      "lon": 2.3408,
+      "sector": 1,
+      "focus": "Ponto histórico mais alto da antiga vila de Montmartre e escadaria da Rue du Calvaire",
+      "surface": "Praça arborizada no topo e escadaria íngreme voltada para o sul",
+      "bestConditions": "Manhã cedo ou entardecer para evitar o horário de pico dos cavaletes.",
+      "shot": "Chegar à borda sul da praça (junto à Rue du Calvaire) onde a colina se abre abruptamente sobre Paris.",
+      "alternative": "Plano da textura histórica da praça em transição para a descida da colina.",
+      "access": "Espaço público aberto; respeitar o trabalho dos retratistas locais.",
+      "photos": [
+        {
+          "file": "Paris 75018 Place du Tertre 2016907 onlookers.jpg",
+          "author": "Hop Phan",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Paris 75018 Place du Tertre 20161030.jpg",
+          "author": "Maria Eklind",
+          "year": "2016",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "file": "Paris 75018 Place du Tertre 20160907 street portraitists.jpg",
+          "author": "Hop Phan",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "anchor": "mirantes-take-05",
+      "name": "Mirante da Butte Bergeyre · Rue Georges-Lardennois",
+      "lat": 48.8774,
+      "lon": 2.3759,
+      "sector": 2,
+      "focus": "Colina residencial secreta a 100 metros de altitude com vista frontal para Montmartre e o vinhedo local",
+      "surface": "Mirante tranquilo sobre o jardim comunitário e o Clos des Chaufourniers",
+      "bestConditions": "Um dos melhores pores do sol de Paris, com o Sacré-Cœur iluminado lateralmente.",
+      "shot": "Enquadrar o Sacré-Cœur ao longe por cima das videiras da Butte Bergeyre na Rue Georges-Lardennois.",
+      "alternative": "Subida das longas escadarias de acesso pela Rue Barrelet-de-Ricou.",
+      "access": "Bairro estritamente residencial no topo de escadarias; silêncio ideal para gravação.",
+      "photos": [
+        {
+          "file": "Butte Bergeyre, 77 Rue Georges Lardennois, 75019 Paris, 2017.jpg",
+          "author": "Guilhem Vellut",
+          "year": "2017",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Butte Bergeyre, 3 Rue Georges Lardennois, 75019 Paris, 2017.jpg",
+          "author": "Guilhem Vellut",
+          "year": "2017",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Butte Bergeyre, 76 Rue Georges Lardennois, 75019 Paris, 2017 02.jpg",
+          "author": "Guilhem Vellut",
+          "year": "2017",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "anchor": "mirantes-take-06",
+      "name": "Île du Belvédère · Parc des Buttes-Chaumont",
+      "lat": 48.8809,
+      "lon": 2.3831,
+      "sector": 2,
+      "focus": "Promontório rochoso de 30 metros acima do lago artificial, coroado pelo Temple de la Sibylle (1869)",
+      "surface": "Penhasco calcário, pontes suspensas e escadarias esculpidas na rocha",
+      "bestConditions": "Luz da tarde destaca o relevo dramático do parque e a vista para o norte de Paris.",
+      "shot": "Atravessar a ponte de pedra sobre o vazio em direção ao mirante circular do templo.",
+      "alternative": "Contra-plongée a partir da margem do lago mostrando o penhasco e o mirante no topo.",
+      "access": "Verificar em campo se o acesso interno à ilha rochosa está aberto ou em manutenção.",
+      "photos": [
+        {
+          "file": "Temple de la Sibylle @ Parc des Buttes Chaumont @ Paris (25462876460).jpg",
+          "author": "Guilhem Vellut",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Temple de la Sybille @ Parc des Buttes Chaumont @ Paris (25494392140).jpg",
+          "author": "Guilhem Vellut",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Temple de la Sybille @ Parc des Buttes Chaumont @ Paris (25674109042).jpg",
+          "author": "Guilhem Vellut",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "anchor": "mirantes-take-07",
+      "name": "Esplanada do Parc de la Butte-du-Chapeau-Rouge",
+      "lat": 48.8825,
+      "lon": 2.3986,
+      "sector": 2,
+      "focus": "Parque monumental em terraços dos anos 1930 com escadarias helicoidais e vista ampla para o leste",
+      "surface": "Fonte monumental Art Déco, rampas gramadas e escadarias em curva",
+      "bestConditions": "Manhã ou fim de tarde; parque muito menos frequentado por turistas.",
+      "shot": "Posicionar a câmera no topo da fonte monumental enquadrando a simetria das rampas em declive.",
+      "alternative": "Movimento acompanhando a curva das escadarias Art Déco.",
+      "access": "Acesso gratuito pelos portões do Boulevard d’Algérie (Metrô Pré-Saint-Gervais).",
+      "photos": [
+        {
+          "file": "Parc de la Butte du Chapeau Rouge @ Paris (27055009802).jpg",
+          "author": "Guilhem Vellut",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Parc de la Butte du Chapeau Rouge @ Paris (26545663773).jpg",
+          "author": "Guilhem Vellut",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Parc de la Butte du Chapeau Rouge @ Paris (27150172335).jpg",
+          "author": "Guilhem Vellut",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "anchor": "mirantes-take-08",
+      "name": "Belvédère Willy-Ronis · Parc de Belleville",
+      "lat": 48.8712,
+      "lon": 2.3849,
+      "sector": 2,
+      "focus": "Terraço panorâmico no alto da colina de Belleville (108 m) com vista de 180° para o centro e a Torre Eiffel",
+      "surface": "Esplanada com pérgola, cascatas em degraus e jardins em encosta",
+      "bestConditions": "Golden Hour da tarde e Hora Azul oferecem alinhamento direto com o pôr do sol sobre Paris.",
+      "shot": "Plano geral no terraço Willy-Ronis mostrando as camadas de telhados do 11º até a Torre Eiffel e o Panthéon.",
+      "alternative": "Descida pelas escadarias do parque com Paris inteira ao fundo.",
+      "access": "Mirante público aberto 24h na Rue Piat (o parque abaixo fecha à noite).",
+      "photos": [
+        {
+          "file": "Parc de Belleville Paris 01.jpg",
+          "author": "Pol at French Wikipedia",
+          "year": "2004",
+          "license": "Public domain"
+        },
+        {
+          "file": "P1010851 Paris XX Parc de Belleville reductwk.JPG",
+          "author": "Mbzt",
+          "year": "2011",
+          "license": "CC BY 3.0"
+        },
+        {
+          "file": "P1090131 Paris XX parc de Belleville vigne rwk.JPG",
+          "author": "Mbzt",
+          "year": "2012",
+          "license": "CC BY 3.0"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "anchor": "mirantes-take-09",
+      "name": "Terraço Panorâmico · Galeries Lafayette Haussmann",
+      "lat": 48.8738,
+      "lon": 2.332,
+      "sector": 3,
+      "focus": "Vista elevada gratuita no 8º andar diretamente diante da fachada traseira e do teto do Palais Garnier",
+      "surface": "Terraço de madeira e guarda-corpo de vidro sobre os bulevares haussmannianos",
+      "bestConditions": "Aberto no horário da loja (geralmente 10h–20h); luz da tarde ilumina o Palais Garnier e a Torre Eiffel.",
+      "shot": "Enquadrar o Palais Garnier em primeiro plano elevado com a silhueta da Torre Eiffel ao fundo.",
+      "alternative": "Plano interior prévio da cúpula Art Nouveau antes de sair para o terraço aberto.",
+      "access": "Entrada gratuita; não é permitido uso de tripé profissional sem autorização da loja.",
+      "photos": [
+        {
+          "file": "Galerie Lafayette Haussmann Dome.jpg",
+          "author": "Benh LIEU SONG ( Flickr )",
+          "year": "2009",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Paris 75009 Boulevard Haussmann no 040 Galeries Lafayette.jpg",
+          "author": "Vania Teofilo",
+          "year": "2006",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Paris 75009 Boulevard Haussmann no 040 Galeries Lafayette b.jpg",
+          "author": "Petr Brdičko",
+          "year": "2013",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "anchor": "mirantes-take-10",
+      "name": "Terraço do Printemps Haussmann · Vista dos Telhados",
+      "lat": 48.874,
+      "lon": 2.3283,
+      "sector": 3,
+      "focus": "Terraço no topo do Printemps com vista próxima das cúpulas douradas e dos telhados de zinco do 9º",
+      "surface": "Varanda elevada cercada pelas cúpulas históricas da loja",
+      "bestConditions": "Horário comercial; luz lateral destaca a textura cinza-azulada dos telhados de Paris.",
+      "shot": "Plano aproximado das cúpulas do Printemps em diálogo com a Madeleine e a colina de Montmartre ao norte.",
+      "alternative": "Panorâmica lenta de 9:16 varrendo do Palais Garnier até a Torre Eiffel.",
+      "access": "Acesso gratuito por elevador até o último andar durante o funcionamento da loja.",
+      "photos": [
+        {
+          "file": "Coupoles Printemps.jpg",
+          "author": "Tangopaso",
+          "year": "2009",
+          "license": "Public domain"
+        },
+        {
+          "file": "Toit du Printemps devant l'Opéra Garnier.jpg",
+          "author": "Romain Martins",
+          "year": "2008",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Paris 9 - Printemps view (2).jpg",
+          "author": "Selbymay",
+          "year": "2012",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "anchor": "mirantes-take-11",
+      "name": "Place Charles-de-Gaulle · Eixo Estelar do Arc de Triomphe",
+      "lat": 48.8738,
+      "lon": 2.295,
+      "sector": 3,
+      "focus": "Confluência elevada das 12 grandes avenidas irradiando da colina de Chaillot",
+      "surface": "Esplanada circular de pedra e perspectiva descendente da Avenue des Champs-Élysées",
+      "bestConditions": "Manhã ou fim de tarde; para subir ao terraço pago, verificar fila ou gravar da borda da praça.",
+      "shot": "Enquadrar a perspectiva descendente da Champs-Élysées a partir da cota alta da Place de l’Étoile.",
+      "alternative": "Contraplongée da estrutura monumental do arco contra o céu.",
+      "access": "Use exclusivamente a passagem subterrânea oficial para acessar a ilha central.",
+      "photos": [
+        {
+          "file": "Paris (75008) Arc de triomphe de l'Étoile.jpg",
+          "author": "Alexander Baranov",
+          "year": "2012",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Avenue des Champs-Élysées - Arc de Triomphe de l'Etoile Paris, France - panoramio (1).jpg",
+          "author": "Gervacio Rosales",
+          "year": "2011",
+          "license": "CC BY 3.0"
+        },
+        {
+          "file": "Paris 75008 Avenue de Wagram towards Arc de Triomphe.jpg",
+          "author": "F ASTILY",
+          "year": "2012",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "anchor": "mirantes-take-12",
+      "name": "Esplanade du Trocadéro e Escadarias de Passy",
+      "lat": 48.8629,
+      "lon": 2.2871,
+      "sector": 3,
+      "focus": "Mirante axial da Colina de Chaillot sobre o Sena, o Champ-de-Mars e a Torre Eiffel",
+      "surface": "Lajes claras do Parvis des Droits de l’Homme e escadarias laterais dos jardins",
+      "bestConditions": "Nascer do sol oferece silhueta dramática e luz dourada sem multidão.",
+      "shot": "Caminhada até a balaustrada revelando a queda dos jardins do Trocadéro e a Torre Eiffel inteira.",
+      "alternative": "Descida pelas escadarias laterais mantendo a Torre enquadrada entre as alas do Palais de Chaillot.",
+      "access": "Acesso público livre; atenção a vendedores ambulantes e obras eventuais.",
+      "photos": [
+        {
+          "file": "Paris Parvis des Droits de l'homme towards Eiffel Tower.jpg",
+          "author": "MoonSoleil",
+          "year": "2009",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Paris Parvis des Droits de l'homme 20110410 Eiffel Tower.jpg",
+          "author": "Lars (Lon) Olsson",
+          "year": "2011",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Paris Parvis des Droits de l'homme 20120519 Eiffel Tower.jpg",
+          "author": "Sebastian Grünwald",
+          "year": "2012",
+          "license": "CC BY 3.0"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "anchor": "mirantes-take-13",
+      "name": "Belvedere do Pont de Bir-Hakeim e Île aux Cygnes",
+      "lat": 48.8556,
+      "lon": 2.2877,
+      "sector": 4,
+      "focus": "Mirante em dois níveis sobre o Sena: passarela elevada sob o viaduto do metrô e alameda da ilha abaixo",
+      "surface": "Arcos metálicos monumentais e passarela estreita cercada pela água",
+      "bestConditions": "Fim de tarde reflete o sol na água dos dois braços do Sena.",
+      "shot": "Olhar de cima da ponte para a alameda arborizada da Île aux Cygnes que corta o rio ao meio.",
+      "alternative": "Descer a escadaria central da ponte para a ilha mantendo o viaduto em perspectiva.",
+      "access": "Acesso livre e gratuito por escadas no centro do Pont de Bir-Hakeim.",
+      "photos": [
+        {
+          "file": "Paris 75015 Île aux Cygnes and Front de Seine 20160306 (01).jpg",
+          "author": "Guilhem Vellut",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Statue of liberty - Flickr - gadl.jpg",
+          "author": "Alexandre Duret-Lutz",
+          "year": "2007",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "file": "Paris 75015 Quai de Grenelle towards Eiffel Tower 20151213.jpg",
+          "author": "Guilhem Vellut",
+          "year": "2015",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "anchor": "mirantes-take-14",
+      "name": "Montagne Sainte-Geneviève · Eixo Elevado da Rue Soufflot",
+      "lat": 48.8462,
+      "lon": 2.3458,
+      "sector": 4,
+      "focus": "Perspectiva em declive do topo da Montagne Sainte-Geneviève (Place du Panthéon) até o Jardin du Luxembourg e a Torre Eiffel",
+      "surface": "Colunata neoclássica, calçamento amplo e linha de horizonte oeste",
+      "bestConditions": "Ao entardecer, a Rue Soufflot alinha-se exatamente com o pôr do sol e a Torre Eiffel ao fundo.",
+      "shot": "De costas para os degraus do Panthéon, enquadrar a descida da Rue Soufflot com a Torre Eiffel no fim do eixo.",
+      "alternative": "Girar 180° para mostrar a fachada monumental do Panthéon e a Saint-Étienne-du-Mont no topo da colina.",
+      "access": "Calçadas amplas na Place du Panthéon; não filmar do meio da faixa de rolamento.",
+      "photos": [
+        {
+          "file": "St-Etienne-du-Mont Exterior, Paris, France - Diliff.jpg",
+          "author": "Diliff",
+          "year": "2015",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Bibliothèque Sainte-Geneviève, façade vue du parvis du Panthéon.jpg",
+          "author": "Priscille Leroy",
+          "year": "2011",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Bibliothèque Sainte-Geneviève, façade sud.jpg",
+          "author": "Priscille Leroy",
+          "year": "2011",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    }
+  ]
+}

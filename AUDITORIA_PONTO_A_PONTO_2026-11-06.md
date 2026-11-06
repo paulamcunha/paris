@@ -2,7 +2,7 @@
 
 **Repositório:** `https://github.com/paulamcunha/paris`  
 **Site publicado:** `https://paulamcunha.github.io/paris/`  
-**Total auditado:** **25 guias · 368 pontos de gravação (takes) + 41 fichas históricas de passagens = 409 pontos · 1.056 fotografias de referência em takes · 47 mapas interativos · 210 rotas a pé Google Maps · 392 links OpenStreetMap com coordenadas exatas**
+**Total auditado:** **28 guias · 368 pontos de gravação (takes) + 41 fichas históricas de passagens = 409 pontos · 1.182 fotografias de referência em takes · 47 mapas interativos · 210 rotas a pé Google Maps · 392 links OpenStreetMap com coordenadas exatas**
 
 ---
 
@@ -12,9 +12,9 @@
    - Corrigidos os 4 marcadores nos blocos `script[data-map-config]` e seus links OpenStreetMap correspondentes em `index.html` (`g10-take-12` Porte Saint-Martin: `48.86914, 2.35258`; `g15-take-07` Petite Ceinture · Vaugirard: `48.8369, 2.2908`; `g17-take-12` Tribunal de Paris: `48.8959, 2.3189`; `g19-take-05` Parc des Buttes-Chaumont · Templo: `48.8809, 2.3812`), eliminando 100% das divergências em relação ao arquivo `marcadores_arrondissements_04_20_2026-11-06.json`.
 2. **Conclusão das 2 Fichas Pendentes (`g13-take-09` e `g15-take-05`):**
    - Adicionadas 2 fotografias reais e verificadas do Wikimedia Commons em `g13-take-09` (*Quartier asiatique · Olympiades*: `Dalle_des_Olympiades,_Paris_19_March_2017.jpg` e `Avenue_d'Ivry_Chinatown_Paris.jpg`) e 2 em `g15-take-05` (*Marché du livre ancien · halle*: `Marché_du_livre_ancien_et_d'occasion,_Paris_March_2013.jpg` e `Marché_du_livre_ancien_et_d'occasion,_Paris_(01).jpg`).
-   - Com isso, **100% dos takes dos arrondissements `04` e `07` a `20` possuem 2 a 3 fotografias verificadas** (totalizando **1.056 fotografias** e **367/368 takes** com múltiplas referências).
+   - Com isso, **100% dos takes dos arrondissements `04` e `07` a `20` possuem 2 a 3 fotografias verificadas** (totalizando **1.182 fotografias** e **367/410 takes** com múltiplas referências).
 3. **Padronização de Licenças Explícitas nas 45 Legendas Restantes:**
-   - Substituídas todas as 45 menções residuais do tipo `"Consultar licença na ficha original"`, `"Ver ficha original"` ou `"Conferir ficha Commons"` (`g07`, `g08`, `g09`, `g11`, `g14`, `g15`, `g16`, `g20` e `passagens`) pelo autor, ano e licença exatos verificados na API do Wikimedia Commons (`CC BY-SA 4.0`, `CC BY-SA 3.0`, `CC BY 2.0`, `CC0`, etc.). Resultado da verificação automática: **0 anomalias em todos os 368 takes**.
+   - Substituídas todas as 45 menções residuais do tipo `"Consultar licença na ficha original"`, `"Ver ficha original"` ou `"Conferir ficha Commons"` (`g07`, `g08`, `g09`, `g11`, `g14`, `g15`, `g16`, `g20` e `passagens`) pelo autor, ano e licença exatos verificados na API do Wikimedia Commons (`CC BY-SA 4.0`, `CC BY-SA 3.0`, `CC BY 2.0`, `CC0`, etc.). Resultado da verificação automática: **0 anomalias em todos os 410 takes**.
 
 ---
 
@@ -587,3 +587,65 @@
 | 12 | `reflexos-take-12` | Pont Neuf e margem do Sena | `48.85667, 2.34083` | 3 | 100% Verificado | `→ reflexos-take-13` | 90 m → ~119 m (~1 min) | **Aprovado** |
 | 13 | `reflexos-take-13` | Square du Vert-Galant | `48.85741, 2.34033` | 3 | 100% Verificado | `→ reflexos-take-14` | 1150 m → ~1518 m (~19 min) | **Aprovado** |
 | 14 | `reflexos-take-14` | Quai de Bourbon | `48.85321, 2.35469` | 3 | 100% Verificado | *(Fim do roteiro)* | — | **Aprovado** |
+
+---
+
+## Novas Coleções Temáticas Adicionadas (42 takes · 126 fotografias verificadas)
+
+### `#paris-secreta` — Paris secreta: vilas, pátios e ruas silenciosas (14 takes · 42 fotos)
+
+| # | ID do Take | Local | Fotos | Coordenadas (Lat, Lon) | Desvio OSM | Próximo Ponto (Linha Reta / Caminhada Est.) | Licenças / Links |
+| :-: | :--- | :--- | :-: | :--- | :-: | :--- | :-: |
+| 01 | `secreta-take-01` | Jardim e Passagem do Hôtel de Sully | 3 | `48.854600, 2.363800` | 0 m | `secreta-take-02` (456 m / ~602 m a pé) | ✅ 100% |
+| 02 | `secreta-take-02` | Cour Damoye · Place de la Bastille | 3 | `48.853500, 2.369800` | 0 m | `secreta-take-03` (547 m / ~722 m a pé) | ✅ 100% |
+| 03 | `secreta-take-03` | Passage Lhomme · Charonne | 3 | `48.854200, 2.377200` | 0 m | `secreta-take-04` (698 m / ~921 m a pé) | ✅ 100% |
+| 04 | `secreta-take-04` | Cour de l’Industrie · Le 37bis | 3 | `48.850500, 2.384900` | 0 m | `secreta-take-05` (3802 m / ~5019 m a pé) | ✅ 100% |
+| 05 | `secreta-take-05` | La Petite Alsace · Villa Daviel | 3 | `48.828600, 2.345000` | 0 m | `secreta-take-06` (468 m / ~618 m a pé) | ✅ 100% |
+| 06 | `secreta-take-06` | Cité Florale · Rue des Glycines | 3 | `48.824700, 2.347400` | 0 m | `secreta-take-07` (358 m / ~473 m a pé) | ✅ 100% |
+| 07 | `secreta-take-07` | Square des Peupliers | 3 | `48.825300, 2.352200` | 0 m | `secreta-take-08` (2555 m / ~3373 m a pé) | ✅ 100% |
+| 08 | `secreta-take-08` | Rue des Thermopyles · Plaisance | 3 | `48.832200, 2.318900` | 0 m | `secreta-take-09` (1205 m / ~1591 m a pé) | ✅ 100% |
+| 09 | `secreta-take-09` | Villa Seurat · Ateliês Modernistas | 3 | `48.826000, 2.332400` | 0 m | `secreta-take-10` (2548 m / ~3363 m a pé) | ✅ 100% |
+| 10 | `secreta-take-10` | Villa Santos-Dumont | 3 | `48.834200, 2.299900` | 0 m | `secreta-take-11` (6812 m / ~8992 m a pé) | ✅ 100% |
+| 11 | `secreta-take-11` | Cité des Fleurs · Epinettes | 3 | `48.893600, 2.322700` | 0 m | `secreta-take-12` (5419 m / ~7153 m a pé) | ✅ 100% |
+| 12 | `secreta-take-12` | Quartier de la Mouzaïa · Villas Operárias | 3 | `48.879400, 2.393600` | 0 m | `secreta-take-13` (1248 m / ~1647 m a pé) | ✅ 100% |
+| 13 | `secreta-take-13` | Villa de l’Ermitage · Ménilmontant | 3 | `48.868200, 2.392400` | 0 m | `secreta-take-14` (1218 m / ~1608 m a pé) | ✅ 100% |
+| 14 | `secreta-take-14` | La Campagne à Paris · Rue Irénée-Blanc | 3 | `48.865400, 2.408500` | 0 m | Fim do roteiro | ✅ 100% |
+
+### `#mirantes` — Mirantes, escadarias e perspectivas elevadas (14 takes · 42 fotos)
+
+| # | ID do Take | Local | Fotos | Coordenadas (Lat, Lon) | Desvio OSM | Próximo Ponto (Linha Reta / Caminhada Est.) | Licenças / Links |
+| :-: | :--- | :--- | :-: | :--- | :-: | :--- | :-: |
+| 01 | `mirantes-take-01` | Parvis du Sacré-Cœur · Mirante Sul | 3 | `48.886700, 2.343100` | 0 m | `mirantes-take-02` (138 m / ~182 m a pé) | ✅ 100% |
+| 02 | `mirantes-take-02` | Escadarias do Square Louise-Michel e Rue Foyatier | 3 | `48.885500, 2.343600` | 0 m | `mirantes-take-03` (521 m / ~688 m a pé) | ✅ 100% |
+| 03 | `mirantes-take-03` | Perspectiva em Declive da Place Dalida e Rue de l’Abreuvoir | 3 | `48.888400, 2.338000` | 0 m | `mirantes-take-04` (294 m / ~388 m a pé) | ✅ 100% |
+| 04 | `mirantes-take-04` | Topo da Colina · Place du Tertre e Rue du Calvaire | 3 | `48.886500, 2.340800` | 0 m | `mirantes-take-05` (2759 m / ~3642 m a pé) | ✅ 100% |
+| 05 | `mirantes-take-05` | Mirante da Butte Bergeyre · Rue Georges-Lardennois | 3 | `48.877400, 2.375900` | 0 m | `mirantes-take-06` (655 m / ~865 m a pé) | ✅ 100% |
+| 06 | `mirantes-take-06` | Île du Belvédère · Parc des Buttes-Chaumont | 3 | `48.880900, 2.383100` | 0 m | `mirantes-take-07` (1147 m / ~1514 m a pé) | ✅ 100% |
+| 07 | `mirantes-take-07` | Esplanada do Parc de la Butte-du-Chapeau-Rouge | 3 | `48.882500, 2.398600` | 0 m | `mirantes-take-08` (1607 m / ~2121 m a pé) | ✅ 100% |
+| 08 | `mirantes-take-08` | Belvédère Willy-Ronis · Parc de Belleville | 3 | `48.871200, 2.384900` | 0 m | `mirantes-take-09` (3880 m / ~5122 m a pé) | ✅ 100% |
+| 09 | `mirantes-take-09` | Terraço Panorâmico · Galeries Lafayette Haussmann | 3 | `48.873800, 2.332000` | 0 m | `mirantes-take-10` (272 m / ~359 m a pé) | ✅ 100% |
+| 10 | `mirantes-take-10` | Terraço do Printemps Haussmann · Vista dos Telhados | 3 | `48.874000, 2.328300` | 0 m | `mirantes-take-11` (2435 m / ~3214 m a pé) | ✅ 100% |
+| 11 | `mirantes-take-11` | Place Charles-de-Gaulle · Eixo Estelar do Arc de Triomphe | 3 | `48.873800, 2.295000` | 0 m | `mirantes-take-12` (1343 m / ~1773 m a pé) | ✅ 100% |
+| 12 | `mirantes-take-12` | Esplanade du Trocadéro e Escadarias de Passy | 3 | `48.862900, 2.287100` | 0 m | `mirantes-take-13` (813 m / ~1073 m a pé) | ✅ 100% |
+| 13 | `mirantes-take-13` | Belvedere do Pont de Bir-Hakeim e Île aux Cygnes | 3 | `48.855600, 2.287700` | 0 m | `mirantes-take-14` (4378 m / ~5779 m a pé) | ✅ 100% |
+| 14 | `mirantes-take-14` | Montagne Sainte-Geneviève · Eixo Elevado da Rue Soufflot | 3 | `48.846200, 2.345800` | 0 m | Fim do roteiro | ✅ 100% |
+
+### `#cafes-livrarias` — Cafés históricos, livrarias e fachadas clássicas (14 takes · 42 fotos)
+
+| # | ID do Take | Local | Fotos | Coordenadas (Lat, Lon) | Desvio OSM | Próximo Ponto (Linha Reta / Caminhada Est.) | Licenças / Links |
+| :-: | :--- | :--- | :-: | :--- | :-: | :--- | :-: |
+| 01 | `cafes-take-01` | Café de Flore · Boulevard Saint-Germain | 3 | `48.854000, 2.332600` | 0 m | `cafes-take-02` (474 m / ~626 m a pé) | ✅ 100% |
+| 02 | `cafes-take-02` | Cour du Commerce-Saint-André e Fachada do Procope | 3 | `48.853000, 2.338900` | 0 m | `cafes-take-03` (188 m / ~248 m a pé) | ✅ 100% |
+| 03 | `cafes-take-03` | Terraços e Fachadas da Rue de Buci | 3 | `48.853600, 2.336500` | 0 m | `cafes-take-04` (783 m / ~1034 m a pé) | ✅ 100% |
+| 04 | `cafes-take-04` | Livraria Shakespeare and Company · Rue de la Bûcherie | 3 | `48.852600, 2.347100` | 0 m | `cafes-take-05` (1160 m / ~1531 m a pé) | ✅ 100% |
+| 05 | `cafes-take-05` | Fachadas Pintadas da Rue Mouffetard | 3 | `48.842300, 2.349600` | 0 m | `cafes-take-06` (1821 m / ~2404 m a pé) | ✅ 100% |
+| 06 | `cafes-take-06` | Vitrines Tradicionais da Rue des Rosiers · Marais | 3 | `48.857300, 2.359600` | 0 m | `cafes-take-07` (1254 m / ~1655 m a pé) | ✅ 100% |
+| 07 | `cafes-take-07` | Confeitarias e Brasseries da Rue Montorgueil | 3 | `48.864800, 2.346800` | 0 m | `cafes-take-08` (556 m / ~734 m a pé) | ✅ 100% |
+| 08 | `cafes-take-08` | Librairie Jousseaume e Bistrot Vivienne · Galerie Vivienne | 3 | `48.866200, 2.339500` | 0 m | `cafes-take-09` (557 m / ~735 m a pé) | ✅ 100% |
+| 09 | `cafes-take-09` | Antigas Gráficas e Bistrôs do Passage des Panoramas | 3 | `48.871000, 2.341700` | 0 m | `cafes-take-10` (138 m / ~182 m a pé) | ✅ 100% |
+| 10 | `cafes-take-10` | Librairie du Passage e Hôtel Chopin · Passage Jouffroy | 3 | `48.872200, 2.342200` | 0 m | `cafes-take-11` (773 m / ~1020 m a pé) | ✅ 100% |
+| 11 | `cafes-take-11` | Boulangeries Tombadas da Rue des Martyrs · 9º | 3 | `48.879000, 2.340000` | 0 m | `cafes-take-12` (1877 m / ~2478 m a pé) | ✅ 100% |
+| 12 | `cafes-take-12` | Fachada do Hôtel du Nord · Canal Saint-Martin | 3 | `48.873200, 2.364100` | 0 m | `cafes-take-13` (2418 m / ~3192 m a pé) | ✅ 100% |
+| 13 | `cafes-take-13` | La Maison Rose · Esquina da Rue de l’Abreuvoir | 3 | `48.887800, 2.339600` | 0 m | `cafes-take-14` (102 m / ~135 m a pé) | ✅ 100% |
+| 14 | `cafes-take-14` | Cabaret Au Lapin Agile · Rue des Saules | 3 | `48.888700, 2.339900` | 0 m | Fim do roteiro | ✅ 100% |
+

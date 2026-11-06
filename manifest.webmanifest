@@ -1,0 +1,19 @@
+{
+  "name": "Paris em Cena · Guias de Campo (Paula Cunha)",
+  "short_name": "Paris em Cena",
+  "description": "28 guias de campo de fotografia e filmagem em Paris: 20 arrondissements e 8 coleções temáticas com 410 takes, mapas e modo gravação offline.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf6f5",
+  "theme_color": "#890f0e",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "./icon-paris-em-cena.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

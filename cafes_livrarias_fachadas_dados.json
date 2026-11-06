@@ -1,0 +1,491 @@
+{
+  "project": "Paris em Cena | Cafés históricos, livrarias e fachadas clássicas",
+  "date": "2026-11-06",
+  "video": "Reel documental · B-Roll de atmosfera e patrimônio",
+  "guideId": "cafes-livrarias",
+  "note": "Fotografar fachadas a partir da via pública é livre, mas filmar de perto clientes sentados nos terraços ou o interior de livrarias exige discrição e respeito às regras de cada estabelecimento (como na Shakespeare and Company, onde fotos internas não são permitidas).",
+  "sectorNames": [
+    "Rive Gauche Literária e Mercados Históricos (5º e 6º)",
+    "Fachadas Tombadas do Centro: Marais, Montorgueil e Passagens (2º e 4º)",
+    "Boulangeries de Bairro e Canal Saint-Martin (9º e 10º)",
+    "Cabarets e Cafés Pintados de Montmartre (18º)"
+  ],
+  "locations": [
+    {
+      "number": 1,
+      "anchor": "cafes-take-01",
+      "name": "Café de Flore · Boulevard Saint-Germain",
+      "lat": 48.854,
+      "lon": 2.3326,
+      "sector": 1,
+      "focus": "Terraço literário clássico de Saint-Germain-des-Prés com toldo e tipografia Art Déco",
+      "surface": "Mesas redondas de bistrô, cadeiras de vime e letreiro histórico",
+      "bestConditions": "Manhã entre 7h30 e 9h permite registrar a abertura do terraço com luz suave e pouca fila.",
+      "shot": "Enquadrar em diagonal o letreiro “Café de Flore” no toldo com as cadeiras de vime alinhadas abaixo.",
+      "alternative": "Plano fechado na esquina do Boulevard Saint-Germain com a Rue Saint-Benoît.",
+      "access": "Filmar a partir da calçada pública sem focar no rosto dos clientes nas mesas.",
+      "photos": [
+        {
+          "file": "Café de Flore, 172 boulevard Saint-Germain, Paris 6e.jpg",
+          "author": "Celette",
+          "year": "2019",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Le café de Flore IMG 4409.jpg",
+          "author": "William Jexpire",
+          "year": "2021",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "A well-known coffee terrace (46610470381).jpg",
+          "author": "madras91",
+          "year": "2019",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "anchor": "cafes-take-02",
+      "name": "Cour du Commerce-Saint-André e Fachada do Procope",
+      "lat": 48.853,
+      "lon": 2.3389,
+      "sector": 1,
+      "focus": "Passagem pavimentada de 1776 que abriga o histórico café Le Procope (1686) e antigas oficinas",
+      "surface": "Varandas de ferro forjado, lampiões suspensos e paralelepípedos oitocentistas",
+      "bestConditions": "Aberto durante o dia; luz zenital realça as varandas históricas e os terraços internos.",
+      "shot": "Caminhada lenta pelo corredor de pedra enquadrando as varandas do Le Procope e a cobertura de vidro.",
+      "alternative": "Plano fixo nos detalhes de ferro forjado e nas placas históricas do corredor.",
+      "access": "Passagem de pedestres sujeita a horários diurnos de abertura.",
+      "photos": [
+        {
+          "file": "Paris 75006 Cour du Commerce-Saint-André 20120825.jpg",
+          "author": "Elaine",
+          "year": "2012",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Cour du Commerce-Saint-André, Paris 6e 1.jpg",
+          "author": "Celette",
+          "year": "2019",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Paris 6e Boulevard Saint-Germain Cour du Commerce-Saint-André 653.jpg",
+          "author": "GFreihalter",
+          "year": "2025",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "anchor": "cafes-take-03",
+      "name": "Terraços e Fachadas da Rue de Buci",
+      "lat": 48.8536,
+      "lon": 2.3365,
+      "sector": 1,
+      "focus": "Confluência vibrante de cafés com toldos vermelhos, floriculturas e bancas gastronômicas no 6º",
+      "surface": "Toldos coloridos, fachadas de esquina e movimento constante de bairro",
+      "bestConditions": "Meio da manhã quando as bancas e floriculturas estão montadas e iluminadas.",
+      "shot": "Plano em 9:16 na esquina da Rue de Buci com a Rue de Seine mostrando a curva das fachadas e cafés.",
+      "alternative": "Detalhe de B-Roll das flores e toldos emoldurando o fluxo da rua.",
+      "access": "Via pública de pedestres/tráfego acalmado muito movimentada.",
+      "photos": [
+        {
+          "file": "Terrace cafe, Rue de Buci, Paris July 2010.jpg",
+          "author": "zoetnet",
+          "year": "2010",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Rue de Buci, Paris 6 October 2017 01.jpg",
+          "author": "Ali Sabbagh",
+          "year": "2017",
+          "license": "CC0"
+        },
+        {
+          "file": "Rue de Buci, Paris 6 October 2017 02.jpg",
+          "author": "Ali Sabbagh",
+          "year": "2017",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "anchor": "cafes-take-04",
+      "name": "Livraria Shakespeare and Company · Rue de la Bûcherie",
+      "lat": 48.8526,
+      "lon": 2.3471,
+      "sector": 1,
+      "focus": "Fachada verde-escura da lendária livraria anglófona diante do Sena e da Notre-Dame",
+      "surface": "Letreiro amarelo e verde, caixas de livros usados na calçada e fonte Wallace",
+      "bestConditions": "Manhã cedo antes da formação de fila na entrada.",
+      "shot": "Plano frontal da fachada histórica com os livros expostos nas estantes externas e o café vizinho.",
+      "alternative": "Enquadrar a livraria em diagonal incluindo a fonte Wallace e as árvores da praça.",
+      "access": "Fotografar exclusivamente do exterior (fotografias não são autorizadas dentro da loja).",
+      "photos": [
+        {
+          "file": "Shakespeare and Company bookstore, Paris 13 August 2013.jpg",
+          "author": "Shadowgate",
+          "year": "2013",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Shakespeare and Company Bookstore in Paris, France 01.jpg",
+          "author": "Dev Jadiya",
+          "year": "2026",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Shakespeare and Company Bookstore in Paris, France 02.jpg",
+          "author": "Dev Jadiya",
+          "year": "2026",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "anchor": "cafes-take-05",
+      "name": "Fachadas Pintadas da Rue Mouffetard",
+      "lat": 48.8423,
+      "lon": 2.3496,
+      "sector": 1,
+      "focus": "Uma das ruas mais antigas de Paris com fachadas pintadas (como no n.º 134) e comércio tradicional",
+      "surface": "Painéis decorativos sob vidro, letreiros antigos de queijarias e padarias",
+      "bestConditions": "Manhã de terça a domingo quando o comércio de rua na parte baixa está aberto.",
+      "shot": "Tilt vertical mostrando uma das fachadas históricas decoradas até o calçamento em declive.",
+      "alternative": "Plano da perspectiva estreita da rua descendo em direção à igreja Saint-Médard.",
+      "access": "Via de pedestres estreita; respeitar o espaço dos comerciantes.",
+      "photos": [
+        {
+          "file": "Rue Mouffetard - Paris V (FR75) - 2025-04-27 - 1.jpg",
+          "author": "Chabe01",
+          "year": "2025",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Paris 5e Rue Mouffetard 12 679.jpg",
+          "author": "GFreihalter",
+          "year": "2025",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Paris 5e Rue Mouffetard 16 Boulangerie 680.jpg",
+          "author": "GFreihalter",
+          "year": "2025",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "anchor": "cafes-take-06",
+      "name": "Vitrines Tradicionais da Rue des Rosiers · Marais",
+      "lat": 48.8573,
+      "lon": 2.3596,
+      "sector": 2,
+      "focus": "Padarias históricas, livrarias e fachadas de madeira preservadas no coração do Pletzl (Marais)",
+      "surface": "Vitrines em madeira colorida, letreiros antigos e calçamento de pedra",
+      "bestConditions": "Luz suave da manhã ou início da tarde (muitos comércios tradicionais fecham aos sábados).",
+      "shot": "Travelling lateral acompanhando a sequência de fachadas de madeira e vitrines de confeitaria.",
+      "alternative": "Plano fixo no cruzamento da Rue des Rosiers com a Rue Ferdinand-Duval.",
+      "access": "Rua estreita com grande fluxo de pedestres no fim de semana; prefira dias úteis.",
+      "photos": [
+        {
+          "file": "Paris 75004 Rue des Rosiers no 046.jpg",
+          "author": "RG72",
+          "year": "2013",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Paris 75004 Rue des Rosiers no 025.jpg",
+          "author": "RG72",
+          "year": "2013",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Diasporama, 20 rue des Rosiers, 75004 Paris 2007.jpg",
+          "author": "David Megginson",
+          "year": "2007",
+          "license": "CC BY-SA 2.0"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "anchor": "cafes-take-07",
+      "name": "Confeitarias e Brasseries da Rue Montorgueil",
+      "lat": 48.8648,
+      "lon": 2.3468,
+      "sector": 2,
+      "focus": "Berço da confeitaria Stohrer (1730) e da fachada azul e dourada do Au Rocher de Cancale (n.º 78)",
+      "surface": "Painéis pintados do século XIX, vitrines de doces e terraços de esquina",
+      "bestConditions": "Manhã entre 9h e 11h com luz limpa sobre as fachadas históricas dos n.ºs 51 e 78.",
+      "shot": "Enquadrar a esquina histórica do Au Rocher de Cancale (n.º 78) com seus painéis de madeira azul e ouro.",
+      "alternative": "Plano da vitrine histórica da Stohrer (n.º 51) inserida no movimento de pedestres da Rue Montorgueil.",
+      "access": "Calçadão de pedestres; atenção a veículos de entrega no início da manhã.",
+      "photos": [
+        {
+          "file": "Rue montorgueil.jpg",
+          "author": "Ralf.treinen",
+          "year": "2010",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Rues Montorgueil et De Turbigo à Paris (juillet 2025).JPG",
+          "author": "Florian Pépellin",
+          "year": "2025",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Rue Montorgueil - Paris II (FR75) - 2024-12-07 - 1.jpg",
+          "author": "Chabe01",
+          "year": "2024",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "anchor": "cafes-take-08",
+      "name": "Librairie Jousseaume e Bistrot Vivienne · Galerie Vivienne",
+      "lat": 48.8662,
+      "lon": 2.3395,
+      "sector": 2,
+      "focus": "Livraria fundada em 1826 e salão de chá sob a cobertura neoclássica e mosaicos da Galerie Vivienne",
+      "surface": "Estantes de madeira escura, vitrines curvas, arcos e piso em mosaico Facchina",
+      "bestConditions": "Aberta diariamente em horário diurno; luz natural zenital valoriza a madeira das vitrines.",
+      "shot": "Plano médio das bancas de livros antigos da Librairie Jousseaume refletidas nas vitrines de madeira.",
+      "alternative": "Inclinação suave do mosaico colorido do chão até as mesas do bistrô interno.",
+      "access": "Passagem coberta aberta ao público durante o dia.",
+      "photos": [
+        {
+          "file": "Galerie Colbert.jpg",
+          "author": "Benh LIEU SONG",
+          "year": "2008",
+          "license": "CC BY 3.0"
+        },
+        {
+          "file": "Vivienne.jpg",
+          "author": "Benh LIEU SONG",
+          "year": "2008",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "P1010886 Paris II Rue Vivienne Galerie Vivienne reductwk.JPG",
+          "author": "Mbzt",
+          "year": "2011",
+          "license": "CC BY 3.0"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "anchor": "cafes-take-09",
+      "name": "Antigas Gráficas e Bistrôs do Passage des Panoramas",
+      "lat": 48.871,
+      "lon": 2.3417,
+      "sector": 2,
+      "focus": "A mais antiga passagem coberta (1799), famosa pela fachada histórica do gravador Stern e filatelistas",
+      "surface": "Letreiros pendurados, madeira entalhada do século XIX e vitrines de selos e cartões-postais",
+      "bestConditions": "Fim da manhã ou tarde quando os bistrôs internos acendem as luzes quentes de parede.",
+      "shot": "Enquadramento em profundidade das placas antigas suspensas no corredor principal.",
+      "alternative": "Detalhe de uma vitrine histórica de madeira sem reflexo excessivo.",
+      "access": "Corredor estreito; filmar junto à lateral para não interromper a passagem.",
+      "photos": [
+        {
+          "file": "P1020647 Paris II Passage des Panoramas rwk.JPG",
+          "author": "Mbzt",
+          "year": "2011",
+          "license": "CC BY 3.0"
+        },
+        {
+          "file": "P1020609 Paris II Passage des Panoramas rwk.JPG",
+          "author": "Mbzt",
+          "year": "2011",
+          "license": "CC BY 3.0"
+        },
+        {
+          "file": "Galerie des Varietes.jpg",
+          "author": "Davitof",
+          "year": "2011",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "anchor": "cafes-take-10",
+      "name": "Librairie du Passage e Hôtel Chopin · Passage Jouffroy",
+      "lat": 48.8722,
+      "lon": 2.3422,
+      "sector": 2,
+      "focus": "Livrarias de arte, lojas de bengalas antigas e a fachada de madeira do Hôtel Chopin (1846)",
+      "surface": "Estrutura de ferro e vidro, piso geométrico e vitrines de livros ilustrados",
+      "bestConditions": "Horário comercial; excelente opção de gravação em dias de chuva.",
+      "shot": "Plano fixo mostrando a fachada histórica do Hôtel Chopin no fundo do corredor envidraçado.",
+      "alternative": "B-Roll das bancas de livros de arte da Librairie du Passage.",
+      "access": "Acesso público diurno pelo Boulevard Montmartre.",
+      "photos": [
+        {
+          "file": "Jouffroy-IC-IMG 0853.jpg",
+          "author": "Isabelle Chemin",
+          "year": "2025",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Jouffroy-IC-IMG 0878.jpg",
+          "author": "Isabelle Chemin",
+          "year": "2025",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Jouffroy-IC-IMG 0875.jpg",
+          "author": "Isabelle Chemin",
+          "year": "2025",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "anchor": "cafes-take-11",
+      "name": "Boulangeries Tombadas da Rue des Martyrs · 9º",
+      "lat": 48.879,
+      "lon": 2.34,
+      "sector": 3,
+      "focus": "Rua comercial em subida entre Notre-Dame-de-Lorette e Montmartre com fachadas de padarias Belle Époque",
+      "surface": "Painéis de vidro pintado (verre églomisé), toldos listrados e bancas de frutas",
+      "bestConditions": "Manhã de terça a domingo; luz ilumina o eixo ascendente da rua.",
+      "shot": "Enquadrar uma das fachadas históricas de boulangerie com a ladeira da Rue des Martyrs subindo ao fundo.",
+      "alternative": "Plano curto de 3 segundos do movimento matinal nas vitrines tradicionais.",
+      "access": "Calçadas estreitas em alguns trechos; filmar do lado oposto da rua com lente padrão.",
+      "photos": [
+        {
+          "file": "Au Verger Fleuri, 47 Rue des Martyrs 75009 Paris, August 2015 002.jpg",
+          "author": "Norio NAKAYAMA",
+          "year": "2015",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "file": "Fuxia, 51 Rue des Martyrs 75009 Paris, August 2015.jpg",
+          "author": "Norio NAKAYAMA",
+          "year": "2015",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "file": "Maison Landemaine Martyrs, 26 rue des Martyrs, 75009 Paris, August 2015.jpg",
+          "author": "Norio NAKAYAMA",
+          "year": "2015",
+          "license": "CC BY-SA 2.0"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "anchor": "cafes-take-12",
+      "name": "Fachada do Hôtel du Nord · Canal Saint-Martin",
+      "lat": 48.8732,
+      "lon": 2.3641,
+      "sector": 3,
+      "focus": "Fachada histórica imortalizada pelo cinema francês de 1938 diante da passarela arqueada do canal",
+      "surface": "Fachada azul-acinzentada, letreiro clássico e águas calmas do Canal Saint-Martin",
+      "bestConditions": "Tarde ensolarada ilumina a fachada no Quai de Jemmapes e a passarela.",
+      "shot": "Enquadrar o Hôtel du Nord a partir da margem oposta (Quai de Valmy) ou do topo da passarela.",
+      "alternative": "Plano aproximado da fachada histórica com pedestres cruzando a beira do canal.",
+      "access": "Espaço público aberto ao longo dos cais do Canal Saint-Martin.",
+      "photos": [
+        {
+          "file": "Paris 10e Quai de Jemmapes Hôtel du Nord 687.jpg",
+          "author": "GFreihalter",
+          "year": "2024",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Paris 10e Quai de Jemmapes Hôtel du Nord 688.jpg",
+          "author": "GFreihalter",
+          "year": "2024",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Paris 10e Quai de Jemmapes Hôtel du Nord 753.jpg",
+          "author": "GFreihalter",
+          "year": "2026",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "anchor": "cafes-take-13",
+      "name": "La Maison Rose · Esquina da Rue de l’Abreuvoir",
+      "lat": 48.8878,
+      "lon": 2.3396,
+      "sector": 4,
+      "focus": "Antiga casa e café fréquentado por Utrillo e Picasso na esquina das ruas de l’Abreuvoir e des Saules",
+      "surface": "Paredes rosa-pastel, venezianas verdes e paralelepípedos em declive",
+      "bestConditions": "Início da manhã (antes das 9h) para registrar a fachada sem pessoas paradas na porta.",
+      "shot": "Plano vertical na esquina mostrando as paredes rosas e verdes com a ladeira de pedra ao lado.",
+      "alternative": "Afastar a câmera pela Rue de l’Abreuvoir usando as árvores como moldura.",
+      "access": "Calçada pública estreita no cruzamento.",
+      "photos": [
+        {
+          "file": "Montmartre Maison Rose 002.JPG",
+          "author": "Moonik",
+          "year": "2010",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "2022-04-11-La Maison Rose-8379.jpg",
+          "author": "Superbass",
+          "year": "2022",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "La Maison Rose, Montmartre 23 July 2012.jpg",
+          "author": "btwashburn",
+          "year": "2012",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "anchor": "cafes-take-14",
+      "name": "Cabaret Au Lapin Agile · Rue des Saules",
+      "lat": 48.8887,
+      "lon": 2.3399,
+      "sector": 4,
+      "focus": "Cabaret boêmio do século XIX situado na encosta norte de Montmartre ao lado do vinhedo",
+      "surface": "Casinha ocre-rosada cercada por cerca rústica, árvores e a tabuleta do coelho de André Gill",
+      "bestConditions": "Luz suave da manhã ou início do crepúsculo quando os lampiões se acendem.",
+      "shot": "Enquadrar a casinha histórica em declive na Rue des Saules junto ao muro do Clos Montmartre.",
+      "alternative": "Detalhe da placa histórica do coelho saltando da panela e das janelas com venezianas.",
+      "access": "Via pública tranquila na encosta norte da Butte.",
+      "photos": [
+        {
+          "file": "Au lapin agile 2.jpg",
+          "author": "palm z",
+          "year": "2008",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Au Lapin Agile, Paris 20 May 2014.jpg",
+          "author": "David McSpadden  States",
+          "year": "2014",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Au lapin agile - Montmartre.jpg",
+          "author": "The original uploader was Abelson at English Wikipedia .",
+          "year": "2006",
+          "license": "CC BY 2.5"
+        }
+      ]
+    }
+  ]
+}

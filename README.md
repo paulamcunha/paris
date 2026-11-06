@@ -1,6 +1,6 @@
 # Paris em Cena | Guias de Campo
 
-Projeto pessoal, com os 20 arrondissements de Paris e coleções temáticas (Passagens cobertas, Igrejas de Paris, Paris com Vista para a Torre Eiffel, Pontes e Margens do Sena e Paris vista pelos reflexos), totalizando **25 guias**, **368 takes documentais** (+ 41 fichas históricas de passagens cobertas), **1.056 fotografias de referência verificadas no Wikimedia Commons**, **47 mapas interativos** e **210 links de itinerários a pé** no Google Maps.
+Projeto pessoal, com os 20 arrondissements de Paris e 8 coleções temáticas (Passagens cobertas, Igrejas de Paris, Paris com Vista para a Torre Eiffel, Pontes e Margens do Sena, Paris vista pelos reflexos, Paris secreta: vilas, pátios e ruas silenciosas, Mirantes, escadarias e perspectivas elevadas e Cafés históricos, livrarias e fachadas clássicas), totalizando **28 guias**, **410 takes documentais** (+ 41 fichas históricas de passagens cobertas), **1.182 fotografias de referência verificadas no Wikimedia Commons**, **62 mapas interativos**, **222 links de itinerários a pé** no Google Maps e **29 arquivos KML** (incluindo o KML Mestre unificado `Paris_em_Cena_Completo_410_pontos.kml`).
 
 ## Site público e acesso ao repositório
 
@@ -98,13 +98,33 @@ Coleção temática de Reel documental, acessível pelo menu **Paris vista pelos
 
 **Nota editorial:** As 42 fotografias são referências de cada lugar e **não garantem que os reflexos desejados estejam visíveis nas imagens**. A gravação depende de chuva recente, incidência de luz, vento, superfície molhada e estado dos espelhos d’água. O Passage des Panoramas e a Galerie Vivienne são passagens cobertas com acesso público gratuito geralmente sujeito a regras e horários, não locais externos disponíveis 24 horas.
 
+## Três novas coleções temáticas (2026)
+
+1. **Paris secreta: vilas, pátios e ruas silenciosas (`index.html#paris-secreta` / `paris-secreta.html`)**
+   - **14 refúgios silenciosos** (Hôtel de Sully, Cour Damoye, Passage Lhomme, Cour de l’Industrie, Petite Alsace, Cité Florale, Square des Peupliers, Rue des Thermopyles, Villa Seurat, Villa Santos-Dumont, Cité des Fleurs, Quartier de la Mouzaïa, Villa de l’Ermitage e La Campagne à Paris), ideais para gravar locução em câmera (áudio limpo sem trânsito) e fotografar a Paris intimista;
+   - **42 fotografias documentais verificadas** no Wikimedia Commons (3 por ponto), **5 mapas** (1 geral + 4 setoriais), KML (`Paris_em_Cena_Paris_Secreta_14_pontos.kml`) e JSON (`paris_secreta_dados.json`).
+2. **Mirantes, escadarias e perspectivas elevadas (`index.html#mirantes` / `mirantes.html`)**
+   - **14 pontos elevados** (Parvis du Sacré-Cœur, Square Louise-Michel, Place Dalida, Place du Tertre, Butte Bergeyre, Île du Belvédère em Buttes-Chaumont, Butte-du-Chapeau-Rouge, Belvédère Willy-Ronis em Belleville, Terraço Galeries Lafayette, Terraço Printemps Haussmann, Place de l’Étoile, Esplanade du Trocadéro, Belvedere Bir-Hakeim / Île aux Cygnes e Montagne Sainte-Geneviève);
+   - **42 fotografias documentais verificadas** no Wikimedia Commons (3 por ponto), **5 mapas** (1 geral + 4 setoriais), KML (`Paris_em_Cena_Mirantes_Escadarias_14_pontos.kml`) e JSON (`mirantes_perspectivas_dados.json`).
+3. **Cafés históricos, livrarias e fachadas clássicas (`index.html#cafes-livrarias` / `cafes-livrarias.html`)**
+   - **14 fachadas históricas e literárias** (Café de Flore, Cour du Commerce-Saint-André / Le Procope, Rue de Buci, Shakespeare and Company, Rue Mouffetard, Rue des Rosiers, Rue Montorgueil, Galerie Vivienne, Passage des Panoramas, Passage Jouffroy, Rue des Martyrs, Hôtel du Nord, La Maison Rose e Au Lapin Agile) para planos de B-Roll de 2 a 3 segundos;
+   - **42 fotografias documentais verificadas** no Wikimedia Commons (3 por ponto), **5 mapas** (1 geral + 4 setoriais), KML (`Paris_em_Cena_Cafes_Livrarias_Fachadas_14_pontos.kml`) e JSON (`cafes_livrarias_fachadas_dados.json`).
+
+## Ferramentas práticas de campo e modo offline (PWA)
+
+- **Botão `"Perto de mim"` (Radar GPS cruzando os 28 guias):** disponível no cabeçalho do site, calcula na hora os **12 takes mais próximos** entre todos os 410 pontos usando o GPS real do celular ou um dos 13 pontos de referência de Paris, exibindo distância e tempo estimado a pé, selo do guia, status de gravação e rota direta no Google Maps.
+- **Calculadora de Luz Solar e Golden Hour em Paris (`#solar-panel`):** integrada ao **Modo gravação**, calcula automaticamente para qualquer data os horários exatos de **Hora Azul da manhã, Nascer do sol, Golden Hour da manhã, Meio-dia solar, Golden Hour da tarde, Pôr do sol e Hora Azul da noite** nas coordenadas de Paris (`48,8566° N, 2,3522° L`, fuso `Europe/Paris`).
+- **Backup, Exportação e Importação do Progresso (`JSON` e `CSV`):** botões integrados ao **Modo gravação** para exportar o checklist completo de 410 takes em `.json` ou planilha `.csv` e importar/mesclar o progresso entre o celular e o Mac.
+- **Pacote completo de 29 arquivos `.kml`:** além dos KMLs individuais dos 20 arrondissements (`Paris_em_Cena_Arrondissement_01.kml` a `20.kml`) e das 8 coleções temáticas, o arquivo mestre **`Paris_em_Cena_Completo_410_pontos.kml`** reúne todos os 410 pontos organizados em 28 pastas para uso no Google My Maps, Organic Maps ou Maps.me.
+- **Modo Offline Instalável (`manifest.webmanifest` + `sw.js`):** permite adicionar o **Paris em Cena** à Tela de Início no iOS/Android e mantém o site, estilos, KML mestre e blocos de mapa/fotos já visitados em cache para consulta no metrô.
+
 ## Auditoria de leitura, fotografias e testes automatizados (06/11/2026)
 
 Ferramentas de controle disponíveis no repositório e no GitHub Pages:
 
 - `auditoria-mobile.html`: mede rolagem horizontal, tamanho da tipografia e área de controles em 320, 360, 390, 430, 768 e 1280 px.
 - `auditoria-funcional.html`: valida funções de fotos, busca, modo gravação, mapa e visualizador no próprio navegador, restaurando os valores anteriores do `localStorage` após o teste.
-- `auditoria-fotografias.html`: verificador sob demanda, guia a guia, das 1.052 URLs de imagens dos 25 guias; registra imagens que não carregam, URLs duplicadas, texto alternativo vazio e permite exportar CSV.
-- `tests/auditoria-automatizada.mjs`: executa via Node.js e Google Chrome Headless as 13 suítes de testes automatizados (abertura dos 25 guias, semântica, busca, carregamento das 1.052 fotos, visualizador, mapas gerais/setoriais, 210 links Google Maps e 392 links OSM, modo gravação, persistência, responsividade nas 8 larguras `320–1920 px`, orientação retrato/paisagem, zoom de 200% e ausência de erros no console). Para executar localmente: `node tests/auditoria-automatizada.mjs`.
+- `auditoria-fotografias.html`: verificador sob demanda, guia a guia, das 1.182 URLs de imagens dos 28 guias; registra imagens que não carregam, URLs duplicadas, texto alternativo vazio e permite exportar CSV.
+- `tests/auditoria-automatizada.mjs`: executa via Node.js e Google Chrome Headless as suítes de testes automatizados (abertura dos 28 guias + início = 29 painéis, semântica, busca, carregamento das 1.182 fotos, visualizador, 62 mapas gerais/setoriais, 222 links Google Maps, Radar GPS, Painel Solar, Backup JSON/CSV, responsividade nas 8 larguras `320–1920 px` e ausência de erros no console). Para executar localmente: `node tests/auditoria-automatizada.mjs`.
 
 O arquivo `ajustes-tipografia.css` está vinculado diretamente em `index.html` e garante texto base de `16 px` e legendas mínimas de `14 px` em todas as larguras de tela, além de espaçamento adequado para áreas de toque.
