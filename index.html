@@ -1741,7 +1741,7 @@ const mapObserver=typeof IntersectionObserver!=='undefined'
   },{rootMargin:'280px 0px'}):null;
 function scheduleMaps(panel){
  if(mapObserver)mapObserver.disconnect();
- const boxes=$('.map-box').filter(el=>panel.contains(el));
+ const boxes=$$('.map-box').filter(el=>panel.contains(el));
  for(const box of boxes){
   if(box.closest('details:not([open])'))continue;
   if(mapObserver)mapObserver.observe(box);
