@@ -1,0 +1,267 @@
+{
+  "project": "Paris em Cena | Paris vista pelos reflexos",
+  "date": "2026-11-06",
+  "video": "Reel · Movimento, luz e atmosfera",
+  "guideId": "reflexos",
+  "note": "Imagens documentais dos lugares, não garantia de que cada foto mostre reflexo. Condições dependem de água/chuva/vitrines. Locais de acesso público gratuito, algumas passagens são cobertas com horário e regulamento. Localização dos pontos cartográfica referencial.",
+  "sectorNames": [
+    "Trocadéro e Debilly",
+    "Berges e pontes monumentais",
+    "Passagens, Palais Royal e Louvre",
+    "Pont Neuf e ilhas do Sena"
+  ],
+  "locations": [
+    {
+      "number": 1,
+      "name": "Fontaines du Trocadéro",
+      "lat": 48.8610932,
+      "lon": 2.2900801,
+      "sector": 1,
+      "potential": "Água dos espelhos d’água e reflexos da Torre Eiffel",
+      "reflectionType": "Água e monumento",
+      "bestConditions": "Bacia com água e vento fraco. Jatos e acesso podem variar por manutenção.",
+      "shot": "Câmera fixa baixa, mostrando a superfície da água antes de revelar a Torre Eiffel.",
+      "alternative": "Começar pelo reflexo, subir suavemente até o monumento.",
+      "access": "Jatos, obras e fluxo intenso de visitantes.",
+      "photos": [
+        "Fontaines du Trocadéro 6 October 2009.jpg",
+        "Paris 75016 Fontaines du Trocadéro 20160610.jpg",
+        "Fontaines du Trocadéro 2, Paris 23 June 2013.jpg"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Jardins du Trocadéro após a chuva",
+      "lat": 48.8613484,
+      "lon": 2.289363,
+      "sector": 1,
+      "potential": "Poças temporárias que refletem árvores, escadas e a Torre Eiffel",
+      "reflectionType": "Piso molhado",
+      "bestConditions": "Somente depois da chuva, quando houver poças seguras em áreas públicas.",
+      "shot": "Plano fixo de uma poça com a Torre e uma pessoa cruzando ao fundo.",
+      "alternative": "Enquadramento próximo ao chão, mantendo o reflexo estável.",
+      "access": "Não molhar equipamento nem filmar de dentro de vias movimentadas.",
+      "photos": [
+        "Jardins du Trocadéro - 20150801 15h24 (10619).jpg",
+        "Eiffel Tower viewed from Jardins du Trocadéro flower beds, Paris.jpg",
+        "Eiffel Tower from Jardins du Trocadéro, 21 August 2014.jpg"
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Passerelle Debilly",
+      "lat": 48.862561,
+      "lon": 2.2969296,
+      "sector": 1,
+      "potential": "Reflexos ondulados do Sena e a estrutura metálica",
+      "reflectionType": "Rio e estrutura",
+      "bestConditions": "Visível quando houver luz no rio; reflexos variam com clima e correnteza.",
+      "shot": "Gravar barco passando e reflexo se deformando sob a ponte.",
+      "alternative": "Plano vertical com água em primeiro plano e passarela acima.",
+      "access": "Fotografar sem interromper circulação de pedestres.",
+      "photos": [
+        "Passerelle Debilly in Paris 001.JPG",
+        "Passerelle Debilly, Paris 9 July 2016.jpg",
+        "Eiffel Tower from the Passerelle Debilly (31708931840).jpg"
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Port du Gros-Caillou",
+      "lat": 48.8630672,
+      "lon": 2.3061562,
+      "sector": 2,
+      "potential": "Reflexos de barcos e pontes na água do Sena",
+      "reflectionType": "Rio e embarcações",
+      "bestConditions": "Melhor com luz lateral, rio relativamente calmo e margem acessível.",
+      "shot": "Gravar reflexos de barco em movimento e usar a margem como moldura.",
+      "alternative": "Alternar detalhe da água com plano amplo da ponte próxima.",
+      "access": "Margens baixas podem fechar por cheias e eventos.",
+      "photos": [
+        "Port du Gros Caillou @ Seine @ Paris (31410899736).jpg",
+        "Port du Gros-Caillou, 2013.jpg",
+        "Le pont des Invalides vu du port du Gros-Caillou à Paris le 4 février 2015 - 3.jpg"
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Pont Alexandre III",
+      "lat": 48.8634697,
+      "lon": 2.3135181,
+      "sector": 2,
+      "potential": "Reflexos da arquitetura, dos candeeiros e das pontes no Sena",
+      "reflectionType": "Rio e luz dourada",
+      "bestConditions": "Luz lateral no começo ou final do dia; não garante reflexo nítido.",
+      "shot": "Mostrar a água com reflexos luminosos e revelar os ornamentos da ponte.",
+      "alternative": "Plano fixo com barcos atravessando o enquadramento.",
+      "access": "Permanecer nas calçadas e respeitar o trânsito.",
+      "photos": [
+        "Paris, Pont Alexandre III -- 2014 -- 1316.jpg",
+        "Pont Alexandre III - 01.jpg",
+        "Pont Alexandre III rive gauche.jpg"
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Passage des Panoramas",
+      "lat": 48.8709543,
+      "lon": 2.3416586,
+      "sector": 3,
+      "potential": "Vitrines e teto de vidro com luz ambiente",
+      "reflectionType": "Vidro e vitrines",
+      "bestConditions": "Passagem coberta com acesso gratuito sujeito a horários; nem sempre há reflexos fortes.",
+      "shot": "Câmera parada junto a um ponto público, com pessoas passando refletidas na vitrine.",
+      "alternative": "Concentrar a imagem em reflexo, brilho e movimento no corredor.",
+      "access": "Evitar filmar clientes identificáveis de perto ou impedir comércio; verificar regras do local.",
+      "photos": [
+        "Passage des Panoramas in July 2022.jpg",
+        "Glass Roof in the Passage des Panoramas 3.jpg",
+        "Passage des Panoramas, Paris.jpg"
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Galerie Vivienne",
+      "lat": 48.8667277,
+      "lon": 2.339757,
+      "sector": 3,
+      "potential": "Vitrines elegantes, iluminação e piso brilhante",
+      "reflectionType": "Vitrines e piso",
+      "bestConditions": "Passagem coberta, gratuita e com horários e regras próprios. Reflexos dependem de iluminação e ângulo.",
+      "shot": "Registrar arquitetura e passantes refletidos em uma vitrine.",
+      "alternative": "Fazer transição do reflexo para o corredor iluminado.",
+      "access": "Acesso comercial pode ter limitações para tripé e produção.",
+      "photos": [
+        "Galerie Vivienne, 12 March 2015.jpg",
+        "Inside Galerie Vivienne.jpg",
+        "Paris - Galerie Vivienne - PA00086024 - 2015 - 003.jpg"
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Palais Royal e Colonnes de Buren",
+      "lat": 48.86465,
+      "lon": 2.33765,
+      "sector": 3,
+      "potential": "Colunas e fachadas refletidas na água de chuva",
+      "reflectionType": "Poças e linhas geométricas",
+      "bestConditions": "Reflexo no chão somente se houver água; a praça também oferece geometria sem chuva.",
+      "shot": "Posicionar a câmera perto de uma poça para dobrar visualmente as colunas.",
+      "alternative": "Usar passagem de pessoas para dar escala ao reflexo.",
+      "access": "Evitar bloqueio das circulações e respeitar intervenções/obras.",
+      "photos": [
+        "Palais Royal et les Colonnes de Buren.jpg",
+        "Colonnes de Buren @ Palais Royal @ Paris (26499809322).jpg",
+        "Colonnes de Buren @ Palais Royal @ Paris (26592432255).jpg"
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Rue de Rivoli e suas vitrines",
+      "lat": 48.8630426,
+      "lon": 2.3344681,
+      "sector": 3,
+      "potential": "Reflexo do movimento urbano em fachadas e vitrines",
+      "reflectionType": "Vitrine e circulação",
+      "bestConditions": "Depende das lojas, da luz e da escolha de um ponto seguro. Rua extensa: marcador apenas orientativo.",
+      "shot": "Fixar a câmera na vitrine e registrar pessoas ou ônibus passando ao fundo.",
+      "alternative": "Começar pelo reflexo da rua e revelar a vitrine.",
+      "access": "Não ocupar ciclovias, trânsito ou entradas de lojas.",
+      "photos": [
+        "Shops, 158 Rue de Rivoli, Paris 9 July 2016.jpg",
+        "Shops, 158 Rue de Rivoli, Paris 27 June 2017.jpg",
+        "Librairie Galignani, au 224 rue de Rivoli, Paris. .jpg"
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Cour Carrée do Louvre",
+      "lat": 48.8603668,
+      "lon": 2.3390539,
+      "sector": 3,
+      "potential": "Arquitetura do pátio refletida no piso depois da chuva",
+      "reflectionType": "Poças e fachada",
+      "bestConditions": "Depende de chuva recente; na ausência de água usar simetria das fachadas.",
+      "shot": "Câmera baixa, refletindo o pátio em uma poça enquanto visitantes caminham.",
+      "alternative": "Tomada em plano fixo para preservar a simetria.",
+      "access": "Acesso ao pátio e obras podem variar; não bloquear passagens.",
+      "photos": [
+        "Cour Carrée, Louvre Museum, 2 April 2009.jpg",
+        "Cour Carrée at the Musée du Louvre.jpg",
+        "Cour Carrée du Louvre in 2019.jpg"
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Pyramide du Louvre",
+      "lat": 48.8609943,
+      "lon": 2.3358432,
+      "sector": 3,
+      "potential": "Vidro da pirâmide e água dos espelhos d’água do pátio",
+      "reflectionType": "Vidro e espelho d’água",
+      "bestConditions": "Verifique estado dos espelhos d’água e acessos; superfícies podem estar vazias ou isoladas.",
+      "shot": "Mostrar a forma geométrica refletida e deixar pessoas atravessarem o plano.",
+      "alternative": "Compor pirâmide, reflexo e arquitetura histórica no mesmo quadro.",
+      "access": "Área turística movimentada, fiscalização e eventuais restrições.",
+      "photos": [
+        "Palais du Louvre, reflet sur la Pyramide.jpg",
+        "Cour Napoléon (127727189).jpg",
+        "North facade of the Denon Wing & Louvre Pyramid, 1 May 2018.jpg"
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Pont Neuf e margem do Sena",
+      "lat": 48.856667,
+      "lon": 2.340833,
+      "sector": 4,
+      "potential": "Arcos refletidos no rio e barcos cruzando as margens",
+      "reflectionType": "Arcos e rio",
+      "bestConditions": "A cor da água e o reflexo variam com correnteza, clima e luminosidade.",
+      "shot": "Ficar em margem acessível e enquadrar arco e reflexo na água.",
+      "alternative": "Esperar a passagem de um barco para quebrar o espelhamento.",
+      "access": "Respeitar áreas de pedestres; checar acesso à margem baixa.",
+      "photos": [
+        "Pont Neuf - Paris - France.jpg",
+        "Seine et Pont Neuf Paris.jpg",
+        "Le Pont Neuf à Paris, 8 juillet 2020.jpg"
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Square du Vert-Galant",
+      "lat": 48.8574066,
+      "lon": 2.3403279,
+      "sector": 4,
+      "potential": "Árvores e paisagem das duas margens refletidas no Sena",
+      "reflectionType": "Árvores e água",
+      "bestConditions": "Melhor com água calma e margens abertas; o parque pode fechar por cheias.",
+      "shot": "Câmera fixa na ponta da ilha com reflexo das margens e barcos ao longe.",
+      "alternative": "Detalhe de folhagens espelhadas e movimento da água.",
+      "access": "Acesso por escadas e risco de fechamento quando o rio sobe.",
+      "photos": [
+        "Square du Vert-Galant 003.jpg",
+        "Square du Vert-Galant, Paris February 2019.jpg",
+        "Pont des Arts from Square du Vert-Galant, Paris 20 April 2021.jpg"
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Quai de Bourbon",
+      "lat": 48.8532085,
+      "lon": 2.3546873,
+      "sector": 4,
+      "potential": "Fachadas da Île Saint-Louis duplicadas na água do Sena",
+      "reflectionType": "Fachadas e rio",
+      "bestConditions": "Luz lateral e água calma tornam os reflexos mais legíveis.",
+      "shot": "Plano fixo de fachadas na margem oposta refletidas no Sena.",
+      "alternative": "Mostrar folhas, água e arquitetura sem mover a câmera.",
+      "access": "Respeitar moradores, ruas de acesso e margens baixas.",
+      "photos": [
+        "Quai de Bourbon, Paris 16 June 2018.jpg",
+        "Pont Louis Philippe and Quai de Bourbon, Paris 2015.jpg",
+        "Quai de Bourbon, Paris 3 July 2018.jpg"
+      ]
+    }
+  ]
+}
