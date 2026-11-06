@@ -2,9 +2,15 @@
 
 Projeto pessoal, com os 20 arrondissements de Paris e as passagens cobertas, fotografias de referência e acesso a OpenStreetMap e Google Maps.
 
-## Acesso ao site, exclusivamente pelo GitHub
+## Site público e acesso ao repositório
 
-Este repositório é **privado**. Não ative o GitHub Pages: em uma conta pessoal, o site publicado pelo Pages pode ser público mesmo que o código esteja privado.
+Desde **6 de novembro de 2026**, o repositório é **público** e o site foi publicado no **GitHub Pages**, com autorização da responsável.
+
+**Site:** https://paulamcunha.github.io/paris/  
+**Repositório:** https://github.com/paulamcunha/paris  
+**Publicação automática:** GitHub Actions, arquivo `.github/workflows/pages.yml`, acionado por alterações em HTML, KML ou no workflow na branch `main`.
+
+A configuração original privada com Codespaces descrita abaixo permanece disponível como **alternativa de desenvolvimento**, não é mais necessária para consultar o site publicado.
 
 O site pode ser aberto com **GitHub Codespaces**, com a porta 8000 configurada como **Private**. Ela exige autenticação no GitHub e funciona quando o Codespace está em execução.
 
@@ -34,11 +40,12 @@ O Codespaces verifica a branch `main` no GitHub **a cada 2 minutos**, enquanto e
 
 ## Arquivos
 
+- `DOCUMENTACAO_HISTORICA_COMPLETA_PARIS_EM_CENA_2026-11-06.md`: histórico de 15/10 a 06/11, decisões, entregas, auditorias, links e 38 commits anteriores à sua criação.
 - `index.html`: site completo.
 - `.devcontainer/devcontainer.json`: configura o ambiente e a porta 8000.
 - `.devcontainer/start-site.sh`: inicia o servidor HTTP do Python e a sincronização.\n- `.devcontainer/sync-repo.sh`: verifica novas versões a cada dois minutos.
 
-**Privacidade:** mantenha o repositório privado, a porta 8000 privada e não ative GitHub Pages ou outro serviço de hospedagem pública.
+**Observação histórica:** o projeto começou privado e foi publicado publicamente em 06/11/2026. O GitHub Pages e o repositório são públicos. Para trabalho de desenvolvimento, pode-se manter a porta 8000 do Codespaces como **Private**. Verifique sempre as licenças e atribuições das fotografias usadas em páginas públicas.
 
 ## Guia temático das igrejas de Paris
 
