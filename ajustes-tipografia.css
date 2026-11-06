@@ -1015,3 +1015,361 @@ body {
     margin: 0 0 4px !important;
   }
 }
+
+
+/* === LEIAUTE MULTI-DISPOSITIVO 2026: CELULAR, TABLET E COMPUTADOR === */
+
+/* 1. Barra lateral recolhível no Tablet e Computador + Grade compacta 2 colunas para os 20 Arrondissements */
+.sidebar-collapse-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--wine);
+  border-radius: 6px;
+  padding: 6px 10px;
+  min-height: 40px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.sidebar-collapse-btn:hover {
+  background: #fcf2f3;
+  border-color: var(--wine);
+}
+@media (max-width: 800px) {
+  .sidebar-collapse-btn {
+    display: none !important;
+  }
+}
+@media (min-width: 801px) {
+  body.sidebar-collapsed .page-layout {
+    grid-template-columns: 0px minmax(0, 1fr) !important;
+  }
+  body.sidebar-collapsed .site-sidebar {
+    width: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    overflow: hidden !important;
+    border: 0 !important;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+/* Grade de 2 colunas para os 20 Arrondissements no menu lateral (reduz rolagem do menu pela metade) */
+.side-arr-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px;
+  padding: 2px 4px 14px;
+}
+.side-arr-grid .side-link {
+  padding: 7px 8px;
+  min-height: 40px;
+  gap: 6px;
+  font-size: 0.875rem;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+.side-arr-grid .side-link:hover,
+.side-arr-grid .side-link.active {
+  background: rgba(255, 255, 255, 0.24);
+  border-color: rgba(255, 255, 255, 0.55);
+}
+.side-arr-grid .side-link span:not(.side-num):not(.side-count) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.side-arr-grid .side-num {
+  min-width: 20px;
+  font-size: 0.875rem;
+}
+.side-arr-grid .side-count {
+  display: none;
+}
+
+/* 2. Barra Flutuante de Índice Rápido de Takes ("Mapa | 01 | 02 | ... | 14") */
+.guide-jump-bar {
+  position: sticky;
+  top: 58px;
+  z-index: 16;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--wine);
+  border-radius: 8px;
+  padding: 7px 12px;
+  margin: 0 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+.guide-jump-label {
+  font-size: 0.875rem;
+  font-weight: 800;
+  color: var(--wine);
+  white-space: nowrap;
+  margin-right: 4px;
+}
+.guide-jump-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  min-height: 36px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #dfd0d2;
+  background: #fcf9f9;
+  color: #3a2b2d;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+  margin-left: 0 !important;
+}
+.guide-jump-pill:hover,
+.guide-jump-pill.is-active {
+  background: var(--wine);
+  color: #fff !important;
+  border-color: var(--wine);
+}
+
+/* 3. Cartões de Ficha (.take-card) com Visual Editorial Moderno e Legendas Compactas */
+.take-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--wine);
+  border-radius: 10px;
+  padding: clamp(18px, 2.5vw, 28px);
+  margin: 0 0 24px;
+  box-shadow: 0 2px 10px rgba(40, 20, 22, 0.04);
+  scroll-margin-top: 118px;
+}
+/* Oculta apenas o nome técnico bruto do arquivo .jpg na visualização padrão (mantendo autor, ano, licença e link Commons 100% visíveis) */
+.take-card figcaption .meta-small:not(.credit-verified):not(.credit-live) {
+  display: none;
+}
+.take-card figcaption .file-title {
+  font-size: 0.875rem;
+  color: var(--wine);
+  margin-bottom: 2px;
+}
+
+/* 4. Leiaute Desktop e Monitores Amplos (>= 1180px): Container expandido e 2 Colunas Equilibradas */
+@media (min-width: 1180px) {
+  .page-content {
+    max-width: 1320px;
+  }
+  .home-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+  }
+  /* Fichas com galeria e especificações lado a lado quando não estiver em modo mosaico */
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    gap: 16px 26px;
+    align-items: start;
+  }
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > .kicker,
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > .church-flag,
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > .eyebrow,
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > .eye,
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > .head,
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > h2,
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > .take-quick-bar,
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > .source-ref,
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > .tag,
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > p.actions:first-of-type {
+    grid-column: 1 / -1;
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > .gallery-wrap {
+    grid-column: 1 / 2;
+    margin-top: 0;
+  }
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > .take-spec-col {
+    grid-column: 2 / 3;
+    background: #fcf9f9;
+    border: 1px solid #ece1e2;
+    border-radius: 9px;
+    padding: 16px 18px;
+  }
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > .take-spec-col > h3:first-child {
+    margin-top: 0;
+  }
+  .guide-panel:not(.is-contact-sheet) .take-card.has-split-desktop > .pc-historia {
+    grid-column: 1 / -1;
+    margin-top: 8px;
+  }
+}
+
+/* 5. Leiaute Tablet Retrato e Paisagem (700px a 1179px): Galeria de 3 Colunas e Grade Dupla */
+@media (min-width: 700px) and (max-width: 1179px) {
+  .page-content {
+    max-width: 100%;
+    padding: 22px 20px 70px;
+  }
+  .take-card .gallery,
+  .take-card .photos,
+  .take-card .images {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .take-card figure .thumb {
+    aspect-ratio: 4 / 4.4;
+  }
+  .home-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+}
+
+/* 6. Leiaute Celular (<= 699px): Carrossel Deslizante de Fotos, Cabeçalho Limpo e Barra Inferior de Polegar */
+.mobile-bottom-nav {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  /* Cabeçalho superior compacto e ergonômico no celular */
+  .site-header {
+    padding: 6px 10px;
+    gap: 6px;
+    flex-wrap: nowrap;
+  }
+  .site-header .crumb {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .site-header .nearby-toggle,
+  .site-header .shoot-toggle {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 6px 9px;
+    font-size: 0.8125rem;
+  }
+  @media (max-width: 420px) {
+    .site-header .nearby-toggle {
+      display: none !important;
+    }
+  }
+
+  /* Barra Inferior Fixa para Uso com Uma Mão (Polegar) no Celular e Tablet Retrato */
+  .mobile-bottom-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 35;
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid #dfd0d2;
+    box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.08);
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 4px;
+    padding: 6px 8px calc(6px + env(safe-area-inset-bottom, 0px));
+  }
+  .mobile-bottom-btn {
+    border: 1px solid transparent;
+    background: transparent;
+    color: #3a2b2d;
+    border-radius: 8px;
+    min-height: 46px;
+    padding: 4px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.15;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .mobile-bottom-btn .mb-icon {
+    font-size: 1.05rem;
+    line-height: 1;
+  }
+  .mobile-bottom-btn.is-primary {
+    background: #fcf2f3;
+    color: var(--wine);
+    border-color: #ebd0d3;
+  }
+  .mobile-bottom-btn:active,
+  .mobile-bottom-btn:hover {
+    background: var(--wine);
+    color: #fff;
+  }
+  .page-content {
+    padding-bottom: 96px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Carrossel horizontal swipeable nas galerias de fotos dos takes no celular */
+  .take-card .gallery,
+  .take-card .photos,
+  .take-card .images {
+    display: flex !important;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 12px;
+    padding-bottom: 8px;
+  }
+  .take-card .gallery > figure,
+  .take-card .photos > figure,
+  .take-card .images > figure {
+    flex: 0 0 84%;
+    max-width: 84%;
+    scroll-snap-align: start;
+    margin: 0;
+  }
+  .take-card .gallery > figure:only-child,
+  .take-card .photos > figure:only-child,
+  .take-card .images > figure:only-child {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .take-card figure .thumb {
+    aspect-ratio: 4 / 4.2;
+    max-height: 290px;
+  }
+  .gallery-swipe-hint {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--wine);
+    font-weight: 600;
+    margin-left: auto;
+  }
+}
+@media (min-width: 601px) {
+  .gallery-swipe-hint {
+    display: none !important;
+  }
+}
+
+@media print {
+  .guide-jump-bar,
+  .mobile-bottom-nav,
+  .sidebar-collapse-btn {
+    display: none !important;
+  }
+}
