@@ -1,6 +1,6 @@
 # Paris em Cena | Guias de Campo
 
-Projeto pessoal, com os 20 arrondissements de Paris e coleções temáticas (Passagens cobertas, Igrejas de Paris, Paris com Vista para a Torre Eiffel, Pontes e Margens do Sena e Paris vista pelos reflexos), totalizando **25 guias**, **368 takes documentais** (+ 41 fichas históricas de passagens cobertas), **1.052 fotografias de referência verificadas no Wikimedia Commons**, **47 mapas interativos** e **210 links de itinerários a pé** no Google Maps.
+Projeto pessoal, com os 20 arrondissements de Paris e coleções temáticas (Passagens cobertas, Igrejas de Paris, Paris com Vista para a Torre Eiffel, Pontes e Margens do Sena e Paris vista pelos reflexos), totalizando **25 guias**, **368 takes documentais** (+ 41 fichas históricas de passagens cobertas), **1.056 fotografias de referência verificadas no Wikimedia Commons**, **47 mapas interativos** e **210 links de itinerários a pé** no Google Maps.
 
 ## Site público e acesso ao repositório
 
@@ -40,7 +40,8 @@ O Codespaces verifica a branch `main` no GitHub **a cada 2 minutos**, enquanto e
 
 ## Arquivos
 
-- `AUDITORIA_COMPLETA_2026-11-06.md`: relatório completo da auditoria técnica, visual, cartográfica, de acessibilidade e expansão fotográfica (de 626 para 1.052 fotografias verificadas), com status dos 25 guias e resultados das 13 suítes de testes automatizados em navegador.
+- `AUDITORIA_PONTO_A_PONTO_2026-11-06.md`: inventário e auditoria ponto a ponto dos 368 takes nos 25 guias, com coordenadas exatas, distâncias e tempos estimados ponto a ponto (`N → N+1`) e verificação de licenças das 1.056 fotografias.
+- `AUDITORIA_COMPLETA_2026-11-06.md`: relatório completo da auditoria técnica, visual, cartográfica, de acessibilidade e expansão fotográfica (de 626 para 1.056 fotografias verificadas), com status dos 25 guias e resultados das 13 suítes de testes automatizados em navegador.
 - `DOCUMENTACAO_HISTORICA_COMPLETA_PARIS_EM_CENA_2026-11-06.md`: histórico de 15/10 a 06/11, decisões, entregas, auditorias, links e 38 commits anteriores à sua criação.
 - `index.html`: site completo com os 25 guias integrados.
 - `ajustes-tipografia.css`: folha de estilo complementar vinculada em `index.html` com regras responsivas de tipografia (corpo `16 px`, legendas `>= 14 px`), espaçamento de links e acessibilidade.

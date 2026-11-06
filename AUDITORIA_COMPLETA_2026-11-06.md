@@ -15,10 +15,10 @@ A auditoria examinou integralmente o repositório e a versão publicada do **Par
 | :--- | :---: | :---: | :---: |
 | **Guias integrados** | 25 guias (+ `inicio`) | 25 guias (+ `inicio`) | **Aprovado** |
 | **Takes / pontos de tomada** | 368 takes (+ 41 passagens) | 368 takes (+ 41 passagens) | **Aprovado** |
-| **Fotografias de referência incorporadas** | 626 | **1.052** (+426 do Wikimedia Commons) | **Corrigido** |
-| **Takes com múltiplas fotografias (2–4)** | 143 / 368 (38,9%) | **365 / 368 (99,2%)** | **Corrigido** |
+| **Fotografias de referência incorporadas** | 626 | **1.056** (+430 do Wikimedia Commons) | **Corrigido** |
+| **Takes com múltiplas fotografias (2–4)** | 143 / 368 (38,9%) | **367 / 368 (99,7%)** | **Corrigido** |
 | **Duplicações fotográficas no mesmo guia** | 1 (`eiffel-take-04`) | **0** | **Corrigido** |
-| **Fotografias com autoria, ano e licença na legenda** | 383 / 626 (61,2%) | **1.052 / 1.052 (100%)** | **Corrigido** |
+| **Fotografias com autoria, ano e licença na legenda** | 383 / 626 (61,2%) | **1.056 / 1.056 (100%)** | **Corrigido** |
 | **Caixas de erro (`fallback`) visíveis sobre fotos íntegras** | 112 (`g11`–`g16`, `g19`, `g20`) | **0** | **Corrigido** |
 | **Guias funcionando no Visualizador (`#photo-viewer`) e Modo Gravação** | 16 / 25 | **25 / 25 (100%)** | **Corrigido** |
 | **Controles interativos aninhados (`<a>` com `<img role="button">`)** | 135 (`g05`–`g10`) | **0** | **Corrigido** |
@@ -133,9 +133,9 @@ A auditoria examinou integralmente o repositório e a versão publicada do **Par
 | 10 | `g10` | 10º Arrondissement · Canal Saint-Martin | 14 | 14 → **41** | 1 geral + 3 setores | 3 rotas · **5,4 km a pé** (~67 min) | +27 fotos verificadas, coordenada da Porte Saint-Martin (`g10-take-12`) corrigida | **Corrigido** |
 | 11 | `g11` | 11º Arrondissement · Bastille | 14 | 14 → **42** | 1 geral + 3 setores | 3 rotas · **6,1 km a pé** (~76 min) | +28 fotos verificadas, ocultado `.fallback` visível, ativados `#photo-viewer` e Modo Gravação | **Corrigido** |
 | 12 | `g12` | 12º Arrondissement · Bercy & Nation | 14 | 14 → **38** | 1 geral + 3 setores | 3 rotas · **9,5 km a pé** (~119 min) | +24 fotos verificadas, ocultado `.fallback` visível, ativados `#photo-viewer` e Modo Gravação | **Corrigido** |
-| 13 | `g13` | 13º Arrondissement · Gobelins & BnF | 14 | 14 → **38** | 1 geral + 3 setores | 3 rotas · **7,8 km a pé** (~98 min) | +24 fotos verificadas, ocultado `.fallback` (`g13-take-09` com 1 foto e pendência editorial registrada) | **Corrigido / Pendente** |
-| 14 | `g14` | 14º Arrondissement · Montparnasse | 14 | 14 → **41** | 1 geral + 3 setores | 3 rotas · **6,5 km a pé** (~81 min) | +27 fotos verificadas, ocultado `.placeholder` visível, ativados `#photo-viewer` e Modo Gravação | **Corrigido** |
-| 15 | `g15` | 15º Arrondissement · Vaugirard | 14 | 14 → **37** | 1 geral + 3 setores | 3 rotas · **9,1 km a pé** (~114 min) | +23 fotos verificadas, coordenada `g15-take-07` corrigida (`g15-take-05` com 1 foto e pendência registrada) | **Corrigido / Pendente** |
+| 13 | `g13` | 13º Arrondissement · Gobelins & BnF | 14 | 14 → **40** | 1 geral + 3 setores | 3 rotas · **9,46 km a pé** (~118 min) | +26 fotos verificadas (100% dos takes com 2–3 fotos), ocultado `.fallback`, zoom ativo | **Corrigido** |
+| 14 | `g14` | 14º Arrondissement · Montparnasse | 14 | 14 → **41** | 1 geral + 3 setores | 3 rotas · **7,84 km a pé** (~98 min) | +27 fotos verificadas, ocultado `.placeholder` visível, ativados `#photo-viewer` e Modo Gravação | **Corrigido** |
+| 15 | `g15` | 15º Arrondissement · Vaugirard | 14 | 14 → **39** | 1 geral + 3 setores | 3 rotas · **13,10 km a pé** (~164 min) | +25 fotos verificadas (100% dos takes com 2–3 fotos), coordenada `g15-take-07` corrigida | **Corrigido** |
 | 16 | `g16` | 16º Arrondissement · Passy & Auteuil | 14 | 14 → **41** | 1 geral + 3 setores | 3 rotas · **9,2 km a pé** (~115 min) | +27 fotos verificadas, ocultado `.placeholder` visível, ativados `#photo-viewer` e Modo Gravação | **Corrigido** |
 | 17 | `g17` | 17º Arrondissement · Batignolles | 14 | 14 → **40** | 1 geral + 3 setores | 3 rotas · **7,4 km a pé** (~93 min) | +26 fotos verificadas, coordenada do Tribunal de Paris (`g17-take-12`) corrigida | **Corrigido** |
 | 18 | `g18` | 18º Arrondissement · Montmartre | 14 | 14 → **40** | 1 geral + 3 setores | 3 rotas · **5,7 km a pé** (~71 min) | +26 fotos verificadas, links OSM exatos e distância OSRM adicionada | **Corrigido** |
