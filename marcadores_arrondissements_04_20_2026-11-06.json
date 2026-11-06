@@ -18,7 +18,14 @@
       "postcode": "75004",
       "label": "88 Rue de Rivoli 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.858254,
+        "lon": 2.349388,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g04",
@@ -32,7 +39,14 @@
       "postcode": "75004",
       "label": "Place Georges Pompidou 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.860307,
+        "lon": 2.351132,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g04",
@@ -62,6 +76,15 @@
             "osm_id": 88301107
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8594813,
+        "lon": 2.351485,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 88301107,
+        "match": "Stravinsky Fountain"
       }
     },
     {
@@ -76,7 +99,14 @@
       "postcode": "75004",
       "label": "78 Rue Saint-Martin 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.859288,
+        "lon": 2.350514,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g04",
@@ -90,7 +120,14 @@
       "postcode": "75004",
       "label": "Place de l'Hôtel de Ville-esplanade de la Libération 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.856772,
+        "lon": 2.351429,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g04",
@@ -104,7 +141,14 @@
       "postcode": "75004",
       "label": "13 Rue des Barres 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.855411,
+        "lon": 2.355261,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g04",
@@ -118,7 +162,14 @@
       "postcode": "75004",
       "label": "17 Rue Geoffroy l'Asnier 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.854851,
+        "lon": 2.356314,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g04",
@@ -132,7 +183,14 @@
       "postcode": "75004",
       "label": "29 Rue des Rosiers 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.857711,
+        "lon": 2.358204,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g04",
@@ -146,7 +204,14 @@
       "postcode": "75004",
       "label": "7 Rue de Fourcy 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.85508,
+        "lon": 2.359244,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g04",
@@ -160,7 +225,14 @@
       "postcode": "75004",
       "label": "99 Rue Saint-Antoine 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.854759,
+        "lon": 2.361743,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g04",
@@ -174,7 +246,14 @@
       "postcode": "75004",
       "label": "62 Rue Saint-Antoine 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.85441,
+        "lon": 2.363701,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g04",
@@ -188,7 +267,14 @@
       "postcode": "75004",
       "label": "Place des Vosges 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.855326,
+        "lon": 2.36552,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g04",
@@ -202,7 +288,14 @@
       "postcode": "75004",
       "label": "19B Rue Saint-Louis en l'Île 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.85127,
+        "lon": 2.357978,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g04",
@@ -216,7 +309,14 @@
       "postcode": "75004",
       "label": "6 Parvis Notre-Dame Place Jean-Paul II 75004 Paris",
       "expected_postcode": "75004",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.852991,
+        "lon": 2.3489,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g05",
@@ -230,7 +330,14 @@
       "postcode": "75005",
       "label": "3 Rue des Prêtres Saint-Séverin 75005 Paris",
       "expected_postcode": "75005",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.85182,
+        "lon": 2.345063,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g05",
@@ -244,7 +351,14 @@
       "postcode": "75005",
       "label": "28 Rue du Sommerard 75005 Paris",
       "expected_postcode": "75005",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.850525,
+        "lon": 2.343227,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g05",
@@ -258,7 +372,14 @@
       "postcode": "75005",
       "label": "47 Rue des Écoles 75005 Paris",
       "expected_postcode": "75005",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.849644,
+        "lon": 2.344296,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g05",
@@ -272,7 +393,14 @@
       "postcode": "75005",
       "label": "Place du Panthéon 75005 Paris",
       "expected_postcode": "75005",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.845939,
+        "lon": 2.34571,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g05",
@@ -286,7 +414,14 @@
       "postcode": "75005",
       "label": "Place Sainte-Geneviève 75005 Paris",
       "expected_postcode": "75005",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.846727,
+        "lon": 2.347451,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g05",
@@ -326,6 +461,15 @@
             "osm_id": 10125185429
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8471361,
+        "lon": 2.3457504,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 55353486,
+        "match": "Bibliothèque Sainte-Geneviève"
       }
     },
     {
@@ -340,7 +484,14 @@
       "postcode": "75005",
       "label": "Place de la Contrescarpe 75005 Paris",
       "expected_postcode": "75005",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.84459,
+        "lon": 2.34958,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g05",
@@ -400,6 +551,13 @@
             "osm_id": 8026362209
           }
         ]
+      },
+      "pin": {
+        "lat": 48.842185,
+        "lon": 2.349646,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -460,6 +618,15 @@
             "osm_id": 10756236172
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8450606,
+        "lon": 2.3529374,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 406229046,
+        "match": "Arènes de Lutèce"
       }
     },
     {
@@ -474,7 +641,14 @@
       "postcode": "75005",
       "label": "2B Place du Puits de l'Ermite 75005 Paris",
       "expected_postcode": "75005",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.842448,
+        "lon": 2.354194,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g05",
@@ -534,6 +708,15 @@
             "osm_id": 987505278
           }
         ]
+      },
+      "pin": {
+        "lat": 48.844036,
+        "lon": 2.3597321,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 4221369,
+        "match": "Garden of the Plants"
       }
     },
     {
@@ -548,7 +731,14 @@
       "postcode": "75005",
       "label": "36 Rue Geoffroy-Saint-Hilaire 75005 Paris",
       "expected_postcode": "75005",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.841491,
+        "lon": 2.355989,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g05",
@@ -562,7 +752,14 @@
       "postcode": "75005",
       "label": "1 Rue des Fossés Saint-Bernard 75005 Paris",
       "expected_postcode": "75005",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.849172,
+        "lon": 2.356212,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g05",
@@ -576,7 +773,14 @@
       "postcode": "75005",
       "label": "37 Rue de la Bûcherie 75005 Paris",
       "expected_postcode": "75005",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.852589,
+        "lon": 2.347107,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g06",
@@ -590,7 +794,14 @@
       "postcode": "75006",
       "label": "11 Quai de Conti 75006 Paris",
       "expected_postcode": "75006",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.856746,
+        "lon": 2.3392,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g06",
@@ -604,7 +815,14 @@
       "postcode": "75006",
       "label": "23 Quai de Conti 75006 Paris",
       "expected_postcode": "75006",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.85729,
+        "lon": 2.337355,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g06",
@@ -618,7 +836,14 @@
       "postcode": "75006",
       "label": "14 Rue Bonaparte 75006 Paris",
       "expected_postcode": "75006",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.856491,
+        "lon": 2.334499,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g06",
@@ -632,7 +857,14 @@
       "postcode": "75006",
       "label": "6 Rue de Furstemberg 75006 Paris",
       "expected_postcode": "75006",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.854445,
+        "lon": 2.335642,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g06",
@@ -646,7 +878,14 @@
       "postcode": "75006",
       "label": "3 Place Saint-Germain des Prés 75006 Paris",
       "expected_postcode": "75006",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.854032,
+        "lon": 2.33367,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g06",
@@ -660,7 +899,14 @@
       "postcode": "75006",
       "label": "172 Boulevard Saint-Germain 75006 Paris",
       "expected_postcode": "75006",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.854135,
+        "lon": 2.332561,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g06",
@@ -720,6 +966,13 @@
             "osm_id": 5286151322
           }
         ]
+      },
+      "pin": {
+        "lat": 48.853694,
+        "lon": 2.336734,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -734,7 +987,14 @@
       "postcode": "75006",
       "label": "130 Boulevard Saint-Germain 75006 Paris",
       "expected_postcode": "75006",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.85248,
+        "lon": 2.339349,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g06",
@@ -748,7 +1008,14 @@
       "postcode": "75006",
       "label": "Place de l'Odéon 75006 Paris",
       "expected_postcode": "75006",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.849853,
+        "lon": 2.338715,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g06",
@@ -798,6 +1065,15 @@
             "osm_id": 4820131022
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8480587,
+        "lon": 2.3392944,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 782601793,
+        "match": "Fontaine Médicis"
       }
     },
     {
@@ -858,6 +1134,15 @@
             "osm_id": 6437112086
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8467228,
+        "lon": 2.3364148,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 128206209,
+        "match": "Luxembourg Garden"
       }
     },
     {
@@ -898,6 +1183,15 @@
             "osm_id": 1755256376
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8485422,
+        "lon": 2.3377753,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 975955,
+        "match": "Luxembourg Palace"
       }
     },
     {
@@ -912,7 +1206,14 @@
       "postcode": "75006",
       "label": "19 Rue de Vaugirard 75006 Paris",
       "expected_postcode": "75006",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.848891,
+        "lon": 2.334074,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g06",
@@ -926,7 +1227,14 @@
       "postcode": "75006",
       "label": "Place Saint-Sulpice 75006 Paris",
       "expected_postcode": "75006",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.850947,
+        "lon": 2.333961,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g07",
@@ -986,6 +1294,15 @@
             "osm_id": 415077613
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8599179,
+        "lon": 2.3265849,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 63178753,
+        "match": "Museum of Orsay"
       }
     },
     {
@@ -1000,7 +1317,14 @@
       "postcode": "75007",
       "label": "126 Rue de l'Université 75007 Paris",
       "expected_postcode": "75007",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.860825,
+        "lon": 2.318606,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g07",
@@ -1060,6 +1384,15 @@
             "osm_id": 2411479930
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8630339,
+        "lon": 2.3138871,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 2411479930,
+        "match": "Pont Alexandre III"
       }
     },
     {
@@ -1090,6 +1423,15 @@
             "osm_id": 262279588
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8598983,
+        "lon": 2.314402,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 262279588,
+        "match": "Esplanade des Invalides"
       }
     },
     {
@@ -1104,7 +1446,14 @@
       "postcode": "75007",
       "label": "77 Rue de Varenne 75007 Paris",
       "expected_postcode": "75007",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.855866,
+        "lon": 2.315993,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g07",
@@ -1118,7 +1467,14 @@
       "postcode": "75007",
       "label": "Place Vauban 75007 Paris",
       "expected_postcode": "75007",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.853219,
+        "lon": 2.312216,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g07",
@@ -1178,6 +1534,15 @@
             "osm_id": 7566060395
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8565839,
+        "lon": 2.3065089,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 19729642,
+        "match": "Rue Cler"
       }
     },
     {
@@ -1192,7 +1557,14 @@
       "postcode": "75007",
       "label": "Place Joffre 75007 Paris",
       "expected_postcode": "75007",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.85288,
+        "lon": 2.303337,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g07",
@@ -1252,6 +1624,15 @@
             "osm_id": 4208595
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8561447,
+        "lon": 2.2978204,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 4208595,
+        "match": "Field of Mars"
       }
     },
     {
@@ -1266,7 +1647,14 @@
       "postcode": "75007",
       "label": "5 Avenue Anatole France 75007 Paris",
       "expected_postcode": "75007",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.858819,
+        "lon": 2.294597,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g07",
@@ -1326,6 +1714,13 @@
             "osm_id": 791813183
           }
         ]
+      },
+      "pin": {
+        "lat": 48.857432,
+        "lon": 2.300536,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -1340,7 +1735,14 @@
       "postcode": "75007",
       "label": "Quai Jacques Chirac 75007 Paris",
       "expected_postcode": "75007",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.860026,
+        "lon": 2.295179,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g07",
@@ -1354,7 +1756,14 @@
       "postcode": "75007",
       "label": "Port de la Bourdonnais 75007 Paris",
       "expected_postcode": "75007",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.861719,
+        "lon": 2.296515,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g07",
@@ -1414,6 +1823,15 @@
             "osm_id": 1423074549
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8590881,
+        "lon": 2.2934302,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 17066635,
+        "match": "Pont d'Iéna"
       }
     },
     {
@@ -1428,7 +1846,14 @@
       "postcode": "75008",
       "label": "13 Rue d'Amsterdam 75008 Paris",
       "expected_postcode": "75008",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.876642,
+        "lon": 2.3268,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g08",
@@ -1442,7 +1867,14 @@
       "postcode": "75008",
       "label": "Place Saint-Augustin 75008 Paris",
       "expected_postcode": "75008",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.875175,
+        "lon": 2.319722,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g08",
@@ -1456,7 +1888,14 @@
       "postcode": "75008",
       "label": "35 Boulevard de Courcelles 75008 Paris",
       "expected_postcode": "75008",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.880517,
+        "lon": 2.311239,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g08",
@@ -1470,7 +1909,14 @@
       "postcode": "75008",
       "label": "63 Rue de Monceau 75008 Paris",
       "expected_postcode": "75008",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.878855,
+        "lon": 2.312866,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g08",
@@ -1484,7 +1930,14 @@
       "postcode": "75008",
       "label": "158 Boulevard Haussmann 75008 Paris",
       "expected_postcode": "75008",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.875265,
+        "lon": 2.310873,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g08",
@@ -1544,6 +1997,15 @@
             "osm_id": 84318222
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8737791,
+        "lon": 2.2950372,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 226413508,
+        "match": "Arc de Triomphe"
       }
     },
     {
@@ -1574,6 +2036,13 @@
             "osm_id": 105177511
           }
         ]
+      },
+      "pin": {
+        "lat": 48.870713,
+        "lon": 2.306728,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -1604,6 +2073,15 @@
             "osm_id": 4294052
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8688417,
+        "lon": 2.3098439,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 4294052,
+        "match": "Avenue Montaigne"
       }
     },
     {
@@ -1618,7 +2096,14 @@
       "postcode": "75008",
       "label": "3 Avenue du Général Eisenhower 75008 Paris",
       "expected_postcode": "75008",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.867188,
+        "lon": 2.312678,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g08",
@@ -1632,7 +2117,14 @@
       "postcode": "75008",
       "label": "Avenue Winston Churchill 75008 Paris",
       "expected_postcode": "75008",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.866075,
+        "lon": 2.313638,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g08",
@@ -1646,7 +2138,14 @@
       "postcode": "75008",
       "label": "55 Rue du Faubourg Saint-Honoré 75008 Paris",
       "expected_postcode": "75008",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.87063,
+        "lon": 2.316931,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g08",
@@ -1676,6 +2175,15 @@
             "osm_id": 10142349
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8668388,
+        "lon": 2.3149325,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 10142349,
+        "match": "Jardins des Champs-Élysées"
       }
     },
     {
@@ -1690,7 +2198,14 @@
       "postcode": "75008",
       "label": "Place de la Concorde 75008 Paris",
       "expected_postcode": "75008",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.867063,
+        "lon": 2.321554,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g08",
@@ -1704,7 +2219,14 @@
       "postcode": "75008",
       "label": "Place de la Madeleine 75008 Paris",
       "expected_postcode": "75008",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.870275,
+        "lon": 2.324628,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1718,7 +2240,14 @@
       "postcode": "75009",
       "label": "Place de l'Opéra 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.871044,
+        "lon": 2.332135,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1732,7 +2261,14 @@
       "postcode": "75009",
       "label": "40 Boulevard Haussmann 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.873199,
+        "lon": 2.332434,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1746,7 +2282,14 @@
       "postcode": "75009",
       "label": "64 Boulevard Haussmann 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.873773,
+        "lon": 2.328157,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1760,7 +2303,14 @@
       "postcode": "75009",
       "label": "Place d'Estienne d'Orves 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.87687,
+        "lon": 2.33164,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1774,7 +2324,14 @@
       "postcode": "75009",
       "label": "14 Rue Catherine de la Rochefoucauld 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.877912,
+        "lon": 2.334416,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1788,7 +2345,14 @@
       "postcode": "75009",
       "label": "16 Rue Chaptal 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.880901,
+        "lon": 2.333289,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1802,7 +2366,14 @@
       "postcode": "75009",
       "label": "Place Saint-Georges 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.87841,
+        "lon": 2.337619,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1862,6 +2433,15 @@
             "osm_id": 4508016589
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8778446,
+        "lon": 2.3395219,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 682050547,
+        "match": "Rue des Martyrs"
       }
     },
     {
@@ -1876,7 +2456,14 @@
       "postcode": "75009",
       "label": "18B Rue de Châteaudun 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.876159,
+        "lon": 2.338818,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1890,7 +2477,14 @@
       "postcode": "75009",
       "label": "9 Rue Drouot 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.873092,
+        "lon": 2.340389,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1904,7 +2498,14 @@
       "postcode": "75009",
       "label": "6 Rue de la Grange Batelière 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.873131,
+        "lon": 2.342156,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1918,7 +2519,14 @@
       "postcode": "75009",
       "label": "12 Boulevard Montmartre 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.871865,
+        "lon": 2.341812,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1932,7 +2540,14 @@
       "postcode": "75009",
       "label": "10 Boulevard Montmartre 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.871839,
+        "lon": 2.341972,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g09",
@@ -1946,7 +2561,14 @@
       "postcode": "75009",
       "label": "32 Rue Richer 75009 Paris",
       "expected_postcode": "75009",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.87409,
+        "lon": 2.344904,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g10",
@@ -1960,7 +2582,14 @@
       "postcode": "75010",
       "label": "18 Rue de Dunkerque 75010 Paris",
       "expected_postcode": "75010",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.88038,
+        "lon": 2.35355,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g10",
@@ -1974,7 +2603,14 @@
       "postcode": "75010",
       "label": "5 Rue de Belzunce 75010 Paris",
       "expected_postcode": "75010",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.879387,
+        "lon": 2.351179,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g10",
@@ -1988,7 +2624,14 @@
       "postcode": "75010",
       "label": "85B Boulevard de Magenta 75010 Paris",
       "expected_postcode": "75010",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.876975,
+        "lon": 2.355191,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g10",
@@ -2048,6 +2691,15 @@
             "osm_id": 1446486137
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8770979,
+        "lon": 2.3594905,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 2506241285,
+        "match": "Paris Gare de l'Est"
       }
     },
     {
@@ -2062,7 +2714,14 @@
       "postcode": "75010",
       "label": "148 Rue du Faubourg Saint-Martin 75010 Paris",
       "expected_postcode": "75010",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.875417,
+        "lon": 2.36002,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g10",
@@ -2076,7 +2735,14 @@
       "postcode": "75010",
       "label": "8 Rue des Récollets 75010 Paris",
       "expected_postcode": "75010",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.874499,
+        "lon": 2.361905,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g10",
@@ -2116,6 +2782,15 @@
             "osm_id": 1016421660
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8731762,
+        "lon": 2.3638805,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 35548582,
+        "match": "Passerelle Arletty"
       }
     },
     {
@@ -2130,7 +2805,14 @@
       "postcode": "75010",
       "label": "102 Quai de Jemmapes 75010 Paris",
       "expected_postcode": "75010",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.873548,
+        "lon": 2.364072,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g10",
@@ -2170,6 +2852,15 @@
             "osm_id": 48965662
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8730518,
+        "lon": 2.3636377,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 48965662,
+        "match": "Quai de Valmy"
       }
     },
     {
@@ -2200,6 +2891,15 @@
             "osm_id": 76910061
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8698008,
+        "lon": 2.366505,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 76910061,
+        "match": "Passerelle Jane Birkin"
       }
     },
     {
@@ -2260,6 +2960,13 @@
             "osm_id": 7068210649
           }
         ]
+      },
+      "pin": {
+        "lat": 48.86822,
+        "lon": 2.362915,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -2274,7 +2981,14 @@
       "postcode": "75010",
       "label": "Boulevard Saint-Martin 75010 Paris",
       "expected_postcode": "75010",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.868734,
+        "lon": 2.358261,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g10",
@@ -2288,7 +3002,14 @@
       "postcode": "75010",
       "label": "46 Rue du Faubourg Saint-Denis 75010 Paris",
       "expected_postcode": "75010",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.871601,
+        "lon": 2.353784,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g10",
@@ -2302,7 +3023,14 @@
       "postcode": "75010",
       "label": "Boulevard Saint-Denis 75010 Paris",
       "expected_postcode": "75010",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.869565,
+        "lon": 2.354103,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2316,7 +3044,14 @@
       "postcode": "75011",
       "label": "Place de la République 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.866793,
+        "lon": 2.365428,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2330,7 +3065,14 @@
       "postcode": "75011",
       "label": "110 Rue Amelot 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.863124,
+        "lon": 2.367275,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2344,7 +3086,14 @@
       "postcode": "75011",
       "label": "50 Boulevard Voltaire 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.86311,
+        "lon": 2.370883,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2358,7 +3107,14 @@
       "postcode": "75011",
       "label": "Rue Oberkampf 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.865189,
+        "lon": 2.375553,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2372,7 +3128,14 @@
       "postcode": "75011",
       "label": "2 Rue du Général Blaise 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.861085,
+        "lon": 2.379073,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2386,7 +3149,14 @@
       "postcode": "75011",
       "label": "38 Rue Saint-Maur 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.861571,
+        "lon": 2.380856,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2400,7 +3170,14 @@
       "postcode": "75011",
       "label": "71 Boulevard Voltaire 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.861339,
+        "lon": 2.374506,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2414,7 +3191,14 @@
       "postcode": "75011",
       "label": "143 Rue de la Roquette 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.858986,
+        "lon": 2.384486,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2428,7 +3212,14 @@
       "postcode": "75011",
       "label": "36 Rue Saint-Bernard 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.85283,
+        "lon": 2.381048,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2442,7 +3233,14 @@
       "postcode": "75011",
       "label": "37B Rue de Montreuil 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.85049,
+        "lon": 2.387203,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2456,7 +3254,14 @@
       "postcode": "75011",
       "label": "26 Rue de Charonne 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.853208,
+        "lon": 2.375344,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2470,7 +3275,14 @@
       "postcode": "75011",
       "label": "Rue de Lappe 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.853642,
+        "lon": 2.372852,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2484,7 +3296,14 @@
       "postcode": "75011",
       "label": "12 Place de la Bastille 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.85372,
+        "lon": 2.370108,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g11",
@@ -2498,7 +3317,14 @@
       "postcode": "75011",
       "label": "Place de la Bastille 75011 Paris",
       "expected_postcode": "75011",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.853711,
+        "lon": 2.370213,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g12",
@@ -2558,6 +3384,13 @@
             "osm_id": 697946274
           }
         ]
+      },
+      "pin": {
+        "lat": 48.852769,
+        "lon": 2.369945,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -2572,7 +3405,14 @@
       "postcode": "75012",
       "label": "Place de la Bastille 75012 Paris",
       "expected_postcode": "75012",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.852769,
+        "lon": 2.369945,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g12",
@@ -2612,6 +3452,15 @@
             "osm_id": 958048313
           }
         ]
+      },
+      "pin": {
+        "lat": 48.84635,
+        "lon": 2.377802,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 228005266,
+        "match": "Le viaduc des arts"
       }
     },
     {
@@ -2662,6 +3511,15 @@
             "osm_id": 35802065
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8436831,
+        "lon": 2.3834292,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 257350706,
+        "match": "Coulée Verte René-Dumont"
       }
     },
     {
@@ -2722,6 +3580,15 @@
             "osm_id": 14024480537
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8468799,
+        "lon": 2.3708677,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 12800995,
+        "match": "Rue Crémieux"
       }
     },
     {
@@ -2736,7 +3603,14 @@
       "postcode": "75012",
       "label": "Place Louis Armand 75012 Paris",
       "expected_postcode": "75012",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.845045,
+        "lon": 2.372737,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g12",
@@ -2750,7 +3624,14 @@
       "postcode": "75012",
       "label": "Place d'Aligre 75012 Paris",
       "expected_postcode": "75012",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.848935,
+        "lon": 2.378178,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g12",
@@ -2810,6 +3691,15 @@
             "osm_id": 876118473
           }
         ]
+      },
+      "pin": {
+        "lat": 48.842186,
+        "lon": 2.3875338,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 358417047,
+        "match": "Jardin de Reuilly - Paul-Pernin"
       }
     },
     {
@@ -2824,7 +3714,14 @@
       "postcode": "75012",
       "label": "8 Boulevard de Bercy 75012 Paris",
       "expected_postcode": "75012",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.839223,
+        "lon": 2.37777,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g12",
@@ -2884,6 +3781,15 @@
             "osm_id": 165195115
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8356447,
+        "lon": 2.3817168,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 4083189,
+        "match": "Parc de Bercy"
       }
     },
     {
@@ -2898,7 +3804,14 @@
       "postcode": "75012",
       "label": "51 Rue de Bercy 75012 Paris",
       "expected_postcode": "75012",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.837295,
+        "lon": 2.382614,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g12",
@@ -2912,7 +3825,14 @@
       "postcode": "75012",
       "label": "Cour Saint-Émilion 75012 Paris",
       "expected_postcode": "75012",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.833097,
+        "lon": 2.386524,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g12",
@@ -2926,7 +3846,14 @@
       "postcode": "75012",
       "label": "293 Avenue Daumesnil 75012 Paris",
       "expected_postcode": "75012",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.834638,
+        "lon": 2.409586,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g12",
@@ -2986,6 +3913,15 @@
             "osm_id": 7274196147
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8307583,
+        "lon": 2.415411,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 62210,
+        "match": "Lac Daumesnil"
       }
     },
     {
@@ -3000,7 +3936,14 @@
       "postcode": "75013",
       "label": "42 Avenue des Gobelins 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.835095,
+        "lon": 2.352724,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g13",
@@ -3014,7 +3957,14 @@
       "postcode": "75013",
       "label": "Place d'Italie 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.831342,
+        "lon": 2.355345,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g13",
@@ -3074,6 +4024,15 @@
             "osm_id": 78470309
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8276449,
+        "lon": 2.3480009,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 171948835,
+        "match": "Rue de la Butte-aux-Cailles"
       }
     },
     {
@@ -3088,7 +4047,14 @@
       "postcode": "75013",
       "label": "5 Place Paul Verlaine 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.82743,
+        "lon": 2.352482,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g13",
@@ -3102,7 +4068,14 @@
       "postcode": "75013",
       "label": "10 Rue Daviel 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.827808,
+        "lon": 2.346329,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g13",
@@ -3162,6 +4135,15 @@
             "osm_id": 5421042656
           }
         ]
+      },
+      "pin": {
+        "lat": 48.822703,
+        "lon": 2.3448195,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 2146848454,
+        "match": "Cité Florale"
       }
     },
     {
@@ -3176,7 +4158,14 @@
       "postcode": "75013",
       "label": "Square des Peupliers 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.825402,
+        "lon": 2.353461,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g13",
@@ -3190,7 +4179,14 @@
       "postcode": "75013",
       "label": "128 Avenue de Choisy 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.826778,
+        "lon": 2.359658,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g13",
@@ -3250,6 +4246,13 @@
             "osm_id": 2517187099
           }
         ]
+      },
+      "pin": {
+        "lat": 48.823725,
+        "lon": 2.364798,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -3264,7 +4267,14 @@
       "postcode": "75013",
       "label": "110 Rue Jeanne d'Arc 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.834575,
+        "lon": 2.362227,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g13",
@@ -3278,7 +4288,14 @@
       "postcode": "75013",
       "label": "5 Parvis Alan Turing 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.834508,
+        "lon": 2.370634,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g13",
@@ -3292,7 +4309,14 @@
       "postcode": "75013",
       "label": "19 Rue des Frigos 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.831325,
+        "lon": 2.379496,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g13",
@@ -3306,7 +4330,14 @@
       "postcode": "75013",
       "label": "Quai François Mauriac 75013 Paris",
       "expected_postcode": "75013",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.833834,
+        "lon": 2.377433,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g13",
@@ -3356,6 +4387,15 @@
             "osm_id": 699907158
           }
         ]
+      },
+      "pin": {
+        "lat": 48.834647,
+        "lon": 2.37696,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 699907158,
+        "match": "Passerelle Simone de Beauvoir"
       }
     },
     {
@@ -3370,7 +4410,14 @@
       "postcode": "75014",
       "label": "31 Rue de la Gaîté 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.839499,
+        "lon": 2.323534,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g14",
@@ -3384,7 +4431,14 @@
       "postcode": "75014",
       "label": "3 Boulevard Edgar Quinet 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.839967,
+        "lon": 2.32766,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g14",
@@ -3398,7 +4452,14 @@
       "postcode": "75014",
       "label": "59 Rue Vercingétorix 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.836187,
+        "lon": 2.316891,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g14",
@@ -3412,7 +4473,14 @@
       "postcode": "75014",
       "label": "Rue des Thermopyles 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.832734,
+        "lon": 2.318731,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g14",
@@ -3472,6 +4540,15 @@
             "osm_id": 361259581
           }
         ]
+      },
+      "pin": {
+        "lat": 48.833684,
+        "lon": 2.33034,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 13623764,
+        "match": "Rue Daguerre"
       }
     },
     {
@@ -3486,7 +4563,14 @@
       "postcode": "75014",
       "label": "Place Denfert-Rochereau 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.833963,
+        "lon": 2.331487,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g14",
@@ -3500,7 +4584,14 @@
       "postcode": "75014",
       "label": "1 Avenue du Colonel Henri Rol-Tanguy 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.833981,
+        "lon": 2.332506,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g14",
@@ -3514,7 +4605,14 @@
       "postcode": "75014",
       "label": "4 Avenue du Colonel Henri Rol-Tanguy 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.834006,
+        "lon": 2.331883,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g14",
@@ -3528,7 +4626,14 @@
       "postcode": "75014",
       "label": "61 Avenue de l'Observatoire 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.836973,
+        "lon": 2.336553,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g14",
@@ -3542,7 +4647,14 @@
       "postcode": "75014",
       "label": "42 Avenue de l'Observatoire 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.837247,
+        "lon": 2.336277,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g14",
@@ -3556,7 +4668,14 @@
       "postcode": "75014",
       "label": "Place Victor et Hélène Basch 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.827981,
+        "lon": 2.326836,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g14",
@@ -3570,7 +4689,14 @@
       "postcode": "75014",
       "label": "Villa Seurat 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.826173,
+        "lon": 2.33282,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g14",
@@ -3584,7 +4710,14 @@
       "postcode": "75014",
       "label": "2 Rue Gazan 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.824187,
+        "lon": 2.339934,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g14",
@@ -3598,7 +4731,14 @@
       "postcode": "75014",
       "label": "17 Boulevard Jourdan 75014 Paris",
       "expected_postcode": "75014",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.820109,
+        "lon": 2.338625,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g15",
@@ -3612,7 +4752,14 @@
       "postcode": "75015",
       "label": "33 Avenue du Maine 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.842274,
+        "lon": 2.32124,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g15",
@@ -3626,7 +4773,14 @@
       "postcode": "75015",
       "label": "18 Rue Antoine Bourdelle 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.842975,
+        "lon": 2.318588,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g15",
@@ -3640,7 +4794,14 @@
       "postcode": "75015",
       "label": "31 Rue Péclet 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.841516,
+        "lon": 2.299884,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g15",
@@ -3654,7 +4815,14 @@
       "postcode": "75015",
       "label": "25 Rue Santos-Dumont 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.833172,
+        "lon": 2.305109,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g15",
@@ -3668,7 +4836,14 @@
       "postcode": "75015",
       "label": "Rue Brancion 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.832345,
+        "lon": 2.303482,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g15",
@@ -3682,7 +4857,14 @@
       "postcode": "75015",
       "label": "2 Place Jacques Marette 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.832693,
+        "lon": 2.300441,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g15",
@@ -3742,6 +4924,13 @@
             "osm_id": 243159717
           }
         ]
+      },
+      "pin": {
+        "lat": 48.839563,
+        "lon": 2.303163,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -3756,7 +4945,14 @@
       "postcode": "75015",
       "label": "1 Place de la Porte de Versailles 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.832033,
+        "lon": 2.288708,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g15",
@@ -3816,6 +5012,13 @@
             "osm_id": 1931490790
           }
         ]
+      },
+      "pin": {
+        "lat": 48.845094,
+        "lon": 2.292838,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -3830,7 +5033,14 @@
       "postcode": "75015",
       "label": "23 Place Étienne Pernet 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.84298,
+        "lon": 2.292399,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g15",
@@ -3844,7 +5054,14 @@
       "postcode": "75015",
       "label": "2 Rue Cauchy 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.843422,
+        "lon": 2.274664,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g15",
@@ -3858,7 +5075,14 @@
       "postcode": "75015",
       "label": "Quai de Grenelle 75015 Paris",
       "expected_postcode": "75015",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.852273,
+        "lon": 2.285858,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g15",
@@ -3918,6 +5142,13 @@
             "osm_id": 23782577
           }
         ]
+      },
+      "pin": {
+        "lat": 48.849566,
+        "lon": 2.281256,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -3968,6 +5199,15 @@
             "osm_id": 699874629
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8551543,
+        "lon": 2.2880038,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 699874629,
+        "match": "Pont de Bir Hakeim"
       }
     },
     {
@@ -3982,7 +5222,14 @@
       "postcode": "75116",
       "label": "10 Avenue Pierre Ier de Serbie 75116 Paris",
       "expected_postcode": "75116",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.865971,
+        "lon": 2.296571,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g16",
@@ -3996,7 +5243,14 @@
       "postcode": "75116",
       "label": "6 Place d'Iéna 75116 Paris",
       "expected_postcode": "75116",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.865019,
+        "lon": 2.293702,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g16",
@@ -4026,6 +5280,15 @@
             "osm_id": 13716106
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8613484,
+        "lon": 2.289363,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 13716106,
+        "match": "Trocadéro Gardens"
       }
     },
     {
@@ -4040,7 +5303,14 @@
       "postcode": "75116",
       "label": "Place du Trocadéro et du 11 Novembre 75116 Paris",
       "expected_postcode": "75116",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.862664,
+        "lon": 2.288344,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g16",
@@ -4100,6 +5370,15 @@
             "osm_id": 1088494085
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8596729,
+        "lon": 2.2861835,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 24609750,
+        "match": "Avenue de Camoëns"
       }
     },
     {
@@ -4114,7 +5393,14 @@
       "postcode": "75016",
       "label": "Rue de l'Annonciation 75016 Paris",
       "expected_postcode": "75016",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.856676,
+        "lon": 2.279269,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g16",
@@ -4174,6 +5460,15 @@
             "osm_id": 9822463772
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8552005,
+        "lon": 2.2808879,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 84511129,
+        "match": "Maison de Balzac"
       }
     },
     {
@@ -4188,7 +5483,14 @@
       "postcode": "75016",
       "label": "116 Avenue du Président Kennedy 75016 Paris",
       "expected_postcode": "75016",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.852149,
+        "lon": 2.279529,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g16",
@@ -4202,7 +5504,14 @@
       "postcode": "75016",
       "label": "14 Rue Jean de la Fontaine 75016 Paris",
       "expected_postcode": "75016",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.852328,
+        "lon": 2.274606,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g16",
@@ -4216,7 +5525,14 @@
       "postcode": "75016",
       "label": "1 Avenue Prudhon 75016 Paris",
       "expected_postcode": "75016",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.858624,
+        "lon": 2.26964,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g16",
@@ -4230,7 +5546,14 @@
       "postcode": "75016",
       "label": "2 Rue Louis Boilly 75016 Paris",
       "expected_postcode": "75016",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.85921,
+        "lon": 2.267282,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g16",
@@ -4244,7 +5567,14 @@
       "postcode": "75016",
       "label": "10 Square du Docteur Blanche 75016 Paris",
       "expected_postcode": "75016",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.851879,
+        "lon": 2.265319,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g16",
@@ -4258,7 +5588,14 @@
       "postcode": "75016",
       "label": "2 Avenue Gordon Bennett 75016 Paris",
       "expected_postcode": "75016",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.847432,
+        "lon": 2.250901,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g16",
@@ -4318,6 +5655,15 @@
             "osm_id": 3149606130
           }
         ]
+      },
+      "pin": {
+        "lat": 48.87665,
+        "lon": 2.2633381,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 309626332,
+        "match": "Fondation Louis Vuitton"
       }
     },
     {
@@ -4332,7 +5678,14 @@
       "postcode": "75017",
       "label": "2 Place de la Porte Maillot 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.8786,
+        "lon": 2.283804,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g17",
@@ -4346,7 +5699,14 @@
       "postcode": "75017",
       "label": "27 Rue d'Armaillé 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.878753,
+        "lon": 2.291002,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g17",
@@ -4386,6 +5746,13 @@
             "osm_id": 53746526
           }
         ]
+      },
+      "pin": {
+        "lat": 48.884973,
+        "lon": 2.297362,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -4400,7 +5767,14 @@
       "postcode": "75017",
       "label": "Place du Général Catroux 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.882765,
+        "lon": 2.310329,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g17",
@@ -4414,7 +5788,14 @@
       "postcode": "75017",
       "label": "Place du Général Catroux 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.882765,
+        "lon": 2.310329,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g17",
@@ -4428,7 +5809,14 @@
       "postcode": "75017",
       "label": "43 Avenue de Villiers 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.883041,
+        "lon": 2.307711,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g17",
@@ -4488,6 +5876,13 @@
             "osm_id": 1075056
           }
         ]
+      },
+      "pin": {
+        "lat": 48.883762,
+        "lon": 2.326854,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -4502,7 +5897,14 @@
       "postcode": "75017",
       "label": "20 Rue des Batignolles 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.884494,
+        "lon": 2.321834,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g17",
@@ -4516,7 +5918,14 @@
       "postcode": "75017",
       "label": "Place du Docteur Félix Lobligeois 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.886649,
+        "lon": 2.318088,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g17",
@@ -4530,7 +5939,14 @@
       "postcode": "75017",
       "label": "144B Rue Cardinet 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.888044,
+        "lon": 2.315538,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g17",
@@ -4544,7 +5960,14 @@
       "postcode": "75017",
       "label": "147 Rue Cardinet 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.888353,
+        "lon": 2.315256,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g17",
@@ -4594,6 +6017,13 @@
             "osm_id": 7038633602
           }
         ]
+      },
+      "pin": {
+        "lat": 48.895385,
+        "lon": 2.311773,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -4654,6 +6084,13 @@
             "osm_id": 1015228661
           }
         ]
+      },
+      "pin": {
+        "lat": 48.895451,
+        "lon": 2.318377,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
       }
     },
     {
@@ -4714,6 +6151,15 @@
             "osm_id": 1644132118
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8926318,
+        "lon": 2.3203175,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 22797041,
+        "match": "Cité des Fleurs"
       }
     },
     {
@@ -4728,7 +6174,14 @@
       "postcode": "75018",
       "label": "82 Boulevard de Clichy 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.884021,
+        "lon": 2.332621,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g18",
@@ -4742,7 +6195,14 @@
       "postcode": "75018",
       "label": "Place des Abbesses 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.884753,
+        "lon": 2.338484,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g18",
@@ -4772,6 +6232,15 @@
             "osm_id": 4044428611
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8848146,
+        "lon": 2.3385192,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 4044428611,
+        "match": "The Wall of Love"
       }
     },
     {
@@ -4786,7 +6255,14 @@
       "postcode": "75018",
       "label": "Place Émile Goudeau 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.886046,
+        "lon": 2.337783,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g18",
@@ -4800,7 +6276,14 @@
       "postcode": "75018",
       "label": "83 Rue Lepic 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.887338,
+        "lon": 2.337054,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g18",
@@ -4814,7 +6297,14 @@
       "postcode": "75018",
       "label": "Place Marcel Aymé 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.887683,
+        "lon": 2.337817,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g18",
@@ -4828,7 +6318,14 @@
       "postcode": "75018",
       "label": "Place Dalida 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.888507,
+        "lon": 2.337956,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g18",
@@ -4842,7 +6339,14 @@
       "postcode": "75018",
       "label": "Rue de l'Abreuvoir 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.888244,
+        "lon": 2.338958,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g18",
@@ -4856,7 +6360,14 @@
       "postcode": "75018",
       "label": "2 Rue de l'Abreuvoir 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.887989,
+        "lon": 2.339603,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g18",
@@ -4870,7 +6381,14 @@
       "postcode": "75018",
       "label": "14 Rue des Saules 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.888164,
+        "lon": 2.339845,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g18",
@@ -4884,7 +6402,14 @@
       "postcode": "75018",
       "label": "22 Rue des Saules 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.888734,
+        "lon": 2.339989,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g18",
@@ -4898,7 +6423,14 @@
       "postcode": "75018",
       "label": "Place du Tertre 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.886518,
+        "lon": 2.340671,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g18",
@@ -4912,7 +6444,14 @@
       "postcode": "75018",
       "label": "35 Rue du Chevalier de la Barre 75018 Paris",
       "expected_postcode": "75018",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.887094,
+        "lon": 2.343424,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g18",
@@ -4972,6 +6511,15 @@
             "osm_id": 5280556722
           }
         ]
+      },
+      "pin": {
+        "lat": 48.885382,
+        "lon": 2.3435393,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 45189726,
+        "match": "Square Louise Michel"
       }
     },
     {
@@ -4986,7 +6534,14 @@
       "postcode": "75019",
       "label": "6 Place de la Bataille de Stalingrad 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.883317,
+        "lon": 2.369479,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g19",
@@ -5000,7 +6555,14 @@
       "postcode": "75019",
       "label": "Quai de la Loire 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.885678,
+        "lon": 2.375596,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g19",
@@ -5014,7 +6576,14 @@
       "postcode": "75019",
       "label": "5 Rue Curial 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.889983,
+        "lon": 2.371506,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g19",
@@ -5028,7 +6597,14 @@
       "postcode": "75019",
       "label": "Rue des Chaufourniers 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.878181,
+        "lon": 2.373242,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g19",
@@ -5042,7 +6618,14 @@
       "postcode": "75019",
       "label": "Rue Armand Carrel 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.882754,
+        "lon": 2.376876,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g19",
@@ -5056,7 +6639,14 @@
       "postcode": "75019",
       "label": "139 Rue de Belleville 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.875337,
+        "lon": 2.389355,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g19",
@@ -5116,6 +6706,15 @@
             "osm_id": 122574233
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8804009,
+        "lon": 2.3968215,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 362917082,
+        "match": "Rue de Mouzaïa"
       }
     },
     {
@@ -5130,7 +6729,14 @@
       "postcode": "75019",
       "label": "5 Avenue Debidour 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.881527,
+        "lon": 2.397115,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g19",
@@ -5144,7 +6750,14 @@
       "postcode": "75019",
       "label": "221 Avenue Jean Jaurès 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.889311,
+        "lon": 2.393824,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g19",
@@ -5158,7 +6771,14 @@
       "postcode": "75019",
       "label": "211 Avenue Jean Jaurès 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.888952,
+        "lon": 2.392454,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g19",
@@ -5218,6 +6838,15 @@
             "osm_id": 1088638616
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8948898,
+        "lon": 2.3884384,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 7574623,
+        "match": "Parc de la Villette"
       }
     },
     {
@@ -5278,6 +6907,15 @@
             "osm_id": 1507750610
           }
         ]
+      },
+      "pin": {
+        "lat": 48.890975,
+        "lon": 2.3846017,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 769699304,
+        "match": "Pont du Canal de l'Ourcq"
       }
     },
     {
@@ -5338,6 +6976,15 @@
             "osm_id": 13547155601
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8945682,
+        "lon": 2.3886565,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 64040790,
+        "match": "La Géode"
       }
     },
     {
@@ -5352,7 +6999,14 @@
       "postcode": "75019",
       "label": "30 Avenue Corentin Cariou 75019 Paris",
       "expected_postcode": "75019",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.89724,
+        "lon": 2.385575,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5366,7 +7020,14 @@
       "postcode": "75020",
       "label": "Rue Dénoyez 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.871704,
+        "lon": 2.378505,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5380,7 +7041,14 @@
       "postcode": "75020",
       "label": "47 Rue des Couronnes 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.870321,
+        "lon": 2.384951,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5394,7 +7062,14 @@
       "postcode": "75020",
       "label": "70 Rue des Cascades 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.872431,
+        "lon": 2.39023,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5408,7 +7083,14 @@
       "postcode": "75020",
       "label": "Villa de l'Ermitage 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.870441,
+        "lon": 2.392586,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5422,7 +7104,14 @@
       "postcode": "75020",
       "label": "21 Rue Boyer 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.868415,
+        "lon": 2.392161,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5436,7 +7125,14 @@
       "postcode": "75020",
       "label": "Place Maurice Chevalier 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.868344,
+        "lon": 2.385747,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5450,7 +7146,14 @@
       "postcode": "75020",
       "label": "121 Rue de Ménilmontant 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.869969,
+        "lon": 2.394101,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5464,7 +7167,14 @@
       "postcode": "75020",
       "label": "Rue du Retrait 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.868572,
+        "lon": 2.394511,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5478,7 +7188,14 @@
       "postcode": "75020",
       "label": "28T Boulevard de Ménilmontant 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.860008,
+        "lon": 2.389336,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5508,6 +7225,15 @@
             "osm_id": 5220080010
           }
         ]
+      },
+      "pin": {
+        "lat": 48.8596793,
+        "lon": 2.4000825,
+        "origin": "OSM_Photon",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera",
+        "osm_id": 5220080010,
+        "match": "Communard's Wall"
       }
     },
     {
@@ -5522,7 +7248,14 @@
       "postcode": "75020",
       "label": "6 Place Gambetta 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.865091,
+        "lon": 2.398998,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5536,7 +7269,14 @@
       "postcode": "75020",
       "label": "Rue Irénée Blanc 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.865958,
+        "lon": 2.407758,
+        "origin": "BAN",
+        "precision": "reference",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5550,7 +7290,14 @@
       "postcode": "75020",
       "label": "148 Rue de Bagnolet 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.862262,
+        "lon": 2.406452,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     },
     {
       "guide": "g20",
@@ -5564,7 +7311,23 @@
       "postcode": "75020",
       "label": "4 Place Saint-Blaise 75020 Paris",
       "expected_postcode": "75020",
-      "geocode_status": "resolved"
+      "geocode_status": "resolved",
+      "pin": {
+        "lat": 48.860301,
+        "lon": 2.403728,
+        "origin": "BAN",
+        "precision": "address",
+        "note": "Posição cartográfica de referência, não representa local exato da câmera"
+      }
     }
-  ]
+  ],
+  "resolution": {
+    "expected_guides": 17,
+    "expected_points_per_guide": 14,
+    "total": 238,
+    "photon_refinements": 44,
+    "reference_is_not_camera_position": true,
+    "revision_status": "ready_for_html_integration",
+    "pins_outside_paris": 0
+  }
 }
