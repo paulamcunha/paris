@@ -1,6 +1,6 @@
 # Paris em Cena | Guias de Campo
 
-Projeto pessoal, com os 20 arrondissements de Paris e 8 coleções temáticas (Passagens cobertas, Igrejas de Paris, Paris com Vista para a Torre Eiffel, Pontes e Margens do Sena, Paris vista pelos reflexos, Paris secreta: vilas, pátios e ruas silenciosas, Mirantes, escadarias e perspectivas elevadas e Cafés históricos, livrarias e fachadas clássicas), totalizando **28 guias**, **410 takes documentais** (+ 41 fichas históricas de passagens cobertas), **1.182 fotografias de referência verificadas no Wikimedia Commons**, **62 mapas interativos**, **222 links de itinerários a pé** no Google Maps e **29 arquivos KML** (incluindo o KML Mestre unificado `Paris_em_Cena_Completo_410_pontos.kml`).
+Projeto pessoal, com os 20 arrondissements de Paris e 10 coleções temáticas (Passagens cobertas, Igrejas de Paris, Paris com Vista para a Torre Eiffel, Pontes e Margens do Sena, Paris vista pelos reflexos, Paris secreta: vilas, pátios e ruas silenciosas, Mirantes, escadarias e perspectivas elevadas e Cafés históricos, livrarias e fachadas clássicas), totalizando **30 guias**, **438 takes documentais** (+ 41 fichas históricas de passagens cobertas), **1.266 fotografias de referência verificadas no Wikimedia Commons**, **72 mapas interativos**, **230 links de itinerários a pé** no Google Maps e **31 arquivos KML** (incluindo o KML Mestre unificado `Paris_em_Cena_Completo_438_pontos.kml`).
 
 ## Site público e acesso ao repositório
 
@@ -112,10 +112,10 @@ Coleção temática de Reel documental, acessível pelo menu **Paris vista pelos
 
 ## Ferramentas práticas de campo e modo offline (PWA)
 
-- **Botão `"Perto de mim"` (Radar GPS cruzando os 28 guias):** disponível no cabeçalho do site, calcula na hora os **12 takes mais próximos** entre todos os 410 pontos usando o GPS real do celular ou um dos 13 pontos de referência de Paris, exibindo distância e tempo estimado a pé, selo do guia, status de gravação e rota direta no Google Maps.
+- **Botão `"Perto de mim"` (Radar GPS cruzando os 30 guias):** disponível no cabeçalho do site, calcula na hora os **12 takes mais próximos** entre todos os 438 pontos usando o GPS real do celular ou um dos 13 pontos de referência de Paris, exibindo distância e tempo estimado a pé, selo do guia, status de gravação e rota direta no Google Maps.
 - **Calculadora de Luz Solar e Golden Hour em Paris (`#solar-panel`):** integrada ao **Modo gravação**, calcula automaticamente para qualquer data os horários exatos de **Hora Azul da manhã, Nascer do sol, Golden Hour da manhã, Meio-dia solar, Golden Hour da tarde, Pôr do sol e Hora Azul da noite** nas coordenadas de Paris (`48,8566° N, 2,3522° L`, fuso `Europe/Paris`).
-- **Backup, Exportação e Importação do Progresso (`JSON` e `CSV`):** botões integrados ao **Modo gravação** para exportar o checklist completo de 410 takes em `.json` ou planilha `.csv` e importar/mesclar o progresso entre o celular e o Mac.
-- **Pacote completo de 29 arquivos `.kml`:** além dos KMLs individuais dos 20 arrondissements (`Paris_em_Cena_Arrondissement_01.kml` a `20.kml`) e das 8 coleções temáticas, o arquivo mestre **`Paris_em_Cena_Completo_410_pontos.kml`** reúne todos os 410 pontos organizados em 28 pastas para uso no Google My Maps, Organic Maps ou Maps.me.
+- **Backup, Exportação e Importação do Progresso (`JSON` e `CSV`):** botões integrados ao **Modo gravação** para exportar o checklist completo de 438 takes em `.json` ou planilha `.csv` e importar/mesclar o progresso entre o celular e o Mac.
+- **Pacote completo de 31 arquivos `.kml`:** além dos KMLs individuais dos 20 arrondissements (`Paris_em_Cena_Arrondissement_01.kml` a `20.kml`) e das 10 coleções temáticas, o arquivo mestre **`Paris_em_Cena_Completo_438_pontos.kml`** reúne todos os 438 pontos organizados em 30 pastas para uso no Google My Maps, Organic Maps ou Maps.me.
 - **Modo Offline Instalável (`manifest.webmanifest` + `sw.js`):** permite adicionar o **Paris em Cena** à Tela de Início no iOS/Android e mantém o site, estilos, KML mestre e blocos de mapa/fotos já visitados em cache para consulta no metrô.
 
 ## Auditoria de leitura, fotografias e testes automatizados (06/11/2026)
@@ -124,7 +124,7 @@ Ferramentas de controle disponíveis no repositório e no GitHub Pages:
 
 - `auditoria-mobile.html`: mede rolagem horizontal, tamanho da tipografia e área de controles em 320, 360, 390, 430, 768 e 1280 px.
 - `auditoria-funcional.html`: valida funções de fotos, busca, modo gravação, mapa e visualizador no próprio navegador, restaurando os valores anteriores do `localStorage` após o teste.
-- `auditoria-fotografias.html`: verificador sob demanda, guia a guia, das 1.182 URLs de imagens dos 28 guias; registra imagens que não carregam, URLs duplicadas, texto alternativo vazio e permite exportar CSV.
-- `tests/auditoria-automatizada.mjs`: executa via Node.js e Google Chrome Headless as suítes de testes automatizados (abertura dos 28 guias + início = 29 painéis, semântica, busca, carregamento das 1.182 fotos, visualizador, 62 mapas gerais/setoriais, 222 links Google Maps, Radar GPS, Painel Solar, Backup JSON/CSV, responsividade nas 8 larguras `320–1920 px` e ausência de erros no console). Para executar localmente: `node tests/auditoria-automatizada.mjs`.
+- `auditoria-fotografias.html`: verificador sob demanda, guia a guia, das 1.266 URLs de imagens dos 30 guias; registra imagens que não carregam, URLs duplicadas, texto alternativo vazio e permite exportar CSV.
+- `tests/auditoria-automatizada.mjs`: executa via Node.js e Google Chrome Headless as suítes de testes automatizados (abertura dos 30 guias + início = 31 painéis, semântica, busca, carregamento das 1.266 fotos, visualizador, 72 mapas gerais/setoriais, 230 links Google Maps, Radar GPS, Painel Solar, Backup JSON/CSV, responsividade nas 8 larguras `320–1920 px` e ausência de erros no console). Para executar localmente: `node tests/auditoria-automatizada.mjs`.
 
 O arquivo `ajustes-tipografia.css` está vinculado diretamente em `index.html` e garante texto base de `16 px` e legendas mínimas de `14 px` em todas as larguras de tela, além de espaçamento adequado para áreas de toque.

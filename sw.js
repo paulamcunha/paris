@@ -1,13 +1,13 @@
 /* Paris em Cena · Service Worker para funcionamento offline no metrô e em campo */
-const CACHE_CORE = 'paris-em-cena-core-v2';
-const CACHE_RUNTIME = 'paris-em-cena-runtime-v2';
+const CACHE_CORE = 'paris-em-cena-core-v3';
+const CACHE_RUNTIME = 'paris-em-cena-runtime-v3';
 const CORE_ASSETS = [
   './',
   './index.html',
   './ajustes-tipografia.css',
   './manifest.webmanifest',
   './icon-paris-em-cena.svg',
-  './Paris_em_Cena_Completo_410_pontos.kml'
+  './Paris_em_Cena_Completo_438_pontos.kml'
 ];
 
 self.addEventListener('install', event => {

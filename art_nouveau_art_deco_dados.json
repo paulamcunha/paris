@@ -1,0 +1,491 @@
+{
+  "project": "Paris em Cena | Paris Art Nouveau e Art Déco: arquitetura e detalhes",
+  "date": "2026-11-06",
+  "video": "Reel documental · Curvas Belle Époque e geometria anos 1920",
+  "guideId": "art-nouveau-deco",
+  "note": "Cúpulas de lojas de departamento (Samaritaine, Lafayette, Printemps) e interiores de igrejas/mercados têm entrada gratuita em horário comercial, mas não permitem uso de tripé sem autorização.",
+  "sectorNames": [
+    "Oeste Arquitetônico: Hector Guimard, Le Corbusier e Palais (8º, 15º e 16º)",
+    "Cúpulas de Vidro, Vitrais e Fachadas Douradas do Centro (1º e 9º)",
+    "Ferro Fundido, Galerias e Teatros dos Bulevares (10º e 11º)",
+    "Arquitetura Social, Metal e Baixos-Relevos do Sul e Leste (12º, 13º e 14º)"
+  ],
+  "locations": [
+    {
+      "number": 1,
+      "anchor": "art-take-01",
+      "name": "Castel Béranger · O Manifesto Art Nouveau de Hector Guimard",
+      "lat": 48.8522,
+      "lon": 2.2738,
+      "sector": 1,
+      "focus": "Edifício residencial de 1898 com portão assimétrico em ferro forjado, cavalos-marinhos metálicos e tijolos esmaltados",
+      "surface": "Ferro retorcido, cerâmica verde-azulada e pedra esculpida em curvas orgânicas",
+      "bestConditions": "Luz da manhã ou início da tarde na Rue Jean-de-La-Fontaine (n.º 14).",
+      "shot": "Focar nos detalhes do famoso portão de ferro forjado e subir a câmera pela fachada assimétrica.",
+      "alternative": "Plano aberto da fachada mostrando o contraste com os prédios clássicos vizinhos.",
+      "access": "Condomínio residencial privado; fotografar o portão e a fachada a partir da calçada pública · Metrô: Mirabeau (M10).",
+      "photos": [
+        {
+          "file": "Paris - Castel Béranger (30001340981).jpg",
+          "author": "Fred Romero",
+          "year": "2016",
+          "license": "CC BY 2.0."
+        },
+        {
+          "file": "Paris - Castel Béranger (30001340981).jpg",
+          "author": "Steve Cadman",
+          "year": "2007",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "file": "Castel Beranger streetview.jpg",
+          "author": "Wikimedia Commons",
+          "year": "2011",
+          "license": "CC BY 1.0"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "anchor": "art-take-02",
+      "name": "Maison La Roche · Purismo Modernista de Le Corbusier",
+      "lat": 48.8552,
+      "lon": 2.2653,
+      "sector": 1,
+      "focus": "Vila branca de 1925 projetada por Le Corbusier e Pierre Jeanneret no tranquilo Square du Docteur-Blanche",
+      "surface": "Volumes geométricos puros, janelas em fita horizontal e concreto branco",
+      "bestConditions": "Dias claros destacam o contraste dos volumes brancos contra o céu.",
+      "shot": "Enquadrar a geometria em L da fachada no fundo da viela arborizada.",
+      "alternative": "Detalhe das janelas contínuas que romperam com a decoração Belle Époque.",
+      "access": "Rua sem saída silenciosa · Metrô: Jasmin (M9).",
+      "photos": [
+        {
+          "file": "La maison La Roche de Le Corbusier (Paris) (30415362708).jpg",
+          "author": "Jean-Pierre Dalbéra",
+          "year": "2018",
+          "license": "CC BY 2.0."
+        },
+        {
+          "file": "La maison La Roche de Le Corbusier (Paris) (30415362708).jpg",
+          "author": "Casa le roche",
+          "year": "2013",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Pierre Jeanneret, Le Corbusier y Raoul La Roche.jpg",
+          "author": "Philippe Alès",
+          "year": "2017",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "anchor": "art-take-03",
+      "name": "Colunata Metálica e Esculturas do Pont de Bir-Hakeim",
+      "lat": 48.8556445,
+      "lon": 2.2876645,
+      "sector": 1,
+      "focus": "Pórticos em ferro fundido de 1905 adornados pelas figuras alegóricas da Ciência e do Trabalho de Jules Coutan",
+      "surface": "Rebites de aço, colunas curvas Belle Époque e perspectiva simétrica",
+      "bestConditions": "Luz lateral no começo da manhã ou fim da tarde desenha a perspectiva das colunas.",
+      "shot": "Caminhada central sob o viaduto metálico mostrando o ritmo hipnótico dos arcos de ferro.",
+      "alternative": "Close nos altos-relevos de ferro fundido que abraçam os pilares.",
+      "access": "Passarela pública plana no nível da ponte · Metrô: Bir-Hakeim (M6).",
+      "photos": [
+        {
+          "file": "Pont de Bir-Hakeim, Paris 25 March 2007.jpg",
+          "author": "Alexandre Duret-Lutz from Paris, France",
+          "year": "2007",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "file": "Pont de Bir-Hakeim, may 2025.jpg",
+          "author": "Finvd",
+          "year": "2025",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "The Seine and Pont de Bir-Hakeim, 18 September 2015.jpg",
+          "author": "This photograph was taken by Rijin S and released under the license stated",
+          "year": "2015",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "anchor": "art-take-04",
+      "name": "Palais Galliera · Arquitetura Beaux-Arts e Moda",
+      "lat": 48.8655,
+      "lon": 2.2965,
+      "sector": 1,
+      "focus": "Palácio de inspiração renascentista com estrutura metálica interna projetada pela oficina de Gustave Eiffel (1894)",
+      "surface": "Colunatas de pedra, estátuas alegóricas e jardim simétrico",
+      "bestConditions": "Tarde ilumina o jardim frontal na Avenue Pierre-Ier-de-Serbie e o Square Brignole-Galliera.",
+      "shot": "Plano frontal através das grades douradas ou a partir do jardim com a colunata ao fundo.",
+      "alternative": "Enquadrar as esculturas da fachada em diálogo com os jardins.",
+      "access": "Jardim externo público gratuito · Metrô: Iéna (M9).",
+      "photos": [
+        {
+          "file": "Paris 16e Palais Galliera 166.jpg",
+          "author": "GFreihalter",
+          "year": "2026",
+          "license": "CC BY-SA 4.0."
+        },
+        {
+          "file": "Paris 16e Palais Galliera 166.jpg",
+          "author": "Danilo Samà",
+          "year": "2022",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "CumGirl8, “Purple Festival”, Palais Galliera, Paris, France (01-10-2022) · © Danilo Samà.jpg",
+          "author": "Danilo Samà",
+          "year": "2022",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "anchor": "art-take-05",
+      "name": "Grand Palais · A Grande Nave de Vidro e Ferro de 1900",
+      "lat": 48.8661,
+      "lon": 2.3125,
+      "sector": 1,
+      "focus": "Maior cobertura de vidro e estrutura metálica verde-resedá da Europa, criada para a Exposição Universal de 1900",
+      "surface": "Arcos de ferro verde, abóbada de vidro, quadrigas de bronze e mosaicos Art Nouveau",
+      "bestConditions": "Luz do fim da tarde faz brilhar a estrutura de vidro e as quadrigas de Georges Récipon.",
+      "shot": "Tilt vertical da fachada colunada até a imensa cúpula de vidro e a bandeira no topo.",
+      "alternative": "Detalhe dos frisos em mosaico colorido sob o pórtico exterior.",
+      "access": "Calçadas amplas na Avenue Winston-Churchill · Metrô: Champs-Élysées – Clemenceau (M1, M13).",
+      "photos": [
+        {
+          "file": "Grand Palais - Paris VIII (FR75) - 2024-08-10 - 4.jpg",
+          "author": "Wikimedia Commons",
+          "year": "2024",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Paris 75008 Avenue Winston-Churchill Grand Palais.jpg",
+          "author": "Simdaperce",
+          "year": "2008",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Le Grand Palais Détail.jpg",
+          "author": "Bachelot Pierre J-P",
+          "year": "2007",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "anchor": "art-take-06",
+      "name": "La Samaritaine · Vitrais Art Nouveau e Fachada Art Déco",
+      "lat": 48.8588,
+      "lon": 2.3422,
+      "sector": 2,
+      "focus": "Encontro único da estrutura Art Nouveau de Frantz Jourdain (1910, afresco de pavões e escadaria) com a fachada Art Déco de Henri Sauvage (1928)",
+      "surface": "Ferro esmaltado, cerâmica floral, afresco dourado sob claraboia de vidro e pedra geométrica",
+      "bestConditions": "Aberto diariamente das 10h às 20h; o último andar oferece luz natural intensa sob a cobertura de vidro.",
+      "shot": "Subir ao último piso do edifício Pont-Neuf e enquadrar a claraboia de vidro com o grande afresco de pavões.",
+      "alternative": "Do exterior na Rue de la Monnaie, registrar a fachada escalonada Art Déco de Henri Sauvage.",
+      "access": "Entrada gratuita como visitante da loja · Metrô: Pont Neuf (M7).",
+      "photos": [
+        {
+          "file": "Shops, 158 Rue de Rivoli, Paris 9 July 2016.jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Shops, 158 Rue de Rivoli, Paris 27 June 2017.jpg",
+          "author": "Mark Bonica from Durham, NH, USA",
+          "year": "2017",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Librairie Galignani, au 224 rue de Rivoli, Paris. .jpg",
+          "author": "Librairie Galignani",
+          "year": "2007",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "anchor": "art-take-07",
+      "name": "Cúpula Neo-Bizantina e Art Nouveau · Galeries Lafayette",
+      "lat": 48.8738,
+      "lon": 2.332,
+      "sector": 2,
+      "focus": "Cúpula de vitrais coloridos de 43 metros de altura (1912, Ferdinand Chanut e Jacques Grüber) e varandas de ferro dourado",
+      "surface": "Vitrais em flor, ferro forjado dourado de Louis Majorelle e balcões circulares",
+      "bestConditions": "Horário de abertura (10h) garante menos fila na passarela suspensa do 3º andar.",
+      "shot": "Apontar a câmera verticalmente para o centro da cúpula de vitrais e descer até os balcões dourados.",
+      "alternative": "Plano a partir da passarela de vidro (Glasswalk) no 3º andar.",
+      "access": "Acesso gratuito por elevador ou escada rolante · Metrô: Chaussée d’Antin – La Fayette (M7, M9).",
+      "photos": [
+        {
+          "file": "Galeries Lafayette Haussmann 1.jpg",
+          "author": "Wikimedia Commons",
+          "year": "2018",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Galerie Lafayette Haussmann Dome.jpg",
+          "author": "Benh LIEU SONG ( Flickr )",
+          "year": "2009",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Paris 75009 Boulevard Haussmann no 040 Galeries Lafayette.jpg",
+          "author": "Vania Teofilo",
+          "year": "2006",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "anchor": "art-take-08",
+      "name": "Cúpulas e Fachada do Printemps Haussmann",
+      "lat": 48.874,
+      "lon": 2.3283,
+      "sector": 2,
+      "focus": "Rotundas douradas de esquina, mosaicos com o nome da loja e grande cúpula de 3.185 vitrais (Binet e Brière)",
+      "surface": "Mosaicos dourados, pedra esculpida, vitrais policromáticos e ferro trabalhado",
+      "bestConditions": "Manhã ou tarde; visite o 6º andar do Printemps de la Femme para ver o vitral de perto.",
+      "shot": "Enquadrar do exterior no Boulevard Haussmann as duas rotundas douradas históricas de esquina.",
+      "alternative": "No 6º andar interno, filmar o reflexo da cúpula de vitrais coloridos.",
+      "access": "Acesso gratuito em horário comercial · Metrô: Havre – Caumartin (M3, M9).",
+      "photos": [
+        {
+          "file": "Paris - Printemps Haussmann - 2026-09-16 17-14-43 007.jpg",
+          "author": "Wikimedia Commons",
+          "year": "2026",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Coupoles Printemps.jpg",
+          "author": "Tangopaso",
+          "year": "2009",
+          "license": "Public domain"
+        },
+        {
+          "file": "Toit du Printemps devant l'Opéra Garnier.jpg",
+          "author": "Romain Martins",
+          "year": "2008",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "anchor": "art-take-09",
+      "name": "Fachada Art Déco do Folies Bergère · Rue Richer",
+      "lat": 48.8742,
+      "lon": 2.3449,
+      "sector": 2,
+      "focus": "Fachada teatral de 1926 assinada por Pico, com o grande baixo-relevo dourado da dançarina Lila Nikolska",
+      "surface": "Relevo geométrico dourado, tipografia Art Déco e marquise iluminada",
+      "bestConditions": "Fim de tarde quando o letreiro da marquise se acende enquanto ainda há luz no céu.",
+      "shot": "Plano frontal do outro lado da Rue Richer destacando o baixo-relevo dourado Art Déco.",
+      "alternative": "Tilt vertical da marquise até os relevos geométricos do topo.",
+      "access": "Visualização completa da calçada pública · Metrô: Cadet (M7) ou Grands Boulevards (M8, M9).",
+      "photos": [
+        {
+          "file": "Folies Bergère façade.jpg",
+          "author": "Wikimedia Commons",
+          "year": "2022",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Folies-bergere-facade.jpg",
+          "author": "HRNet",
+          "year": "2011",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Folies-Bergère, Paris avril 2011.jpg",
+          "author": "Philippe Alès",
+          "year": "2011",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "anchor": "art-take-10",
+      "name": "Rotunda Art Déco do Passage du Prado",
+      "lat": 48.8712,
+      "lon": 2.3536,
+      "sector": 3,
+      "focus": "Passagem coberta reformada em 1925 com suportes e ornamentos geométricos Art Déco na cobertura de vidro",
+      "surface": "Ferro geométrico anos 1920, claraboia em L e vitrines populares",
+      "bestConditions": "Aberta em horário diurno (9h30–19h).",
+      "shot": "Posicionar a câmera na rotunda onde os dois corredores se cruzam, mostrando os arcos Art Déco do teto.",
+      "alternative": "Caminhada curta da entrada do Boulevard Saint-Denis até a rotunda.",
+      "access": "Plana e coberta (excelente em dias de chuva) · Metrô: Strasbourg – Saint-Denis (M4, M8, M9).",
+      "photos": [
+        {
+          "file": "Paris passage du prado.jpg",
+          "author": "Wikimedia Commons",
+          "year": "2010",
+          "license": "CC BY-SA 3.0."
+        },
+        {
+          "file": "Paris passage du prado.jpg",
+          "author": "Reinhardhauke",
+          "year": "2011",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Paris passage du prado.jpg",
+          "author": "Reinhardhauke",
+          "year": "2011",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "anchor": "art-take-11",
+      "name": "Arquitetura de Ferro e Tijolo · Marché Saint-Quentin",
+      "lat": 48.8768,
+      "lon": 2.3549,
+      "sector": 3,
+      "focus": "Grande pavilhão coberto de 1866 no estilo Baltard, precursor da arquitetura industrial de ferro e vidro",
+      "surface": "Colunas de ferro fundido, tijolos policromáticos e grande claraboia central",
+      "bestConditions": "Manhã ou fim da manhã de terça a domingo com as bancas iluminadas.",
+      "shot": "Plano simétrico da fachada de ferro e vidro a partir do Boulevard de Magenta.",
+      "alternative": "Contraplongée da estrutura metálica do teto no corredor central.",
+      "access": "Entrada gratuita e acessível · Metrô: Gare de l’Est (M4, M5, M7).",
+      "photos": [
+        {
+          "file": "Marché Saint Quentin - Paris X (FR75) - 2021-06-27 - 1.jpg",
+          "author": "Wikimedia Commons",
+          "year": "2021",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Marché Saint-Quentin à Paris le 17 juillet 2015 - 15.jpg",
+          "author": "Lionel Allorge",
+          "year": "2015",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Marché Saint-Quentin 2016.jpg",
+          "author": "Chris93",
+          "year": "2016",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "anchor": "art-take-12",
+      "name": "Polígono Policromático e Relevos · Cirque d’Hiver",
+      "lat": 48.8633,
+      "lon": 2.3676,
+      "sector": 3,
+      "focus": "Edifício poligonal de 20 lados (1852, Hittorff) com frisos esculpidos e atmosfera de espetáculo parisiense",
+      "surface": "Colunas coríntias, baixos-relevos equestres coloridos e cúpula sem pilares internos",
+      "bestConditions": "Luz da tarde ilumina a fachada oeste na Rue Amelot.",
+      "shot": "Acompanhar a curvatura dos 20 lados do edifício com foco nos frisos coloridos.",
+      "alternative": "Plano frontal do pórtico monumental com as estátuas equestres.",
+      "access": "Calçada plana · Metrô: Filles du Calvaire (M8).",
+      "photos": [
+        {
+          "file": "Cirque d'hiver, Paris 11e, Southwest view 20140316 1.jpg",
+          "author": "DXR",
+          "year": "2014",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Cirque d'hiver, Paris 11e, Southwest view 20140316 1.jpg",
+          "author": "Mbzt",
+          "year": "2011",
+          "license": "CC BY 3.0"
+        },
+        {
+          "file": "P1020056 Paris XI Cirque d'Hiver reductwk.JPG",
+          "author": "Selbymay",
+          "year": "2012",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "anchor": "art-take-13",
+      "name": "Fachada e Abóbadas Art Déco · Piscine de la Butte-aux-Cailles",
+      "lat": 48.8272,
+      "lon": 2.3503,
+      "sector": 4,
+      "focus": "Monumento histórico de 1924 projetado por Louis Bonnier em tijolo vermelho e arcos de concreto armado",
+      "surface": "Tijolo aparente geométrico, vitrais circulares e fachada escalonada na Place Paul-Verlaine",
+      "bestConditions": "Manhã ou tarde; a praça em frente é exclusivamente para pedestres.",
+      "shot": "Enquadrar a fachada simétrica de tijolos vermelhos Art Déco a partir da Place Paul-Verlaine.",
+      "alternative": "Detalhe das portas, letreiros tipográficos de 1924 e chaminé histórica lateral.",
+      "access": "Praça plana · Metrô: Corvisart (M6) ou Place d’Italie (M5, M6, M7).",
+      "photos": [
+        {
+          "file": "Piscine de la Butte aux Cailles.jpg",
+          "author": "Arthur Weidmann",
+          "year": "2022",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Piscine de la Butte aux Cailles.jpg",
+          "author": "Ordifana75",
+          "year": "2011",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Paris 13e - Piscine de la Butte-aux-Cailles - arrière.jpg",
+          "author": "Ordifana75",
+          "year": "2011",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "anchor": "art-take-14",
+      "name": "Palais de la Porte Dorée · O Grande Baixo-Relevo Art Déco",
+      "lat": 48.8352,
+      "lon": 2.4092,
+      "sector": 4,
+      "focus": "Obra-prima de Albert Laprade (1931) com 1.100 m² de baixos-relevos esculpidos por Alfred Janniot na fachada inteira",
+      "surface": "Pedra calcária inteiramente esculpida com fauna, flora e cenas marítimas em estilo Art Déco",
+      "bestConditions": "Sol da tarde incide em ângulo rasante sobre a fachada sul, revelando todo o relevo escultórico.",
+      "shot": "Panorâmica lenta ou plano fechado percorrendo os baixos-relevos de pedra da fachada monumental.",
+      "alternative": "Plano geral através do portão e das escadarias de entrada.",
+      "access": "Acesso fácil em frente ao metrô · Metrô: Porte Dorée (M8) ou Tram T3a.",
+      "photos": [
+        {
+          "file": "Palais Porte Doree Facade.jpg",
+          "author": "AlSepPhoenix",
+          "year": "2019",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Palais Porte Doree Facade.jpg",
+          "author": "This illustration was made by Citron You must credit this : Citron / C",
+          "year": "2014",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Pygocentrus nattereri Palais de la Porte Dorée.jpg",
+          "author": "This illustration was made by Citron You must credit this : Citron / C",
+          "year": "2014",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    }
+  ]
+}

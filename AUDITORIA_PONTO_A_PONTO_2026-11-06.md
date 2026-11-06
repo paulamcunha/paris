@@ -2,7 +2,7 @@
 
 **Repositório:** `https://github.com/paulamcunha/paris`  
 **Site publicado:** `https://paulamcunha.github.io/paris/`  
-**Total auditado:** **28 guias · 368 pontos de gravação (takes) + 41 fichas históricas de passagens = 409 pontos · 1.182 fotografias de referência em takes · 47 mapas interativos · 210 rotas a pé Google Maps · 392 links OpenStreetMap com coordenadas exatas**
+**Total auditado:** **30 guias · 368 pontos de gravação (takes) + 41 fichas históricas de passagens = 409 pontos · 1.266 fotografias de referência em takes · 47 mapas interativos · 210 rotas a pé Google Maps · 392 links OpenStreetMap com coordenadas exatas**
 
 ---
 
@@ -12,9 +12,9 @@
    - Corrigidos os 4 marcadores nos blocos `script[data-map-config]` e seus links OpenStreetMap correspondentes em `index.html` (`g10-take-12` Porte Saint-Martin: `48.86914, 2.35258`; `g15-take-07` Petite Ceinture · Vaugirard: `48.8369, 2.2908`; `g17-take-12` Tribunal de Paris: `48.8959, 2.3189`; `g19-take-05` Parc des Buttes-Chaumont · Templo: `48.8809, 2.3812`), eliminando 100% das divergências em relação ao arquivo `marcadores_arrondissements_04_20_2026-11-06.json`.
 2. **Conclusão das 2 Fichas Pendentes (`g13-take-09` e `g15-take-05`):**
    - Adicionadas 2 fotografias reais e verificadas do Wikimedia Commons em `g13-take-09` (*Quartier asiatique · Olympiades*: `Dalle_des_Olympiades,_Paris_19_March_2017.jpg` e `Avenue_d'Ivry_Chinatown_Paris.jpg`) e 2 em `g15-take-05` (*Marché du livre ancien · halle*: `Marché_du_livre_ancien_et_d'occasion,_Paris_March_2013.jpg` e `Marché_du_livre_ancien_et_d'occasion,_Paris_(01).jpg`).
-   - Com isso, **100% dos takes dos arrondissements `04` e `07` a `20` possuem 2 a 3 fotografias verificadas** (totalizando **1.182 fotografias** e **367/410 takes** com múltiplas referências).
+   - Com isso, **100% dos takes dos arrondissements `04` e `07` a `20` possuem 2 a 3 fotografias verificadas** (totalizando **1.266 fotografias** e **367/438 takes** com múltiplas referências).
 3. **Padronização de Licenças Explícitas nas 45 Legendas Restantes:**
-   - Substituídas todas as 45 menções residuais do tipo `"Consultar licença na ficha original"`, `"Ver ficha original"` ou `"Conferir ficha Commons"` (`g07`, `g08`, `g09`, `g11`, `g14`, `g15`, `g16`, `g20` e `passagens`) pelo autor, ano e licença exatos verificados na API do Wikimedia Commons (`CC BY-SA 4.0`, `CC BY-SA 3.0`, `CC BY 2.0`, `CC0`, etc.). Resultado da verificação automática: **0 anomalias em todos os 410 takes**.
+   - Substituídas todas as 45 menções residuais do tipo `"Consultar licença na ficha original"`, `"Ver ficha original"` ou `"Conferir ficha Commons"` (`g07`, `g08`, `g09`, `g11`, `g14`, `g15`, `g16`, `g20` e `passagens`) pelo autor, ano e licença exatos verificados na API do Wikimedia Commons (`CC BY-SA 4.0`, `CC BY-SA 3.0`, `CC BY 2.0`, `CC0`, etc.). Resultado da verificação automática: **0 anomalias em todos os 438 takes**.
 
 ---
 
@@ -648,4 +648,42 @@
 | 12 | `cafes-take-12` | Fachada do Hôtel du Nord · Canal Saint-Martin | 3 | `48.873200, 2.364100` | 0 m | `cafes-take-13` (2418 m / ~3192 m a pé) | ✅ 100% |
 | 13 | `cafes-take-13` | La Maison Rose · Esquina da Rue de l’Abreuvoir | 3 | `48.887800, 2.339600` | 0 m | `cafes-take-14` (102 m / ~135 m a pé) | ✅ 100% |
 | 14 | `cafes-take-14` | Cabaret Au Lapin Agile · Rue des Saules | 3 | `48.888700, 2.339900` | 0 m | Fim do roteiro | ✅ 100% |
+
+### `#jardins-fontes` — Jardins, parques e fontes monumentais (14 takes · 42 fotos)
+
+| # | ID do Take | Local | Fotos | Coordenadas (Lat, Lon) | Desvio OSM | Próximo Ponto (Linha Reta / Caminhada Est.) | Licenças / Links |
+| :-: | :--- | :--- | :-: | :--- | :-: | :--- | :-: |
+| 01 | `jardins-take-01` | Jardin du Palais-Royal e Fonte Central | 3 | `48.864650, 2.337650` | 0 m | `jardins-take-02` (1106 m / ~1460 m a pé) | ✅ 100% |
+| 02 | `jardins-take-02` | Square de la Tour Saint-Jacques | 3 | `48.858000, 2.348900` | 0 m | `jardins-take-03` (253 m / ~334 m a pé) | ✅ 100% |
+| 03 | `jardins-take-03` | Fontaine Stravinsky · Place Igor-Stravinsky | 3 | `48.859500, 2.351500` | 0 m | `jardins-take-04` (2919 m / ~3853 m a pé) | ✅ 100% |
+| 04 | `jardins-take-04` | Jardins des Champs-Élysées · Alamedas e Fontes | 3 | `48.867500, 2.313500` | 0 m | `jardins-take-05` (2873 m / ~3792 m a pé) | ✅ 100% |
+| 05 | `jardins-take-05` | Fontaine Médicis · Jardin du Luxembourg | 3 | `48.848200, 2.339600` | 0 m | `jardins-take-06` (1026 m / ~1354 m a pé) | ✅ 100% |
+| 06 | `jardins-take-06` | Jardins e Anfiteatro das Arènes de Lutèce | 3 | `48.845100, 2.352800` | 0 m | `jardins-take-07` (374 m / ~494 m a pé) | ✅ 100% |
+| 07 | `jardins-take-07` | Jardim Hispano-Mourisco da Grande Mosquée de Paris | 3 | `48.842100, 2.355100` | 0 m | `jardins-take-08` (398 m / ~525 m a pé) | ✅ 100% |
+| 08 | `jardins-take-08` | Jardin des Plantes · Grande Perspectiva Botânica | 3 | `48.843900, 2.359800` | 0 m | `jardins-take-09` (5448 m / ~7191 m a pé) | ✅ 100% |
+| 09 | `jardins-take-09` | Fontaines de Varsovie e Jardins du Trocadéro | 3 | `48.861093, 2.290080` | 0 m | `jardins-take-10` (873 m / ~1152 m a pé) | ✅ 100% |
+| 10 | `jardins-take-10` | Alamedas e Gramados do Champ-de-Mars | 3 | `48.855600, 2.298600` | 0 m | `jardins-take-11` (2784 m / ~3675 m a pé) | ✅ 100% |
+| 11 | `jardins-take-11` | Parc Monceau · Naumachie e Colunata Coríntia | 3 | `48.879700, 2.308900` | 0 m | `jardins-take-12` (1155 m / ~1525 m a pé) | ✅ 100% |
+| 12 | `jardins-take-12` | Square des Batignolles · Cascata, Gruta e Lago | 3 | `48.886600, 2.320700` | 0 m | `jardins-take-13` (5946 m / ~7849 m a pé) | ✅ 100% |
+| 13 | `jardins-take-13` | Coulée verte René-Dumont · Jardim Suspenso | 3 | `48.847100, 2.375500` | 0 m | `jardins-take-14` (3883 m / ~5126 m a pé) | ✅ 100% |
+| 14 | `jardins-take-14` | Lago e Pontes do Parc Montsouris | 3 | `48.822400, 2.338000` | 0 m | Fim do roteiro | ✅ 100% |
+
+### `#art-nouveau-deco` — Paris Art Nouveau e Art Déco: arquitetura e detalhes (14 takes · 42 fotos)
+
+| # | ID do Take | Local | Fotos | Coordenadas (Lat, Lon) | Desvio OSM | Próximo Ponto (Linha Reta / Caminhada Est.) | Licenças / Links |
+| :-: | :--- | :--- | :-: | :--- | :-: | :--- | :-: |
+| 01 | `art-take-01` | Castel Béranger · O Manifesto Art Nouveau de Hector Guimard | 3 | `48.852200, 2.273800` | 0 m | `art-take-02` (706 m / ~932 m a pé) | ✅ 100% |
+| 02 | `art-take-02` | Maison La Roche · Purismo Modernista de Le Corbusier | 3 | `48.855200, 2.265300` | 0 m | `art-take-03` (1637 m / ~2161 m a pé) | ✅ 100% |
+| 03 | `art-take-03` | Colunata Metálica e Esculturas do Pont de Bir-Hakeim | 3 | `48.855644, 2.287664` | 0 m | `art-take-04` (1272 m / ~1679 m a pé) | ✅ 100% |
+| 04 | `art-take-04` | Palais Galliera · Arquitetura Beaux-Arts e Moda | 3 | `48.865500, 2.296500` | 0 m | `art-take-05` (1172 m / ~1547 m a pé) | ✅ 100% |
+| 05 | `art-take-05` | Grand Palais · A Grande Nave de Vidro e Ferro de 1900 | 3 | `48.866100, 2.312500` | 0 m | `art-take-06` (2319 m / ~3061 m a pé) | ✅ 100% |
+| 06 | `art-take-06` | La Samaritaine · Vitrais Art Nouveau e Fachada Art Déco | 3 | `48.858800, 2.342200` | 0 m | `art-take-07` (1827 m / ~2412 m a pé) | ✅ 100% |
+| 07 | `art-take-07` | Cúpula Neo-Bizantina e Art Nouveau · Galeries Lafayette | 3 | `48.873800, 2.332000` | 0 m | `art-take-08` (272 m / ~359 m a pé) | ✅ 100% |
+| 08 | `art-take-08` | Cúpulas e Fachada do Printemps Haussmann | 3 | `48.874000, 2.328300` | 0 m | `art-take-09` (1214 m / ~1602 m a pé) | ✅ 100% |
+| 09 | `art-take-09` | Fachada Art Déco do Folies Bergère · Rue Richer | 3 | `48.874200, 2.344900` | 0 m | `art-take-10` (718 m / ~948 m a pé) | ✅ 100% |
+| 10 | `art-take-10` | Rotunda Art Déco do Passage du Prado | 3 | `48.871200, 2.353600` | 0 m | `art-take-11` (630 m / ~832 m a pé) | ✅ 100% |
+| 11 | `art-take-11` | Arquitetura de Ferro e Tijolo · Marché Saint-Quentin | 3 | `48.876800, 2.354900` | 0 m | `art-take-12` (1765 m / ~2330 m a pé) | ✅ 100% |
+| 12 | `art-take-12` | Polígono Policromático e Relevos · Cirque d’Hiver | 3 | `48.863300, 2.367600` | 0 m | `art-take-13` (4209 m / ~5556 m a pé) | ✅ 100% |
+| 13 | `art-take-13` | Fachada e Abóbadas Art Déco · Piscine de la Butte-aux-Cailles | 3 | `48.827200, 2.350300` | 0 m | `art-take-14` (4402 m / ~5811 m a pé) | ✅ 100% |
+| 14 | `art-take-14` | Palais de la Porte Dorée · O Grande Baixo-Relevo Art Déco | 3 | `48.835200, 2.409200` | 0 m | Fim do roteiro | ✅ 100% |
 

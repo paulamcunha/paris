@@ -152,23 +152,42 @@ const results = await withChrome(async (page) => {
     const gmapsDir = document.querySelectorAll('a[href*="google.com/maps/dir/"]').length;
     const orphanDtDd = Array.from(document.querySelectorAll('dt, dd')).filter(el => !el.closest('dl')).length;
 
-    // Test Radar GPS ("Perto de mim agora")
+    // Test Radar GPS ("Perto de mim agora") + Condition Filter Pills
     const nearbyToggle = document.getElementById('nearby-toggle');
     nearbyToggle?.click();
     await sleep(20);
     const nearbyOpen = !document.getElementById('nearby-panel')?.hidden;
     const nearbyItemsCount = document.querySelectorAll('#nearby-list .nearby-item').length;
+    const rainPill = document.querySelector('#nearby-condition-filters .cond-pill[data-cond="rain"]');
+    rainPill?.click();
+    await sleep(10);
+    const rainFilteredCount = document.querySelectorAll('#nearby-list .nearby-item').length;
     document.getElementById('nearby-close')?.click();
     await sleep(10);
 
-    // Test Solar Panel & Backup buttons inside #shoot-panel
+    // Test Solar Panel, Field Notes, Day Planner & Backup buttons inside #shoot-panel
     const shootToggle = document.getElementById('shoot-toggle');
     shootToggle?.click();
     await sleep(20);
     const solarCellsCount = document.querySelectorAll('#solar-grid .solar-cell').length;
     const hasBackupBtns = !!(document.getElementById('shoot-export-json') && document.getElementById('shoot-export-csv') && document.getElementById('shoot-import-btn'));
+    const hasFieldNoteInputs = document.querySelectorAll('#shoot-list .shoot-note-input').length > 0;
+    const hasDayPlanPanel = !!document.getElementById('day-plan-panel');
     document.getElementById('shoot-close')?.click();
     await sleep(10);
+
+    // Test Contact Sheet Toggle & Teleprompter Modal on a Guide
+    const currentGuidePanel = document.getElementById('jardins-fontes');
+    const contactSheetBtn = currentGuidePanel?.querySelector('[data-action="contact-sheet"]');
+    contactSheetBtn?.click();
+    const isContactSheetActive = currentGuidePanel?.classList.contains('is-contact-sheet');
+    contactSheetBtn?.click();
+
+    const scriptBtn = currentGuidePanel?.querySelector('[data-action="guide-script"]');
+    scriptBtn?.click();
+    await sleep(15);
+    const scriptModalOpen = !!document.getElementById('script-modal')?.open && document.getElementById('script-voiceover-text')?.value.length > 50;
+    document.getElementById('script-modal-close')?.click();
 
     return {
       panelsOpened: opened,
@@ -179,8 +198,13 @@ const results = await withChrome(async (page) => {
       orphanDtDd,
       nearbyOpen,
       nearbyItemsCount,
+      rainFilteredCount,
       solarCellsCount,
-      hasBackupBtns
+      hasBackupBtns,
+      hasFieldNoteInputs,
+      hasDayPlanPanel,
+      isContactSheetActive,
+      scriptModalOpen
     };
   })()`);
 
@@ -188,7 +212,7 @@ const results = await withChrome(async (page) => {
   for (const w of [320, 360, 390, 430, 768, 1024, 1280, 1920]) {
     await page.send('Emulation.setDeviceMetricsOverride', { width: w, height: w < 768 ? 844 : 900, deviceScaleFactor: 1, mobile: w < 768 });
     const vp = await page.evaluate(`(() => {
-      location.hash = '#paris-secreta';
+      location.hash = '#art-nouveau-deco';
       window.dispatchEvent(new HashChangeEvent('hashchange'));
       return {
         width: ${w},
@@ -204,16 +228,21 @@ const results = await withChrome(async (page) => {
 
 console.log(JSON.stringify(results, null, 2));
 if (
-  results.core.panelsOpened !== 29 ||
-  results.core.totalTakes !== 410 ||
-  results.core.totalPhotos !== 1182 ||
-  results.core.mapConfigs !== 62 ||
-  results.core.gmapsDir !== 222 ||
+  results.core.panelsOpened !== 31 ||
+  results.core.totalTakes !== 438 ||
+  results.core.totalPhotos !== 1266 ||
+  results.core.mapConfigs !== 72 ||
+  results.core.gmapsDir !== 230 ||
   results.core.orphanDtDd !== 0 ||
   !results.core.nearbyOpen ||
   results.core.nearbyItemsCount !== 12 ||
+  results.core.rainFilteredCount !== 12 ||
   results.core.solarCellsCount !== 7 ||
   !results.core.hasBackupBtns ||
+  !results.core.hasFieldNoteInputs ||
+  !results.core.hasDayPlanPanel ||
+  !results.core.isContactSheetActive ||
+  !results.core.scriptModalOpen ||
   results.viewports.some(v => v.overflow > 0 || v.bodyFontPx < 16) ||
   results.consoleErrors.length > 0 ||
   results.pageExceptions.length > 0

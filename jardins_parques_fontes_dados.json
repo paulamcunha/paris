@@ -1,0 +1,491 @@
+{
+  "project": "Paris em Cena | Jardins, parques e fontes monumentais",
+  "date": "2026-11-06",
+  "video": "Reel documental · As 4 estações, águas e alamedas",
+  "guideId": "jardins-fontes",
+  "note": "Os jardins municipais e nacionais possuem horários de abertura e fechamento que variam conforme a estação do ano (geralmente das 7h30/8h até o pôr do sol) e podem fechar em alertas de vento forte.",
+  "sectorNames": [
+    "Centro e Rive Droite Clássica: Palais-Royal, Marais e Champs-Élysées",
+    "Rive Gauche Botânica e Literária (5º e 6º)",
+    "Jardins à Inglesa e Espelhos d’Água do Oeste (7º, 8º, 16º e 17º)",
+    "Passeios Verdes do Leste e Sul (12º e 14º)"
+  ],
+  "locations": [
+    {
+      "number": 1,
+      "anchor": "jardins-take-01",
+      "name": "Jardin du Palais-Royal e Fonte Central",
+      "lat": 48.86465,
+      "lon": 2.33765,
+      "sector": 1,
+      "focus": "Duplas fileiras de tílias podadas em linha reta, cadeiras verdes e bacia central com jato d’água",
+      "surface": "Saibro claro, folhagem simétrica, flores sazonais e colunatas setecentistas",
+      "bestConditions": "Manhã cedo com sol atravessando as arcadas laterais; magnólias floridas no início da primavera.",
+      "shot": "Enquadrar as cadeiras verdes junto à fonte circular com o jato d’água cintilando em contraluz.",
+      "alternative": "Caminhada pelo túnel geométrico de árvores podadas.",
+      "access": "Entrada gratuita (horário diurno) · Metrô: Palais-Royal – Musée du Louvre (M1, M7).",
+      "photos": [
+        {
+          "file": "Palais Royal et les Colonnes de Buren.jpg",
+          "author": "ros k @ getfunky_paris",
+          "year": "2011",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Colonnes de Buren @ Palais Royal @ Paris (26499809322).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Colonnes de Buren @ Palais Royal @ Paris (26592432255).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "anchor": "jardins-take-02",
+      "name": "Square de la Tour Saint-Jacques",
+      "lat": 48.858,
+      "lon": 2.3489,
+      "sector": 1,
+      "focus": "Primeiro square público parisiense criado por Haussmann e Alphand ao redor do campanário gótico flamígero",
+      "surface": "Canteiros floridos, árvores centenárias e pedra esculpida do século XVI",
+      "bestConditions": "Luz da manhã ou meio da tarde ilumina as gárgulas e a vegetação ao redor.",
+      "shot": "Tilt vertical partindo dos canteiros floridos do jardim até o topo da torre gótica.",
+      "alternative": "Usar os ramos das árvores como moldura natural em primeiro plano.",
+      "access": "Jardim plano e gratuito · Metrô: Châtelet (M1, M4, M7, M11, M14).",
+      "photos": [
+        {
+          "file": "Paris 75004 Tour Saint-Jacques 20161030.jpg",
+          "author": "Wilfredor",
+          "year": "2024",
+          "license": "CC0"
+        },
+        {
+          "file": "Paris 75004 Tour Saint-Jacques 20170416.jpg",
+          "author": "Roi Roiability",
+          "year": "2016",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "file": "Paris 75004 Tour Saint-Jacques 20170416.jpg",
+          "author": "Dale Cruse from San Francisco, CA, USA",
+          "year": "2017",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "anchor": "jardins-take-03",
+      "name": "Fontaine Stravinsky · Place Igor-Stravinsky",
+      "lat": 48.8595,
+      "lon": 2.3515,
+      "sector": 1,
+      "focus": "Dezesseis esculturas cinéticas e coloridas de Niki de Saint Phalle e Jean Tinguely em movimento na água",
+      "surface": "Espelho d’água urbano, jatos giratórios e fachada gótica da igreja Saint-Merry ao fundo",
+      "bestConditions": "Qualquer horário diurno; cores vibrantes funcionam muito bem mesmo em céu nublado.",
+      "shot": "Plano fixo de 3 segundos com as esculturas esguichando água diante da pedra antiga de Saint-Merry.",
+      "alternative": "Detalhe fechado no movimento mecânico e nos reflexos vermelhos e azuis na água.",
+      "access": "Praça pedestre plana · Metrô: Hôtel de Ville / Rambuteau (M1, M11).",
+      "photos": [
+        {
+          "file": "Paris 75004 Place Igor-Stravinsky Fountain 01a.jpg",
+          "author": "ChrisSampson87",
+          "year": "2011",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Place Igor-Stravinsky (35).jpg",
+          "author": "ChrisSampson87",
+          "year": "2011",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Place Igor-Stravinsky (35).jpg",
+          "author": "Luboš Holič",
+          "year": "2013",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "anchor": "jardins-take-04",
+      "name": "Jardins des Champs-Élysées · Alamedas e Fontes",
+      "lat": 48.8675,
+      "lon": 2.3135,
+      "sector": 1,
+      "focus": "Pavilhões históricos, fontes de ferro fundido do século XIX e alamedas arborizadas entre a Concorde e o Rond-Point",
+      "surface": "Gramados sombreados, lampiões ornamentais e bacias de água",
+      "bestConditions": "Luz filtrada da tarde sobre os jardins do lado norte (Avenue Gabriel) e sul.",
+      "shot": "Caminhada suave pelas alamedas ajardinadas mostrando o lado silencioso e verde da Champs-Élysées.",
+      "alternative": "Enquadrar uma das fontes históricas com o Petit Palais ou Grand Palais ao fundo.",
+      "access": "Acesso livre 24h e plano · Metrô: Champs-Élysées – Clemenceau (M1, M13).",
+      "photos": [
+        {
+          "file": "Jardins des Champs-Élysées Paris.jpg",
+          "author": "Wikimedia Commons",
+          "year": "2018",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Paris 75008 Jardins des Champs-Élysées Carré Marigny 20161101 (01).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Paris 75008 Jardins des Champs-Élysées Carré Marigny 20161101 (02).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "anchor": "jardins-take-05",
+      "name": "Fontaine Médicis · Jardin du Luxembourg",
+      "lat": 48.8482,
+      "lon": 2.3396,
+      "sector": 2,
+      "focus": "Gruta renascentista italiana de 1630 refletida em um longo espelho d’água sombreado por plátanos",
+      "surface": "Água escura espelhada, hera pendente, esculturas de Polifemo e folhas de outono",
+      "bestConditions": "No outono, as folhas douradas flutuam sobre o espelho d’água criando uma das cenas mais clássicas de Paris.",
+      "shot": "Plano simétrico na ponta da bacia d’água enquadrando a gruta esculpida sob o túnel de plátanos.",
+      "alternative": "Movimento lateral suave junto à balaustrada de pedra mostrando o reflexo na água.",
+      "access": "Aberto até o pôr do sol · RER B: Luxembourg.",
+      "photos": [
+        {
+          "file": "Fontaine Médicis (3).jpg",
+          "author": "John Samuel",
+          "year": "2025",
+          "license": "CC BY-SA 4.0."
+        },
+        {
+          "file": "Fontaine Médicis (6).jpg",
+          "author": "John Samuel",
+          "year": "2025",
+          "license": "CC BY-SA 4.0."
+        },
+        {
+          "file": "Medici Fountain, Jardin du Luxembourg, Paris 13 November 2016.jpg",
+          "author": "Guilhem Vellut",
+          "year": "2016",
+          "license": "CC BY 2.0."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "anchor": "jardins-take-06",
+      "name": "Jardins e Anfiteatro das Arènes de Lutèce",
+      "lat": 48.8451,
+      "lon": 2.3528,
+      "sector": 2,
+      "focus": "Jardim público silencioso integrado às arquibancadas de pedra do anfiteatro galo-romano do século I",
+      "surface": "Arquibancadas circulares de pedra, arena de saibro e jardins em níveis",
+      "bestConditions": "Meio da manhã ou tarde; excelente acústica e ausência de carros.",
+      "shot": "Entrar pelo corredor de pedra revelando a abertura circular da arena cercada de árvores.",
+      "alternative": "Plano das arquibancadas antigas vistas do jardim superior (Square Capitan).",
+      "access": "Gratuito em horário diurno (alguns degraus nos níveis superiores) · Metrô: Place Monge / Jussieu (M7, M10).",
+      "photos": [
+        {
+          "file": "Arènes de Lutèce (octobre 2025).jpg",
+          "author": "FreCha",
+          "year": "2025",
+          "license": "CC BY-SA 4.0."
+        },
+        {
+          "file": "Arènes Lutèce - Paris V (FR75) - 2025-03-29 - 2.jpg",
+          "author": "Chabe01",
+          "year": "2025",
+          "license": "CC BY-SA 4.0."
+        },
+        {
+          "file": "Entrée des Arènes de Lutèce, rue Monge (Paris) - 2025.jpg",
+          "author": "Titlutin",
+          "year": "2025",
+          "license": "CC BY-SA 4.0."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "anchor": "jardins-take-07",
+      "name": "Jardim Hispano-Mourisco da Grande Mosquée de Paris",
+      "lat": 48.8421,
+      "lon": 2.3551,
+      "sector": 2,
+      "focus": "Jardim de inspiração andaluza com fontes de mosaico zellige, cursos d’água e glicínias",
+      "surface": "Azulejos geométricos azuis e verdes, mármore claro e vegetação mediterrânea",
+      "bestConditions": "Luz do meio-dia ou início da tarde ilumina o pátio aberto e os mosaicos.",
+      "shot": "Plano baixo acompanhando o canal de água revestido de mosaicos até a fonte central do jardim.",
+      "alternative": "Enquadrar os arcos esculpidos emoldurando as árvores floridas.",
+      "access": "Verifique horários de visitação e regras de vestimenta · Metrô: Place Monge / Censier-Daubenton (M7).",
+      "photos": [
+        {
+          "file": "Grande Mosquée de Paris - Minaret - Août 2026.jpg",
+          "author": "ZeusUpsistos",
+          "year": "2026",
+          "license": "CC BY-SA 4.0."
+        },
+        {
+          "file": "Grande Mosquée - Paris V (FR75) - 2025-03-29 - 4.jpg",
+          "author": "Chabe01",
+          "year": "2025",
+          "license": "CC BY-SA 4.0."
+        },
+        {
+          "file": "Grande Mosquée - Paris V (FR75) - 2025-03-29 - 3.jpg",
+          "author": "Chabe01",
+          "year": "2025",
+          "license": "CC BY-SA 4.0."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "anchor": "jardins-take-08",
+      "name": "Jardin des Plantes · Grande Perspectiva Botânica",
+      "lat": 48.8439,
+      "lon": 2.3598,
+      "sector": 2,
+      "focus": "Alameda histórica do jardim botânico real (1635) com estufas metálicas e a fachada da Grande Galerie",
+      "surface": "Canteiros botânicos identificados, alamedas de plátanos e cerejeiras na primavera",
+      "bestConditions": "Manhã cedo logo na abertura dos portões; floração exuberante entre março e junho.",
+      "shot": "Plano longo no eixo central dos canteiros floridos em direção à Grande Galerie de l’Évolution.",
+      "alternative": "Detalhe das estufas históricas de vidro e ferro vistas a partir do jardim.",
+      "access": "Alamedas externas gratuitas e planas · Metrô: Gare d’Austerlitz (M5, M10).",
+      "photos": [
+        {
+          "file": "Paris - Jardin des Plantes 7949.jpg",
+          "author": "Phyrexian",
+          "year": "2025",
+          "license": "Domínio público"
+        },
+        {
+          "file": "Paris - Jardin des Plantes 7955.JPG",
+          "author": "Phyrexian",
+          "year": "2025",
+          "license": "Domínio público"
+        },
+        {
+          "file": "Paris - Jardin des Plantes 7953.jpg",
+          "author": "Phyrexian",
+          "year": "2025",
+          "license": "Domínio público"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "anchor": "jardins-take-09",
+      "name": "Fontaines de Varsovie e Jardins du Trocadéro",
+      "lat": 48.861093,
+      "lon": 2.29008,
+      "sector": 3,
+      "focus": "Espelhos d’água em cascata com 20 canhões de água alinhados com a Torre Eiffel",
+      "surface": "Bacias escalonadas, esculturas douradas Art Déco e jardins inclinados",
+      "bestConditions": "Manhã com sol a leste criando arco-íris na névoa dos jatos d’água.",
+      "shot": "Gravar na borda lateral da bacia quando os canhões d’água estiverem ativos com a Torre ao fundo.",
+      "alternative": "Caminhada pelos caminhos arborizados laterais dos Jardins du Trocadéro.",
+      "access": "Acesso público livre (com escadarias e rampas laterais) · Metrô: Trocadéro (M6, M9).",
+      "photos": [
+        {
+          "file": "Fontaines du Trocadéro 6 October 2009.jpg",
+          "author": "Mario Sánchez Prada from Staines, United Kingdom",
+          "year": "2009",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "file": "Paris 75016 Fontaines du Trocadéro 20160610.jpg",
+          "author": "krysi@",
+          "year": "2016",
+          "license": "CC BY 3.0"
+        },
+        {
+          "file": "Fontaines du Trocadéro 2, Paris 23 June 2013.jpg",
+          "author": "Guillaume Speurt from Tallinn, Estonia",
+          "year": "2013",
+          "license": "CC BY-SA 2.0"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "anchor": "jardins-take-10",
+      "name": "Alamedas e Gramados do Champ-de-Mars",
+      "lat": 48.8556,
+      "lon": 2.2986,
+      "sector": 3,
+      "focus": "Grande parque axial de 780 metros entre a École Militaire e a Torre Eiffel",
+      "surface": "Gramados centrais, túneis de árvores laterais e caminhos de saibro",
+      "bestConditions": "Fim de tarde ilumina a estrutura metálica da Torre acima das copas das árvores.",
+      "shot": "Usar as alamedas arborizadas laterais para revelar a Torre Eiffel entre os galhos.",
+      "alternative": "Plano simétrico no eixo central do gramado.",
+      "access": "Percurso totalmente plano · Metrô: École Militaire (M8) ou Bir-Hakeim (M6).",
+      "photos": [
+        {
+          "file": "Champ de Mars, Paris.jpg",
+          "author": "Wikimedia Commons",
+          "year": "2013",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Tour Eiffel Wikimedia Commons.jpg",
+          "author": "Benh LIEU SONG",
+          "year": "2009",
+          "license": "Public domain"
+        },
+        {
+          "file": "Louis-Emile Durandelle, The Eiffel Tower - State of the Construction, 1888.jpg",
+          "author": "Louis-Emile Durandelle",
+          "year": "2018",
+          "license": "Public domain"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "anchor": "jardins-take-11",
+      "name": "Parc Monceau · Naumachie e Colunata Coríntia",
+      "lat": 48.8797,
+      "lon": 2.3089,
+      "sector": 3,
+      "focus": "Jardim pitoresco do século XVIII com lago oval cercado por colunas coríntias refletidas na água",
+      "surface": "Colunata histórica à beira d’água, ponte italiana, salgueiros-chorões e portões dourados",
+      "bestConditions": "Luz da manhã ou fim de tarde; um dos parques mais fotogênicos em qualquer estação.",
+      "shot": "Enquadrar a fileira curva de colunas da Naumachie refletida no lago com a ponte ao fundo.",
+      "alternative": "Entrada pelos grandes portões de ferro forjado e ouro na rotunda de Chartres.",
+      "access": "Plano e gratuito · Metrô: Monceau (M2).",
+      "photos": [
+        {
+          "file": "Parc Monceau Paris 8e 001.jpg",
+          "author": "Wikimedia Commons",
+          "year": "2018",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "2023-06-06 Parc Monceau 05.jpg",
+          "author": "Thomas1313",
+          "year": "2023",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "2023-06-06 Parc Monceau 03.jpg",
+          "author": "Thomas1313",
+          "year": "2023",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "anchor": "jardins-take-12",
+      "name": "Square des Batignolles · Cascata, Gruta e Lago",
+      "lat": 48.8866,
+      "lon": 2.3207,
+      "sector": 3,
+      "focus": "Jardim estilo inglês do Segundo Império com riacho sinuoso, cisnes, ponte de rocha e quiosque",
+      "surface": "Água corrente, pontes rústicas, plátanos gigantes e estufa oitocentista",
+      "bestConditions": "Manhã tranquila com vida autêntica de bairro no 17º arrondissement.",
+      "shot": "Acompanhar o curso do pequeno riacho até o lago principal com os prédios haussmannianos ao fundo.",
+      "alternative": "Plano das pontes rústicas sobre a água e das árvores centenárias.",
+      "access": "Plano e gratuito · Metrô: Pont Cardinet (M14) ou Brochant (M13).",
+      "photos": [
+        {
+          "file": "Square des Batignolles @ Paris (29799820301).jpg",
+          "author": "Guilhem Vellut",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Square des Batignolles @ Paris (29799820301).jpg",
+          "author": "Georges Seguin ( Okki )",
+          "year": "2006",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Square des Batignolles @ Paris (29799820301).jpg",
+          "author": "Georges Seguin ( Okki )",
+          "year": "2006",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "anchor": "jardins-take-13",
+      "name": "Coulée verte René-Dumont · Jardim Suspenso",
+      "lat": 48.8471,
+      "lon": 2.3755,
+      "sector": 4,
+      "focus": "Primeiro parque linear elevado do mundo (1993), construído sobre um antigo viaduto ferroviário de 1859",
+      "surface": "Pérgolas de roseiras e trepadeiras, espelhos d’água lineares e vista na altura do 3º andar",
+      "bestConditions": "Primavera e verão oferecem arcos floridos contínuos ao longo da passarela.",
+      "shot": "Caminhada estável pelo corredor florido suspenso mostrando a avenida abaixo a partir das aberturas.",
+      "alternative": "Enquadrar os arcos vegetais em perspectiva até o Jardin de Reuilly.",
+      "access": "Acesso por escadas ou elevador na Avenue Daumesnil · Metrô: Bastille / Ledru-Rollin (M1, M5, M8).",
+      "photos": [
+        {
+          "file": "Coulée verte René-Dumont - Paris.jpg",
+          "author": "André Alliot",
+          "year": "2015",
+          "license": "CC0"
+        },
+        {
+          "file": "Coulée verte René-Dumont - Paris.jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        },
+        {
+          "file": "Coulée verte René-Dumont, 139 Avenue Daumesnil, 75012 Paris, France 2016.jpg",
+          "author": "Roman SUZUKI",
+          "year": "2009",
+          "license": "CC BY 3.0"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "anchor": "jardins-take-14",
+      "name": "Lago e Pontes do Parc Montsouris",
+      "lat": 48.8224,
+      "lon": 2.338,
+      "sector": 4,
+      "focus": "Grande parque ao sul de Paris com lago amplo, salgueiros, marcador do meridiano de Paris e antigas linhas férreas",
+      "surface": "Gramados em colina suave, espelho d’água e árvores monumentais",
+      "bestConditions": "Golden Hour da tarde reflete no grande lago do setor norte do parque.",
+      "shot": "Plano sereno na margem do lago com os salgueiros tocando a água e aves aquáticas.",
+      "alternative": "Vista a partir da ponte superior sobre o antigo leito da Petite Ceinture.",
+      "access": "Rampas suaves e caminhos largos · RER B: Cité Universitaire / Tram T3a.",
+      "photos": [
+        {
+          "file": "Lac du parc Montsouris à Paris.JPG",
+          "author": "Basili",
+          "year": "2011",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "file": "Ligne Petite Ceinture parc Montsouris Paris.jpg",
+          "author": "Myrabella",
+          "year": "2013",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "file": "Parc Montsouris @ Paris (29860614110).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "year": "2016",
+          "license": "CC BY 2.0"
+        }
+      ]
+    }
+  ]
+}

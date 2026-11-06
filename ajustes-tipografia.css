@@ -652,3 +652,366 @@ body {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+
+/* === FERRAMENTAS DE CAMPO ONDA 2: FILTROS DE CLIMA/LUZ, ROTEIRO DO DIA, TELEPROMPTER, MOSAICO E IMPRESSÃO === */
+.condition-filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+.cond-pill {
+  border: 1px solid #d7c4c8;
+  background: #fff;
+  color: var(--wine);
+  border-radius: 999px;
+  padding: 6px 11px;
+  min-height: 36px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cond-pill.is-active {
+  background: var(--wine);
+  color: #fff;
+  border-color: var(--wine);
+}
+.nearby-plan-btn {
+  border: 1px solid #ba9699;
+  background: #fcfaf9;
+  color: var(--wine);
+  border-radius: 6px;
+  padding: 6px 10px;
+  min-height: 38px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nearby-plan-btn:hover {
+  background: #fcf2f3;
+}
+
+/* Barra rápida nas fichas (selos de clima/luz/áudio + botão Roteiro do Dia) */
+.take-quick-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 12px;
+  padding: 8px 11px;
+  background: #fcf9f9;
+  border: 1px solid #ece1e2;
+  border-radius: 7px;
+}
+.take-cond-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.take-cond-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: #fff;
+  border: 1px solid #dfd0d2;
+  color: #4a3538;
+}
+.take-dayplan-btn {
+  border: 1px solid var(--wine);
+  background: #fff;
+  color: var(--wine);
+  border-radius: 6px;
+  padding: 6px 11px;
+  min-height: 38px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.take-dayplan-btn.is-selected,
+.take-dayplan-btn[aria-pressed="true"] {
+  background: var(--wine);
+  color: #fff;
+}
+
+/* Barra de ferramentas e metrô na capa de cada guia */
+.guide-tools-bar {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.24);
+  display: grid;
+  gap: 10px;
+}
+.guide-metro-pill {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  background: rgba(0, 0, 0, 0.22);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 7px;
+}
+.guide-tools-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.guide-tool-btn {
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px 12px;
+  min-height: 40px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.guide-tool-btn:hover,
+.guide-tool-btn[aria-pressed="true"] {
+  background: #fff;
+  color: var(--wine);
+}
+.metro-sector-badge {
+  background: #fbf6f6;
+  border-left: 4px solid var(--wine);
+  padding: 9px 12px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  line-height: 1.55;
+}
+
+/* Modo Mosaico Visual / Folha de Contato (.is-contact-sheet) */
+.guide-panel.is-contact-sheet .take-card .history,
+.guide-panel.is-contact-sheet .take-card .pc-historia,
+.guide-panel.is-contact-sheet .take-card .sources,
+.guide-panel.is-contact-sheet .take-card .status,
+.guide-panel.is-contact-sheet .take-card .route,
+.guide-panel.is-contact-sheet .take-card .qr-details {
+  display: none !important;
+}
+.guide-panel.is-contact-sheet .take-card {
+  padding: 14px;
+  margin-bottom: 14px;
+}
+
+/* Claquete / Notas de campo e Roteiro do Dia no Modo Gravação */
+.shoot-note-input {
+  display: block;
+  width: 100%;
+  margin-top: 7px;
+  padding: 6px 9px;
+  min-height: 36px;
+  border: 1px solid #d7c7c9;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 0.875rem;
+  background: #fcfaf9;
+  color: #222;
+}
+.day-plan-panel {
+  border: 1px solid #e6dada;
+  border-radius: 8px;
+  background: #fcfaf9;
+  padding: 8px 12px;
+}
+.day-plan-body {
+  margin-top: 8px;
+  display: grid;
+  gap: 8px;
+}
+.day-plan-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.day-plan-gmaps-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 40px;
+  padding: 8px 11px;
+  background: var(--wine);
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.day-plan-btn {
+  flex: 1;
+  border: 1px solid #ba9699;
+  background: #fff;
+  color: var(--wine);
+  border-radius: 6px;
+  padding: 7px 9px;
+  min-height: 38px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.day-plan-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+.day-plan-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #fff;
+  border: 1px solid #ece2e2;
+  border-radius: 6px;
+  padding: 7px 9px;
+  font-size: 0.875rem;
+}
+.day-plan-item small {
+  display: block;
+  color: #5b4f50;
+  font-size: 0.875rem;
+}
+.day-plan-remove {
+  border: 1px solid #d7c4c8;
+  background: #fff;
+  color: var(--wine);
+  border-radius: 6px;
+  min-width: 34px;
+  min-height: 34px;
+  cursor: pointer;
+}
+.day-plan-empty {
+  font-size: 0.875rem;
+  color: #5b4f50;
+}
+
+/* Modal Gerador de Roteiro de Narração e Legenda (#script-modal) */
+.script-modal {
+  width: min(95vw, 760px);
+  max-width: 95vw;
+  border: 1px solid #dfd5d6;
+  border-radius: 10px;
+  padding: 16px 18px;
+  background: #fff;
+  color: #231f1f;
+  box-shadow: 0 18px 70px #0006;
+}
+.script-modal::backdrop {
+  background: #000a;
+}
+.script-modal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 10px 0;
+}
+.script-box {
+  display: grid;
+  gap: 6px;
+}
+.script-box-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 0.875rem;
+}
+.script-box-head button {
+  border: 1px solid var(--wine);
+  background: var(--wine);
+  color: #fff;
+  border-radius: 6px;
+  padding: 6px 10px;
+  min-height: 36px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.script-box textarea {
+  width: 100%;
+  font: inherit;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  padding: 9px;
+  border: 1px solid #cfbFC1;
+  border-radius: 6px;
+  background: #fcfaf9;
+  resize: vertical;
+}
+
+@media (max-width: 700px) {
+  .script-modal-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Folha de Bolso de 1 Página para Impressão / Salvar em PDF (@media print) */
+@media print {
+  .site-sidebar,
+  .site-header,
+  .cover-nav,
+  .guide-tools-actions,
+  .map-box,
+  .map-actions,
+  .gallery-wrap,
+  .take-card figure,
+  .take-card .photo,
+  .take-card .pic,
+  .take-card .photo-frame,
+  .take-card .history,
+  .take-card .pc-historia,
+  .take-card .sources,
+  .take-card .status,
+  .take-card .church-links,
+  .take-card .links,
+  .take-card .actions,
+  .take-quick-bar,
+  .nearby-scrim,
+  .nearby-panel,
+  .script-modal,
+  .footer {
+    display: none !important;
+  }
+  .page-layout,
+  .site-main,
+  .page-content {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  .guide-cover {
+    background: none !important;
+    color: #000 !important;
+    border-bottom: 2px solid #890f0e !important;
+    padding: 8px 0 !important;
+    margin-bottom: 10px !important;
+  }
+  .guide-metro-pill {
+    background: #f5f0f0 !important;
+    color: #000 !important;
+    border: 1px solid #ccc !important;
+  }
+  .take-card {
+    page-break-inside: avoid;
+    border: 1px solid #ccc !important;
+    padding: 8px 10px !important;
+    margin: 0 0 6px !important;
+  }
+  .take-card h2 {
+    font-size: 13pt !important;
+    margin: 0 0 4px !important;
+  }
+}
