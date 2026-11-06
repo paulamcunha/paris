@@ -228,6 +228,24 @@
 }
 @media print{.shoot-toggle,.shoot-scrim,.shoot-panel{display:none!important}}
 
+
+/* Galeria fotográfica: zoom legível sem sair do guia */
+.take-card figure.photo-card .thumb img[role="button"]{cursor:zoom-in}
+.take-card figure.photo-card .thumb img[role="button"]:focus-visible{outline:4px solid #1553a0;outline-offset:-4px}
+.photo-viewer{width:min(96vw,1100px);max-width:96vw;max-height:95dvh;border:1px solid #dfd5d6;border-radius:10px;padding:12px 15px;background:#fff;color:#231f1f;box-shadow:0 18px 70px #0006}
+.photo-viewer::backdrop{background:#000c}
+.photo-viewer-head{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-bottom:8px}
+.photo-viewer-head strong{font-size:16px;line-height:1.4;overflow-wrap:anywhere}
+.photo-viewer-close,.photo-viewer-nav button{border:1px solid #a78286;border-radius:6px;padding:10px 14px;min-height:44px;background:#fff;color:#890f0e;font:inherit;font-weight:650;cursor:pointer}
+.photo-viewer-visual{display:flex;align-items:center;justify-content:center;background:#f3f2f2;border-radius:6px;min-height:120px}
+.photo-viewer-visual img{display:block;width:auto;max-width:100%;max-height:calc(95dvh - 215px);height:auto;object-fit:contain;margin:auto}
+.photo-viewer-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;padding-top:10px}
+.photo-viewer-footer a{font-size:14px;line-height:1.5;overflow-wrap:anywhere}
+.photo-viewer-nav{display:flex;gap:8px}
+.photo-viewer-nav button:disabled{opacity:.4;cursor:default}
+@media(max-width:500px){.photo-viewer{padding:10px;margin:auto}.photo-viewer-visual img{max-height:calc(93dvh - 220px)}.photo-viewer-head strong{font-size:14px}.photo-viewer-footer{align-items:stretch;flex-direction:column}.photo-viewer-nav button{flex:1}.photo-viewer-nav{display:flex;width:100%}}
+@media print{.photo-viewer{display:none!important}}
+
 </style></head><body>
 <div class="menu-scrim" id="menu-scrim"></div><div class="page-layout"><aside class="site-sidebar" id="navigation"><a class="brand" data-view-link="inicio" href="#inicio">Paris em Cena<small>Guias de campo · Paula Cunha</small></a><div class="search-box"><input aria-label="Pesquisar locais e takes" id="search" placeholder="Buscar lugar ou take..." type="search"/><label class="search-filter-label" for="search-guide-filter">Pesquisar em</label><select id="search-guide-filter" aria-label="Filtrar busca por guia"><option value="all">Todos os 25 guias</option></select><div class="search-results" id="search-results"></div></div><div class="side-heading">Coleções</div><a class="side-link" data-view-link="inicio" href="#inicio"><span class="side-num">⌂</span> Início</a><a class="side-link" data-view-link="passagens" href="#passagens"><span class="side-num">P</span> Passagens cobertas <span class="side-count">14</span></a><a class="side-link" data-view-link="igrejas" href="#igrejas"><span class="side-num">I</span> Igrejas de Paris <span class="side-count">14</span></a><a class="side-link" data-view-link="torre-eiffel" href="#torre-eiffel"><span class="side-num">T</span> Vistas da Torre Eiffel <span class="side-count">14</span></a><a class="side-link" data-view-link="pontes-sena" href="#pontes-sena"><span class="side-num">S</span> Pontes e margens do Sena <span class="side-count">22</span></a><a class="side-link" data-view-link="reflexos" href="#reflexos"><span class="side-num">R</span> Paris vista pelos reflexos <span class="side-count">14</span></a><div class="side-heading">20 arrondissements</div><a class="side-link" data-view-link="g01" href="#g01"><span class="side-num">01</span><span>Louvre</span><span class="side-count">24</span></a><a class="side-link" data-view-link="g02" href="#g02"><span class="side-num">02</span><span>Bourse</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g03" href="#g03"><span class="side-num">03</span><span>Temple</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g04" href="#g04"><span class="side-num">04</span><span>Hôtel-de-Ville</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g05" href="#g05"><span class="side-num">05</span><span>Panthéon</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g06" href="#g06"><span class="side-num">06</span><span>Luxembourg</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g07" href="#g07"><span class="side-num">07</span><span>Palais-Bourbon</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g08" href="#g08"><span class="side-num">08</span><span>Élysée</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g09" href="#g09"><span class="side-num">09</span><span>Opéra</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g10" href="#g10"><span class="side-num">10</span><span>Entrepôt</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g11" href="#g11"><span class="side-num">11</span><span>Popincourt</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g12" href="#g12"><span class="side-num">12</span><span>Reuilly</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g13" href="#g13"><span class="side-num">13</span><span>Gobelins</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g14" href="#g14"><span class="side-num">14</span><span>Observatoire</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g15" href="#g15"><span class="side-num">15</span><span>Vaugirard</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g16" href="#g16"><span class="side-num">16</span><span>Passy</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g17" href="#g17"><span class="side-num">17</span><span>Batignolles-Monceau</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g18" href="#g18"><span class="side-num">18</span><span>Butte-Montmartre</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g19" href="#g19"><span class="side-num">19</span><span>Buttes-Chaumont</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g20" href="#g20"><span class="side-num">20</span><span>Ménilmontant</span><span class="side-count">14</span></a></aside><div class="site-main"><div class="site-header"><button aria-label="Abrir menu" class="mobile-menu" id="mobile-toggle" type="button">☰</button><span class="crumb" id="current-crumb">Paris em Cena</span><button aria-controls="shoot-panel" aria-expanded="false" class="shoot-toggle" id="shoot-toggle" type="button">Modo gravação</button><a class="header-home" data-view-link="inicio" href="#inicio">Página inicial</a></div><div class="page-content" id="topo"><section class="guide-panel is-current" data-view="inicio" id="inicio"><header class="guide-cover home-hero"><div class="eyebrow">Paula Cunha Fotografia · Projeto pessoal de filmagem</div><h1>Paris em Cena<br/><em>Guias de Campo</em></h1><p class="lead">Roteiros de fotografia e vídeo organizados por arrondissement, com fichas documentais, referências fotográficas e acesso aos mapas. Tudo reunido em um único HTML para abrir no Mac ou no celular.</p><div class="cover-meta"><span>20 arrondissements</span><span>290 takes territoriais</span><span>14 passagens cobertas</span><span>14 igrejas de Paris</span><span>14 pontos gratuitos para ensaios diurnos</span><span>22 pontes e margens do Sena</span><span>14 locais para Reels de reflexos</span><span>5 mapas regionais</span></div><div class="cover-nav"><a data-view-link="passagens" href="#passagens">Explorar passagens cobertas</a><a href="#arr-home">Ver os 20 arrondissements</a></div></header>
 <section class="section-block home-intro"><div class="eyebrow">Como usar</div><h2>Um arquivo, todos os guias</h2><p>A estrutura do HTML funciona sem internet. As fotografias e as ruas do OpenStreetMap são carregadas online. Caso o mapa incorporado não apareça, cada guia oferece um link direto ao OpenStreetMap e etapas de caminhada no Google Maps.</p><p class="notice">Os mapas incorporados mostram a região e os marcadores disponíveis, sem desenhar caminhadas não verificadas. Para navegar a pé, use os links do Google Maps. Em guias sem coordenadas individuais dos takes, consulte a localização pelo endereço de cada ficha.</p></section>
@@ -1877,5 +1895,58 @@ routeHash();
   if(guideById.has(g))guideId=g;
   if(!panel.hidden)render();
  });
+})();
+</script>
+<dialog id="photo-viewer" class="photo-viewer" aria-label="Fotografia ampliada">
+ <div class="photo-viewer-head"><strong id="photo-viewer-title">Fotografia de referência</strong><button id="photo-viewer-close" class="photo-viewer-close" type="button">Fechar</button></div>
+ <div class="photo-viewer-visual"><img id="photo-viewer-img" alt="" decoding="async"/></div>
+ <div class="photo-viewer-footer"><a id="photo-viewer-source" href="#" target="_blank" rel="noopener noreferrer">Abrir original e créditos no Wikimedia Commons</a><div class="photo-viewer-nav"><button id="photo-viewer-prev" type="button">Anterior</button><button id="photo-viewer-next" type="button">Próxima</button></div></div>
+</dialog><script>
+/* Visualizador leve, sem baixar novas imagens ou substituir os créditos da fonte. */
+(function(){
+'use strict';
+const dialog=document.getElementById('photo-viewer');
+const full=document.getElementById('photo-viewer-img');
+const title=document.getElementById('photo-viewer-title');
+const origin=document.getElementById('photo-viewer-source');
+const prev=document.getElementById('photo-viewer-prev'),next=document.getElementById('photo-viewer-next');
+let current=[],selected=0;
+function show(){
+ const figure=current[selected];if(!figure)return;
+ const img=figure.querySelector('.thumb img');if(!img)return;
+ const caption=figure.querySelector('.file-title')?.textContent||img.alt||'Fotografia de referência';
+ title.textContent=(selected+1)+' / '+current.length+' · '+caption;
+ full.src=img.currentSrc||img.src;
+ full.alt=img.alt||caption;
+ const link=figure.querySelector('figcaption a[href*="commons.wikimedia.org"]');
+ if(link){origin.href=link.href;origin.hidden=false}else origin.hidden=true;
+ prev.disabled=selected===0;next.disabled=selected>=current.length-1;
+}
+function open(img){
+ const figure=img.closest('figure.photo-card');
+ const gallery=figure?.closest('.gallery');
+ if(!figure||!gallery)return;
+ current=[...gallery.querySelectorAll('figure.photo-card')].filter(f=>f.querySelector('.thumb img'));
+ selected=Math.max(0,current.indexOf(figure));
+ show();dialog.showModal();
+}
+document.querySelectorAll('.take-card figure.photo-card .thumb img').forEach(img=>{
+ img.tabIndex=0;img.setAttribute('role','button');
+ img.setAttribute('aria-label','Ampliar fotografia: '+(img.alt||'referência'));
+});
+document.addEventListener('click',ev=>{
+ const img=ev.target.closest('.take-card figure.photo-card .thumb img[role="button"]');
+ if(img)open(img);
+});
+document.addEventListener('keydown',ev=>{
+ const img=ev.target.closest?.('.take-card figure.photo-card .thumb img[role="button"]');
+ if(img&&(ev.key==='Enter'||ev.key===' ')){ev.preventDefault();open(img)}
+ if(dialog.open&&ev.key==='ArrowLeft'&&selected>0){selected--;show()}
+ if(dialog.open&&ev.key==='ArrowRight'&&selected<current.length-1){selected++;show()}
+});
+document.getElementById('photo-viewer-close').addEventListener('click',()=>dialog.close());
+prev.addEventListener('click',()=>{if(selected>0){selected--;show()}});
+next.addEventListener('click',()=>{if(selected<current.length-1){selected++;show()}});
+dialog.addEventListener('click',ev=>{if(ev.target===dialog)dialog.close()});
 })();
 </script></body></html>
