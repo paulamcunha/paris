@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Paris em Cena | Teste de responsividade</title>
+<style>
+:root{font-family:system-ui,-apple-system,sans-serif;color:#282121;background:#f9f7f7}
+*{box-sizing:border-box}
+body{margin:0;padding:22px;line-height:1.6}
+main{max-width:980px;margin:auto}
+h1{font:normal clamp(26px,4vw,36px)/1.25 Georgia,serif;color:#890f0e}
+#results{width:100%;border-collapse:collapse;margin:20px 0;background:white;font-size:14px}
+th,td{padding:11px;text-align:left;border:1px solid #ded1d1}
+th{background:#f1e6e6}
+.ok{color:#14602b;font-weight:700}.fail{color:#b20014;font-weight:700}
+.frame-stage{width:100%;max-height:400px;overflow:auto;border:2px solid #ddd;background:#eee;padding:9px}
+iframe{display:block;height:360px;border:1px solid #bbb;background:white}
+button{background:#890f0e;color:white;border:0;border-radius:6px;padding:12px 18px;min-height:44px;cursor:pointer;font:inherit}
+p{margin:8px 0 13px}
+.note{font-size:14px;color:#514b4b}
+</style>
+</head>
+<body>
+<main>
+<h1>Paris em Cena | Auditoria responsiva</h1>
+<p>Verificação automática do mesmo <code>index.html</code> em larguras de 320, 360, 390, 430, 768 e 1280 pixels. Mede rolagem horizontal, tipografia e presença de controles.</p>
+<button type="button" id="run">Executar novamente</button>
+<p id="status" aria-live="polite">Preparando teste...</p>
+<table id="results"><thead><tr><th>Largura</th><th>Rolagem horizontal</th><th>Texto base</th><th>Legenda</th><th>Menu e gravação</th></tr></thead><tbody></tbody></table>
+<p class="note">Este teste é executado pelo navegador e utiliza um iframe do site na mesma origem. Não substitui a inspeção visual em um celular físico, a validação de imagens externas nem a avaliação de acessibilidade por pessoas.</p>
+<div class="frame-stage"><iframe id="preview" title="Prévia responsiva do Paris em Cena" src="./index.html#g04" loading="eager"></iframe></div>
+</main>
+<script>
+(function(){
+'use strict';
+const frame=document.getElementById('preview'),status=document.getElementById('status'),body=document.querySelector('#results tbody'),button=document.getElementById('run');
+const widths=[320,360,390,430,768,1280];
+function tick(){return new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))}
+function report(width){
+ const d=frame.contentDocument,w=frame.contentWindow,html=d.documentElement;
+ const overflow=Math.max(html.scrollWidth,d.body.scrollWidth)-width;
+ const fs=parseFloat(w.getComputedStyle(d.body).fontSize);
+ const caption=d.querySelector('.guide-panel.is-current .take-card figcaption');
+ const cap=caption?parseFloat(w.getComputedStyle(caption).fontSize):null;
+ const menu=d.getElementById('mobile-toggle'),shoot=d.getElementById('shoot-toggle');
+ const menuRect=menu?.getBoundingClientRect(),shootRect=shoot?.getBoundingClientRect();
+ const menuVisible=w.getComputedStyle(menu).display!=='none';
+ const buttonsOK=!!shoot&&shootRect.width>=44&&shootRect.height>=44&&(!menuVisible||(menuRect.width>=44&&menuRect.height>=44));
+ return {width,overflow,fs,cap,buttonsOK,menuVisible};
+}
+async function run(){
+ button.disabled=true;body.replaceChildren();status.textContent='Testando seis larguras...';
+ try{
+  const d=frame.contentDocument;
+  if(!d||!d.getElementById('shoot-toggle'))throw new Error('A versão do site no iframe não tem o modo gravação ou ainda não carregou.');
+  const results=[];
+  for(const width of widths){
+   frame.style.width=width+'px';frame.width=width;await tick();await tick();
+   const r=report(width);results.push(r);
+   const tr=document.createElement('tr'),cell=(text,okay)=>{const td=document.createElement('td');td.textContent=text;if(typeof okay==='boolean')td.className=okay?'ok':'fail';tr.appendChild(td)};
+   cell(width+' px');
+   cell(r.overflow<=1?'Sem excesso':Math.round(r.overflow)+' px extras',r.overflow<=1);
+   cell(r.fs+' px',r.fs>=16);
+   cell(r.cap===null?'Sem legenda':r.cap+' px',r.cap===null||r.cap>=14);
+   cell(r.buttonsOK?'Controles OK':'Rever alvos de toque',r.buttonsOK);
+   body.append(tr);
+  }
+  const pass=results.every(r=>r.overflow<=1&&r.fs>=16&&(r.cap===null||r.cap>=14)&&r.buttonsOK);
+  status.textContent=pass?'Resultado estrutural: seis larguras aprovadas.':'Há problemas nos critérios automáticos. Veja a tabela.';
+ }catch(e){status.textContent='Teste incompleto: '+e.message}
+ button.disabled=false;
+}
+button.addEventListener('click',run);
+frame.addEventListener('load',run,{once:true});
+})();
+</script>
+</body>
+</html>
