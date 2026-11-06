@@ -1676,7 +1676,7 @@ $('#mobile-toggle').addEventListener('click',()=>document.body.classList.toggle(
 $('#menu-scrim').addEventListener('click',()=>document.body.classList.remove('menu-open'));
 // Busca com filtro por guia, sem dependências externas.
 const searchFilter=$('#search-guide-filter');
-$('.side-link[data-view-link]').filter(a=>a.dataset.viewLink!=='inicio').forEach(a=>{
+$$('.side-link[data-view-link]').filter(a=>a.dataset.viewLink!=='inicio').forEach(a=>{
  const option=document.createElement('option');
  option.value=a.dataset.viewLink;
  option.textContent=a.textContent.replace(/\s+/g,' ').trim().replace(/\s+\d+$/,'');
@@ -1727,7 +1727,7 @@ for(let tx=startX;tx<=endX;tx++){for(let ty=startY;ty<=endY;ty++){
  }}
  const pts=map.data.points;
  if(pts.length){for(const pt of pts){const xy=latLonXY(pt.lat,pt.lon,z),px=xy.x-tlx,py=xy.y-tly;if(px < -30||py < -30||px>w+30||py>h+30)continue;
- const a=document.createElement('a');a.className='map-pin';a.style.left=px+'px';a.style.top=py+'px';a.href='#'+pt.anchor;a.title=(pt.number+' · '+pt.name);const span=document.createElement('span');span.textContent=pt.number;a.appendChild(span);canvas.appendChild(a)}}
+ const a=document.createElement('a');a.className='map-pin';a.style.left=px+'px';a.style.top=py+'px';a.href='#'+pt.anchor;a.title=(pt.number+' · '+pt.name);a.setAttribute('aria-label','Abrir take '+pt.number+': '+pt.name);const span=document.createElement('span');span.textContent=pt.number;a.appendChild(span);canvas.appendChild(a)}}
  else {const a=document.createElement('a');a.className='map-pin region';a.href='https://www.openstreetmap.org/?mlat='+map.center[0]+'&mlon='+map.center[1]+'#map=13/'+map.center[0]+'/'+map.center[1];a.target='_blank';a.title='Centro de referência do arrondissement (não é um take)';a.style.left=w/2+'px';a.style.top=h/2+'px';a.innerHTML='<span>·</span>';canvas.appendChild(a)}
  map.intro.classList.add('is-hidden');map.ready=true;map.renderCount++;
 }
@@ -1741,7 +1741,7 @@ const mapObserver=typeof IntersectionObserver!=='undefined'
   },{rootMargin:'280px 0px'}):null;
 function scheduleMaps(panel){
  if(mapObserver)mapObserver.disconnect();
- const boxes=$('.map-box').filter(el=>panel.contains(el));
+ const boxes=$$('.map-box').filter(el=>panel.contains(el));
  for(const box of boxes){
   if(box.closest('details:not([open])'))continue;
   if(mapObserver)mapObserver.observe(box);
