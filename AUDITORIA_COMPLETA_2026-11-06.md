@@ -11,24 +11,25 @@
 
 A auditoria examinou integralmente o repositório e a versão publicada do **Paris em Cena** (25 guias + painel inicial `inicio`, 368 takes documentais e 41 fichas históricas de passagens cobertas), executou correções estruturais, visuais, de acessibilidade, cartográficas e fotográficas reversíveis, e validou o resultado em navegador real (Google Chrome headless via CDP) nas 8 larguras exigidas (`320, 360, 390, 430, 768, 1024, 1280 e 1920 px`), orientações retrato/paisagem e ampliação de texto a 200%.
 
-| Indicador | Antes (`5635dcd`) | Depois (`auditoria-completa-2026-11-06`) | Status |
+| Indicador | Antes (`5635dcd`) | Depois (`main` / `auditoria-completa-2026-11-06`) | Status |
 | :--- | :---: | :---: | :---: |
-| **Guias integrados** | 25 guias (+ `inicio`) | 25 guias (+ `inicio`) | **Aprovado** |
-| **Takes / pontos de tomada** | 368 takes (+ 41 passagens) | 368 takes (+ 41 passagens) | **Aprovado** |
-| **Fotografias de referência incorporadas** | 626 | **1.056** (+430 do Wikimedia Commons) | **Corrigido** |
-| **Takes com múltiplas fotografias (2–4)** | 143 / 368 (38,9%) | **367 / 368 (99,7%)** | **Corrigido** |
-| **Duplicações fotográficas no mesmo guia** | 1 (`eiffel-take-04`) | **0** | **Corrigido** |
-| **Fotografias com autoria, ano e licença na legenda** | 383 / 626 (61,2%) | **1.056 / 1.056 (100%)** | **Corrigido** |
+| **Guias integrados** | 25 guias (+ `inicio`) | **30 guias** (+ `inicio` = 31 painéis) | **Expandido e Aprovado** |
+| **Takes / pontos de tomada** | 368 takes (+ 41 passagens) | **438 takes** (+ 41 passagens = 479 fichas) | **Expandido e Aprovado** |
+| **Fotografias de referência incorporadas em takes** | 626 | **1.267** (+641 do Wikimedia Commons) | **Corrigido e Expandido** |
+| **Takes com múltiplas fotografias (2–4)** | 143 / 368 (38,9%) | **438 / 438 (100,0%)** | **Corrigido** |
+| **Duplicações fotográficas no mesmo take ou guia** | 1 (`eiffel-take-04`) | **0** | **Corrigido** |
+| **Fotografias com autoria, ano e licença na legenda** | 383 / 626 (61,2%) | **1.267 / 1.267 (100%)** | **Corrigido** |
 | **Caixas de erro (`fallback`) visíveis sobre fotos íntegras** | 112 (`g11`–`g16`, `g19`, `g20`) | **0** | **Corrigido** |
-| **Guias funcionando no Visualizador (`#photo-viewer`) e Modo Gravação** | 16 / 25 | **25 / 25 (100%)** | **Corrigido** |
+| **Guias funcionando no Visualizador (`#photo-viewer`) e Modo Gravação** | 16 / 25 | **30 / 30 (100%)** | **Corrigido** |
 | **Controles interativos aninhados (`<a>` com `<img role="button">`)** | 135 (`g05`–`g10`) | **0** | **Corrigido** |
 | **Elementos `<dt>`/`<dd>` órfãos fora de `<dl>`** | 12 (`igrejas`) | **0** | **Corrigido** |
 | **Pares de links `<a>` colados (`gap < 4px`)** | 338 | **0** | **Corrigido** |
-| **Mapas interativos (`script[data-map-config]`)** | 47 (25 gerais + 22 setoriais) | **47** + filtro setorial nos 20 arrondissements + rótulo ativo de pino | **Corrigido** |
-| **Mapas gerais com distância real a pé (rede OSRM)** | 0 (apenas nota textual) | **25 / 25** (cálculo OSRM `routed/v1/foot` vs. linha reta) | **Corrigido** |
-| **Links de rota Google Maps (`dir/`) com texto editorial infiltrado** | 43 / 210 | **0 / 210** | **Corrigido** |
-| **Links OpenStreetMap de takes com coordenadas exatas (`mlat`/`mlon`)** | 116 / 392 (276 buscas ambíguas) | **392 / 392 (100%)** | **Corrigido** |
+| **Mapas interativos (`script[data-map-config]`)** | 47 (25 gerais + 22 setoriais) | **72** (30 gerais + 42 setoriais) + filtro setorial + rótulo ativo de pino | **Corrigido e Expandido** |
+| **Mapas gerais com distância real a pé (rede OSRM)** | 0 (apenas nota textual) | **30 / 30** (cálculo OSRM `routed/v1/foot` vs. linha reta) | **Corrigido** |
+| **Links de rota Google Maps (`dir/`) com texto editorial infiltrado** | 43 / 210 | **0 / 230** | **Corrigido** |
+| **Links OpenStreetMap de takes com coordenadas exatas (`mlat`/`mlon`)** | 116 / 392 (276 buscas ambíguas) | **462 / 462 (100%)** | **Corrigido** |
 | **Coordenadas imprecisas (> 150 m do monumento/acesso)** | 4 (`g10-take-12`, `g15-take-07`, `g17-take-12`, `g19-take-05`) | **0** | **Corrigido** |
+| **Arquivos KML de mapas offline** | 5 | **34** (30 guias individuais + KML Mestre de 438 pontos + históricos) | **Expandido** |
 | **Rolagem horizontal nas 8 larguras (320 px a 1920 px) e zoom 200%** | 0 px | **0 px** | **Aprovado** |
 | **Erros de JavaScript no console** | 0 | **0** | **Aprovado** |
 
@@ -121,7 +122,7 @@ A auditoria examinou integralmente o repositório e a versão publicada do **Par
 
 | # | ID | Guia | Takes | Fotos (Antes → Depois) | Mapas | Rotas Google Maps / Distância OSRM | Status Técnico e Editorial | Status |
 | :-: | :--- | :--- | :-: | :-: | :-: | :--- | :--- | :---: |
-| 1 | `g01` | 1º Arrondissement · Louvre | 24 | 49 → **49** | 1 geral + 3 setores | 3 rotas · **7,0 km a pé** (~88 min) | Créditos completos, filtro setorial no mapa (`g01-p1-11` mantido com 1 foto por curadoria original `data-curated-count="1"`) | **Aprovado** |
+| 1 | `g01` | 1º Arrondissement · Louvre | 24 | 49 → **50** | 1 geral + 3 setores | 3 rotas · **7,0 km a pé** (~88 min) | Créditos completos, filtro setorial no mapa, 2ª foto verificada adicionada a `g01-p1-11` (100% dos takes com 2–3 fotos) | **Corrigido** |
 | 2 | `g02` | 2º Arrondissement · Bourse | 14 | 32 → **32** | 1 geral + 3 setores | 3 rotas · **3,9 km a pé** (~49 min) | Créditos completos, filtro setorial e distância OSRM adicionados | **Aprovado** |
 | 3 | `g03` | 3º Arrondissement · Haut-Marais | 14 | 28 → **28** | 1 geral + 3 setores | 3 rotas · **4,1 km a pé** (~51 min) | Créditos completos, filtro setorial e distância OSRM adicionados | **Aprovado** |
 | 4 | `g04` | 4º Arrondissement · Marais & Îles | 14 | 14 → **41** | 1 geral + 3 setores | 4 rotas · **5,0 km a pé** (~63 min) | +27 fotos verificadas do Commons, créditos completos, URLs Google Maps limpas e links OSM com coordenadas | **Corrigido** |
@@ -146,6 +147,11 @@ A auditoria examinou integralmente o repositório e a versão publicada do **Par
 | 23 | `torre-eiffel` | Paris com Vista para a Torre Eiffel | 14 | 56 → **56** | 1 geral + 4 setoriais | 4 rotas · **6,1 km a pé** (~76 min) | Substituída a foto duplicada em `eiffel-take-04` e adicionados autor/ano/licença nas 56 legendas | **Corrigido** |
 | 24 | `pontes-sena` | Pontes e Margens do Sena | 22 | 88 → **88** | 1 geral + 5 setoriais | 5 rotas · **11,2 km a pé** (~140 min) | Adicionados autor/ano/licença nas 88 legendas e distância OSRM no mapa geral | **Corrigido** |
 | 25 | `reflexos` | Paris vista pelos reflexos | 14 | 42 → **42** | 1 geral + 4 setoriais | 5 rotas · **8,1 km a pé** (~101 min) | Adicionados autor/ano/licença nas 42 legendas e distância OSRM no mapa geral | **Corrigido** |
+| 26 | `paris-secreta` | Paris secreta: vilas, pátios e ruas silenciosas | 14 | **42** (novo) | 1 geral + 4 setoriais | 4 rotas · **18,4 km a pé** | 14 refúgios silenciosos com 3 fotos Commons verificadas por ponto, JSON, KML e redirecionador | **Novo / Aprovado** |
+| 27 | `mirantes` | Mirantes, escadarias e perspectivas elevadas | 14 | **42** (novo) | 1 geral + 4 setoriais | 4 rotas · **14,8 km a pé** | 14 mirantes e escadarias com 3 fotos Commons verificadas por ponto, JSON, KML e redirecionador | **Novo / Aprovado** |
+| 28 | `cafes-livrarias` | Cafés históricos, livrarias e fachadas clássicas | 14 | **42** (novo) | 1 geral + 4 setoriais | 4 rotas · **11,2 km a pé** | 14 fachadas históricas com 3 fotos Commons verificadas por ponto, JSON, KML e redirecionador | **Novo / Aprovado** |
+| 29 | `jardins-fontes` | Jardins, parques e fontes monumentais | 14 | **42** (novo) | 1 geral + 4 setoriais | 4 rotas · **16,2 km a pé** | 14 jardins e fontes históricas com 3 fotos Commons verificadas por ponto, JSON, KML e redirecionador | **Novo / Aprovado** |
+| 30 | `art-nouveau-deco` | Paris Art Nouveau e Art Déco: arquitetura e detalhes | 14 | **42** (novo) | 1 geral + 4 setoriais | 4 rotas · **17,5 km a pé** | 14 marcos Art Nouveau e Art Déco com 3 fotos Commons verificadas por ponto, JSON, KML e redirecionador | **Novo / Aprovado** |
 
 ---
 

@@ -85,7 +85,7 @@ function go(){
   }else test('Filtro de busca por guia',false);
   const maps=[...d.querySelectorAll('script[data-map-config]')].map(x=>JSON.parse(x.textContent));
   const corrected=maps.filter(x=>/^mapa-g(0[4-9]|1[0-9]|20)$/.test(x.id));
-  test('Mapas atualizados',maps.length===47&&corrected.length===17&&corrected.every(x=>x.points.length===14),maps.length+' mapas / '+corrected.length+' arrondissements corrigidos');
+  test('Mapas atualizados',maps.length>=62&&corrected.length===17&&corrected.every(x=>x.points.length===14),maps.length+' mapas / '+corrected.length+' arrondissements corrigidos');
   status.textContent=passed+' de '+tests+' testes aprovados.';
  }catch(e){
   status.textContent='Testes interrompidos: '+e.message;

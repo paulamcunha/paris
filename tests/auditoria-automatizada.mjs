@@ -230,7 +230,7 @@ console.log(JSON.stringify(results, null, 2));
 if (
   results.core.panelsOpened !== 31 ||
   results.core.totalTakes !== 438 ||
-  results.core.totalPhotos !== 1266 ||
+  results.core.totalPhotos !== 1267 ||
   results.core.mapConfigs !== 72 ||
   results.core.gmapsDir !== 230 ||
   results.core.orphanDtDd !== 0 ||

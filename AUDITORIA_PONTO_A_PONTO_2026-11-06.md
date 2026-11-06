@@ -2,7 +2,7 @@
 
 **Repositório:** `https://github.com/paulamcunha/paris`  
 **Site publicado:** `https://paulamcunha.github.io/paris/`  
-**Total auditado:** **30 guias · 368 pontos de gravação (takes) + 41 fichas históricas de passagens = 409 pontos · 1.266 fotografias de referência em takes · 47 mapas interativos · 210 rotas a pé Google Maps · 392 links OpenStreetMap com coordenadas exatas**
+**Total auditado:** **30 guias · 438 pontos de gravação (takes) + 41 fichas históricas de passagens = 479 fichas · 1.267 fotografias de referência em takes (100% dos 438 takes com 2 a 4 fotografias únicas) · 72 mapas interativos · 230 rotas a pé Google Maps · 462 links OpenStreetMap com coordenadas exatas**
 
 ---
 
@@ -22,7 +22,7 @@
 
 ### 1º Arrondissement · Louvre (`#g01`)
 
-- **Takes:** 24 · **Fotografias verificadas:** 49 · **Mapa geral:** `mapa-g01`
+- **Takes:** 24 · **Fotografias verificadas:** 50 · **Mapa geral:** `mapa-g01`
 - **Percurso total Ponto a Ponto:** **~7.69 km a pé** (~96 min de caminhada contínua) vs. **5.83 km** em linha reta
 
 | # | ID do Ponto | Local / Monumento | Coordenadas (`lat, lon`) | Fotos | Licença & Link Commons | Próximo Ponto (`N → N+1`) | Linha Reta → Caminhada Est. | Status |
@@ -37,7 +37,7 @@
 | 8 | `g01-p1-08` | Musée du Louvre | `48.86099, 2.33584` | 2 | 100% Verificado | `→ g01-p1-09` | 314 m → ~414 m (~5 min) | **Aprovado** |
 | 9 | `g01-p1-09` | Pont des Arts | `48.85841, 2.33755` | 3 | 100% Verificado | `→ g01-p1-10` | 464 m → ~612 m (~8 min) | **Aprovado** |
 | 10 | `g01-p1-10` | Domaine national du Palais-Royal | `48.86255, 2.33675` | 2 | 100% Verificado | `→ g01-p1-11` | 46 m → ~61 m (~1 min) | **Aprovado** |
-| 11 | `g01-p1-11` | Fondation Cartier pour l’art contemporain | `48.86238, 2.33732` | 1 | 100% Verificado | `→ g01-p1-12` | 142 m → ~187 m (~2 min) | **Aprovado** |
+| 11 | `g01-p1-11` | Fondation Cartier pour l’art contemporain | `48.86238, 2.33732` | 2 | 100% Verificado | `→ g01-p1-12` | 142 m → ~187 m (~2 min) | **Aprovado** |
 | 12 | `g01-p1-12` | Comédie-Française, Salle Richelieu | `48.86336, 2.33607` | 2 | 100% Verificado | `→ g01-p2-01` | 465 m → ~614 m (~8 min) | **Aprovado** |
 | 13 | `g01-p2-01` | Bourse de Commerce, Pinault Collection | `48.86295, 2.34240` | 2 | 100% Verificado | `→ g01-p2-02` | 206 m → ~272 m (~3 min) | **Aprovado** |
 | 14 | `g01-p2-02` | Église Saint-Eustache | `48.86340, 2.34513` | 2 | 100% Verificado | `→ g01-p2-03` | 219 m → ~289 m (~4 min) | **Aprovado** |
