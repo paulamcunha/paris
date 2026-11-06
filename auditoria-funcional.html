@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paris em Cena | Testes funcionais</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#faf9f9;color:#272121;font:16px/1.6 system-ui,sans-serif;padding:20px}
+main{max-width:930px;margin:auto}
+h1{color:#890f0e;font:normal 32px/1.22 Georgia,serif}
+button{font:inherit;border:0;border-radius:6px;background:#890f0e;color:white;padding:11px 16px;min-height:44px;cursor:pointer}
+li{margin:10px 0;padding:12px 14px;background:white;border:1px solid #e0d7d7;border-radius:6px}
+.ok{border-left:5px solid #2c7c3c}.fail{border-left:5px solid #ad2020}
+iframe{width:100%;height:220px;border:1px solid #ded4d4;display:block}
+p{margin-bottom:13px}
+</style></head>
+<body><main>
+<h1>Paris em Cena | Testes funcionais</h1>
+<p>Teste automático do código publicado para a coleção Pontes e Margens do Sena. Verifica imagens, visualizador, modo gravação, filtro e mapas. Os testes de marcação restauram o estado original, sem apagar o progresso existente.</p>
+<button id="run" type="button">Executar testes</button>
+<p id="status" aria-live="polite">Carregando...</p>
+<ol id="checks"></ol>
+<iframe id="site" title="Site Paris em Cena para testes" src="./index.html#pontes-sena"></iframe>
+<p>Esta página é um instrumento de controle de qualidade. Não verifica direitos de fotografias, precisão de percursos nem funcionamento em celulares físicos.</p>
+</main>
+<script>
+(function(){
+'use strict';
+const frame=document.getElementById('site'),results=document.getElementById('checks'),runButton=document.getElementById('run'),status=document.getElementById('status');
+function add(label,pass,details){
+ const li=document.createElement('li');li.className=pass?'ok':'fail';
+ li.textContent=(pass?'APROVADO: ':'REVER: ')+label+(details?' · '+details:'');results.appendChild(li);
+ return pass;
+}
+function go(){
+ runButton.disabled=true;results.replaceChildren();
+ let passed=0,tests=0,original;
+ try{
+  const d=frame.contentDocument,w=frame.contentWindow;
+  if(!d||!d.getElementById('shoot-toggle'))throw new Error('O site ainda não terminou de carregar.');
+  const test=(label,ok,details)=>{tests++;passed+=add(label,ok,details)?1:0};
+  const guide=d.getElementById('pontes-sena');
+  const takes=guide?.querySelectorAll('article.take-card')||[];
+  const photoCount=[...(guide?.querySelectorAll('.take-card figure.photo-card .thumb img')||[])].length;
+  test('22 fichas e 88 referências do Sena',takes.length===22&&photoCount===88,takes.length+' fichas / '+photoCount+' fotografias');
+  const photo=d.querySelector('#pontes-take-01 figure.photo-card .thumb img');
+  const viewer=d.getElementById('photo-viewer');
+  if(photo&&viewer){
+   photo.click();
+   const opened=viewer.open;
+   const first=d.getElementById('photo-viewer-title')?.textContent||'';
+   d.getElementById('photo-viewer-next')?.click();
+   const second=d.getElementById('photo-viewer-title')?.textContent||'';
+   const link=d.getElementById('photo-viewer-source')?.href||'';
+   test('Visualizador e navegação entre fotografias',opened&&first!==second&&link.includes('commons.wikimedia.org'),first+' / '+second);
+   d.getElementById('photo-viewer-close')?.click();
+   test('Fechar o visualizador',!viewer.open);
+  }else test('Visualizador e miniatura disponíveis',false);
+  d.getElementById('shoot-toggle').click();
+  const mode=d.getElementById('shoot-panel');
+  const count=mode?.querySelectorAll('.shoot-item')?.length||0;
+  test('Modo gravação e 22 takes',!!mode&&!mode.hidden&&count===22,count+' itens');
+  const firstBox=d.getElementById('shoot-check-pontes-take-01');
+  const key='paris-em-cena-gravacao-v1';
+  original=w.localStorage.getItem(key);
+  if(firstBox){
+   const was=firstBox.checked;
+   firstBox.click();
+   const current=d.getElementById('shoot-check-pontes-take-01');
+   let fromStorage=false;
+   try{const v=JSON.parse(w.localStorage.getItem(key)||'{}');fromStorage=!!v['pontes-sena']?.['pontes-take-01']===!was}catch(e){}
+   test('Checkbox atualiza o progresso e armazenamento local',!!current&&current.checked!==was&&fromStorage,d.getElementById('shoot-progress-text').textContent);
+   current?.click();
+  }else test('Checkbox de primeiro take',false);
+  if(original===null)w.localStorage.removeItem(key);else w.localStorage.setItem(key,original);
+  d.getElementById('shoot-close')?.click();
+  const filter=d.getElementById('search-guide-filter'),search=d.getElementById('search');
+  if(filter&&search){
+   filter.value='g04';filter.dispatchEvent(new w.Event('change',{bubbles:true}));
+   search.value='Tour Saint-Jacques';search.dispatchEvent(new w.Event('input',{bubbles:true}));
+   const links=[...d.querySelectorAll('#search-results a')];
+   test('Filtro de busca por guia',links.length>=1&&links.every(x=>x.href.includes('#g04-')),links.length+' resultado(s) do 04');
+   search.value='';search.dispatchEvent(new w.Event('input',{bubbles:true}));
+   filter.value='all';filter.dispatchEvent(new w.Event('change',{bubbles:true}));
+  }else test('Filtro de busca por guia',false);
+  const maps=[...d.querySelectorAll('script[data-map-config]')].map(x=>JSON.parse(x.textContent));
+  const corrected=maps.filter(x=>/^mapa-g(0[4-9]|1[0-9]|20)$/.test(x.id));
+  test('Mapas atualizados',maps.length===47&&corrected.length===17&&corrected.every(x=>x.points.length===14),maps.length+' mapas / '+corrected.length+' arrondissements corrigidos');
+  status.textContent=passed+' de '+tests+' testes aprovados.';
+ }catch(e){
+  status.textContent='Testes interrompidos: '+e.message;
+  if(original!==undefined){try{const w=frame.contentWindow;if(original===null)w.localStorage.removeItem('paris-em-cena-gravacao-v1');else w.localStorage.setItem('paris-em-cena-gravacao-v1',original)}catch(ignore){}}
+ }
+ runButton.disabled=false;
+}
+runButton.addEventListener('click',go);
+frame.addEventListener('load',go,{once:true});
+})();
+</script></body></html>
