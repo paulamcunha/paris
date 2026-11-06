@@ -1,0 +1,343 @@
+{
+  "project": "Paris em Cena | Pontes e Margens do Sena",
+  "version": "1.0",
+  "created": "2026-11-06",
+  "notes": "Fotos reais do catálogo Wikimedia Commons, links individuais de origem; verificação visual de cada enquadramento e de iluminação ainda pendente. Coordenadas de referência Wikipedia/OpenStreetMap, não posições certificadas de câmera.",
+  "official_sources": [
+    "https://parisjetaime.com/article/paris-la-seine-ses-ponts-et-passerelles-a025",
+    "https://parisjetaime.com/transport/parc-rives-de-seine-p2011",
+    "https://www.paris.fr/pages/les-rives-de-seine-s-offrent-a-vous-21328"
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "name": "Pont de Bir-Hakeim",
+      "lat": 48.855556,
+      "lon": 2.287778,
+      "sector": 1,
+      "composition": "Colunas metálicas, perspectiva da ponte e vista para o Sena e a Torre Eiffel",
+      "care": "Calçada e área de pedestres; atenção ao tráfego e às bicicletas",
+      "photos": [
+        "Pont de Bir-Hakeim, Paris 25 March 2007.jpg",
+        "Pont de Bir-Hakeim, may 2025.jpg",
+        "The Seine and Pont de Bir-Hakeim, 18 September 2015.jpg",
+        "Tour Eiffel, pont de Bir-Hakeim, Paris 1.jpg"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Pont d’Iéna",
+      "lat": 48.859722,
+      "lon": 2.292222,
+      "sector": 1,
+      "composition": "Eixo monumental da Torre Eiffel, arcos e vista para as duas margens",
+      "care": "Fluxo de turistas e circulação; permaneça nas áreas permitidas",
+      "photos": [
+        "Pont d'Iéna & Eiffel Tower (4252651688).jpg",
+        "Pont d'Iéna & Eiffel Tower (341).jpg",
+        "Iéna Bridge and Eiffel Tower, Paris.jpg",
+        "Eiffel Tower and Pont d'Iéna, Paris 3 December 2016.jpg"
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Passerelle Debilly",
+      "lat": 48.8625,
+      "lon": 2.296944,
+      "sector": 1,
+      "composition": "Estrutura metálica, linhas diagonais e vista da Torre Eiffel",
+      "care": "Passarela de pedestres; não bloqueie a travessia",
+      "photos": [
+        "Passerelle Debilly in Paris 001.JPG",
+        "Passerelle Debilly, Paris 9 July 2016.jpg",
+        "Eiffel Tower from the Passerelle Debilly (31708931840).jpg",
+        "Tour Eiffel vue à travers la Passerelle Debilly.jpg"
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Pont de l’Alma",
+      "lat": 48.864167,
+      "lon": 2.301667,
+      "sector": 1,
+      "composition": "Perspectivas do rio, monumentos e a escultura do Zouave",
+      "care": "Tráfego intenso no tabuleiro; use as calçadas",
+      "photos": [
+        "Pont de lAlma 1, Paris 2009.jpg",
+        "Pont de lAlma 2, Paris 2009.jpg",
+        "Pont de lAlma 3, Paris 2009.jpg",
+        "Zouave du pont de l'Alma, Paris le 8 mai 2013.jpg"
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Port du Gros-Caillou",
+      "lat": 48.8629673,
+      "lon": 2.3060603,
+      "sector": 2,
+      "composition": "Margem baixa do Sena, embarcações e enquadramentos próximos da água",
+      "care": "Sujeito a eventuais fechamentos por cheias ou eventos",
+      "photos": [
+        "Port du Gros Caillou @ Seine @ Paris (31410899736).jpg",
+        "Port du Gros-Caillou, 2013.jpg",
+        "Le pont des Invalides vu du port du Gros-Caillou à Paris le 4 février 2015 - 3.jpg",
+        "La Boudeuse au port du Gros-Caillou à Paris 2015-11-19.jpg"
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Pont Alexandre III",
+      "lat": 48.8634697,
+      "lon": 2.3135181,
+      "sector": 2,
+      "composition": "Pégasos dourados, lampiões, esculturas, Invalides e vista da Torre",
+      "care": "Calçadas e parapeitos; não ocupar a pista",
+      "photos": [
+        "Paris, Pont Alexandre III -- 2014 -- 1316.jpg",
+        "Pont Alexandre III - 01.jpg",
+        "Paris - Le Pont Alexandre III - 231.JPG",
+        "Pont Alexandre III depuis pont de la Concorde Paris.jpg"
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Pont de la Concorde",
+      "lat": 48.863611,
+      "lon": 2.319444,
+      "sector": 2,
+      "composition": "Pontes de pedra, perspectiva com Palais Bourbon e Place de la Concorde",
+      "care": "Fluxo de automóveis; fotografar pelas calçadas",
+      "photos": [
+        "Pont de la Concorde Palais Bourbon Paris.jpg",
+        "Paris - Pont de la Concorde.jpg",
+        "Pont de la Concorde 2009-06-02 Paris 01.jpg",
+        "Arches du Pont de la concorde.JPG"
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Passerelle Léopold-Sédar-Senghor",
+      "lat": 48.861944,
+      "lon": 2.324722,
+      "sector": 2,
+      "composition": "Passarela para pedestres, curvas, Tuileries e Musée d’Orsay",
+      "care": "Respeitar pedestres e evitar impedir a passagem",
+      "photos": [
+        "Passerelle Léopold-Sédar-Senghor, Paris 17 May 2022.jpg",
+        "Paris Passerelle Léopold-Sedar-Senghor towards Quai Anatole France.jpg",
+        "P1020510 Paris VII Passerelle Léopold-Sedar-Senghor rwk.JPG",
+        "Passerelle Léopold-Sédar-Senghor, Paris 2 August 2015.jpg"
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Pont Royal",
+      "lat": 48.860833,
+      "lon": 2.330278,
+      "sector": 2,
+      "composition": "Arcos de pedra, Louvre e Musée d’Orsay a partir das margens",
+      "care": "Atenção ao trânsito e às travessias",
+      "photos": [
+        "Pont Royal and Musée d'Orsay, Paris 10 July 2020.jpg",
+        "Seine Pont Royal Louvre Paris.jpg",
+        "Pont Royal and Louvre Palace, Paris, South view 20220410.jpg",
+        "Pont Royal, Paris 140203 1.jpg"
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Pont du Carrousel",
+      "lat": 48.86,
+      "lon": 2.333333,
+      "sector": 3,
+      "composition": "Vista para o Louvre, Sena e silhueta do Musée d’Orsay",
+      "care": "Tabuleiro com circulação; use calçadas e pontos de observação nas margens",
+      "photos": [
+        "Pont du Carrousel, Paris October 2012.jpg",
+        "Pont du Carrousel, Paris 2.jpg",
+        "Paris Pont du Carrousel downstream frontal 01a.jpg",
+        "Pont du Carrousel and Orsay Museum, Paris 2014.jpg"
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Pont des Arts",
+      "lat": 48.858333,
+      "lon": 2.3375,
+      "sector": 3,
+      "composition": "Passarela com Institut de France, Louvre e Île de la Cité",
+      "care": "Grande movimento de pedestres; não bloquear o eixo central",
+      "photos": [
+        "Pont des Arts in Paris 6th 002.jpg",
+        "Paris, Pont des Arts -- 2014 -- 1404.jpg",
+        "Institut de France and Pont des Arts, Paris 6e 140402 1.jpg",
+        "Pont des Arts and the Palais du Louvre, Paris July 2013.jpg"
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Pont Neuf",
+      "lat": 48.856667,
+      "lon": 2.340833,
+      "sector": 3,
+      "composition": "Arcos de pedra, esculturas e perspectivas para a Île de la Cité",
+      "care": "Veículos no tabuleiro; fotos preferencialmente na calçada e no rio",
+      "photos": [
+        "Pont Neuf - Paris - France.jpg",
+        "Paris, Pont Neuf -- 2014 -- 1425.jpg",
+        "Seine et Pont Neuf Paris.jpg",
+        "Le Pont Neuf à Paris, 8 juillet 2020.jpg"
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Square du Vert-Galant",
+      "lat": 48.8575,
+      "lon": 2.34,
+      "sector": 3,
+      "composition": "Extremidade da ilha, árvores e água dos dois braços do Sena",
+      "care": "Acesso sujeito a cheias; escadas até a margem",
+      "photos": [
+        "Square du Vert-Galant 003.jpg",
+        "Square du Vert-Galant, Paris February 2019.jpg",
+        "Pont des Arts from Square du Vert-Galant, Paris 20 April 2021.jpg",
+        "Square du Vert-Galant, Paris 20 April 2013.jpg"
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Pont au Change",
+      "lat": 48.856667,
+      "lon": 2.346667,
+      "sector": 3,
+      "composition": "Conciergerie, arcos e reflexos do Sena",
+      "care": "Trânsito sobre a ponte; preferir calçadas e margens",
+      "photos": [
+        "Pont au Change and Conciergerie, Paris 2 April 2014.jpg",
+        "Pont au Change, Paris June 2010.jpg",
+        "Pont au Change, Paris 01.jpg",
+        "Pont au Change, Paris 30 July 2014 001.jpg"
+      ]
+    },
+    {
+      "number": 15,
+      "name": "Pont Saint-Michel",
+      "lat": 48.8540302,
+      "lon": 2.344573,
+      "sector": 4,
+      "composition": "Perspectiva do Quartier Latin, margens históricas e vistas da Cité",
+      "care": "Tráfego e cruzamentos; usar as faixas e calçadas",
+      "photos": [
+        "Pont Saint-Michel and quai Saint-Michel, 4 October 2014.jpg",
+        "Pont Saint-Michel, Paris 1.jpg",
+        "Pont Saint-Michel, Paris 4 October 2014.jpg",
+        "Pont Saint-Michel, Paris 8 June 2019.jpg"
+      ]
+    },
+    {
+      "number": 16,
+      "name": "Pont de l’Archevêché",
+      "lat": 48.851667,
+      "lon": 2.351667,
+      "sector": 4,
+      "composition": "Enquadramento de Notre-Dame e margens do extremo leste da Cité",
+      "care": "Checar obras e acessos em torno da catedral",
+      "photos": [
+        "Pont de lArchevêché, Paris 2010.jpg",
+        "Notre-Dame vu du pont de l Archeveche.jpg",
+        "Pont de lArchevêché 1, 16 September 2012.jpg",
+        "Pont de lArchevêché 3, 16 September 2012.jpg"
+      ]
+    },
+    {
+      "number": 17,
+      "name": "Pont Saint-Louis",
+      "lat": 48.852778,
+      "lon": 2.352222,
+      "sector": 4,
+      "composition": "Passagem entre as ilhas, músicos de rua e vista de Notre-Dame",
+      "care": "Evitar bloquear pedestres e atividades de rua",
+      "photos": [
+        "Pont Saint-Louis Paris FRA 001.JPG",
+        "Pont Saint-Louis, Paris 23 January 2016.jpg",
+        "Pont Saint-Louis, Paris 6 April 2015.jpg",
+        "Notre-Dame and Pont Saint-Louis, Paris 24 January 2016.jpg"
+      ]
+    },
+    {
+      "number": 18,
+      "name": "Quai de Bourbon",
+      "lat": 48.852955,
+      "lon": 2.355473,
+      "sector": 4,
+      "composition": "Fachadas da Île Saint-Louis, árvores e pontes sobre o rio",
+      "care": "Respeitar moradores e circulação nas calçadas; margens baixas dependem do acesso",
+      "photos": [
+        "F5044 Paris IV quai de Bourbon rwk.jpg",
+        "F4976 Paris 4 quai de Bourbon rwk.jpg",
+        "F4977 Paris 4 quai de Bourbon rwk.jpg",
+        "Quai de Bourbon (10).jpg"
+      ]
+    },
+    {
+      "number": 19,
+      "name": "Pont Marie",
+      "lat": 48.852778,
+      "lon": 2.3575,
+      "sector": 4,
+      "composition": "Arcos de pedra e fachadas da Île Saint-Louis",
+      "care": "Veículos e ciclistas; fotografar de locais de passagem segura",
+      "photos": [
+        "Pont Marie (Paris).jpg",
+        "Pont Marie 2009-06-02 Paris 01.jpg",
+        "Pont Marie, Paris, France.JPG",
+        "Pont Marie, Paris 7 August 2017.jpg"
+      ]
+    },
+    {
+      "number": 20,
+      "name": "Pont de Sully",
+      "lat": 48.85,
+      "lon": 2.358889,
+      "sector": 5,
+      "composition": "Duas travessias junto à Île Saint-Louis, água e vista para Notre-Dame",
+      "care": "Tráfego nos tabuleiros; observar ambas as margens",
+      "photos": [
+        "France Paris Pont de Sully.JPG",
+        "Pont de Sully, Paris 14 January 2017.jpg",
+        "Pont de Sully depuis la rive gauche de la Seine (août 2019).JPG",
+        "Pont de Sully & quai d'Anjou, Paris 1981.jpg"
+      ]
+    },
+    {
+      "number": 21,
+      "name": "Pont d’Austerlitz",
+      "lat": 48.845,
+      "lon": 2.366111,
+      "sector": 5,
+      "composition": "Ponte histórica, viaduto ferroviário e vistas mais amplas do Sena",
+      "care": "Cruzamentos movimentados e ciclovias; use os acessos públicos",
+      "photos": [
+        "Le pont d-austerlitz - panoramio.jpg",
+        "Paris Seine Pont dAusterlitz dsc04041.jpg",
+        "Pont dAusterlitz and Viaduc dAusterlitz, Paris 5 March 2011.jpg",
+        "Pont dAusterlitz, Paris 23 August 2013.jpg"
+      ]
+    },
+    {
+      "number": 22,
+      "name": "Passerelle Simone-de-Beauvoir",
+      "lat": 48.835278,
+      "lon": 2.378056,
+      "sector": 5,
+      "composition": "Estrutura contemporânea ondulada, BnF e Parc de Bercy",
+      "care": "Percurso mais longo desde Austerlitz; passarela de uso compartilhado",
+      "photos": [
+        "Passerelle Simone de Beauvoir, Paris 2 December 2006.jpg",
+        "Paris 13e Passerelle Simone-de-Beauvoir 744.jpg",
+        "Passerelle Simone-de-Beauvoir (978).jpg",
+        "Passerelle Simone-de-Beauvoir & site François Mitterrand de la BnF – Paris 13ᵉ.jpg"
+      ]
+    }
+  ]
+}
