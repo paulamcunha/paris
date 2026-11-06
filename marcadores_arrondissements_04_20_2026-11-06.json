@@ -3405,14 +3405,16 @@
       "postcode": "75012",
       "label": "Place de la Bastille 75012 Paris",
       "expected_postcode": "75012",
-      "geocode_status": "resolved",
+      "geocode_status": "corrected_Photon",
       "pin": {
-        "lat": 48.852769,
-        "lon": 2.369945,
-        "origin": "BAN",
+        "lat": 48.8515018,
+        "lon": 2.3707417,
+        "origin": "OSM_Photon",
         "precision": "reference",
-        "note": "Posição cartográfica de referência, não representa local exato da câmera"
-      }
+        "note": "Posição de referência do local, não representa local exato da câmera",
+        "match": "Opéra Bastille"
+      },
+      "geocode_correction_reason": "A primeira correspondência BAN apontava para outra atração próxima ou sobreposta."
     },
     {
       "guide": "g12",
@@ -5767,14 +5769,16 @@
       "postcode": "75017",
       "label": "Place du Général Catroux 75017 Paris",
       "expected_postcode": "75017",
-      "geocode_status": "resolved",
+      "geocode_status": "corrected_Photon",
       "pin": {
-        "lat": 48.882765,
-        "lon": 2.310329,
-        "origin": "BAN",
+        "lat": 48.8791573,
+        "lon": 2.2968683,
+        "origin": "OSM_Photon",
         "precision": "reference",
-        "note": "Posição cartográfica de referência, não representa local exato da câmera"
-      }
+        "note": "Posição de referência do local, não representa local exato da câmera",
+        "match": "Marché Poncelet"
+      },
+      "geocode_correction_reason": "A primeira correspondência BAN apontava para outra atração próxima ou sobreposta."
     },
     {
       "guide": "g17",
@@ -7328,6 +7332,7 @@
     "photon_refinements": 44,
     "reference_is_not_camera_position": true,
     "revision_status": "ready_for_html_integration",
-    "pins_outside_paris": 0
+    "pins_outside_paris": 0,
+    "additional_overlap_fixes": 2
   }
 }
