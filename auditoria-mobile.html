@@ -41,7 +41,7 @@ function report(width){
  const d=frame.contentDocument,w=frame.contentWindow,html=d.documentElement;
  const overflow=Math.max(html.scrollWidth,d.body.scrollWidth)-width;
  const fs=parseFloat(w.getComputedStyle(d.body).fontSize);
- const caption=d.querySelector('.guide-panel.is-current .take-card figcaption');
+ const caption=d.querySelector('.guide-panel.is-current .take-card figcaption')||d.querySelector('.take-card figcaption');
  const cap=caption?parseFloat(w.getComputedStyle(caption).fontSize):null;
  const menu=d.getElementById('mobile-toggle'),shoot=d.getElementById('shoot-toggle');
  const menuRect=menu?.getBoundingClientRect(),shootRect=shoot?.getBoundingClientRect();
@@ -61,12 +61,12 @@ async function run(){
    const tr=document.createElement('tr'),cell=(text,okay)=>{const td=document.createElement('td');td.textContent=text;if(typeof okay==='boolean')td.className=okay?'ok':'fail';tr.appendChild(td)};
    cell(width+' px');
    cell(r.overflow<=1?'Sem excesso':Math.round(r.overflow)+' px extras',r.overflow<=1);
-   cell(r.fs+' px',r.fs>=16);
-   cell(r.cap===null?'Sem legenda':r.cap+' px',r.cap===null||r.cap>=14);
+   cell(r.fs+' px',width>800||r.fs>=16);
+   cell(r.cap===null?'Legenda não localizada':r.cap+' px',width>800||r.cap!==null&&r.cap>=14);
    cell(r.buttonsOK?'Controles OK':'Rever alvos de toque',r.buttonsOK);
    body.append(tr);
   }
-  const pass=results.every(r=>r.overflow<=1&&r.fs>=16&&(r.cap===null||r.cap>=14)&&r.buttonsOK);
+  const pass=results.every(r=>r.overflow<=1&&(r.width>800||r.fs>=16)&&(r.width>800||r.cap!==null&&r.cap>=14)&&r.buttonsOK);
   status.textContent=pass?'Resultado estrutural: seis larguras aprovadas.':'Há problemas nos critérios automáticos. Veja a tabela.';
  }catch(e){status.textContent='Teste incompleto: '+e.message}
  button.disabled=false;
