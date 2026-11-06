@@ -73,7 +73,106 @@
 .map-actions{gap:9px 12px;align-items:center}
 .take-card .osm-action{margin-left:0}
 @media(max-width:600px){.map-service-guide{font-size:13px;padding:10px 12px}.map-actions{display:flex;flex-direction:column;align-items:stretch;gap:8px}.map-actions .map-open-link,.map-actions .map-google-route,.map-actions .map-fallback-btn{justify-content:center;text-align:center}.map-actions .map-fallback-btn{border:1px solid #e1ced0;border-radius:5px;padding:8px 12px}}
-.igrejas-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.igrejas-field{border:1px solid var(--line);padding:12px 14px;border-radius:6px;min-width:0}.igrejas-field dt{color:var(--wine);font-weight:700;margin:0 0 6px;line-height:1.35}.igrejas-field dd{margin:0;overflow-wrap:anywhere;line-height:1.55}.igrejas-links{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.igrejas-links a{padding:9px 13px;border:1px solid #d7c4c8;border-radius:5px;color:var(--wine);text-decoration:none;font-weight:600}.igrejas-sector{border-top:2px solid var(--wine);padding-top:15px;margin:22px 0}.igrejas-card{border-top:3px solid var(--wine);padding-top:20px;margin-bottom:25px}@media(max-width:700px){.igrejas-fields{grid-template-columns:1fr}.igrejas-links a{display:block;width:100%;text-align:center}}</style></head><body>
+.igrejas-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.igrejas-field{border:1px solid var(--line);padding:12px 14px;border-radius:6px;min-width:0}.igrejas-field dt{color:var(--wine);font-weight:700;margin:0 0 6px;line-height:1.35}.igrejas-field dd{margin:0;overflow-wrap:anywhere;line-height:1.55}.igrejas-links{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.igrejas-links a{padding:9px 13px;border:1px solid #d7c4c8;border-radius:5px;color:var(--wine);text-decoration:none;font-weight:600}.igrejas-sector{border-top:2px solid var(--wine);padding-top:15px;margin:22px 0}.igrejas-card{border-top:3px solid var(--wine);padding-top:20px;margin-bottom:25px}@media(max-width:700px){.igrejas-fields{grid-template-columns:1fr}.igrejas-links a{display:block;width:100%;text-align:center}}
+/* INÍCIO AJUSTE TIPOGRÁFICO RESPONSIVO 06-11-2026
+   Objetivo: leitura natural sem zoom em celulares. Preserva o layout desktop.
+   Não restringir pinch zoom nem escalonamento de texto do sistema. */
+@media (max-width: 800px) {
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: 76px; }
+  body { font-size: 1rem; line-height: 1.65; letter-spacing: .002em; }
+  h1 { font-size: clamp(2rem, 7vw, 2.5rem); line-height: 1.19; letter-spacing: -.016em; }
+  h2 { font-size: clamp(1.5rem, 5.8vw, 1.9rem); line-height: 1.3; letter-spacing: -.012em; }
+  h3 { font-size: 1.125rem; line-height: 1.4; letter-spacing: -.006em; }
+  .lead { font-size: 1.0625rem; line-height: 1.68; }
+  .site-header { gap: 9px; }
+  .site-header .crumb, .header-home { font-size: .875rem; line-height: 1.45; }
+  .mobile-menu { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; font-size: 1.25rem; }
+  .site-sidebar .brand { line-height: 1.25; }
+  .site-sidebar .brand small { font-size: .75rem; line-height: 1.5; letter-spacing: .06em; }
+  .side-heading { font-size: .8rem; line-height: 1.5; letter-spacing: .055em; }
+  .side-link { font-size: 1rem; line-height: 1.48; min-height: 44px; }
+  .side-count { font-size: .875rem; opacity: 1; }
+  .search-box input { min-height: 44px; font-size: 1rem; line-height: 1.5; }
+  .search-results a { font-size: .9375rem; line-height: 1.5; padding: 10px 9px; }
+  .eyebrow, .section-number, .take-card .kicker, .take-card .number, .take-card dt {
+    font-size: .875rem; line-height: 1.5; letter-spacing: .045em;
+  }
+  .small-note, .take-card .subtle, .take-card .license-note,
+  .take-card .source-ref, .take-card .status, .take-card .pc-historia-sources,
+  .map-note, .inventory-card .kind, .inventory-card .mini, .footer {
+    font-size: .875rem; line-height: 1.6;
+  }
+  .cover-meta span { font-size: .875rem; line-height: 1.45; padding: 7px 10px; }
+  .cover-nav a, .strong-link, .route-pill {
+    font-size: .9375rem; line-height: 1.5; min-height: 44px;
+    display: inline-flex; align-items: center; justify-content: center;
+  }
+  .take-index li a { font-size: 1rem; line-height: 1.5; min-height: 44px; }
+  .home-card strong { font-size: 1rem; line-height: 1.4; }
+  .home-card small { font-size: .875rem; line-height: 1.5; }
+  .home-n { font-size: .9375rem; }
+  .take-card h2 { font-size: clamp(1.45rem, 5.5vw, 1.85rem); line-height: 1.3; letter-spacing: -.014em; }
+  .take-card h3, .inventory-card h3 { font-size: 1.125rem; line-height: 1.4; }
+  .take-card figcaption { font-size: .875rem; line-height: 1.6; padding: 12px; }
+  .take-card figcaption a { font-size: .9375rem; line-height: 1.5; }
+  .take-card .actions a, .take-card .detail dd, .take-card dd,
+  .take-card .history, .take-card .route, .take-card .sources,
+  .take-card .pc-historia, .take-card .spec > p,
+  .take-card .camera-brief > div, .take-card .facts > .field,
+  .igrejas-field dd, .inventory-card p, .sector-stops li {
+    font-size: 1rem; line-height: 1.65;
+  }
+  .take-card .camera-brief > div > b, .take-card .facts > .field > b {
+    font-size: .875rem; letter-spacing: .025em; line-height: 1.5;
+  }
+  .take-card figure.image-failed::before, .take-card .visual .fallback { font-size: .875rem; line-height: 1.55; }
+  .map-service-guide, .map-actions, .map-intro,
+  .map-actions .map-open-link, .map-actions .map-google-route,
+  .map-actions .map-fallback-btn {
+    font-size: .9375rem; line-height: 1.5;
+  }
+  .map-actions .map-open-link, .map-actions .map-google-route, .map-actions .map-fallback-btn {
+    min-height: 44px; 
+  }
+  .map-controls button { width: 44px; height: 44px; }
+  .map-pin { font-size: .75rem; }
+  .sector-detail summary { min-height: 48px; line-height: 1.5; }
+  .sector-detail summary small { font-size: .875rem; line-height: 1.5; }
+  .inventory-card .go, .igrejas-links a, .footer { line-height: 1.6; }
+  a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
+    outline: 3px solid #1553a0; outline-offset: 3px;
+  }
+  .site-sidebar a:focus-visible { outline-color: #fff; }
+}
+@media (max-width: 480px) {
+  .page-content { padding: 16px 12px 58px; }
+  .section-block { padding: 17px 15px; margin-bottom: 18px; }
+  .guide-cover { padding: 26px 18px; }
+  .home-card { padding: 12px; min-height: 128px; }
+  .cover-nav a { flex: 1 1 auto; text-align: center; }
+  .take-card .gallery, .take-card .photos, .take-card .images {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+  .take-card figure .thumb { max-height: 390px; }
+  .take-card figcaption { font-size: .875rem; }
+  .map-stage { height: 310px; }
+  .site-header .crumb { min-width: 0; font-size: .875rem; }
+  .header-home { font-size: .875rem; }
+  .cover-meta { gap: 8px; }
+  .cover-meta span { font-size: .875rem; }
+}
+@media (max-width: 350px) {
+  .home-grid { grid-template-columns: minmax(0, 1fr); }
+  .home-card { min-height: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .site-sidebar { transition: none; }
+}
+/* FIM AJUSTE TIPOGRÁFICO RESPONSIVO 06-11-2026 */
+
+</style></head><body>
 <div class="menu-scrim" id="menu-scrim"></div><div class="page-layout"><aside class="site-sidebar" id="navigation"><a class="brand" data-view-link="inicio" href="#inicio">Paris em Cena<small>Guias de campo · Paula Cunha</small></a><div class="search-box"><input aria-label="Pesquisar locais e takes" id="search" placeholder="Buscar lugar ou take..." type="search"/><div class="search-results" id="search-results"></div></div><div class="side-heading">Coleções</div><a class="side-link" data-view-link="inicio" href="#inicio"><span class="side-num">⌂</span> Início</a><a class="side-link" data-view-link="passagens" href="#passagens"><span class="side-num">P</span> Passagens cobertas <span class="side-count">14</span></a><a class="side-link" data-view-link="igrejas" href="#igrejas"><span class="side-num">I</span> Igrejas de Paris <span class="side-count">14</span></a><a class="side-link" data-view-link="torre-eiffel" href="#torre-eiffel"><span class="side-num">T</span> Vistas da Torre Eiffel <span class="side-count">14</span></a><a class="side-link" data-view-link="pontes-sena" href="#pontes-sena"><span class="side-num">S</span> Pontes e margens do Sena <span class="side-count">22</span></a><a class="side-link" data-view-link="reflexos" href="#reflexos"><span class="side-num">R</span> Paris vista pelos reflexos <span class="side-count">14</span></a><div class="side-heading">20 arrondissements</div><a class="side-link" data-view-link="g01" href="#g01"><span class="side-num">01</span><span>Louvre</span><span class="side-count">24</span></a><a class="side-link" data-view-link="g02" href="#g02"><span class="side-num">02</span><span>Bourse</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g03" href="#g03"><span class="side-num">03</span><span>Temple</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g04" href="#g04"><span class="side-num">04</span><span>Hôtel-de-Ville</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g05" href="#g05"><span class="side-num">05</span><span>Panthéon</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g06" href="#g06"><span class="side-num">06</span><span>Luxembourg</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g07" href="#g07"><span class="side-num">07</span><span>Palais-Bourbon</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g08" href="#g08"><span class="side-num">08</span><span>Élysée</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g09" href="#g09"><span class="side-num">09</span><span>Opéra</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g10" href="#g10"><span class="side-num">10</span><span>Entrepôt</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g11" href="#g11"><span class="side-num">11</span><span>Popincourt</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g12" href="#g12"><span class="side-num">12</span><span>Reuilly</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g13" href="#g13"><span class="side-num">13</span><span>Gobelins</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g14" href="#g14"><span class="side-num">14</span><span>Observatoire</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g15" href="#g15"><span class="side-num">15</span><span>Vaugirard</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g16" href="#g16"><span class="side-num">16</span><span>Passy</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g17" href="#g17"><span class="side-num">17</span><span>Batignolles-Monceau</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g18" href="#g18"><span class="side-num">18</span><span>Butte-Montmartre</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g19" href="#g19"><span class="side-num">19</span><span>Buttes-Chaumont</span><span class="side-count">14</span></a><a class="side-link" data-view-link="g20" href="#g20"><span class="side-num">20</span><span>Ménilmontant</span><span class="side-count">14</span></a></aside><div class="site-main"><div class="site-header"><button aria-label="Abrir menu" class="mobile-menu" id="mobile-toggle" type="button">☰</button><span class="crumb" id="current-crumb">Paris em Cena</span><a class="header-home" data-view-link="inicio" href="#inicio">Página inicial</a></div><div class="page-content" id="topo"><section class="guide-panel is-current" data-view="inicio" id="inicio"><header class="guide-cover home-hero"><div class="eyebrow">Paula Cunha Fotografia · Projeto pessoal de filmagem</div><h1>Paris em Cena<br/><em>Guias de Campo</em></h1><p class="lead">Roteiros de fotografia e vídeo organizados por arrondissement, com fichas documentais, referências fotográficas e acesso aos mapas. Tudo reunido em um único HTML para abrir no Mac ou no celular.</p><div class="cover-meta"><span>20 arrondissements</span><span>290 takes territoriais</span><span>14 passagens cobertas</span><span>14 igrejas de Paris</span><span>14 pontos gratuitos para ensaios diurnos</span><span>22 pontes e margens do Sena</span><span>14 locais para Reels de reflexos</span><span>5 mapas regionais</span></div><div class="cover-nav"><a data-view-link="passagens" href="#passagens">Explorar passagens cobertas</a><a href="#arr-home">Ver os 20 arrondissements</a></div></header>
 <section class="section-block home-intro"><div class="eyebrow">Como usar</div><h2>Um arquivo, todos os guias</h2><p>A estrutura do HTML funciona sem internet. As fotografias e as ruas do OpenStreetMap são carregadas online. Caso o mapa incorporado não apareça, cada guia oferece um link direto ao OpenStreetMap e etapas de caminhada no Google Maps.</p><p class="notice">Os mapas incorporados mostram a região e os marcadores disponíveis, sem desenhar caminhadas não verificadas. Para navegar a pé, use os links do Google Maps. Em guias sem coordenadas individuais dos takes, consulte a localização pelo endereço de cada ficha.</p></section>
 <section class="section-block" id="arr-home"><div class="eyebrow">20 regiões de Paris</div><h2>Escolha um arrondissement</h2><div class="home-grid"><a class="home-card" data-view-link="g01" href="#g01"><span class="home-n">01</span><strong>Louvre</strong><small>24 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g02" href="#g02"><span class="home-n">02</span><strong>Bourse</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g03" href="#g03"><span class="home-n">03</span><strong>Temple</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g04" href="#g04"><span class="home-n">04</span><strong>Hôtel-de-Ville</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g05" href="#g05"><span class="home-n">05</span><strong>Panthéon</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g06" href="#g06"><span class="home-n">06</span><strong>Luxembourg</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g07" href="#g07"><span class="home-n">07</span><strong>Palais-Bourbon</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g08" href="#g08"><span class="home-n">08</span><strong>Élysée</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g09" href="#g09"><span class="home-n">09</span><strong>Opéra</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g10" href="#g10"><span class="home-n">10</span><strong>Entrepôt</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g11" href="#g11"><span class="home-n">11</span><strong>Popincourt</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g12" href="#g12"><span class="home-n">12</span><strong>Reuilly</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g13" href="#g13"><span class="home-n">13</span><strong>Gobelins</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g14" href="#g14"><span class="home-n">14</span><strong>Observatoire</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g15" href="#g15"><span class="home-n">15</span><strong>Vaugirard</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g16" href="#g16"><span class="home-n">16</span><strong>Passy</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g17" href="#g17"><span class="home-n">17</span><strong>Batignolles-Monceau</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g18" href="#g18"><span class="home-n">18</span><strong>Butte-Montmartre</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g19" href="#g19"><span class="home-n">19</span><strong>Buttes-Chaumont</strong><small>14 takes · fotos, mapas, campo</small></a><a class="home-card" data-view-link="g20" href="#g20"><span class="home-n">20</span><strong>Ménilmontant</strong><small>14 takes · fotos, mapas, campo</small></a></div></section>
