@@ -1,0 +1,52 @@
+name: Publicar Paris em Cena no GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - '*.html'
+      - '*.kml'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter os arquivos do projeto
+        uses: actions/checkout@v4
+
+      - name: Preparar somente o conteudo publico do site
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          find . -maxdepth 1 -type f \( -name '*.html' -o -name '*.kml' \) -exec cp -- {} _site/ \;
+          touch _site/.nojekyll
+          test -s _site/index.html
+          echo "Arquivos prontos para publicacao:"
+          ls -lh _site/
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Enviar site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Publicar site
+        id: deployment
+        uses: actions/deploy-pages@v4
